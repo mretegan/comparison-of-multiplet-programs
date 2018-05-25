@@ -14,6 +14,6 @@ TTMult:                -8.02416
 
 Timings
 -------
-Quanty:                5.0 s 
-TTMult_without_Bander: 0.3 s 
-TTMult:                1.0 s
+Quanty:                4.4 s 
+TTMult_without_Bander: 0.2 s 
+TTMult:                0.5 s
