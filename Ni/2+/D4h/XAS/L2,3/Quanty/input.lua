@@ -113,18 +113,28 @@ end
 -- Define the crystal field term.
 --------------------------------------------------------------------------------
 if H_cf == 1 then
-    -- PotentialExpandedOnClm('Oh', 2, {Eeg, Et2g})
-    tenDq_3d = NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, PotentialExpandedOnClm('Oh', 2, {0.6, -0.4}))
+    -- PotentialExpandedOnClm('D4h', 2, {Ea1g, Eb1g, Eb2g, Eeg})
+    Dq_3d = NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, PotentialExpandedOnClm('D4h', 2, { 6,  6, -4, -4}))
+    Ds_3d = NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, PotentialExpandedOnClm('D4h', 2, {-2,  2,  2, -1}))
+    Dt_3d = NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, PotentialExpandedOnClm('D4h', 2, {-6, -1, -1,  4}))
 
-    tenDq_3d_i = 1.5
+    Dq_3d_i = 0.15
+    Ds_3d_i = 0.02
+    Dt_3d_i = 0.01
 
-    tenDq_3d_f = 1.5
+    Dq_3d_f = 0.15
+    Ds_3d_f = 0.02
+    Dt_3d_f = 0.01
 
     H_i = H_i + Chop(
-          tenDq_3d_i * tenDq_3d)
+          Dq_3d_i * Dq_3d
+        + Ds_3d_i * Ds_3d
+        + Dt_3d_i * Dt_3d)
 
     H_f = H_f + Chop(
-          tenDq_3d_f * tenDq_3d)
+          Dq_3d_f * Dq_3d
+        + Ds_3d_f * Ds_3d
+        + Dt_3d_f * Dt_3d)
 end
 
 --------------------------------------------------------------------------------
@@ -158,31 +168,55 @@ if H_3d_Ld_hybridization == 1 then
         + e_2p_f * N_2p
         + e_Ld_f * N_Ld)
 
-    tenDq_Ld = NewOperator('CF', NFermions, IndexUp_Ld, IndexDn_Ld, PotentialExpandedOnClm('Oh', 2, {0.6, -0.4}))
+    Dq_Ld = NewOperator('CF', NFermions, IndexUp_Ld, IndexDn_Ld, PotentialExpandedOnClm('D4h', 2, { 6,  6, -4, -4}))
+    Ds_Ld = NewOperator('CF', NFermions, IndexUp_Ld, IndexDn_Ld, PotentialExpandedOnClm('D4h', 2, {-2,  2,  2, -1}))
+    Dt_Ld = NewOperator('CF', NFermions, IndexUp_Ld, IndexDn_Ld, PotentialExpandedOnClm('D4h', 2, {-6, -1, -1,  4}))
 
-    Veg_3d_Ld = NewOperator('CF', NFermions, IndexUp_Ld, IndexDn_Ld, IndexUp_3d, IndexDn_3d, PotentialExpandedOnClm('Oh', 2, {1, 0}))
-              + NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, IndexUp_Ld, IndexDn_Ld, PotentialExpandedOnClm('Oh', 2, {1, 0}))
+    Va1g_3d_Ld = NewOperator('CF', NFermions, IndexUp_Ld, IndexDn_Ld, IndexUp_3d, IndexDn_3d, PotentialExpandedOnClm('D4h', 2, {1, 0, 0, 0}))
+               + NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, IndexUp_Ld, IndexDn_Ld, PotentialExpandedOnClm('D4h', 2, {1, 0, 0, 0}))
 
-    Vt2g_3d_Ld = NewOperator('CF', NFermions, IndexUp_Ld, IndexDn_Ld, IndexUp_3d, IndexDn_3d, PotentialExpandedOnClm('Oh', 2, {0, 1}))
-               + NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, IndexUp_Ld, IndexDn_Ld, PotentialExpandedOnClm('Oh', 2, {0, 1}))
+    Vb1g_3d_Ld = NewOperator('CF', NFermions, IndexUp_Ld, IndexDn_Ld, IndexUp_3d, IndexDn_3d, PotentialExpandedOnClm('D4h', 2, {0, 1, 0, 0}))
+               + NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, IndexUp_Ld, IndexDn_Ld, PotentialExpandedOnClm('D4h', 2, {0, 1, 0, 0}))
 
-    tenDq_Ld_i   = 0.0
-    Veg_3d_Ld_i  = 2.0
-    Vt2g_3d_Ld_i = 1.0
+    Vb2g_3d_Ld = NewOperator('CF', NFermions, IndexUp_Ld, IndexDn_Ld, IndexUp_3d, IndexDn_3d, PotentialExpandedOnClm('D4h', 2, {0, 0, 1, 0}))
+               + NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, IndexUp_Ld, IndexDn_Ld, PotentialExpandedOnClm('D4h', 2, {0, 0, 1, 0}))
 
-    tenDq_Ld_f   = 0.0
-    Veg_3d_Ld_f  = 2.0
-    Vt2g_3d_Ld_f = 1.0
+    Veg_3d_Ld = NewOperator('CF', NFermions, IndexUp_Ld, IndexDn_Ld, IndexUp_3d, IndexDn_3d, PotentialExpandedOnClm('D4h', 2, {0, 0, 0, 1}))
+              + NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, IndexUp_Ld, IndexDn_Ld, PotentialExpandedOnClm('D4h', 2, {0, 0, 0, 1}))
+
+    Dq_Ld_i = 0.0
+    Ds_Ld_i = 0.0
+    Dt_Ld_i = 0.0
+    Va1g_3d_Ld_i = 3.3
+    Vb1g_3d_Ld_i = 4.4
+    Vb2g_3d_Ld_i = 2.2
+    Veg_3d_Ld_i  = 1.1
+
+    Dq_Ld_f = 0.0
+    Ds_Ld_f = 0.0
+    Dt_Ld_f = 0.0
+    Va1g_3d_Ld_f = 3.3
+    Vb1g_3d_Ld_f = 4.4
+    Vb2g_3d_Ld_f = 2.2
+    Veg_3d_Ld_f  = 1.1
 
     H_i = H_i + Chop(
-          tenDq_Ld_i   * tenDq_Ld
-        + Veg_3d_Ld_i  * Veg_3d_Ld
-        + Vt2g_3d_Ld_i * Vt2g_3d_Ld)
+          Dq_Ld_i      * Dq_Ld
+        + Ds_Ld_i      * Ds_Ld
+        + Dt_Ld_i      * Dt_Ld
+        + Va1g_3d_Ld_i * Va1g_3d_Ld
+        + Vb1g_3d_Ld_i * Vb1g_3d_Ld
+        + Vb2g_3d_Ld_i * Vb2g_3d_Ld
+        + Veg_3d_Ld_i  * Veg_3d_Ld)
 
     H_f = H_f + Chop(
-          tenDq_Ld_f   * tenDq_Ld
-        + Veg_3d_Ld_f  * Veg_3d_Ld
-        + Vt2g_3d_Ld_f * Vt2g_3d_Ld)
+          Dq_Ld_f      * Dq_Ld
+        + Ds_Ld_f      * Ds_Ld
+        + Dt_Ld_f      * Dt_Ld
+        + Va1g_3d_Ld_f * Va1g_3d_Ld
+        + Vb1g_3d_Ld_f * Vb1g_3d_Ld
+        + Vb2g_3d_Ld_f * Vb2g_3d_Ld
+        + Veg_3d_Ld_f  * Veg_3d_Ld)
 end
 
 --------------------------------------------------------------------------------

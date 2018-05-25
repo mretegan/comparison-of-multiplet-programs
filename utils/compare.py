@@ -41,22 +41,22 @@ def main():
 
     npoints = 8192
 
-    data, _ = read_ttmult_spectrum('TTMult_without_Bander/input_xmcd.xy')
+    data, _ = read_ttmult_spectrum('TTMult_without_Bander/input_iso.xy')
     x = data[:, 0]
-    y = data[:, 1]
+    y = data[:, 1] / 3
     xn = np.linspace(min(x), max(x), npoints)
     y1 = np.interp(xn, x, y)
     ax.plot(xn, y1, label='TTMult_without_Bander')
 
-    data, _ = read_ttmult_spectrum('TTMult/input_xmcd.xy')
+    data, _ = read_ttmult_spectrum('TTMult/input_iso.xy')
     x = data[:, 0]
-    y = data[:, 1]
+    y = data[:, 1] / 3
     y2 = np.interp(xn, x, y)
     ax.plot(xn, y2, label='TTMult')
 
     print('Largest difference between Racah and Bander: {0:.2E}'.format(np.max(np.abs(y1 - y2))))
 
-    data = read_quanty_spectrum('Quanty/input_cd.spec')
+    data = read_quanty_spectrum('Quanty/input.spec')
     x = data[:, 0]
     y = data[:, 1]
     y3 = np.interp(xn, x, y)
