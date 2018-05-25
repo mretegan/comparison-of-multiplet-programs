@@ -1,0 +1,2251 @@
+ Fri May 25 20:40:09 2018
+ 
+ TTTTT  TTTTT         RRRR    AAA    CCC    999   77777 
+   T      T           R   R  A   A  C   C  9   9     7  
+   T      T    -----  RRRR   AAAAA  C       9999   777  
+   T      T           R R    A   A  C   C     9     7   
+   T      T           R   R  A   A   CCC    9     7     
+
+ ECHO:BUTLER O3;
+ >>> GROUP:     SO3  SLOT 0, 75 irreps.   USING FORMULAS 
+ >>> GROUP:     CI  SLOT 1, 2 irreps.   USING FORMULAS 
+ >>> GROUP:     O3  (SO3.CI)  SLOT 2, 150 irreps.   of 0*1 
+
+  GROUP O3 SO3.CI   SLOT=2  NREPS=149  LASTTRMULT=0
+ ECHO:TO OH;
+  For O3 MAXDIM is now 8  <<<<MESSAGE>>>>
+ >>> GROUP:     O  SLOT 3, 8 irreps.  from FILE F6/O FOR_BUTLER(1981)12_DEC_1978 12_DEC_1978  PRIMITIVE TABLE 115  6J SYMBOLS  ALL 
+VALUES 
+ >>> GROUP:     CI  REUSING  SLOT 1, 2 irreps.   USING FORMULAS 
+ >>> GROUP:     OH  (O.CI)  SLOT 4, 16 irreps.   of 3*1 
+ >>> BRANCHING: SO3_TO_O__J=<15  READ from FILE F3/SO3O AUGUST 1990  PRIMITIVE TABLE 838  3JM SYMBOLS  ALL VALUES  BOTH REFLECTED
+
+  GROUP OH O.CI   SLOT=4  NREPS=15  LASTTRMULT=1
+ ECHO:TO D4H;
+  For OH MAXDIM is now 18  <<<<MESSAGE>>>>
+  Increasing 3jm table size  <<<<MESSAGE>>>>
+  NTHREE =1000  <<<<MESSAGE>>>>
+  HEAPSIZE =1500  <<<<MESSAGE>>>>
+  NTHREE =1200  <<<<MESSAGE>>>>
+  HEAPSIZE =3000  <<<<MESSAGE>>>>
+ >>> GROUP:     D4  SLOT 5, 7 irreps.  from FILE F6/D4 FOR_BUTLER(1981)25_MAR_1980 25_MAR_1980  PRIMITIVE TABLE 26  6J SYMBOLS  ALL 
+VALUES 
+ >>> GROUP:     CI  REUSING  SLOT 1, 2 irreps.   USING FORMULAS 
+ >>> GROUP:     D4H  (D4.CI)  SLOT 6, 14 irreps.   of 5*1 
+ >>> BRANCHING: O=>D4  READ from FILE F3/OD4 FOR_BUTLER(1981)28_MAR_1980 28_MAR_1980  PRIMITIVE TABLE 13  3JM SYMBOLS  ALL VALUES  
+BOTH REFLECTED
+
+  GROUP D4H D4.CI   SLOT=6  NREPS=13  LASTTRMULT=0
+ ECHO:TO C4H GROUND OPERA 0+ EXCITE OPERA 0+;
+  For D4H MAXDIM is now 35  <<<<MESSAGE>>>>
+  HEAPSIZE =4500  <<<<MESSAGE>>>>
+  HEAPSIZE =6000  <<<<MESSAGE>>>>
+ >>> GROUP:     C4  SLOT 7, 8 irreps.   USING FORMULAS 
+ >>> GROUP:     CI  REUSING  SLOT 1, 2 irreps.   USING FORMULAS 
+ >>> GROUP:     C4H  (C4.CI)  SLOT 8, 16 irreps.   of 7*1 
+ >>> BRANCHING: D4=>C4  READ from FILE F3/D4C4 FOR_BUTLER(1981)27_MAR_1980 27_MAR_1980  PRIMITIVE TABLE 5  3JM SYMBOLS  ALL VALUES  
+BOTH REFLECTED
+
+  GROUP C4H C4.CI   SLOT=8  NREPS=15  LASTTRMULT=0
+ ECHO:ENDCHAIN;
+ IRREP DELETED BY INPUT:  GROUND OPERA    1+
+ IRREP DELETED BY INPUT:  GROUND OPERA   -1+
+ IRREP DELETED BY INPUT:  GROUND OPERA    2+
+ IRREP DELETED BY INPUT:  EXCITE OPERA    1+
+ IRREP DELETED BY INPUT:  EXCITE OPERA   -1+
+ IRREP DELETED BY INPUT:  EXCITE OPERA    2+
+  For C4H MAXDIM is now 39  <<<<MESSAGE>>>>
+  HEAPSIZE =7500  <<<<MESSAGE>>>>
+  HEAPSIZE =9000  <<<<MESSAGE>>>>
+
+ <REPRESENTATIONS>      NREPS=15
+
+ IRREP    0+    (DIM=1)    GROUND- BASIS (MULT=39)  GROUND- OPERA   EXCITE- OPERA  
+      BRANCH:    0+  >  0    0+  >   0+  >    0+      GROUND  1 to  4                   
+      BRANCH:    4+  >  0    0+  >   0+  >    0+      GROUND  5 to  9                   
+      BRANCH:    2+  >  0    2+  >   0+  >    0+      GROUND 10 to 16                   
+      BRANCH:    4+  >  0    2+  >   0+  >    0+      GROUND 17 to 21                   
+      BRANCH:    5+  >  0    2+  >   0+  >    0+      GROUND 22 to 22                   
+      BRANCH:    1+  >  0    1+  >  ^0+  >    0+      GROUND 23 to 27                   
+      BRANCH:    3+  >  0    1+  >  ^0+  >    0+      GROUND 28 to 32                   
+      BRANCH:    4+  >  0    1+  >  ^0+  >    0+      GROUND 33 to 37                   
+      BRANCH:    5+  >  0    1+  >  ^0+  >    0+      GROUND 38 to 38                   
+      BRANCH:    5+  >  1    1+  >  ^0+  >    0+      GROUND 39 to 39                   
+
+ IRREP    1+    (DIM=1)    GROUND- BASIS (MULT=35) 
+      BRANCH:    1+  >  0    1+  >   1+  >    1+      GROUND  1 to  5                   
+      BRANCH:    3+  >  0    1+  >   1+  >    1+      GROUND  6 to 10                   
+      BRANCH:    4+  >  0    1+  >   1+  >    1+      GROUND 11 to 15                   
+      BRANCH:    5+  >  0    1+  >   1+  >    1+      GROUND 16 to 16                   
+      BRANCH:    5+  >  1    1+  >   1+  >    1+      GROUND 17 to 17                   
+      BRANCH:    2+  >  0   ^1+  >   1+  >    1+      GROUND 18 to 24                   
+      BRANCH:    3+  >  0   ^1+  >   1+  >    1+      GROUND 25 to 29                   
+      BRANCH:    4+  >  0   ^1+  >   1+  >    1+      GROUND 30 to 34                   
+      BRANCH:    5+  >  0   ^1+  >   1+  >    1+      GROUND 35 to 35                   
+
+ IRREP   -1+    (DIM=1)    GROUND- BASIS (MULT=35) 
+      BRANCH:    1+  >  0    1+  >   1+  >   -1+      GROUND  1 to  5                   
+      BRANCH:    3+  >  0    1+  >   1+  >   -1+      GROUND  6 to 10                   
+      BRANCH:    4+  >  0    1+  >   1+  >   -1+      GROUND 11 to 15                   
+      BRANCH:    5+  >  0    1+  >   1+  >   -1+      GROUND 16 to 16                   
+      BRANCH:    5+  >  1    1+  >   1+  >   -1+      GROUND 17 to 17                   
+      BRANCH:    2+  >  0   ^1+  >   1+  >   -1+      GROUND 18 to 24                   
+      BRANCH:    3+  >  0   ^1+  >   1+  >   -1+      GROUND 25 to 29                   
+      BRANCH:    4+  >  0   ^1+  >   1+  >   -1+      GROUND 30 to 34                   
+      BRANCH:    5+  >  0   ^1+  >   1+  >   -1+      GROUND 35 to 35                   
+
+ IRREP    2+    (DIM=1)    GROUND- BASIS (MULT=36) 
+      BRANCH:    2+  >  0    2+  >   2+  >    2+      GROUND  1 to  7                   
+      BRANCH:    4+  >  0    2+  >   2+  >    2+      GROUND  8 to 12                   
+      BRANCH:    5+  >  0    2+  >   2+  >    2+      GROUND 13 to 13                   
+      BRANCH:    3+  >  0   ^0+  >   2+  >    2+      GROUND 14 to 18                   
+      BRANCH:    2+  >  0   ^1+  >  ^2+  >    2+      GROUND 19 to 25                   
+      BRANCH:    3+  >  0   ^1+  >  ^2+  >    2+      GROUND 26 to 30                   
+      BRANCH:    4+  >  0   ^1+  >  ^2+  >    2+      GROUND 31 to 35                   
+      BRANCH:    5+  >  0   ^1+  >  ^2+  >    2+      GROUND 36 to 36                   
+
+ IRREP    0-    (DIM=1)    EXCITE- BASIS (MULT=28)  TRANSI- OPERA  
+      BRANCH:    0-  >  0    0-  >   0-  >    0-                         EXCITE  1 to  2
+      BRANCH:    4-  >  0    0-  >   0-  >    0-                         EXCITE  3 to  4
+      BRANCH:    2-  >  0    2-  >   0-  >    0-                         EXCITE  5 to 12
+      BRANCH:    4-  >  0    2-  >   0-  >    0-                         EXCITE 13 to 14
+      BRANCH:    1-  >  0    1-  >  ^0-  >    0-                         EXCITE 15 to 20
+      BRANCH:    3-  >  0    1-  >  ^0-  >    0-                         EXCITE 21 to 26
+      BRANCH:    4-  >  0    1-  >  ^0-  >    0-                         EXCITE 27 to 28
+
+ IRREP    1-    (DIM=1)    EXCITE- BASIS (MULT=30)  TRANSI- OPERA  
+      BRANCH:    1-  >  0    1-  >   1-  >    1-                         EXCITE  1 to  6
+      BRANCH:    3-  >  0    1-  >   1-  >    1-                         EXCITE  7 to 12
+      BRANCH:    4-  >  0    1-  >   1-  >    1-                         EXCITE 13 to 14
+      BRANCH:    2-  >  0   ^1-  >   1-  >    1-                         EXCITE 15 to 22
+      BRANCH:    3-  >  0   ^1-  >   1-  >    1-                         EXCITE 23 to 28
+      BRANCH:    4-  >  0   ^1-  >   1-  >    1-                         EXCITE 29 to 30
+
+ IRREP   -1-    (DIM=1)    EXCITE- BASIS (MULT=30)  TRANSI- OPERA  
+      BRANCH:    1-  >  0    1-  >   1-  >   -1-                         EXCITE  1 to  6
+      BRANCH:    3-  >  0    1-  >   1-  >   -1-                         EXCITE  7 to 12
+      BRANCH:    4-  >  0    1-  >   1-  >   -1-                         EXCITE 13 to 14
+      BRANCH:    2-  >  0   ^1-  >   1-  >   -1-                         EXCITE 15 to 22
+      BRANCH:    3-  >  0   ^1-  >   1-  >   -1-                         EXCITE 23 to 28
+      BRANCH:    4-  >  0   ^1-  >   1-  >   -1-                         EXCITE 29 to 30
+
+ IRREP    2-    (DIM=1)    EXCITE- BASIS (MULT=32) 
+      BRANCH:    2-  >  0    2-  >   2-  >    2-                         EXCITE  1 to  8
+      BRANCH:    4-  >  0    2-  >   2-  >    2-                         EXCITE  9 to 10
+      BRANCH:    3-  >  0   ^0-  >   2-  >    2-                         EXCITE 11 to 16
+      BRANCH:    2-  >  0   ^1-  >  ^2-  >    2-                         EXCITE 17 to 24
+      BRANCH:    3-  >  0   ^1-  >  ^2-  >    2-                         EXCITE 25 to 30
+      BRANCH:    4-  >  0   ^1-  >  ^2-  >    2-                         EXCITE 31 to 32
+
+
+ ECHO:
+ ECHO:ACTOR 0+ HAMILTONIAN GROUND PRINTEIG;
+ ECHO:  OPER HAMILTONIAN;
+ ECHO:    BRANCH 0+ > 0 0+ >  0+ > 0+  1.0;
+ ECHO:  OPER   SHELL2;
+ ECHO:    BRANCH 4+ > 0 0+ >  0+ > 0+  4.9295;
+ ECHO:  OPER OPER111223;
+ ECHO:    BRANCH 0+ > 0 0+ >  0+ > 0+  1.788854382;
+ ECHO:    BRANCH 4+ > 0 0+ >  0+ > 0+  6.572670692;
+ ECHO:  OPER OPER111223;
+ ECHO:    BRANCH 0+ > 0 0+ >  0+ > 0+  1.341640787;
+ ECHO:    BRANCH 4+ > 0 0+ >  0+ > 0+ -3.286335346;
+ ECHO:  OPER SHIFT2;
+ ECHO:    BRANCH 0+ > 0 0+ >  0+ > 0+  5.3;
+ ECHO:  % OPER SPIN2;
+ ECHO:  %   BRANCH 1+ > 0 1+ > ^0+ > 0+  0.001;
+ ECHO:  % OPER ORBIT2;
+ ECHO:  %   BRANCH 1+ > 0 1+ > ^0+ > 0+  0.002;
+ ECHO:  % OPER SPIN2;
+ ECHO:  %   BRANCH 1+ > 0 1+ > ^0+ > 0+  0.00115767636;
+ ECHO:  % OPER ORBIT2;
+ ECHO:  %   BRANCH 1+ > 0 1+ > ^0+ > 0+  0.00057883818;
+ ECHO:
+ ECHO:ACTOR 0+ HAMILTONIAN EXCITE PRINTEIG;
+ ECHO:  OPER HAMILTONIAN;
+ ECHO:    BRANCH 0+ > 0 0+ >  0+ > 0+  1.0;
+ ECHO:  OPER SHELL2;
+ ECHO:    BRANCH 4+ > 0 0+ >  0+ > 0+  4.9295;
+ ECHO:  OPER OPER221223;
+ ECHO:    BRANCH 0+ > 0 0+ >  0+ > 0+  1.788854382;
+ ECHO:    BRANCH 4+ > 0 0+ >  0+ > 0+  6.572670692;
+ ECHO:  OPER OPER221223;
+ ECHO:    BRANCH 0+ > 0 0+ >  0+ > 0+  1.341640787;
+ ECHO:    BRANCH 4+ > 0 0+ >  0+ > 0+ -3.286335346;
+ ECHO:  OPER SHIFT2;
+ ECHO:    BRANCH 0+ > 0 0+ >  0+ > 0+  4.3;
+ ECHO:  % OPER SPIN2;
+ ECHO:  %   BRANCH 1+ > 0 1+ > ^0+ > 0+  0.001;
+ ECHO:  % OPER ORBIT2;
+ ECHO:  %   BRANCH 1+ > 0 1+ > ^0+ > 0+  0.002;
+ ECHO:  % OPER SPIN2;
+ ECHO:  %   BRANCH 1+ > 0 1+ > ^0+ > 0+  0.00115767636;
+ ECHO:  % OPER ORBIT2;
+ ECHO:  %   BRANCH 1+ > 0 1+ > ^0+ > 0+  0.00057883818;
+ ECHO:
+ ECHO:ACTOR  1- RIGHT  TRANSI PRINTTRANS;
+ ECHO:  OPER OPER120012;
+ ECHO:    BRANCH 1- > 0 1- >  1- >  1-  1.0;
+ ECHO:ACTOR -1- LEFT  TRANSI PRINTTRANS;
+ ECHO:  OPER OPER120012;
+ ECHO:    BRANCH 1- > 0 1- >  1- > -1-  1.0;
+ ECHO:ACTOR  0- PARA  TRANSI PRINTTRANS;
+ ECHO:  OPER OPER120012;
+ ECHO:    BRANCH 1- > 0 1- > ^0- >  0-  1.0;
+ ECHO:
+ ECHO:ACTOR 0+ SZ GROUND PRINTTRANS 1015;
+ ECHO:  OPER SPIN2;
+ ECHO:    BRANCH 1+ > 0 1+ > ^0+ >  0+  1.0;
+ ECHO:ACTOR 0+ SHIFT2 GROUND PRINTTRANS 1015;
+ ECHO:  OPER SHIFT2;
+ ECHO:    BRANCH 0+ > 0 0+ > 0+  >  0+  1.0;
+ ECHO:ACTOR 0+ SHIFT1 GROUND PRINTTRANS 1015;
+ ECHO:  OPER SHIFT1;
+ ECHO:    BRANCH 0+ > 0 0+ > 0+  >  0+  1.0;
+ ECHO:RUN;
+
+ ----  ACTORS   ----
+
+  <ACTOR> HAMILTONIAN      IRREP    0+  GROUND DIAG PRINTEIG 
+       <OPER> HAMILTONIAN       STRENGTH  1.00000000  BRANCH:    0+  >  0    0+  >   0+  >    0+
+       <OPER> SHELL2            STRENGTH  4.92950000  BRANCH:    4+  >  0    0+  >   0+  >    0+
+       <OPER> OPER111223        STRENGTH  1.78885438  BRANCH:    0+  >  0    0+  >   0+  >    0+
+       <OPER> OPER111223        STRENGTH  6.57267069  BRANCH:    4+  >  0    0+  >   0+  >    0+
+       <OPER> OPER111223        STRENGTH  1.34164079  BRANCH:    0+  >  0    0+  >   0+  >    0+
+       <OPER> OPER111223        STRENGTH  -3.28633535  BRANCH:    4+  >  0    0+  >   0+  >    0+
+       <OPER> SHIFT2            STRENGTH  5.30000000  BRANCH:    0+  >  0    0+  >   0+  >    0+
+
+  <ACTOR> HAMILTONIAN      IRREP    0+  EXCITE DIAG PRINTEIG 
+       <OPER> HAMILTONIAN       STRENGTH  1.00000000  BRANCH:    0+  >  0    0+  >   0+  >    0+
+       <OPER> SHELL2            STRENGTH  4.92950000  BRANCH:    4+  >  0    0+  >   0+  >    0+
+       <OPER> OPER221223        STRENGTH  1.78885438  BRANCH:    0+  >  0    0+  >   0+  >    0+
+       <OPER> OPER221223        STRENGTH  6.57267069  BRANCH:    4+  >  0    0+  >   0+  >    0+
+       <OPER> OPER221223        STRENGTH  1.34164079  BRANCH:    0+  >  0    0+  >   0+  >    0+
+       <OPER> OPER221223        STRENGTH  -3.28633535  BRANCH:    4+  >  0    0+  >   0+  >    0+
+       <OPER> SHIFT2            STRENGTH  4.30000000  BRANCH:    0+  >  0    0+  >   0+  >    0+
+
+  <ACTOR> RIGHT            IRREP    1-  TRANSI TRANS PRINTTRANS 
+       <OPER> OPER120012        STRENGTH  1.00000000  BRANCH:    1-  >  0    1-  >   1-  >    1-
+
+  <ACTOR> LEFT             IRREP   -1-  TRANSI TRANS PRINTTRANS 
+       <OPER> OPER120012        STRENGTH  1.00000000  BRANCH:    1-  >  0    1-  >   1-  >   -1-
+
+  <ACTOR> PARA             IRREP    0-  TRANSI TRANS PRINTTRANS 
+       <OPER> OPER120012        STRENGTH  1.00000000  BRANCH:    1-  >  0    1-  >  ^0-  >    0-
+
+  <ACTOR> SZ               IRREP    0+  GROUND TRANS PRINTTRANS   (MODE=1015)
+       <OPER> SPIN2             STRENGTH  1.00000000  BRANCH:    1+  >  0    1+  >  ^0+  >    0+
+
+  <ACTOR> SHIFT2           IRREP    0+  GROUND TRANS PRINTTRANS   (MODE=1015)
+       <OPER> SHIFT2            STRENGTH  1.00000000  BRANCH:    0+  >  0    0+  >   0+  >    0+
+
+  <ACTOR> SHIFT1           IRREP    0+  GROUND TRANS PRINTTRANS   (MODE=1015)
+       <OPER> SHIFT1            STRENGTH  1.00000000  BRANCH:    0+  >  0    0+  >   0+  >    0+
+
+
+ ---- EXECUTE TASK ----
+
+
+  SSS   ZZZZZ 
+ S         Z  
+  SSS    ZZZ  
+     S  Z     
+  SSS   ZZZZZ 
+
+ CALCULATIONS for ACTOR: SZ GROUND
+
+       CALCULATING MATRIX for  TRIAD  1 (    0+    0+    0+ )   (39*39)
+       MATRIX HAS 1433 ZERO, 88 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD  5 (    1+    0+    1+ )   (35*35)
+       MATRIX HAS 1065 ZERO, 160 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD  9 (   -1+    0+   -1+ )   (35*35)
+       MATRIX HAS 1065 ZERO, 160 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD 13 (    2+    0+    2+ )   (36*36)
+       MATRIX HAS 1210 ZERO, 86 REAL and 0 COMPLEX ELEMENTS
+
+
+  SSS   H   H  IIIII  FFFFF  TTTTT   222  
+ S      H   H    I    F        T    2   2 
+  SSS   HHHHH    I    FFFF     T       2  
+     S  H   H    I    F        T     2    
+  SSS   H   H  IIIII  F        T    22222 
+
+ CALCULATIONS for ACTOR: SHIFT2 GROUND
+
+       CALCULATING MATRIX for  TRIAD  1 (    0+    0+    0+ )   (39*39)
+       MATRIX HAS 1495 ZERO, 26 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD  5 (    1+    0+    1+ )   (35*35)
+       MATRIX HAS 1200 ZERO, 25 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD  9 (   -1+    0+   -1+ )   (35*35)
+       MATRIX HAS 1200 ZERO, 25 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD 13 (    2+    0+    2+ )   (36*36)
+       MATRIX HAS 1272 ZERO, 24 REAL and 0 COMPLEX ELEMENTS
+
+
+  SSS   H   H  IIIII  FFFFF  TTTTT    1   
+ S      H   H    I    F        T     11   
+  SSS   HHHHH    I    FFFF     T      1   
+     S  H   H    I    F        T      1   
+  SSS   H   H  IIIII  F        T     111  
+
+ CALCULATIONS for ACTOR: SHIFT1 GROUND
+
+       CALCULATING MATRIX for  TRIAD  1 (    0+    0+    0+ )   (39*39)
+       MATRIX HAS 1508 ZERO, 13 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD  5 (    1+    0+    1+ )   (35*35)
+       MATRIX HAS 1215 ZERO, 10 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD  9 (   -1+    0+   -1+ )   (35*35)
+       MATRIX HAS 1215 ZERO, 10 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD 13 (    2+    0+    2+ )   (36*36)
+       MATRIX HAS 1284 ZERO, 12 REAL and 0 COMPLEX ELEMENTS
+
+
+ RRRR   IIIII   GGG   H   H  TTTTT 
+ R   R    I    G   G  H   H    T   
+ RRRR     I    G      HHHHH    T   
+ R R      I    G  GG  H   H    T   
+ R   R  IIIII   GGG   H   H    T   
+
+ CALCULATIONS for ACTOR: RIGHT TRANSI
+
+       CALCULATING MATRIX for  TRIAD  3 (    0+    1-   -1- )   (39*30)
+       MATRIX HAS 1015 ZERO, 155 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD  7 (    1+    1-    0- )   (35*28)
+       MATRIX HAS 836 ZERO, 144 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD 11 (   -1+    1-    2- )   (35*32)
+       MATRIX HAS 941 ZERO, 179 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD 15 (    2+    1-    1- )   (36*30)
+       MATRIX HAS 896 ZERO, 184 REAL and 0 COMPLEX ELEMENTS
+
+
+ L      EEEEE  FFFFF  TTTTT 
+ L      E      F        T   
+ L      EEEE   FFFF     T   
+ L      E      F        T   
+ LLLLL  EEEEE  F        T   
+
+ CALCULATIONS for ACTOR: LEFT TRANSI
+
+       CALCULATING MATRIX for  TRIAD  4 (    0+   -1-    1- )   (39*30)
+       MATRIX HAS 1015 ZERO, 155 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD  8 (    1+   -1-    2- )   (35*32)
+       MATRIX HAS 941 ZERO, 179 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD 12 (   -1+   -1-    0- )   (35*28)
+       MATRIX HAS 836 ZERO, 144 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD 16 (    2+   -1-   -1- )   (36*30)
+       MATRIX HAS 896 ZERO, 184 REAL and 0 COMPLEX ELEMENTS
+
+
+ PPPP    AAA   RRRR    AAA  
+ P   P  A   A  R   R  A   A 
+ PPPP   AAAAA  RRRR   AAAAA 
+ P      A   A  R R    A   A 
+ P      A   A  R   R  A   A 
+
+ CALCULATIONS for ACTOR: PARA TRANSI
+
+       CALCULATING MATRIX for  TRIAD  2 (    0+    0-    0- )   (39*28)
+       MATRIX HAS 1006 ZERO, 86 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD  6 (    1+    0-    1- )   (35*30)
+       MATRIX HAS 878 ZERO, 172 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD 10 (   -1+    0-   -1- )   (35*30)
+       MATRIX HAS 878 ZERO, 172 REAL and 0 COMPLEX ELEMENTS
+
+       CALCULATING MATRIX for  TRIAD 14 (    2+    0-    2- )   (36*32)
+       MATRIX HAS 1042 ZERO, 110 REAL and 0 COMPLEX ELEMENTS
+
+
+ H   H   AAA   M   M  IIIII  L      TTTTT   OOO   N   N  IIIII   AAA   N   N 
+ H   H  A   A  MM MM    I    L        T    O   O  NN  N    I    A   A  NN  N 
+ HHHHH  AAAAA  M M M    I    L        T    O   O  N N N    I    AAAAA  N N N 
+ H   H  A   A  M   M    I    L        T    O   O  N  NN    I    A   A  N  NN 
+ H   H  A   A  M   M  IIIII  LLLLL    T     OOO   N   N  IIIII  A   A  N   N 
+
+ CALCULATIONS for ACTOR: HAMILTONIAN GROUND
+
+       CALCULATING MATRIX for  TRIAD  1 (    0+    0+    0+ )   (39*39)
+       MATRIX HAS 1184 ZERO, 337 REAL and 0 COMPLEX ELEMENTS
+
+       DIAGONALIZATION   GROUND
+
+
+       ---- EIGENVALUES ----
+
+                  1          2          3          4          5          6          7          8          9         10         11   
+      12   
+   KET/PURE    12 0.39    28 0.51    17 0.49     5 0.59    33 0.37    10 0.48     6 0.59    34 0.85    11 0.60    23 0.64     1 
+0.66    18 0.58
+     EIGVAL  -2.327497  -2.193189  -2.142306  -1.287637  -1.207560  -1.131507  -1.019673   0.095393   0.445694   0.464890   
+0.468381   1.690096
+
+
+                 13         14         15         16         17         18         19         20         21         22         23   
+      24   
+   KET/PURE     4 0.44    39 0.29    35 0.35    14 0.33    24 0.24    19 0.51    29 0.37     7 0.67    27 0.53    16 0.55    38 
+0.42    26 0.34
+     EIGVAL   3.918747   4.393326   4.393327   4.504704   4.505296   4.531708   4.532440   4.532872   4.549710   5.600582   
+5.816999   5.871170
+
+
+                 25         26         27         28         29         30         31         32         33         34         35   
+      36   
+   KET/PURE    14 0.45    32 0.34    24 0.32     9 0.79     8 0.77    36 0.56    13 0.40    21 0.48    30 0.39    20 0.27    15 
+0.47    25 0.50
+     EIGVAL   5.873739   5.948174   5.948174   5.956035   6.200474   6.224790   6.252790   6.391098   6.403615   6.406247   
+6.587682   6.608212
+
+
+                 37         38         39   
+   KET/PURE     3 0.52    37 0.53     4 0.49
+     EIGVAL   6.621192   6.686113   7.246979
+
+
+
+       CALCULATING MATRIX for  TRIAD  5 (    1+    0+    1+ )   (35*35)
+       MATRIX HAS 840 ZERO, 385 REAL and 0 COMPLEX ELEMENTS
+
+       DIAGONALIZATION   GROUND
+
+
+       ---- EIGENVALUES ----
+
+                  1          2          3          4          5          6          7          8          9         10         11   
+      12   
+   KET/PURE    30 0.44     6 0.51    18 0.43    11 0.37    25 0.38    20 0.65    12 0.85    19 0.59     1 0.64    31 0.65    22 
+0.34    17 0.29
+     EIGVAL   -3.98236   -2.19319   -2.14757   -1.20756   -1.14473   -0.44977    0.09539    0.45734    0.46489    1.72925    
+4.39333    4.39333
+
+
+                 13         14         15         16         17         18         19         20         21         22         23   
+      24   
+   KET/PURE    13 0.35     2 0.24    28 0.24    35 0.30     7 0.37    29 0.59     5 0.53    33 0.44    16 0.42     4 0.34    32 
+0.41    26 0.44
+     EIGVAL    4.39333    4.50530    4.50709    4.53051    4.53244    4.53984    4.54971    5.34636    5.81700    5.87117    
+5.87352    5.94817
+
+
+                 25         26         27         28         29         30         31         32         33         34         35   
+   KET/PURE    10 0.34     2 0.32    14 0.56    27 0.51    24 0.47     8 0.39    21 0.26    23 0.36     3 0.50    34 0.27    15 0.53
+     EIGVAL    5.94817    5.94817    6.22479    6.25945    6.36442    6.40361    6.45731    6.55417    6.60821    6.65291    6.68611
+
+
+
+       CALCULATING MATRIX for  TRIAD  9 (   -1+    0+   -1+ )   (35*35)
+       MATRIX HAS 840 ZERO, 385 REAL and 0 COMPLEX ELEMENTS
+
+       DIAGONALIZATION   GROUND
+
+
+       ---- EIGENVALUES ----
+
+                  1          2          3          4          5          6          7          8          9         10         11   
+      12   
+   KET/PURE    30 0.44     6 0.51    18 0.43    11 0.37    25 0.38    20 0.65    12 0.85    19 0.59     1 0.64    31 0.65    22 
+0.34    17 0.29
+     EIGVAL   -3.98236   -2.19319   -2.14757   -1.20756   -1.14473   -0.44977    0.09539    0.45734    0.46489    1.72925    
+4.39333    4.39333
+
+
+                 13         14         15         16         17         18         19         20         21         22         23   
+      24   
+   KET/PURE    13 0.35     2 0.24    28 0.24    35 0.30     7 0.37    29 0.59     5 0.53    33 0.44    16 0.42     4 0.34    32 
+0.41    26 0.44
+     EIGVAL    4.39333    4.50530    4.50709    4.53051    4.53244    4.53984    4.54971    5.34636    5.81700    5.87117    
+5.87352    5.94817
+
+
+                 25         26         27         28         29         30         31         32         33         34         35   
+   KET/PURE    10 0.34     2 0.32    14 0.56    27 0.51    24 0.47     8 0.39    21 0.26    23 0.36     3 0.50    34 0.27    15 0.53
+     EIGVAL    5.94817    5.94817    6.22479    6.25945    6.36442    6.40361    6.45731    6.55417    6.60821    6.65291    6.68611
+
+
+
+       CALCULATING MATRIX for  TRIAD 13 (    2+    0+    2+ )   (36*36)
+       MATRIX HAS 952 ZERO, 344 REAL and 0 COMPLEX ELEMENTS
+
+       DIAGONALIZATION   GROUND
+
+
+       ---- EIGENVALUES ----
+
+                  1          2          3          4          5          6          7          8          9         10         11   
+      12   
+   KET/PURE    31 0.44     3 0.39    19 0.43     8 0.49    14 0.92    26 0.38     1 0.48    21 0.65     2 0.60    20 0.59     9 
+0.58    32 0.65
+     EIGVAL   -3.98236   -2.32750   -2.14757   -2.14231   -2.12597   -1.14473   -1.13151   -0.44977    0.44569    0.45734    
+1.69010    1.72925
+
+
+                 13         14         15         16         17         18         19         20         21         22         23   
+      24   
+   KET/PURE    18 0.98    23 0.34     5 0.33    29 0.24    17 0.41    36 0.30    10 0.51    30 0.59    34 0.44     7 0.55    33 
+0.41     5 0.45
+     EIGVAL    4.39333    4.39333    4.50470    4.50709    4.50900    4.53051    4.53171    4.53984    5.34636    5.60058    
+5.87352    5.87374
+
+
+                 25         26         27         28         29         30         31         32         33         34         35   
+      36   
+   KET/PURE    27 0.44    15 0.64     4 0.40    28 0.51    25 0.47    12 0.48    11 0.27    22 0.26    16 0.58    24 0.36     6 
+0.47    35 0.27
+     EIGVAL    5.94817    5.94817    6.25279    6.25945    6.36442    6.39110    6.40625    6.45731    6.48168    6.55417    
+6.58768    6.65291
+
+
+
+
+ H   H   AAA   M   M  IIIII  L      TTTTT   OOO   N   N  IIIII   AAA   N   N 
+ H   H  A   A  MM MM    I    L        T    O   O  NN  N    I    A   A  NN  N 
+ HHHHH  AAAAA  M M M    I    L        T    O   O  N N N    I    AAAAA  N N N 
+ H   H  A   A  M   M    I    L        T    O   O  N  NN    I    A   A  N  NN 
+ H   H  A   A  M   M  IIIII  LLLLL    T     OOO   N   N  IIIII  A   A  N   N 
+
+ CALCULATIONS for ACTOR: HAMILTONIAN EXCITE
+
+       CALCULATING MATRIX for  TRIAD 17 (    0-    0+    0- )   (28*28)
+       MATRIX HAS 598 ZERO, 186 REAL and 0 COMPLEX ELEMENTS
+
+       DIAGONALIZATION   EXCITE
+
+
+       ---- EIGENVALUES ----
+
+                  1          2          3          4          5          6          7          8          9         10         11   
+      12   
+   KET/PURE     3 0.82    27 0.74    13 0.68     8 0.65    21 0.41    22 0.52     6 0.36    16 0.56     1 0.79    17 0.33    12 
+0.62    28 0.38
+     EIGVAL   -8.02416   -7.97808   -7.93255   -6.50910   -6.11587   -5.88231   -5.77678   -5.22839   -5.09301   -3.99399   
+-1.25611   -1.23527
+
+
+                 13         14         15         16         17         18         19         20         21         22         23   
+      24   
+   KET/PURE    14 0.63     4 0.56    19 0.28    20 0.32    10 0.35    19 0.37     2 0.51    26 0.32     5 0.57    23 0.29     7 
+0.41    15 0.29
+     EIGVAL   -1.23444   -1.20565   -1.20476   -1.06514   -0.80229   -0.78966   -0.77864   -0.58651    9.45479   10.53438   
+11.40687   12.71760
+
+
+                 25         26         27         28   
+   KET/PURE     9 0.35    18 0.23     9 0.37    18 0.21
+     EIGVAL   16.02832   16.12237   16.45243   16.57529
+
+
+
+       CALCULATING MATRIX for  TRIAD 18 (    1-    0+    1- )   (30*30)
+       MATRIX HAS 652 ZERO, 248 REAL and 0 COMPLEX ELEMENTS
+
+       DIAGONALIZATION   EXCITE
+
+
+       ---- EIGENVALUES ----
+
+                  1          2          3          4          5          6          7          8          9         10         11   
+      12   
+   KET/PURE    18 0.58    13 0.74    29 0.39    29 0.54     7 0.41     8 0.52    16 0.43     2 0.56    25 0.46     3 0.33    30 
+0.78    14 0.38
+     EIGVAL   -8.00610   -7.97808   -7.84614   -6.31126   -6.11587   -5.88231   -5.40495   -5.22839   -4.52572   -3.99399   
+-1.25098   -1.23527
+
+
+                 13         14         15         16         17         18         19         20         21         22         23   
+      24   
+   KET/PURE     5 0.28    20 0.35    22 0.37     6 0.32    27 0.26     5 0.37    28 0.33    12 0.32    15 0.39     9 0.29    15 
+0.35    25 0.28
+     EIGVAL   -1.20476   -1.20406   -1.17722   -1.06514   -0.81002   -0.78966   -0.74413   -0.58651    9.55499   10.53438   
+11.48245   12.08398
+
+
+                 25         26         27         28         29         30   
+   KET/PURE     1 0.29    19 0.60    21 0.23     4 0.23    21 0.18     4 0.21
+     EIGVAL   12.71760   16.03041   16.07134   16.12237   16.47280   16.57529
+
+
+
+       CALCULATING MATRIX for  TRIAD 19 (   -1-    0+   -1- )   (30*30)
+       MATRIX HAS 652 ZERO, 248 REAL and 0 COMPLEX ELEMENTS
+
+       DIAGONALIZATION   EXCITE
+
+
+       ---- EIGENVALUES ----
+
+                  1          2          3          4          5          6          7          8          9         10         11   
+      12   
+   KET/PURE    18 0.58    13 0.74    29 0.39    29 0.54     7 0.41     8 0.52    16 0.43     2 0.56    25 0.46     3 0.33    30 
+0.78    14 0.38
+     EIGVAL   -8.00610   -7.97808   -7.84614   -6.31126   -6.11587   -5.88231   -5.40495   -5.22839   -4.52572   -3.99399   
+-1.25098   -1.23527
+
+
+                 13         14         15         16         17         18         19         20         21         22         23   
+      24   
+   KET/PURE     5 0.28    20 0.35    22 0.37     6 0.32    27 0.26     5 0.37    28 0.33    12 0.32    15 0.39     9 0.29    15 
+0.35    25 0.28
+     EIGVAL   -1.20476   -1.20406   -1.17722   -1.06514   -0.81002   -0.78966   -0.74413   -0.58651    9.55499   10.53438   
+11.48245   12.08398
+
+
+                 25         26         27         28         29         30   
+   KET/PURE     1 0.29    19 0.60    21 0.23     4 0.23    21 0.18     4 0.21
+     EIGVAL   12.71760   16.03041   16.07134   16.12237   16.47280   16.57529
+
+
+
+       CALCULATING MATRIX for  TRIAD 20 (    2-    0+    2- )   (32*32)
+       MATRIX HAS 784 ZERO, 240 REAL and 0 COMPLEX ELEMENTS
+
+       DIAGONALIZATION   EXCITE
+
+
+       ---- EIGENVALUES ----
+
+                  1          2          3          4          5          6          7          8          9         10         11   
+      12   
+   KET/PURE    20 0.58     9 0.68    31 0.39    12 0.57     4 0.65    31 0.54     2 0.36    18 0.43    27 0.46    13 0.50     8 
+0.62    32 0.78
+     EIGVAL   -8.00610   -7.93255   -7.84614   -7.74985   -6.50910   -6.31126   -5.77678   -5.40495   -4.52572   -4.11690   
+-1.25611   -1.25098
+
+
+                 13         14         15         16         17         18         19         20         21         22         23   
+      24   
+   KET/PURE    10 0.63    22 0.35    24 0.37    16 0.58    15 0.64    29 0.26     6 0.35    30 0.33     1 0.57    17 0.39     3 
+0.41    17 0.35
+     EIGVAL   -1.23444   -1.20406   -1.17722   -1.08431   -0.81538   -0.81002   -0.80229   -0.74413    9.45479    9.55499   
+11.40687   11.48245
+
+
+                 25         26         27         28         29         30         31         32   
+   KET/PURE    27 0.28    13 0.40     5 0.35    21 0.60    23 0.23    14 0.41     5 0.37    23 0.18
+     EIGVAL   12.08398   12.26390   16.02832   16.03041   16.07134   16.08678   16.45243   16.47280
+
+
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  3 (    0+    1-   -1- )  (39*30)   DIM :1 :1 :1    ACTOR RIGHT
+
+       ---- MATRIX ----   TRANSI PRINTTRANS
+
+ BRA/KET :  -8.00610  -7.97808  -7.84614  -6.31126  -6.11587  -5.88231  -5.40495  -5.22839  -4.52572  -3.99399  -1.25098  -1.23527
+----------------------------------------------------------------------------------------------------------------------------------
+ -2.32750:  0.056729  0.005645  0.000231  0.011035  0.008463  0.011724  0.005346  0.000596  0.006704  0.001102  0.000027  0.000008
+ -2.19319:  0.001965  0.000226  0.013202  0.028474  0.000017  0.034877  0.002897  0.001854  0.002301  0.007431  0.000067  0.000084
+ -2.14231:  0.008437  0.013553  0.005535  0.035723  0.003983  0.000504  0.003459  0.000009  0.003481  0.000048  0.000070  0.000005
+ -1.28764:         0  0.013531         0         0  0.001540  0.090598         0  0.014355         0       0.0         0  0.000195
+ -1.20756:  0.001554  0.008866  0.000785  0.009212  0.008330  0.024922  0.015557  0.001768  0.015248  0.000201  0.000013  0.000099
+ -1.13151:  0.002681  0.001176  0.022926  0.031813  0.000163  0.001854  0.008834  0.000573  0.007528  0.005977  0.000039  0.000002
+ -1.01967:         0  0.002381         0         0  0.048472  0.000197         0  0.000051         0  0.004319         0  0.000017
+  0.09539:  0.002208  0.000079  0.000235  0.000150  0.031333  0.009879       0.0  0.002860  0.037478  0.021397  0.000001  0.000005
+  0.44569:  0.000284  0.000088  0.009254  0.000010  0.000353  0.001211  0.029838  0.025158  0.001168  0.002171  0.000012  0.000003
+  0.46489:  0.006663  0.001492       0.0  0.003980  0.005421  0.000992  0.005337  0.038989  0.006315  0.000375  0.000007  0.000014
+  0.46838:         0  0.000001         0         0  0.019182  0.015543         0  0.014717         0  0.033894         0  0.000107
+  1.69010:  0.007346  0.000011       0.0  0.000505  0.000277  0.000038  0.000175  0.000028  0.075649  0.008365  0.000001  0.000001
+  3.91875:         0  0.000016         0         0  0.000610  0.001319         0  0.000080         0  0.052613         0  0.000032
+  4.39333:  0.000327  0.001056  0.000387  0.000027  0.000112  0.000242  0.000002  0.000077  0.000220  0.000011  0.000046  0.000206
+  4.39333:  0.000140  0.001116  0.003474  0.000189  0.001637  0.000449  0.000176  0.000467  0.000006  0.000130  0.000490  0.000540
+  4.50470:  0.000144  0.000426  0.000314  0.000252  0.000045  0.000010  0.000182  0.000103  0.000042  0.000064  0.043854  0.001296
+  4.50530:  0.000027  0.000013  0.000377  0.000087  0.000763  0.000003  0.000007       0.0  0.000173  0.000714  0.022055  0.024553
+  4.53171:  0.000067  0.000014  0.001811       0.0  0.000120  0.000003  0.000064       0.0  0.000344  0.000100  0.012807  0.001681
+  4.53244:  0.000476  0.000542  0.000022  0.000030  0.000039  0.000013  0.000065  0.000022       0.0  0.000017  0.001474  0.012910
+  4.53287:         0  0.000464         0         0  0.001103  0.000005         0  0.000010         0  0.000079         0  0.013493
+  4.54971:  0.000383       0.0  0.000004  0.000011  0.000911  0.000671  0.000013  0.000022  0.000427  0.001812  0.000577  0.001757
+  5.60058:  0.001760       0.0  0.000039       0.0  0.000079  0.000038  0.000031  0.000011  0.000005  0.000010  0.000037  0.000002
+  5.81700:  0.000031  0.000010  0.000045  0.001519  0.000069  0.000257  0.000016  0.000005  0.000866  0.001239  0.037914  0.007039
+  5.87117:       0.0  0.000021  0.000033  0.000538  0.000046  0.000004  0.000564  0.000728  0.000001  0.000985  0.009859  0.000660
+  5.87374:  0.000008  0.000018  0.000033  0.000965  0.000039  0.000241  0.000146  0.000316  0.000492  0.000012  0.021623  0.007928
+  5.94817:  0.000021  0.000008       0.0  0.000175  0.000013       0.0  0.000347  0.000446  0.001079  0.000001  0.003348  0.000063
+  5.94817:       0.0  0.000005       0.0       0.0  0.000260  0.000503       0.0  0.000028       0.0  0.001751  0.000003  0.015513
+  5.95604:         0       0.0         0         0  0.000852  0.000718         0  0.000023         0  0.001391         0  0.001358
+  6.20047:         0  0.000022         0         0  0.000694  0.000139         0  0.000010         0  0.000077         0  0.046609
+  6.22479:  0.000067  0.000008  0.000005  0.000096  0.000231  0.000149  0.000142  0.000127       0.0       0.0  0.008697  0.006935
+  6.25279:  0.000069  0.000003  0.000073  0.000236       0.0  0.000002  0.000083  0.000145  0.000188  0.000004  0.006666  0.000001
+  6.39110:  0.000363  0.000004  0.000002  0.000020  0.000011  0.000001  0.000009  0.000001  0.000860  0.000006  0.000302  0.000012
+  6.40361:  0.000008  0.000042  0.000144  0.000663  0.000727  0.000379  0.000035  0.000011  0.000138  0.000844  0.000008  0.000181
+  6.40625:  0.000036  0.000016  0.000078  0.002009  0.000058  0.000004  0.000085  0.000039  0.000007  0.000059  0.000252  0.000095
+  6.58768:       0.0  0.000001  0.000033  0.000152  0.000261  0.000078  0.001718  0.000364  0.000666  0.000073  0.000008  0.000085
+  6.60821:  0.000002  0.000068  0.000004  0.000019  0.000001  0.000125  0.000098  0.000862  0.000005  0.000041  0.000034  0.000053
+  6.62119:         0  0.000028         0         0  0.000494  0.000252         0  0.000576         0  0.001625         0       0.0
+  6.68611:  0.000165  0.000003  0.000001  0.000103       0.0  0.000291  0.000026  0.000032  0.001549  0.001939  0.000031  0.000074
+  7.24698:         0  0.000002         0         0  0.001612  0.001034         0  0.000020         0  0.010839         0  0.000244
+
+ BRA/KET :  -1.20476  -1.20406  -1.17722  -1.06514  -0.81002  -0.78966  -0.74413  -0.58651   9.55499  10.53438  11.48245  12.08398
+----------------------------------------------------------------------------------------------------------------------------------
+ -2.32750:  0.000008  0.000073  0.000049  0.000058  0.000002  0.000016  0.000237  0.000285  0.004412  0.003360  0.006357  0.001787
+ -2.19319:  0.000024  0.000013  0.000036  0.000514  0.000223  0.000021  0.000067  0.000500  0.000109  0.016461  0.002065  0.010912
+ -2.14231:  0.000004  0.000036  0.000082  0.000003  0.000038  0.000048  0.000233  0.000003  0.030998  0.009833  0.001406  0.010015
+ -1.28764:  0.000107         0         0  0.000017         0  0.000004         0  0.000679         0  0.001488         0         0
+ -1.20756:  0.000006  0.000125  0.000277  0.000005  0.000010  0.000090  0.000489       0.0  0.005116  0.000200  0.006251  0.007627
+ -1.13151:  0.000018  0.000007  0.000066  0.000330  0.000098  0.000001  0.000101  0.000082  0.030768  0.003083  0.012326  0.003558
+ -1.01967:  0.000001         0         0  0.000152         0  0.000005         0  0.000046         0  0.065350         0         0
+  0.09539:  0.000011  0.000004  0.000087  0.000284  0.000006  0.000007  0.000180  0.000021  0.006005  0.037411  0.006111  0.016247
+  0.44569:  0.000073  0.000047  0.000002  0.000166  0.000008  0.000034  0.000037  0.000019  0.001048  0.001595  0.031501  0.015330
+  0.46489:  0.000120  0.000052  0.000037  0.000003  0.000008  0.000034  0.000329  0.000012  0.003278  0.000307  0.018134  0.038472
+  0.46838:  0.000003         0         0  0.001134         0  0.000109         0  0.000103         0  0.004587         0         0
+  1.69010:       0.0  0.000001  0.000091  0.000105  0.000025  0.000005  0.000231  0.000034  0.000344  0.000480  0.006260  0.050770
+  3.91875:  0.000007         0         0  0.000978         0  0.000010         0  0.004771         0  0.000086         0         0
+  4.39333:  0.000771  0.000168  0.000124       0.0  0.004228  0.011390  0.003644  0.001070  0.000523  0.000379  0.000113  0.000037
+  4.39333:  0.000324  0.000149  0.001137  0.000010  0.036257  0.011478  0.001368  0.012162  0.000593  0.002677  0.000133  0.000052
+  4.50470:  0.001794  0.009647  0.004334  0.000525  0.000104  0.000457  0.000076  0.000001  0.000155  0.000080  0.000278  0.000217
+  4.50530:  0.002140  0.000761  0.002238  0.009144  0.000037  0.000062  0.000296  0.000431  0.000002  0.000411  0.000020  0.000393
+  4.53171:  0.004049  0.020895  0.011060  0.001721  0.000396  0.000009  0.001122  0.000008  0.000544  0.000243  0.000386  0.000372
+  4.53244:  0.008730  0.004867  0.002745  0.000326  0.000009  0.000218  0.000113  0.000015  0.000564  0.000089  0.000001  0.000011
+  4.53287:  0.022232         0         0  0.009941         0  0.000004         0  0.000161         0  0.001400         0         0
+  4.54971:  0.000031  0.000243  0.032324  0.028835  0.000387  0.000051  0.001012  0.000639  0.000761  0.001952  0.000054  0.000009
+  5.60058:  0.000001  0.000003  0.004716  0.000014  0.001255  0.000117  0.034919  0.013527  0.000883  0.000508  0.000089  0.000281
+  5.81700:  0.000003  0.000001  0.009010  0.007938  0.000087  0.000102  0.000510  0.000004       0.0       0.0       0.0       0.0
+  5.87117:  0.021321  0.012703  0.000221  0.005718  0.000167  0.000347  0.000033  0.000010  0.000005       0.0  0.000176  0.001735
+  5.87374:  0.005025  0.002917  0.010683  0.000097  0.000147  0.000245  0.000909  0.000011       0.0  0.000001  0.000124  0.002119
+  5.94817:  0.006773  0.005546  0.011193  0.000053  0.000002  0.000148  0.000713       0.0  0.000001  0.000010       0.0       0.0
+  5.94817:  0.000096  0.000002  0.000009  0.011501       0.0  0.000029  0.000001  0.000001  0.000081  0.000005  0.001127  0.000147
+  5.95604:  0.000007         0         0  0.015249         0  0.000015         0  0.038257         0  0.002960         0         0
+  6.20047:  0.000003         0         0  0.005938         0  0.000015         0  0.000517         0  0.000041         0         0
+  6.22479:  0.011584  0.006581  0.007090  0.000285  0.000190  0.000499  0.002786  0.000639  0.000032  0.000001  0.000002  0.000062
+  6.25279:  0.010043  0.005442  0.001989  0.004557  0.004275  0.000775  0.000676  0.000001  0.000028       0.0  0.000018  0.000024
+  6.39110:  0.000859  0.000489  0.036976  0.002591  0.001584  0.001667  0.006014  0.000056  0.000001  0.000053  0.000665  0.000400
+  6.40361:  0.000095  0.000077  0.000924  0.000837  0.020037  0.001093  0.002321  0.016680  0.000003  0.000302  0.000188  0.001251
+  6.40625:  0.000018  0.000034  0.002961  0.001864  0.018024  0.017391  0.001484  0.000263  0.000004  0.000019  0.000635  0.001455
+  6.58768:  0.000706  0.000805  0.000496  0.000007  0.040327  0.000012  0.002631  0.002359  0.000203  0.000038  0.000269  0.001528
+  6.60821:  0.000429  0.000010  0.000996  0.000001  0.002194  0.022087  0.010979  0.000414  0.000028  0.000001  0.000657  0.000722
+  6.62119:  0.000125         0         0  0.004292         0  0.016839         0  0.015575         0  0.000261         0         0
+  6.68611:  0.000003  0.000015  0.000331  0.002421  0.000785  0.000818  0.010852  0.035962  0.000004  0.000190  0.000421  0.000942
+  7.24698:  0.000048         0         0  0.029448         0  0.000084         0  0.008104         0  0.001224         0         0
+
+ BRA/KET :  12.71760  16.03041  16.07134  16.12237  16.47280  16.57529
+----------------------------------------------------------------------
+ -2.32750:  0.000140  0.000028  0.000026  0.000005       0.0  0.000015
+ -2.19319:  0.005515  0.000006  0.000128  0.000173       0.0  0.000094
+ -2.14231:  0.001872  0.000006  0.000117  0.000025  0.000068  0.000154
+ -1.28764:  0.004116         0         0  0.000040         0  0.000103
+ -1.20756:  0.000043  0.000011  0.000097       0.0  0.000078       0.0
+ -1.13151:  0.009925  0.000074  0.000006  0.000187       0.0  0.000096
+ -1.01967:  0.000219         0         0  0.000064         0  0.000124
+  0.09539:  0.012397  0.000008  0.000044  0.000143  0.000053  0.000039
+  0.44569:  0.003223  0.000087  0.000055  0.000072  0.000006  0.000004
+  0.46489:  0.000049  0.000003  0.000212       0.0  0.000005  0.000002
+  0.46838:  0.037203         0         0  0.000353         0  0.000072
+  1.69010:  0.006505  0.000003  0.000090  0.000058  0.000062  0.000026
+  3.91875:  0.040728         0         0  0.000163         0  0.002190
+  4.39333:  0.000006  0.000010  0.000006  0.000133  0.005775  0.002419
+  4.39333:  0.000037  0.000012  0.000008  0.000925  0.006775  0.016914
+  4.50470:  0.000053  0.008095  0.014316  0.001500  0.000112  0.000003
+  4.50530:  0.000422  0.000879  0.016033  0.006237  0.000030  0.000872
+  4.53171:  0.000136  0.005804  0.011661  0.003142  0.000780  0.000021
+  4.53244:  0.000043  0.008842  0.002051  0.000767  0.000467  0.000129
+  4.53287:  0.000673         0         0  0.018327         0  0.000068
+  4.54971:  0.000437  0.004500  0.008042  0.012816  0.000306  0.002422
+  5.60058:  0.000013  0.000108  0.000168  0.000021  0.013517  0.004823
+  5.81700:       0.0       0.0       0.0       0.0       0.0       0.0
+  5.87117:       0.0  0.000570  0.015891       0.0  0.000005       0.0
+  5.87374:  0.000002  0.000465  0.017758  0.000003       0.0  0.000005
+  5.94817:  0.003331  0.000024  0.000001  0.031944       0.0  0.000401
+  5.94817:  0.001018  0.025318  0.000864  0.009244  0.000071  0.000117
+  5.95604:  0.000306         0         0  0.005812         0  0.010439
+  6.20047:  0.000109         0         0  0.014725         0  0.001727
+  6.22479:  0.000001  0.001148  0.032198  0.000002  0.000691  0.000034
+  6.25279:  0.000015  0.016289  0.011572  0.003616  0.000001  0.000057
+  6.39110:  0.000085  0.012287  0.015566  0.005890  0.000213  0.000086
+  6.40361:  0.000247  0.000131  0.003646  0.000543       0.0  0.008388
+  6.40625:       0.0  0.000893  0.008208       0.0  0.006225  0.001916
+  6.58768:  0.000089  0.000278  0.002694       0.0  0.022179  0.007887
+  6.60821:  0.000217  0.000339  0.002370  0.000358  0.010537  0.004001
+  6.62119:  0.000382         0         0  0.000020         0  0.033379
+  6.68611:  0.002339  0.000130  0.000187  0.002999  0.016169  0.028924
+  7.24698:  0.013658         0         0  0.019408         0  0.012337
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  7 (    1+    1-    0- )  (35*28)   DIM :1 :1 :1    ACTOR RIGHT
+
+       ---- MATRIX ----   TRANSI PRINTTRANS
+
+ BRA/KET :  -8.02416  -7.97808  -7.93255  -6.50910  -6.11587  -5.88231  -5.77678  -5.22839  -5.09301  -3.99399  -1.25611  -1.23527
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:         0  0.014437  0.028889  0.000042  0.011009  0.008033  0.002483  0.000096         0  0.000010  0.000002  0.000001
+  -2.1932:  0.027006  0.000226  0.013127  0.001232  0.000017  0.034877  0.003620  0.001854  0.002536  0.007431  0.000001  0.000084
+  -2.1476:         0  0.001111  0.000340  0.000635  0.014657  0.001463  0.015159  0.016998         0  0.005960  0.000003       0.0
+  -1.2076:  0.021640  0.008866  0.000687  0.005058  0.008330  0.024922  0.012265  0.001768  0.012942  0.000201       0.0  0.000099
+  -1.1447:         0  0.007506  0.018112  0.001654  0.001808  0.011696  0.041160  0.018925         0  0.003350  0.000010  0.000039
+  -0.4498:         0  0.000048  0.000016  0.060524  0.007427  0.002988  0.003236  0.000511         0  0.020625  0.000001       0.0
+   0.0954:  0.000141  0.000079  0.000003  0.000010  0.031333  0.009879  0.000011  0.002860  0.000639  0.021397       0.0  0.000005
+   0.4573:         0  0.002061  0.004231  0.008012  0.000011  0.003593  0.017170  0.003220         0  0.013480  0.000001  0.000003
+   0.4649:  0.000935  0.001492  0.000558  0.000246  0.005421  0.000992  0.005538  0.038989  0.071048  0.000375  0.000008  0.000014
+   1.7292:         0  0.000027  0.000076  0.017924  0.000841  0.000038  0.000257  0.000110         0  0.018862       0.0  0.000002
+   4.3933:         0  0.002823  0.001533  0.000008  0.000001  0.000149  0.000259  0.000354         0  0.000067  0.000214  0.000701
+   4.3933:  0.003703  0.001056  0.000949  0.000003  0.000112  0.000242  0.000158  0.000077  0.000791  0.000011  0.000136  0.000206
+   4.3933:  0.000023  0.001116       0.0       0.0  0.001637  0.000449       0.0  0.000467  0.000005  0.000130       0.0  0.000540
+   4.5053:  0.000610  0.000013  0.000296  0.000018  0.000763  0.000003  0.000009       0.0  0.000460  0.000714  0.001525  0.024553
+   4.5071:         0  0.000017  0.000073  0.000002  0.000131  0.000148  0.000165  0.000618         0  0.000307  0.001786  0.000229
+   4.5305:         0  0.000538  0.001189  0.000011  0.000012  0.000062  0.000029  0.000067         0  0.000030  0.008999  0.014823
+   4.5324:  0.000805  0.000542       0.0  0.000033  0.000039  0.000013  0.000063  0.000022  0.000142  0.000017  0.006065  0.012910
+   4.5398:         0  0.000018  0.000111  0.000179  0.000415  0.000112       0.0  0.000081         0  0.000555  0.035134  0.002286
+   4.5497:  0.000047       0.0  0.000003       0.0  0.000911  0.000671  0.000001  0.000022       0.0  0.001812  0.000059  0.001757
+   5.3464:         0  0.000189  0.000365  0.000009  0.000043  0.000011       0.0  0.000006         0  0.000001  0.000018  0.000066
+   5.8170:       0.0  0.000010  0.000025  0.000205  0.000069  0.000257  0.000513  0.000005       0.0  0.001239  0.005297  0.007039
+   5.8712:  0.000025  0.000021  0.000004  0.000280  0.000046  0.000004  0.000025  0.000728  0.000885  0.000985  0.008014  0.000660
+   5.8735:         0  0.000016  0.000034  0.000001  0.000256  0.000761  0.001049  0.000039         0  0.000011  0.003041  0.022354
+   5.9482:         0  0.000019  0.000008  0.000553  0.000072  0.000013  0.000364  0.001280         0  0.000013  0.014371  0.000027
+   5.9482:       0.0  0.000008  0.000003  0.000190  0.000013       0.0  0.000116  0.000446  0.000001  0.000001  0.004757  0.000063
+   5.9482:  0.000050  0.000005       0.0  0.000001  0.000260  0.000503  0.000001  0.000028  0.001931  0.001751  0.000037  0.015513
+   6.2248:  0.000002  0.000008  0.000012  0.000037  0.000231  0.000149  0.000082  0.000127  0.000232       0.0  0.000001  0.006935
+   6.2594:         0  0.000009  0.000020  0.000390  0.000034  0.000019  0.000016       0.0         0       0.0  0.010515  0.000076
+   6.3644:         0  0.000001  0.000073  0.001729  0.000025  0.000080  0.000466  0.000109         0  0.000183  0.011407  0.000050
+   6.4036:       0.0  0.000042  0.000038  0.000044  0.000727  0.000379       0.0  0.000011  0.000429  0.000844  0.000007  0.000181
+   6.4573:         0  0.000014  0.000087  0.000023  0.000002  0.000267  0.001146  0.000598         0  0.000166  0.000591  0.000006
+   6.5542:         0  0.000101  0.000066  0.000663  0.000048  0.000325  0.000929  0.000997         0  0.000021  0.000215  0.000120
+   6.6082:  0.000156  0.000068  0.000007  0.000373  0.000001  0.000125  0.000074  0.000862  0.002313  0.000041  0.000180  0.000053
+   6.6529:         0  0.000010  0.000006  0.001637  0.000171  0.000044  0.000208  0.000145         0  0.000146  0.000113  0.000060
+   6.6861:  0.000007  0.000003       0.0  0.000011       0.0  0.000291  0.000007  0.000032  0.000032  0.001939  0.000008  0.000074
+
+ BRA/KET :  -1.23444  -1.20565  -1.20476  -1.06514  -0.80229  -0.78966  -0.77864  -0.58651   9.45479  10.53438  11.40687  12.71760
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.000004         0  0.000002  0.000005  0.000197  0.000119         0  0.000844  0.025624  0.023921  0.001597  0.000251
+  -2.1932:  0.000012  0.000042  0.000024  0.000514  0.000107  0.000021  0.000008  0.000500  0.002190  0.016461  0.003247  0.005515
+  -2.1476:  0.000067         0  0.000196  0.000339  0.000046  0.000054         0  0.000470  0.039690  0.012224  0.000001  0.009943
+  -1.2076:  0.000055  0.000028  0.000006  0.000005  0.000038  0.000090  0.000147       0.0  0.006097  0.000200  0.009438  0.000043
+  -1.1447:  0.000069         0  0.000068  0.000277  0.000179  0.000148         0  0.000002  0.011661  0.000023  0.000241  0.007252
+  -0.4498:  0.000003         0  0.000004  0.000608  0.000010  0.000021         0  0.000117  0.002560  0.007581  0.014526  0.009664
+   0.0954:       0.0  0.000001  0.000011  0.000284       0.0  0.000007  0.000003  0.000021  0.000032  0.037411  0.000053  0.012397
+   0.4573:  0.000001         0  0.000001  0.000668  0.000006  0.000003         0  0.000001       0.0  0.000032  0.051576  0.024582
+   0.4649:  0.000017  0.000169  0.000120  0.000003  0.000011  0.000034  0.000184  0.000012  0.002073  0.000307  0.003491  0.000049
+   1.7292:       0.0         0       0.0  0.000299  0.000006  0.000012         0  0.000027  0.000753  0.001357  0.009905  0.015827
+   4.3933:  0.000623         0  0.001734       0.0  0.016730  0.030130         0  0.000007  0.001140       0.0  0.000217       0.0
+   4.3933:  0.000384  0.004504  0.000771       0.0  0.010361  0.011390  0.038663  0.001070  0.000763  0.000379  0.000130  0.000006
+   4.3933:       0.0  0.000028  0.000324  0.000010       0.0  0.011478  0.000239  0.012162  0.000001  0.002677       0.0  0.000037
+   4.5053:  0.000528  0.005124  0.002140  0.009144  0.000048  0.000062  0.001837  0.000431  0.000088  0.000411  0.000002  0.000422
+   4.5071:  0.020581         0  0.020229  0.007052  0.000023  0.000622         0  0.000098  0.000743  0.000384  0.000195  0.000316
+   4.5305:  0.035789         0  0.011735  0.001306  0.000007  0.000257         0  0.000017  0.000621  0.000108  0.000161  0.000099
+   4.5324:  0.003247  0.036686  0.008730  0.000326  0.000312  0.000218  0.000969  0.000015  0.000635  0.000089  0.000001  0.000043
+   4.5398:  0.001827         0  0.001000  0.008607  0.000088  0.000175         0  0.000199  0.000095  0.000379  0.000114  0.000069
+   4.5497:  0.000005  0.000856  0.000031  0.028835  0.000003  0.000051  0.000017  0.000639  0.000010  0.001952       0.0  0.000437
+   5.3464:  0.000245         0  0.000170  0.000005  0.017593  0.009151         0  0.008871  0.000354  0.000057  0.000004  0.000019
+   5.8170:  0.010527       0.0  0.000003  0.007938  0.000098  0.000102       0.0  0.000004       0.0       0.0       0.0       0.0
+   5.8712:  0.000001  0.020856  0.021321  0.005718  0.000004  0.000347  0.000618  0.000010       0.0       0.0       0.0       0.0
+   5.8735:  0.018565         0  0.000009  0.000412  0.000335  0.000144         0  0.000001  0.000001  0.000001       0.0  0.000005
+   5.9482:  0.006838         0  0.020519  0.000019  0.000164  0.000404         0       0.0  0.000058       0.0  0.001235       0.0
+   5.9482:  0.002276  0.000018  0.006773  0.000053  0.000056  0.000148  0.000001       0.0  0.000019  0.000010  0.000445  0.003331
+   5.9482:  0.000017  0.026731  0.000096  0.011501       0.0  0.000029  0.001089  0.000001  0.000017  0.000005  0.000390  0.001018
+   6.2248:  0.008518  0.012439  0.011584  0.000285  0.000024  0.000499  0.001173  0.000639  0.000007  0.000001       0.0  0.000001
+   6.2594:  0.001131         0  0.000005  0.013695  0.000898  0.000217         0  0.000033       0.0  0.000005  0.000039  0.000043
+   6.3644:  0.001055         0  0.000049  0.011053  0.003529  0.001691         0  0.004455  0.000100  0.000001  0.000112  0.000113
+   6.4036:  0.000012  0.000699  0.000095  0.000837  0.014831  0.001093  0.024780  0.016680  0.000028  0.000302  0.000012  0.000247
+   6.4573:  0.000252         0  0.000760  0.000533  0.004911  0.000898         0  0.010019       0.0  0.000379  0.000878  0.000323
+   6.5542:  0.000060         0  0.000062  0.000094  0.029089  0.017115         0  0.000123  0.000015  0.000037  0.000043  0.000015
+   6.6082:  0.000050  0.000705  0.000429  0.000001  0.000617  0.022087  0.032877  0.000414  0.000028  0.000001  0.000499  0.000217
+   6.6529:  0.000034         0  0.000001  0.000016  0.011044  0.004412         0  0.009921  0.000175       0.0  0.002178  0.000266
+   6.6861:  0.000011  0.000045  0.000003  0.002421  0.000372  0.000818  0.005597  0.035962       0.0  0.000190  0.000019  0.002339
+
+ BRA/KET :  16.02832  16.12237  16.45243  16.57529
+--------------------------------------------------
+  -3.9824:  0.000003       0.0  0.000168  0.000361
+  -2.1932:  0.000013  0.000173  0.000034  0.000094
+  -2.1476:  0.000001  0.000177  0.000143  0.000311
+  -1.2076:  0.000020       0.0  0.000045       0.0
+  -1.1447:  0.000003  0.000181  0.000016  0.000022
+  -0.4498:  0.000001  0.000140  0.000006  0.000139
+   0.0954:       0.0  0.000143       0.0  0.000039
+   0.4573:  0.000044  0.000354  0.000031  0.000061
+   0.4649:       0.0       0.0       0.0  0.000002
+   1.7292:  0.000001  0.000181  0.000005  0.000028
+   4.3933:  0.000041       0.0  0.012639       0.0
+   4.3933:  0.000028  0.000133  0.008418  0.002419
+   4.3933:       0.0  0.000925  0.000013  0.016914
+   4.5053:  0.001426  0.006237  0.000064  0.000872
+   4.5071:  0.002079  0.007875  0.000770  0.000020
+   4.5305:  0.000456  0.001534  0.000553  0.000007
+   4.5324:  0.007632  0.000767  0.000484  0.000129
+   4.5398:  0.024344  0.004449  0.000060  0.000027
+   4.5497:  0.000101  0.012816  0.000008  0.002422
+   5.3464:  0.000025  0.000199  0.014279  0.014147
+   5.8170:       0.0       0.0       0.0       0.0
+   5.8712:       0.0       0.0  0.000003       0.0
+   5.8735:  0.000014  0.000011       0.0       0.0
+   5.9482:  0.026306       0.0  0.000031       0.0
+   5.9482:  0.009302  0.031944  0.000011  0.000401
+   5.9482:  0.008230  0.009244  0.000010  0.000117
+   6.2248:       0.0  0.000002  0.000205  0.000034
+   6.2594:  0.011591  0.011961  0.000002  0.000008
+   6.3644:  0.010398  0.011417  0.002250  0.000141
+   6.4036:  0.000010  0.000543  0.002094  0.008388
+   6.4573:  0.006171  0.004556  0.018472  0.011521
+   6.5542:  0.000347  0.000599  0.031997  0.008568
+   6.6082:  0.000188  0.000358  0.015311  0.004001
+   6.6529:  0.001505  0.000108  0.001898  0.008807
+   6.6861:  0.000006  0.002999  0.000386  0.028924
+
+
+
+ TRANSFORMED MATRIX for  TRIAD 11 (   -1+    1-    2- )  (35*32)   DIM :1 :1 :1    ACTOR RIGHT
+
+       ---- MATRIX ----   TRANSI PRINTTRANS
+
+ BRA/KET :  -8.00610  -7.93255  -7.84614  -7.74985  -6.50910  -6.31126  -5.77678  -5.40495  -4.52572  -4.11690  -1.25611  -1.25098
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.010468  0.009630  0.042620  0.047254  0.000014  0.001697  0.000828  0.000504  0.002195  0.000284  0.000001  0.000001
+  -2.1932:  0.001965  0.039381  0.013202         0  0.003695  0.028474  0.010861  0.002897  0.002301         0  0.000002  0.000067
+  -2.1476:  0.000296  0.000113  0.028490  0.043334  0.000212  0.001101  0.005053  0.011238  0.006162  0.007860  0.000001  0.000009
+  -1.2076:  0.001554  0.002061  0.000785         0  0.015174  0.009212  0.036794  0.015557  0.015248         0  0.000001  0.000013
+  -1.1447:  0.004595  0.006037  0.000712  0.007510  0.000551  0.004060  0.013720  0.005411  0.001404  0.024249  0.000003  0.000006
+  -0.4498:  0.032019  0.000005  0.000661  0.000126  0.020175  0.000063  0.001079  0.002283  0.015123  0.010599       0.0       0.0
+   0.0954:  0.002208  0.000008  0.000235         0  0.000031  0.000150  0.000034       0.0  0.037478         0       0.0  0.000001
+   0.4573:  0.000077  0.001410  0.001149  0.004351  0.002671       0.0  0.005723  0.071523  0.000021  0.000256       0.0  0.000006
+   0.4649:  0.006663  0.001675       0.0         0  0.000737  0.003980  0.016615  0.005337  0.006315         0  0.000023  0.000007
+   1.7292:  0.000898  0.000025  0.000011  0.000335  0.005975  0.000075  0.000086       0.0  0.033199  0.084261       0.0  0.000003
+   4.3933:  0.000852  0.000511  0.000035  0.001977  0.000003       0.0  0.000086  0.000025  0.000402  0.000121  0.000071  0.000009
+   4.3933:  0.000327  0.002847  0.000387         0  0.000010  0.000027  0.000473  0.000002  0.000220         0  0.000408  0.000046
+   4.3933:  0.000140       0.0  0.003474         0       0.0  0.000189       0.0  0.000176  0.000006         0       0.0  0.000490
+   4.5053:  0.000027  0.000887  0.000377         0  0.000054  0.000087  0.000027  0.000007  0.000173         0  0.004575  0.022055
+   4.5071:       0.0  0.000024  0.000458  0.001120  0.000001  0.000104  0.000055  0.000379  0.000101  0.000092  0.000595  0.005145
+   4.5305:  0.000902  0.000396       0.0  0.000411  0.000004  0.000011  0.000010  0.000001  0.000045  0.000026  0.003000  0.001328
+   4.5324:  0.000476       0.0  0.000022         0  0.000098  0.000030  0.000190  0.000065       0.0         0  0.018195  0.001474
+   4.5398:  0.000791  0.000037  0.000020  0.000201  0.000060  0.000005       0.0  0.000013  0.000015  0.001344  0.011711  0.001034
+   4.5497:  0.000383  0.000008  0.000004         0  0.000001  0.000011  0.000004  0.000013  0.000427         0  0.000178  0.000577
+   5.3464:  0.000110  0.000122  0.000442  0.000415  0.000003       0.0       0.0  0.000002  0.000001       0.0  0.000006  0.000098
+   5.8170:  0.000031  0.000075  0.000045         0  0.000616  0.001519  0.001538  0.000016  0.000866         0  0.015892  0.037914
+   5.8712:       0.0  0.000013  0.000033         0  0.000839  0.000538  0.000076  0.000564  0.000001         0  0.024041  0.009859
+   5.8735:  0.000001  0.000011  0.000001  0.000006       0.0  0.000469  0.000350  0.000604  0.000103  0.001863  0.001014  0.008643
+   5.9482:  0.000009  0.000003       0.0       0.0  0.000184  0.000064  0.000121  0.000074  0.000420  0.000012  0.004790  0.001245
+   5.9482:  0.000021  0.000008       0.0         0  0.000571  0.000175  0.000348  0.000347  0.001079         0  0.014271  0.003348
+   5.9482:       0.0       0.0       0.0         0  0.000003       0.0  0.000003       0.0       0.0         0  0.000111  0.000003
+   6.2248:  0.000067  0.000035  0.000005         0  0.000110  0.000096  0.000247  0.000142       0.0         0  0.000003  0.008697
+   6.2594:  0.000001  0.000007  0.000023  0.000025  0.000130  0.000005  0.000005  0.000364  0.000004  0.000010  0.003505  0.002658
+   6.3644:  0.000110  0.000024       0.0  0.000059  0.000576  0.000161  0.000155  0.000029  0.000351  0.000181  0.003802  0.000140
+   6.4036:  0.000008  0.000113  0.000144         0  0.000131  0.000663       0.0  0.000035  0.000138         0  0.000022  0.000008
+   6.4573:  0.000003  0.000029  0.000002  0.000053  0.000008  0.000305  0.000382  0.000286  0.000010  0.000004  0.000197  0.000245
+   6.5542:  0.000053  0.000022       0.0  0.000042  0.000221  0.000017  0.000310  0.001153  0.000077  0.000050  0.000072  0.000004
+   6.6082:  0.000002  0.000021  0.000004         0  0.001120  0.000019  0.000223  0.000098  0.000005         0  0.000540  0.000034
+   6.6529:  0.000017  0.000002  0.000004  0.000022  0.000546  0.000093  0.000069  0.000246  0.000179  0.003028  0.000038  0.000001
+   6.6861:  0.000165       0.0  0.000001         0  0.000034  0.000103  0.000020  0.000026  0.001549         0  0.000025  0.000031
+
+ BRA/KET :  -1.23444  -1.20406  -1.17722  -1.08431  -0.81538  -0.81002  -0.80229  -0.74413   9.45479   9.55499  11.40687  11.48245
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.000001  0.000001  0.000037  0.000007  0.000267  0.000265  0.000066  0.000175  0.008541  0.008281  0.000532  0.000894
+  -2.1932:  0.000035  0.000013  0.000036         0         0  0.000223  0.000322  0.000067  0.006570  0.000109  0.009742  0.002065
+  -2.1476:  0.000022  0.000115  0.000095  0.000382  0.000253  0.000016  0.000015  0.000190  0.013230  0.001799       0.0  0.006129
+  -1.2076:  0.000166  0.000125  0.000277         0         0  0.000010  0.000113  0.000489  0.018292  0.005116  0.028314  0.006251
+  -1.1447:  0.000023  0.000107  0.000051  0.001185  0.000045  0.000017  0.000060  0.000038  0.003887  0.004505  0.000080  0.036643
+  -0.4498:  0.000001  0.000027  0.000066  0.000130  0.000016  0.000001  0.000003  0.000099  0.000853  0.017286  0.004842  0.003012
+   0.0954:       0.0  0.000004  0.000087         0         0  0.000006       0.0  0.000180  0.000097  0.006005  0.000159  0.006111
+   0.4573:       0.0  0.000192  0.000003  0.000086  0.000009  0.000048  0.000002  0.000007       0.0  0.008944  0.017192  0.000507
+   0.4649:  0.000052  0.000052  0.000037         0         0  0.000008  0.000033  0.000329  0.006218  0.003278  0.010473  0.018134
+   1.7292:       0.0  0.000001  0.000020  0.000525  0.000102  0.000008  0.000002  0.000075  0.000251  0.000023  0.003302  0.002897
+   4.3933:  0.000208  0.000101  0.001013  0.000050  0.019979  0.000300  0.005577  0.009242  0.000380  0.001499  0.000072  0.000328
+   4.3933:  0.001153  0.000168  0.000124         0         0  0.004228  0.031082  0.003644  0.002289  0.000523  0.000390  0.000113
+   4.3933:       0.0  0.000149  0.001137         0         0  0.036257       0.0  0.001368  0.000004  0.000593  0.000001  0.000133
+   4.5053:  0.001585  0.000761  0.002238         0         0  0.000037  0.000144  0.000296  0.000264  0.000002  0.000005  0.000020
+   4.5071:  0.006860  0.013300  0.003884  0.004438  0.000319  0.000860  0.000008  0.000202  0.000248  0.000007  0.000065  0.000078
+   4.5305:  0.011930  0.006751  0.003068  0.000644  0.000502  0.000003  0.000002  0.000306  0.000207  0.000227  0.000054  0.000061
+   4.5324:  0.009742  0.004867  0.002745         0         0  0.000009  0.000936  0.000113  0.001906  0.000564  0.000002  0.000001
+   4.5398:  0.000609  0.000300  0.010268  0.038461  0.000086       0.0  0.000029  0.000064  0.000032  0.001740  0.000038  0.000116
+   4.5497:  0.000014  0.000243  0.032324         0         0  0.000387  0.000009  0.001012  0.000030  0.000761       0.0  0.000054
+   5.3464:  0.000082  0.000137  0.000328  0.000058  0.029139  0.027303  0.005864  0.007116  0.000118  0.000075  0.000001  0.000002
+   5.8170:  0.031582  0.000001  0.009010         0         0  0.000087  0.000295  0.000510       0.0       0.0       0.0       0.0
+   5.8712:  0.000004  0.012703  0.000221         0         0  0.000167  0.000011  0.000033  0.000001  0.000005       0.0  0.000176
+   5.8735:  0.006188  0.017559  0.002935  0.018167  0.000025  0.000006  0.000112  0.000181       0.0  0.000001       0.0  0.000037
+   5.9482:  0.002279  0.001196  0.004182  0.000084       0.0  0.000002  0.000055  0.000256  0.000019  0.000100  0.000412  0.001525
+   5.9482:  0.006827  0.005546  0.011193         0         0  0.000002  0.000168  0.000713  0.000056  0.000001  0.001336       0.0
+   5.9482:  0.000051  0.000002  0.000009         0         0       0.0  0.000001  0.000001  0.000052  0.000081  0.001169  0.001127
+   6.2248:  0.025554  0.006581  0.007090         0         0  0.000190  0.000072  0.002786  0.000021  0.000032       0.0  0.000002
+   6.2594:  0.000377  0.031699  0.000652  0.001587  0.001008  0.000067  0.000299  0.000013       0.0  0.000085  0.000013  0.000018
+   6.3644:  0.000352  0.001914  0.014806  0.032635  0.013251  0.003134  0.001176  0.001342  0.000033  0.000001  0.000037  0.000052
+   6.4036:  0.000035  0.000077  0.000924         0         0  0.020037  0.044492  0.002321  0.000083  0.000003  0.000036  0.000188
+   6.4573:  0.000084  0.000151  0.000929  0.009551  0.040962  0.016466  0.001637  0.002723       0.0  0.000076  0.000293  0.000286
+   6.5542:  0.000020  0.002019  0.000065  0.001622  0.000339  0.001088  0.009696  0.028765  0.000005  0.000073  0.000014  0.000582
+   6.6082:  0.000151  0.000010  0.000996         0         0  0.002194  0.001852  0.010979  0.000085  0.000028  0.001498  0.000657
+   6.6529:  0.000011  0.000751  0.000011  0.003793  0.005482  0.000229  0.003681  0.022048  0.000058       0.0  0.000726  0.000202
+   6.6861:  0.000032  0.000015  0.000331         0         0  0.000785  0.001115  0.010852       0.0  0.000004  0.000056  0.000421
+
+ BRA/KET :  12.08398  12.26390  16.02832  16.03041  16.07134  16.08678  16.45243  16.47280
+------------------------------------------------------------------------------------------
+  -3.9824:  0.000207  0.000037  0.000001  0.000003       0.0  0.000001  0.000056  0.000075
+  -2.1932:  0.010912         0  0.000038  0.000006  0.000128         0  0.000102       0.0
+  -2.1476:  0.005178  0.007977       0.0  0.000038  0.000046  0.000118  0.000048  0.000018
+  -1.2076:  0.007627         0  0.000061  0.000011  0.000097         0  0.000136  0.000078
+  -1.1447:  0.001322  0.031039  0.000001  0.000115  0.000040  0.000342  0.000005  0.000086
+  -0.4498:  0.005229  0.005470       0.0  0.000013  0.000028  0.000019  0.000002  0.000041
+   0.0954:  0.016247         0       0.0  0.000008  0.000044         0       0.0  0.000053
+   0.4573:  0.001327  0.005424  0.000015  0.000015  0.000019  0.000107  0.000010  0.000001
+   0.4649:  0.038472         0       0.0  0.000003  0.000212         0       0.0  0.000005
+   1.7292:  0.020819  0.062789       0.0  0.000001  0.000023  0.000190  0.000002  0.000024
+   4.3933:  0.000114       0.0  0.000014  0.000030  0.000019       0.0  0.004213  0.016730
+   4.3933:  0.000037         0  0.000084  0.000010  0.000006         0  0.025253  0.005775
+   4.3933:  0.000052         0       0.0  0.000012  0.000008         0  0.000040  0.006775
+   4.5053:  0.000393         0  0.004277  0.000879  0.016033         0  0.000193  0.000030
+   4.5071:  0.000163  0.000382  0.000693  0.007836  0.004697  0.010375  0.000257  0.000013
+   4.5305:  0.000052  0.000543  0.000152  0.010821  0.003230  0.022584  0.000184  0.000170
+   4.5324:  0.000011         0  0.022895  0.008842  0.002051         0  0.001451  0.000467
+   4.5398:  0.000057  0.000012  0.008115  0.003966  0.001508  0.002486  0.000020  0.001165
+   4.5497:  0.000009         0  0.000304  0.004500  0.008042         0  0.000023  0.000306
+   5.3464:  0.000001  0.000001  0.000008  0.000016  0.000012       0.0  0.004760  0.004899
+   5.8170:       0.0         0       0.0       0.0       0.0         0       0.0       0.0
+   5.8712:  0.001735         0       0.0  0.000570  0.015891         0  0.000009  0.000005
+   5.8735:  0.000705  0.003293  0.000005  0.000164  0.005834  0.023755       0.0  0.000024
+   5.9482:  0.000206       0.0  0.008769  0.033779  0.001150       0.0  0.000010  0.000093
+   5.9482:       0.0         0  0.027906  0.000024  0.000001         0  0.000032       0.0
+   5.9482:  0.000147         0  0.024689  0.025318  0.000864         0  0.000029  0.000071
+   6.2248:  0.000062         0  0.000001  0.001148  0.032198         0  0.000615  0.000691
+   6.2594:  0.000021  0.000021  0.003864  0.005968  0.005104  0.027667  0.000001  0.001019
+   6.3644:  0.000001  0.000017  0.003466  0.002100  0.004494  0.013535  0.000750       0.0
+   6.4036:  0.001251         0  0.000031  0.000131  0.003646         0  0.006283       0.0
+   6.4573:  0.000879  0.002034  0.002057  0.001876  0.002488  0.006684  0.006157  0.000020
+   6.5542:  0.000368  0.001713  0.000116  0.000054  0.000558  0.002076  0.010666  0.001601
+   6.6082:  0.000722         0  0.000565  0.000339  0.002370         0  0.045933  0.010537
+   6.6529:  0.000364  0.000802  0.000502  0.000002  0.000198  0.001836  0.000633  0.042700
+   6.6861:  0.000942         0  0.000018  0.000130  0.000187         0  0.001157  0.016169
+
+
+
+ TRANSFORMED MATRIX for  TRIAD 15 (    2+    1-    1- )  (36*30)   DIM :1 :1 :1    ACTOR RIGHT
+
+       ---- MATRIX ----   TRANSI PRINTTRANS
+
+ BRA/KET :  -8.00610  -7.97808  -7.84614  -6.31126  -6.11587  -5.88231  -5.40495  -5.22839  -4.52572  -3.99399  -1.25098  -1.23527
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.010468  0.014437  0.042620  0.001697  0.011009  0.008033  0.000504  0.000096  0.002195  0.000010  0.000001  0.000001
+  -2.3275:  0.018910  0.016936  0.000077  0.003678  0.025388  0.035173  0.001782  0.001788  0.002235  0.003305  0.000009  0.000024
+  -2.1476:  0.000296  0.001111  0.028490  0.001101  0.014657  0.001463  0.011238  0.016998  0.006162  0.005960  0.000009       0.0
+  -2.1423:  0.002812  0.040660  0.001845  0.011908  0.011950  0.001511  0.001153  0.000028  0.001160  0.000144  0.000023  0.000016
+  -2.1260:  0.015269         0  0.006972  0.000540         0         0  0.043972         0  0.011614         0  0.000002         0
+  -1.1447:  0.004595  0.007506  0.000712  0.004060  0.001808  0.011696  0.005411  0.018925  0.001404  0.003350  0.000006  0.000039
+  -1.1315:  0.000894  0.003529  0.007642  0.010604  0.000488  0.005563  0.002945  0.001720  0.002509  0.017930  0.000013  0.000007
+  -0.4498:  0.032019  0.000048  0.000661  0.000063  0.007427  0.002988  0.002283  0.000511  0.015123  0.020625       0.0       0.0
+   0.4457:  0.000095  0.000265  0.003085  0.000003  0.001059  0.003632  0.009946  0.075474  0.000389  0.006512  0.000004  0.000008
+   0.4573:  0.000077  0.002061  0.001149       0.0  0.000011  0.003593  0.071523  0.003220  0.000021  0.013480  0.000006  0.000003
+   1.6901:  0.002449  0.000032       0.0  0.000168  0.000832  0.000113  0.000058  0.000083  0.025216  0.025095       0.0  0.000004
+   1.7292:  0.000898  0.000027  0.000011  0.000075  0.000841  0.000038       0.0  0.000110  0.033199  0.018862  0.000003  0.000002
+   4.3933:  0.003532         0  0.000049       0.0         0         0  0.000104         0  0.001475         0  0.000017         0
+   4.3933:  0.000852  0.002823  0.000035       0.0  0.000001  0.000149  0.000025  0.000354  0.000402  0.000067  0.000009  0.000701
+   4.5047:  0.000048  0.001278  0.000105  0.000084  0.000136  0.000029  0.000061  0.000310  0.000014  0.000192  0.014618  0.003889
+   4.5071:       0.0  0.000017  0.000458  0.000104  0.000131  0.000148  0.000379  0.000618  0.000101  0.000307  0.005145  0.000229
+   4.5090:  0.000170         0  0.000322  0.000056         0         0  0.000626         0  0.000004         0  0.000685         0
+   4.5305:  0.000902  0.000538       0.0  0.000011  0.000012  0.000062  0.000001  0.000067  0.000045  0.000030  0.001328  0.014823
+   4.5317:  0.000022  0.000042  0.000604       0.0  0.000360  0.000009  0.000021       0.0  0.000115  0.000300  0.004269  0.005042
+   4.5398:  0.000791  0.000018  0.000020  0.000005  0.000415  0.000112  0.000013  0.000081  0.000015  0.000555  0.001034  0.002286
+   5.3464:  0.000110  0.000189  0.000442       0.0  0.000043  0.000011  0.000002  0.000006  0.000001  0.000001  0.000098  0.000066
+   5.6006:  0.000587       0.0  0.000013       0.0  0.000237  0.000115  0.000010  0.000034  0.000002  0.000029  0.000012  0.000005
+   5.8735:  0.000001  0.000016  0.000001  0.000469  0.000256  0.000761  0.000604  0.000039  0.000103  0.000011  0.008643  0.022354
+   5.8737:  0.000003  0.000054  0.000011  0.000322  0.000116  0.000723  0.000049  0.000947  0.000164  0.000036  0.007208  0.023784
+   5.9482:  0.000009  0.000019       0.0  0.000064  0.000072  0.000013  0.000074  0.001280  0.000420  0.000013  0.001245  0.000027
+   5.9482:  0.000034         0  0.000010  0.000033         0         0  0.001288         0  0.000568         0  0.001458         0
+   6.2528:  0.000023  0.000009  0.000024  0.000079       0.0  0.000006  0.000028  0.000435  0.000063  0.000013  0.002222  0.000003
+   6.2594:  0.000001  0.000009  0.000023  0.000005  0.000034  0.000019  0.000364       0.0  0.000004       0.0  0.002658  0.000076
+   6.3644:  0.000110  0.000001       0.0  0.000161  0.000025  0.000080  0.000029  0.000109  0.000351  0.000183  0.000140  0.000050
+   6.3911:  0.000121  0.000012  0.000001  0.000007  0.000032  0.000003  0.000003  0.000002  0.000287  0.000018  0.000101  0.000036
+   6.4062:  0.000012  0.000048  0.000026  0.000670  0.000173  0.000011  0.000028  0.000118  0.000002  0.000176  0.000084  0.000286
+   6.4573:  0.000003  0.000014  0.000002  0.000305  0.000002  0.000267  0.000286  0.000598  0.000010  0.000166  0.000245  0.000006
+   6.4817:  0.000028         0  0.000089  0.000197         0         0  0.001793         0  0.000002         0  0.000143         0
+   6.5542:  0.000053  0.000101       0.0  0.000017  0.000048  0.000325  0.001153  0.000997  0.000077  0.000021  0.000004  0.000120
+   6.5877:       0.0  0.000002  0.000011  0.000051  0.000782  0.000234  0.000573  0.001093  0.000222  0.000219  0.000003  0.000256
+   6.6529:  0.000017  0.000010  0.000004  0.000093  0.000171  0.000044  0.000246  0.000145  0.000179  0.000146  0.000001  0.000060
+
+ BRA/KET :  -1.20476  -1.20406  -1.17722  -1.06514  -0.81002  -0.78966  -0.74413  -0.58651   9.55499  10.53438  11.48245  12.08398
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.000002  0.000001  0.000037  0.000005  0.000265  0.000119  0.000175  0.000844  0.008281  0.023921  0.000894  0.000207
+  -2.3275:  0.000024  0.000024  0.000016  0.000175  0.000001  0.000048  0.000079  0.000856  0.001471  0.010081  0.002119  0.000596
+  -2.1476:  0.000196  0.000115  0.000095  0.000339  0.000016  0.000054  0.000190  0.000470  0.001799  0.012224  0.006129  0.005178
+  -2.1423:  0.000013  0.000012  0.000027  0.000010  0.000013  0.000143  0.000078  0.000010  0.010333  0.029500  0.000469  0.003338
+  -2.1260:         0  0.000393  0.000268         0  0.000140         0  0.000529         0  0.015022         0  0.029844  0.003089
+  -1.1447:  0.000068  0.000107  0.000051  0.000277  0.000017  0.000148  0.000038  0.000002  0.004505  0.000023  0.036643  0.001322
+  -1.1315:  0.000055  0.000002  0.000022  0.000991  0.000033  0.000004  0.000034  0.000246  0.010256  0.009250  0.004109  0.001186
+  -0.4498:  0.000004  0.000027  0.000066  0.000608  0.000001  0.000021  0.000099  0.000117  0.017286  0.007581  0.003012  0.005229
+   0.4457:  0.000220  0.000016  0.000001  0.000498  0.000003  0.000103  0.000012  0.000057  0.000349  0.004785  0.010500  0.005110
+   0.4573:  0.000001  0.000192  0.000003  0.000668  0.000048  0.000003  0.000007  0.000001  0.008944  0.000032  0.000507  0.001327
+   1.6901:       0.0       0.0  0.000030  0.000316  0.000008  0.000014  0.000077  0.000102  0.000115  0.001441  0.002087  0.016923
+   1.7292:       0.0  0.000001  0.000020  0.000299  0.000008  0.000012  0.000075  0.000027  0.000023  0.001357  0.002897  0.020819
+   4.3933:         0  0.000455  0.003770         0  0.000356         0  0.038213         0  0.001498         0  0.000324  0.000061
+   4.3933:  0.001734  0.000101  0.001013       0.0  0.000300  0.030130  0.009242  0.000007  0.001499       0.0  0.000328  0.000114
+   4.5047:  0.005382  0.003216  0.001445  0.001574  0.000035  0.001370  0.000025  0.000004  0.000052  0.000239  0.000093  0.000072
+   4.5071:  0.020229  0.013300  0.003884  0.007052  0.000860  0.000622  0.000202  0.000098  0.000007  0.000384  0.000078  0.000163
+   4.5090:         0  0.042766  0.002144         0  0.000016         0  0.000436         0  0.001028         0  0.000010  0.000002
+   4.5305:  0.011735  0.006751  0.003068  0.001306  0.000003  0.000257  0.000306  0.000017  0.000227  0.000108  0.000061  0.000052
+   4.5317:  0.012146  0.006965  0.003687  0.005162  0.000132  0.000027  0.000374  0.000024  0.000181  0.000728  0.000129  0.000124
+   4.5398:  0.001000  0.000300  0.010268  0.008607       0.0  0.000175  0.000064  0.000199  0.001740  0.000379  0.000116  0.000057
+   5.3464:  0.000170  0.000137  0.000328  0.000005  0.027303  0.009151  0.007116  0.008871  0.000075  0.000057  0.000002  0.000001
+   5.6006:  0.000004  0.000001  0.001572  0.000043  0.000418  0.000352  0.011640  0.040582  0.000294  0.001524  0.000030  0.000094
+   5.8735:  0.000009  0.017559  0.002935  0.000412  0.000006  0.000144  0.000181  0.000001  0.000001  0.000001  0.000037  0.000705
+   5.8737:  0.015074  0.000972  0.003561  0.000292  0.000049  0.000736  0.000303  0.000033       0.0  0.000002  0.000041  0.000706
+   5.9482:  0.020519  0.001196  0.004182  0.000019  0.000002  0.000404  0.000256       0.0  0.000100       0.0  0.001525  0.000206
+   5.9482:         0  0.020553  0.005457         0  0.000172         0  0.000240         0  0.000107         0  0.001520  0.000205
+   6.2528:  0.030129  0.001814  0.000663  0.013670  0.001425  0.002326  0.000225  0.000004  0.000009       0.0  0.000006  0.000008
+   6.2594:  0.000005  0.031699  0.000652  0.013695  0.000067  0.000217  0.000013  0.000033  0.000085  0.000005  0.000018  0.000021
+   6.3644:  0.000049  0.001914  0.014806  0.011053  0.003134  0.001691  0.001342  0.004455  0.000001  0.000001  0.000052  0.000001
+   6.3911:  0.002576  0.000163  0.012325  0.007773  0.000528  0.005002  0.002005  0.000169       0.0  0.000158  0.000222  0.000133
+   6.4062:  0.000053  0.000011  0.000987  0.005592  0.006008  0.052173  0.000495  0.000790  0.000001  0.000058  0.000212  0.000485
+   6.4573:  0.000760  0.000151  0.000929  0.000533  0.016466  0.000898  0.002723  0.010019  0.000076  0.000379  0.000286  0.000879
+   6.4817:         0  0.000816  0.000478         0  0.013057         0  0.017503         0  0.000512         0  0.000387       0.0
+   6.5542:  0.000062  0.002019  0.000065  0.000094  0.001088  0.017115  0.028765  0.000123  0.000073  0.000037  0.000582  0.000368
+   6.5877:  0.002119  0.000268  0.000165  0.000020  0.013442  0.000035  0.000877  0.007077  0.000068  0.000114  0.000090  0.000509
+   6.6529:  0.000001  0.000751  0.000011  0.000016  0.000229  0.004412  0.022048  0.009921       0.0       0.0  0.000202  0.000364
+
+ BRA/KET :  12.71760  16.03041  16.07134  16.12237  16.47280  16.57529
+----------------------------------------------------------------------
+  -3.9824:  0.000251  0.000003       0.0       0.0  0.000075  0.000361
+  -2.3275:  0.000421  0.000009  0.000009  0.000015       0.0  0.000044
+  -2.1476:  0.009943  0.000038  0.000046  0.000177  0.000018  0.000311
+  -2.1423:  0.005615  0.000002  0.000039  0.000075  0.000023  0.000463
+  -2.1260:         0  0.000132  0.000006         0  0.000320         0
+  -1.1447:  0.007252  0.000115  0.000040  0.000181  0.000086  0.000022
+  -1.1315:  0.029774  0.000025  0.000002  0.000561       0.0  0.000289
+  -0.4498:  0.009664  0.000013  0.000028  0.000140  0.000041  0.000139
+   0.4457:  0.009670  0.000029  0.000018  0.000217  0.000002  0.000013
+   0.4573:  0.024582  0.000015  0.000019  0.000354  0.000001  0.000061
+   1.6901:  0.019516  0.000001  0.000030  0.000174  0.000021  0.000077
+   1.7292:  0.015827  0.000001  0.000023  0.000181  0.000024  0.000028
+   4.3933:         0  0.000031  0.000015         0  0.016766         0
+   4.3933:       0.0  0.000030  0.000019       0.0  0.016730       0.0
+   4.5047:  0.000160  0.002698  0.004772  0.004499  0.000037  0.000010
+   4.5071:  0.000316  0.007836  0.004697  0.007875  0.000013  0.000020
+   4.5090:         0  0.017835  0.000682         0  0.000733         0
+   4.5305:  0.000099  0.010821  0.003230  0.001534  0.000170  0.000007
+   4.5317:  0.000408  0.001935  0.003887  0.009427  0.000260  0.000062
+   4.5398:  0.000069  0.003966  0.001508  0.004449  0.001165  0.000027
+   5.3464:  0.000019  0.000016  0.000012  0.000199  0.004899  0.014147
+   5.6006:  0.000040  0.000036  0.000056  0.000064  0.004506  0.014470
+   5.8735:  0.000005  0.000164  0.005834  0.000011  0.000024       0.0
+   5.8737:  0.000007  0.000155  0.005919  0.000009       0.0  0.000016
+   5.9482:       0.0  0.033779  0.001150       0.0  0.000093       0.0
+   5.9482:         0  0.033778  0.001150         0  0.000094         0
+   6.2528:  0.000044  0.005430  0.003857  0.010849       0.0  0.000170
+   6.2594:  0.000043  0.005968  0.005104  0.011961  0.001019  0.000008
+   6.3644:  0.000113  0.002100  0.004494  0.011417       0.0  0.000141
+   6.3911:  0.000254  0.004096  0.005189  0.017670  0.000071  0.000257
+   6.4062:  0.000001  0.000298  0.002736  0.000001  0.002075  0.005747
+   6.4573:  0.000323  0.001876  0.002488  0.004556  0.000020  0.011521
+   6.4817:         0  0.000194  0.000025         0  0.035817         0
+   6.5542:  0.000015  0.000054  0.000558  0.000599  0.001601  0.008568
+   6.5877:  0.000267  0.000093  0.000898       0.0  0.007393  0.023660
+   6.6529:  0.000266  0.000002  0.000198  0.000108  0.042700  0.008807
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  4 (    0+   -1-    1- )  (39*30)   DIM :1 :1 :1    ACTOR LEFT
+
+       ---- MATRIX ----   TRANSI PRINTTRANS
+
+ BRA/KET :  -8.00610  -7.97808  -7.84614  -6.31126  -6.11587  -5.88231  -5.40495  -5.22839  -4.52572  -3.99399  -1.25098  -1.23527
+----------------------------------------------------------------------------------------------------------------------------------
+ -2.32750:  0.056729  0.005645  0.000231  0.011035  0.008463  0.011724  0.005346  0.000596  0.006704  0.001102  0.000027  0.000008
+ -2.19319:  0.001965  0.000226  0.013202  0.028474  0.000017  0.034877  0.002897  0.001854  0.002301  0.007431  0.000067  0.000084
+ -2.14231:  0.008437  0.013553  0.005535  0.035723  0.003983  0.000504  0.003459  0.000009  0.003481  0.000048  0.000070  0.000005
+ -1.28764:         0  0.013531         0         0  0.001540  0.090598         0  0.014355         0       0.0         0  0.000195
+ -1.20756:  0.001554  0.008866  0.000785  0.009212  0.008330  0.024922  0.015557  0.001768  0.015248  0.000201  0.000013  0.000099
+ -1.13151:  0.002681  0.001176  0.022926  0.031813  0.000163  0.001854  0.008834  0.000573  0.007528  0.005977  0.000039  0.000002
+ -1.01967:         0  0.002381         0         0  0.048472  0.000197         0  0.000051         0  0.004319         0  0.000017
+  0.09539:  0.002208  0.000079  0.000235  0.000150  0.031333  0.009879       0.0  0.002860  0.037478  0.021397  0.000001  0.000005
+  0.44569:  0.000284  0.000088  0.009254  0.000010  0.000353  0.001211  0.029838  0.025158  0.001168  0.002171  0.000012  0.000003
+  0.46489:  0.006663  0.001492       0.0  0.003980  0.005421  0.000992  0.005337  0.038989  0.006315  0.000375  0.000007  0.000014
+  0.46838:         0  0.000001         0         0  0.019182  0.015543         0  0.014717         0  0.033894         0  0.000107
+  1.69010:  0.007346  0.000011       0.0  0.000505  0.000277  0.000038  0.000175  0.000028  0.075649  0.008365  0.000001  0.000001
+  3.91875:         0  0.000016         0         0  0.000610  0.001319         0  0.000080         0  0.052613         0  0.000032
+  4.39333:  0.000327  0.001056  0.000387  0.000027  0.000112  0.000242  0.000002  0.000077  0.000220  0.000011  0.000046  0.000206
+  4.39333:  0.000140  0.001116  0.003474  0.000189  0.001637  0.000449  0.000176  0.000467  0.000006  0.000130  0.000490  0.000540
+  4.50470:  0.000144  0.000426  0.000314  0.000252  0.000045  0.000010  0.000182  0.000103  0.000042  0.000064  0.043854  0.001296
+  4.50530:  0.000027  0.000013  0.000377  0.000087  0.000763  0.000003  0.000007       0.0  0.000173  0.000714  0.022055  0.024553
+  4.53171:  0.000067  0.000014  0.001811       0.0  0.000120  0.000003  0.000064       0.0  0.000344  0.000100  0.012807  0.001681
+  4.53244:  0.000476  0.000542  0.000022  0.000030  0.000039  0.000013  0.000065  0.000022       0.0  0.000017  0.001474  0.012910
+  4.53287:         0  0.000464         0         0  0.001103  0.000005         0  0.000010         0  0.000079         0  0.013493
+  4.54971:  0.000383       0.0  0.000004  0.000011  0.000911  0.000671  0.000013  0.000022  0.000427  0.001812  0.000577  0.001757
+  5.60058:  0.001760       0.0  0.000039       0.0  0.000079  0.000038  0.000031  0.000011  0.000005  0.000010  0.000037  0.000002
+  5.81700:  0.000031  0.000010  0.000045  0.001519  0.000069  0.000257  0.000016  0.000005  0.000866  0.001239  0.037914  0.007039
+  5.87117:       0.0  0.000021  0.000033  0.000538  0.000046  0.000004  0.000564  0.000728  0.000001  0.000985  0.009859  0.000660
+  5.87374:  0.000008  0.000018  0.000033  0.000965  0.000039  0.000241  0.000146  0.000316  0.000492  0.000012  0.021623  0.007928
+  5.94817:  0.000021  0.000008       0.0  0.000175  0.000013       0.0  0.000347  0.000446  0.001079  0.000001  0.003348  0.000063
+  5.94817:       0.0  0.000005       0.0       0.0  0.000260  0.000503       0.0  0.000028       0.0  0.001751  0.000003  0.015513
+  5.95604:         0       0.0         0         0  0.000852  0.000718         0  0.000023         0  0.001391         0  0.001358
+  6.20047:         0  0.000022         0         0  0.000694  0.000139         0  0.000010         0  0.000077         0  0.046609
+  6.22479:  0.000067  0.000008  0.000005  0.000096  0.000231  0.000149  0.000142  0.000127       0.0       0.0  0.008697  0.006935
+  6.25279:  0.000069  0.000003  0.000073  0.000236       0.0  0.000002  0.000083  0.000145  0.000188  0.000004  0.006666  0.000001
+  6.39110:  0.000363  0.000004  0.000002  0.000020  0.000011  0.000001  0.000009  0.000001  0.000860  0.000006  0.000302  0.000012
+  6.40361:  0.000008  0.000042  0.000144  0.000663  0.000727  0.000379  0.000035  0.000011  0.000138  0.000844  0.000008  0.000181
+  6.40625:  0.000036  0.000016  0.000078  0.002009  0.000058  0.000004  0.000085  0.000039  0.000007  0.000059  0.000252  0.000095
+  6.58768:       0.0  0.000001  0.000033  0.000152  0.000261  0.000078  0.001718  0.000364  0.000666  0.000073  0.000008  0.000085
+  6.60821:  0.000002  0.000068  0.000004  0.000019  0.000001  0.000125  0.000098  0.000862  0.000005  0.000041  0.000034  0.000053
+  6.62119:         0  0.000028         0         0  0.000494  0.000252         0  0.000576         0  0.001625         0       0.0
+  6.68611:  0.000165  0.000003  0.000001  0.000103       0.0  0.000291  0.000026  0.000032  0.001549  0.001939  0.000031  0.000074
+  7.24698:         0  0.000002         0         0  0.001612  0.001034         0  0.000020         0  0.010839         0  0.000244
+
+ BRA/KET :  -1.20476  -1.20406  -1.17722  -1.06514  -0.81002  -0.78966  -0.74413  -0.58651   9.55499  10.53438  11.48245  12.08398
+----------------------------------------------------------------------------------------------------------------------------------
+ -2.32750:  0.000008  0.000073  0.000049  0.000058  0.000002  0.000016  0.000237  0.000285  0.004412  0.003360  0.006357  0.001787
+ -2.19319:  0.000024  0.000013  0.000036  0.000514  0.000223  0.000021  0.000067  0.000500  0.000109  0.016461  0.002065  0.010912
+ -2.14231:  0.000004  0.000036  0.000082  0.000003  0.000038  0.000048  0.000233  0.000003  0.030998  0.009833  0.001406  0.010015
+ -1.28764:  0.000107         0         0  0.000017         0  0.000004         0  0.000679         0  0.001488         0         0
+ -1.20756:  0.000006  0.000125  0.000277  0.000005  0.000010  0.000090  0.000489       0.0  0.005116  0.000200  0.006251  0.007627
+ -1.13151:  0.000018  0.000007  0.000066  0.000330  0.000098  0.000001  0.000101  0.000082  0.030768  0.003083  0.012326  0.003558
+ -1.01967:  0.000001         0         0  0.000152         0  0.000005         0  0.000046         0  0.065350         0         0
+  0.09539:  0.000011  0.000004  0.000087  0.000284  0.000006  0.000007  0.000180  0.000021  0.006005  0.037411  0.006111  0.016247
+  0.44569:  0.000073  0.000047  0.000002  0.000166  0.000008  0.000034  0.000037  0.000019  0.001048  0.001595  0.031501  0.015330
+  0.46489:  0.000120  0.000052  0.000037  0.000003  0.000008  0.000034  0.000329  0.000012  0.003278  0.000307  0.018134  0.038472
+  0.46838:  0.000003         0         0  0.001134         0  0.000109         0  0.000103         0  0.004587         0         0
+  1.69010:       0.0  0.000001  0.000091  0.000105  0.000025  0.000005  0.000231  0.000034  0.000344  0.000480  0.006260  0.050770
+  3.91875:  0.000007         0         0  0.000978         0  0.000010         0  0.004771         0  0.000086         0         0
+  4.39333:  0.000771  0.000168  0.000124       0.0  0.004228  0.011390  0.003644  0.001070  0.000523  0.000379  0.000113  0.000037
+  4.39333:  0.000324  0.000149  0.001137  0.000010  0.036257  0.011478  0.001368  0.012162  0.000593  0.002677  0.000133  0.000052
+  4.50470:  0.001794  0.009647  0.004334  0.000525  0.000104  0.000457  0.000076  0.000001  0.000155  0.000080  0.000278  0.000217
+  4.50530:  0.002140  0.000761  0.002238  0.009144  0.000037  0.000062  0.000296  0.000431  0.000002  0.000411  0.000020  0.000393
+  4.53171:  0.004049  0.020895  0.011060  0.001721  0.000396  0.000009  0.001122  0.000008  0.000544  0.000243  0.000386  0.000372
+  4.53244:  0.008730  0.004867  0.002745  0.000326  0.000009  0.000218  0.000113  0.000015  0.000564  0.000089  0.000001  0.000011
+  4.53287:  0.022232         0         0  0.009941         0  0.000004         0  0.000161         0  0.001400         0         0
+  4.54971:  0.000031  0.000243  0.032324  0.028835  0.000387  0.000051  0.001012  0.000639  0.000761  0.001952  0.000054  0.000009
+  5.60058:  0.000001  0.000003  0.004716  0.000014  0.001255  0.000117  0.034919  0.013527  0.000883  0.000508  0.000089  0.000281
+  5.81700:  0.000003  0.000001  0.009010  0.007938  0.000087  0.000102  0.000510  0.000004       0.0       0.0       0.0       0.0
+  5.87117:  0.021321  0.012703  0.000221  0.005718  0.000167  0.000347  0.000033  0.000010  0.000005       0.0  0.000176  0.001735
+  5.87374:  0.005025  0.002917  0.010683  0.000097  0.000147  0.000245  0.000909  0.000011       0.0  0.000001  0.000124  0.002119
+  5.94817:  0.006773  0.005546  0.011193  0.000053  0.000002  0.000148  0.000713       0.0  0.000001  0.000010       0.0       0.0
+  5.94817:  0.000096  0.000002  0.000009  0.011501       0.0  0.000029  0.000001  0.000001  0.000081  0.000005  0.001127  0.000147
+  5.95604:  0.000007         0         0  0.015249         0  0.000015         0  0.038257         0  0.002960         0         0
+  6.20047:  0.000003         0         0  0.005938         0  0.000015         0  0.000517         0  0.000041         0         0
+  6.22479:  0.011584  0.006581  0.007090  0.000285  0.000190  0.000499  0.002786  0.000639  0.000032  0.000001  0.000002  0.000062
+  6.25279:  0.010043  0.005442  0.001989  0.004557  0.004275  0.000775  0.000676  0.000001  0.000028       0.0  0.000018  0.000024
+  6.39110:  0.000859  0.000489  0.036976  0.002591  0.001584  0.001667  0.006014  0.000056  0.000001  0.000053  0.000665  0.000400
+  6.40361:  0.000095  0.000077  0.000924  0.000837  0.020037  0.001093  0.002321  0.016680  0.000003  0.000302  0.000188  0.001251
+  6.40625:  0.000018  0.000034  0.002961  0.001864  0.018024  0.017391  0.001484  0.000263  0.000004  0.000019  0.000635  0.001455
+  6.58768:  0.000706  0.000805  0.000496  0.000007  0.040327  0.000012  0.002631  0.002359  0.000203  0.000038  0.000269  0.001528
+  6.60821:  0.000429  0.000010  0.000996  0.000001  0.002194  0.022087  0.010979  0.000414  0.000028  0.000001  0.000657  0.000722
+  6.62119:  0.000125         0         0  0.004292         0  0.016839         0  0.015575         0  0.000261         0         0
+  6.68611:  0.000003  0.000015  0.000331  0.002421  0.000785  0.000818  0.010852  0.035962  0.000004  0.000190  0.000421  0.000942
+  7.24698:  0.000048         0         0  0.029448         0  0.000084         0  0.008104         0  0.001224         0         0
+
+ BRA/KET :  12.71760  16.03041  16.07134  16.12237  16.47280  16.57529
+----------------------------------------------------------------------
+ -2.32750:  0.000140  0.000028  0.000026  0.000005       0.0  0.000015
+ -2.19319:  0.005515  0.000006  0.000128  0.000173       0.0  0.000094
+ -2.14231:  0.001872  0.000006  0.000117  0.000025  0.000068  0.000154
+ -1.28764:  0.004116         0         0  0.000040         0  0.000103
+ -1.20756:  0.000043  0.000011  0.000097       0.0  0.000078       0.0
+ -1.13151:  0.009925  0.000074  0.000006  0.000187       0.0  0.000096
+ -1.01967:  0.000219         0         0  0.000064         0  0.000124
+  0.09539:  0.012397  0.000008  0.000044  0.000143  0.000053  0.000039
+  0.44569:  0.003223  0.000087  0.000055  0.000072  0.000006  0.000004
+  0.46489:  0.000049  0.000003  0.000212       0.0  0.000005  0.000002
+  0.46838:  0.037203         0         0  0.000353         0  0.000072
+  1.69010:  0.006505  0.000003  0.000090  0.000058  0.000062  0.000026
+  3.91875:  0.040728         0         0  0.000163         0  0.002190
+  4.39333:  0.000006  0.000010  0.000006  0.000133  0.005775  0.002419
+  4.39333:  0.000037  0.000012  0.000008  0.000925  0.006775  0.016914
+  4.50470:  0.000053  0.008095  0.014316  0.001500  0.000112  0.000003
+  4.50530:  0.000422  0.000879  0.016033  0.006237  0.000030  0.000872
+  4.53171:  0.000136  0.005804  0.011661  0.003142  0.000780  0.000021
+  4.53244:  0.000043  0.008842  0.002051  0.000767  0.000467  0.000129
+  4.53287:  0.000673         0         0  0.018327         0  0.000068
+  4.54971:  0.000437  0.004500  0.008042  0.012816  0.000306  0.002422
+  5.60058:  0.000013  0.000108  0.000168  0.000021  0.013517  0.004823
+  5.81700:       0.0       0.0       0.0       0.0       0.0       0.0
+  5.87117:       0.0  0.000570  0.015891       0.0  0.000005       0.0
+  5.87374:  0.000002  0.000465  0.017758  0.000003       0.0  0.000005
+  5.94817:  0.003331  0.000024  0.000001  0.031944       0.0  0.000401
+  5.94817:  0.001018  0.025318  0.000864  0.009244  0.000071  0.000117
+  5.95604:  0.000306         0         0  0.005812         0  0.010439
+  6.20047:  0.000109         0         0  0.014725         0  0.001727
+  6.22479:  0.000001  0.001148  0.032198  0.000002  0.000691  0.000034
+  6.25279:  0.000015  0.016289  0.011572  0.003616  0.000001  0.000057
+  6.39110:  0.000085  0.012287  0.015566  0.005890  0.000213  0.000086
+  6.40361:  0.000247  0.000131  0.003646  0.000543       0.0  0.008388
+  6.40625:       0.0  0.000893  0.008208       0.0  0.006225  0.001916
+  6.58768:  0.000089  0.000278  0.002694       0.0  0.022179  0.007887
+  6.60821:  0.000217  0.000339  0.002370  0.000358  0.010537  0.004001
+  6.62119:  0.000382         0         0  0.000020         0  0.033379
+  6.68611:  0.002339  0.000130  0.000187  0.002999  0.016169  0.028924
+  7.24698:  0.013658         0         0  0.019408         0  0.012337
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  8 (    1+   -1-    2- )  (35*32)   DIM :1 :1 :1    ACTOR LEFT
+
+       ---- MATRIX ----   TRANSI PRINTTRANS
+
+ BRA/KET :  -8.00610  -7.93255  -7.84614  -7.74985  -6.50910  -6.31126  -5.77678  -5.40495  -4.52572  -4.11690  -1.25611  -1.25098
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.010468  0.009630  0.042620  0.047254  0.000014  0.001697  0.000828  0.000504  0.002195  0.000284  0.000001  0.000001
+  -2.1932:  0.001965  0.039381  0.013202         0  0.003695  0.028474  0.010861  0.002897  0.002301         0  0.000002  0.000067
+  -2.1476:  0.000296  0.000113  0.028490  0.043334  0.000212  0.001101  0.005053  0.011238  0.006162  0.007860  0.000001  0.000009
+  -1.2076:  0.001554  0.002061  0.000785         0  0.015174  0.009212  0.036794  0.015557  0.015248         0  0.000001  0.000013
+  -1.1447:  0.004595  0.006037  0.000712  0.007510  0.000551  0.004060  0.013720  0.005411  0.001404  0.024249  0.000003  0.000006
+  -0.4498:  0.032019  0.000005  0.000661  0.000126  0.020175  0.000063  0.001079  0.002283  0.015123  0.010599       0.0       0.0
+   0.0954:  0.002208  0.000008  0.000235         0  0.000031  0.000150  0.000034       0.0  0.037478         0       0.0  0.000001
+   0.4573:  0.000077  0.001410  0.001149  0.004351  0.002671       0.0  0.005723  0.071523  0.000021  0.000256       0.0  0.000006
+   0.4649:  0.006663  0.001675       0.0         0  0.000737  0.003980  0.016615  0.005337  0.006315         0  0.000023  0.000007
+   1.7292:  0.000898  0.000025  0.000011  0.000335  0.005975  0.000075  0.000086       0.0  0.033199  0.084261       0.0  0.000003
+   4.3933:  0.000852  0.000511  0.000035  0.001977  0.000003       0.0  0.000086  0.000025  0.000402  0.000121  0.000071  0.000009
+   4.3933:  0.000327  0.002847  0.000387         0  0.000010  0.000027  0.000473  0.000002  0.000220         0  0.000408  0.000046
+   4.3933:  0.000140       0.0  0.003474         0       0.0  0.000189       0.0  0.000176  0.000006         0       0.0  0.000490
+   4.5053:  0.000027  0.000887  0.000377         0  0.000054  0.000087  0.000027  0.000007  0.000173         0  0.004575  0.022055
+   4.5071:       0.0  0.000024  0.000458  0.001120  0.000001  0.000104  0.000055  0.000379  0.000101  0.000092  0.000595  0.005145
+   4.5305:  0.000902  0.000396       0.0  0.000411  0.000004  0.000011  0.000010  0.000001  0.000045  0.000026  0.003000  0.001328
+   4.5324:  0.000476       0.0  0.000022         0  0.000098  0.000030  0.000190  0.000065       0.0         0  0.018195  0.001474
+   4.5398:  0.000791  0.000037  0.000020  0.000201  0.000060  0.000005       0.0  0.000013  0.000015  0.001344  0.011711  0.001034
+   4.5497:  0.000383  0.000008  0.000004         0  0.000001  0.000011  0.000004  0.000013  0.000427         0  0.000178  0.000577
+   5.3464:  0.000110  0.000122  0.000442  0.000415  0.000003       0.0       0.0  0.000002  0.000001       0.0  0.000006  0.000098
+   5.8170:  0.000031  0.000075  0.000045         0  0.000616  0.001519  0.001538  0.000016  0.000866         0  0.015892  0.037914
+   5.8712:       0.0  0.000013  0.000033         0  0.000839  0.000538  0.000076  0.000564  0.000001         0  0.024041  0.009859
+   5.8735:  0.000001  0.000011  0.000001  0.000006       0.0  0.000469  0.000350  0.000604  0.000103  0.001863  0.001014  0.008643
+   5.9482:  0.000009  0.000003       0.0       0.0  0.000184  0.000064  0.000121  0.000074  0.000420  0.000012  0.004790  0.001245
+   5.9482:  0.000021  0.000008       0.0         0  0.000571  0.000175  0.000348  0.000347  0.001079         0  0.014271  0.003348
+   5.9482:       0.0       0.0       0.0         0  0.000003       0.0  0.000003       0.0       0.0         0  0.000111  0.000003
+   6.2248:  0.000067  0.000035  0.000005         0  0.000110  0.000096  0.000247  0.000142       0.0         0  0.000003  0.008697
+   6.2594:  0.000001  0.000007  0.000023  0.000025  0.000130  0.000005  0.000005  0.000364  0.000004  0.000010  0.003505  0.002658
+   6.3644:  0.000110  0.000024       0.0  0.000059  0.000576  0.000161  0.000155  0.000029  0.000351  0.000181  0.003802  0.000140
+   6.4036:  0.000008  0.000113  0.000144         0  0.000131  0.000663       0.0  0.000035  0.000138         0  0.000022  0.000008
+   6.4573:  0.000003  0.000029  0.000002  0.000053  0.000008  0.000305  0.000382  0.000286  0.000010  0.000004  0.000197  0.000245
+   6.5542:  0.000053  0.000022       0.0  0.000042  0.000221  0.000017  0.000310  0.001153  0.000077  0.000050  0.000072  0.000004
+   6.6082:  0.000002  0.000021  0.000004         0  0.001120  0.000019  0.000223  0.000098  0.000005         0  0.000540  0.000034
+   6.6529:  0.000017  0.000002  0.000004  0.000022  0.000546  0.000093  0.000069  0.000246  0.000179  0.003028  0.000038  0.000001
+   6.6861:  0.000165       0.0  0.000001         0  0.000034  0.000103  0.000020  0.000026  0.001549         0  0.000025  0.000031
+
+ BRA/KET :  -1.23444  -1.20406  -1.17722  -1.08431  -0.81538  -0.81002  -0.80229  -0.74413   9.45479   9.55499  11.40687  11.48245
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.000001  0.000001  0.000037  0.000007  0.000267  0.000265  0.000066  0.000175  0.008541  0.008281  0.000532  0.000894
+  -2.1932:  0.000035  0.000013  0.000036         0         0  0.000223  0.000322  0.000067  0.006570  0.000109  0.009742  0.002065
+  -2.1476:  0.000022  0.000115  0.000095  0.000382  0.000253  0.000016  0.000015  0.000190  0.013230  0.001799       0.0  0.006129
+  -1.2076:  0.000166  0.000125  0.000277         0         0  0.000010  0.000113  0.000489  0.018292  0.005116  0.028314  0.006251
+  -1.1447:  0.000023  0.000107  0.000051  0.001185  0.000045  0.000017  0.000060  0.000038  0.003887  0.004505  0.000080  0.036643
+  -0.4498:  0.000001  0.000027  0.000066  0.000130  0.000016  0.000001  0.000003  0.000099  0.000853  0.017286  0.004842  0.003012
+   0.0954:       0.0  0.000004  0.000087         0         0  0.000006       0.0  0.000180  0.000097  0.006005  0.000159  0.006111
+   0.4573:       0.0  0.000192  0.000003  0.000086  0.000009  0.000048  0.000002  0.000007       0.0  0.008944  0.017192  0.000507
+   0.4649:  0.000052  0.000052  0.000037         0         0  0.000008  0.000033  0.000329  0.006218  0.003278  0.010473  0.018134
+   1.7292:       0.0  0.000001  0.000020  0.000525  0.000102  0.000008  0.000002  0.000075  0.000251  0.000023  0.003302  0.002897
+   4.3933:  0.000208  0.000101  0.001013  0.000050  0.019979  0.000300  0.005577  0.009242  0.000380  0.001499  0.000072  0.000328
+   4.3933:  0.001153  0.000168  0.000124         0         0  0.004228  0.031082  0.003644  0.002289  0.000523  0.000390  0.000113
+   4.3933:       0.0  0.000149  0.001137         0         0  0.036257       0.0  0.001368  0.000004  0.000593  0.000001  0.000133
+   4.5053:  0.001585  0.000761  0.002238         0         0  0.000037  0.000144  0.000296  0.000264  0.000002  0.000005  0.000020
+   4.5071:  0.006860  0.013300  0.003884  0.004438  0.000319  0.000860  0.000008  0.000202  0.000248  0.000007  0.000065  0.000078
+   4.5305:  0.011930  0.006751  0.003068  0.000644  0.000502  0.000003  0.000002  0.000306  0.000207  0.000227  0.000054  0.000061
+   4.5324:  0.009742  0.004867  0.002745         0         0  0.000009  0.000936  0.000113  0.001906  0.000564  0.000002  0.000001
+   4.5398:  0.000609  0.000300  0.010268  0.038461  0.000086       0.0  0.000029  0.000064  0.000032  0.001740  0.000038  0.000116
+   4.5497:  0.000014  0.000243  0.032324         0         0  0.000387  0.000009  0.001012  0.000030  0.000761       0.0  0.000054
+   5.3464:  0.000082  0.000137  0.000328  0.000058  0.029139  0.027303  0.005864  0.007116  0.000118  0.000075  0.000001  0.000002
+   5.8170:  0.031582  0.000001  0.009010         0         0  0.000087  0.000295  0.000510       0.0       0.0       0.0       0.0
+   5.8712:  0.000004  0.012703  0.000221         0         0  0.000167  0.000011  0.000033  0.000001  0.000005       0.0  0.000176
+   5.8735:  0.006188  0.017559  0.002935  0.018167  0.000025  0.000006  0.000112  0.000181       0.0  0.000001       0.0  0.000037
+   5.9482:  0.002279  0.001196  0.004182  0.000084       0.0  0.000002  0.000055  0.000256  0.000019  0.000100  0.000412  0.001525
+   5.9482:  0.006827  0.005546  0.011193         0         0  0.000002  0.000168  0.000713  0.000056  0.000001  0.001336       0.0
+   5.9482:  0.000051  0.000002  0.000009         0         0       0.0  0.000001  0.000001  0.000052  0.000081  0.001169  0.001127
+   6.2248:  0.025554  0.006581  0.007090         0         0  0.000190  0.000072  0.002786  0.000021  0.000032       0.0  0.000002
+   6.2594:  0.000377  0.031699  0.000652  0.001587  0.001008  0.000067  0.000299  0.000013       0.0  0.000085  0.000013  0.000018
+   6.3644:  0.000352  0.001914  0.014806  0.032635  0.013251  0.003134  0.001176  0.001342  0.000033  0.000001  0.000037  0.000052
+   6.4036:  0.000035  0.000077  0.000924         0         0  0.020037  0.044492  0.002321  0.000083  0.000003  0.000036  0.000188
+   6.4573:  0.000084  0.000151  0.000929  0.009551  0.040962  0.016466  0.001637  0.002723       0.0  0.000076  0.000293  0.000286
+   6.5542:  0.000020  0.002019  0.000065  0.001622  0.000339  0.001088  0.009696  0.028765  0.000005  0.000073  0.000014  0.000582
+   6.6082:  0.000151  0.000010  0.000996         0         0  0.002194  0.001852  0.010979  0.000085  0.000028  0.001498  0.000657
+   6.6529:  0.000011  0.000751  0.000011  0.003793  0.005482  0.000229  0.003681  0.022048  0.000058       0.0  0.000726  0.000202
+   6.6861:  0.000032  0.000015  0.000331         0         0  0.000785  0.001115  0.010852       0.0  0.000004  0.000056  0.000421
+
+ BRA/KET :  12.08398  12.26390  16.02832  16.03041  16.07134  16.08678  16.45243  16.47280
+------------------------------------------------------------------------------------------
+  -3.9824:  0.000207  0.000037  0.000001  0.000003       0.0  0.000001  0.000056  0.000075
+  -2.1932:  0.010912         0  0.000038  0.000006  0.000128         0  0.000102       0.0
+  -2.1476:  0.005178  0.007977       0.0  0.000038  0.000046  0.000118  0.000048  0.000018
+  -1.2076:  0.007627         0  0.000061  0.000011  0.000097         0  0.000136  0.000078
+  -1.1447:  0.001322  0.031039  0.000001  0.000115  0.000040  0.000342  0.000005  0.000086
+  -0.4498:  0.005229  0.005470       0.0  0.000013  0.000028  0.000019  0.000002  0.000041
+   0.0954:  0.016247         0       0.0  0.000008  0.000044         0       0.0  0.000053
+   0.4573:  0.001327  0.005424  0.000015  0.000015  0.000019  0.000107  0.000010  0.000001
+   0.4649:  0.038472         0       0.0  0.000003  0.000212         0       0.0  0.000005
+   1.7292:  0.020819  0.062789       0.0  0.000001  0.000023  0.000190  0.000002  0.000024
+   4.3933:  0.000114       0.0  0.000014  0.000030  0.000019       0.0  0.004213  0.016730
+   4.3933:  0.000037         0  0.000084  0.000010  0.000006         0  0.025253  0.005775
+   4.3933:  0.000052         0       0.0  0.000012  0.000008         0  0.000040  0.006775
+   4.5053:  0.000393         0  0.004277  0.000879  0.016033         0  0.000193  0.000030
+   4.5071:  0.000163  0.000382  0.000693  0.007836  0.004697  0.010375  0.000257  0.000013
+   4.5305:  0.000052  0.000543  0.000152  0.010821  0.003230  0.022584  0.000184  0.000170
+   4.5324:  0.000011         0  0.022895  0.008842  0.002051         0  0.001451  0.000467
+   4.5398:  0.000057  0.000012  0.008115  0.003966  0.001508  0.002486  0.000020  0.001165
+   4.5497:  0.000009         0  0.000304  0.004500  0.008042         0  0.000023  0.000306
+   5.3464:  0.000001  0.000001  0.000008  0.000016  0.000012       0.0  0.004760  0.004899
+   5.8170:       0.0         0       0.0       0.0       0.0         0       0.0       0.0
+   5.8712:  0.001735         0       0.0  0.000570  0.015891         0  0.000009  0.000005
+   5.8735:  0.000705  0.003293  0.000005  0.000164  0.005834  0.023755       0.0  0.000024
+   5.9482:  0.000206       0.0  0.008769  0.033779  0.001150       0.0  0.000010  0.000093
+   5.9482:       0.0         0  0.027906  0.000024  0.000001         0  0.000032       0.0
+   5.9482:  0.000147         0  0.024689  0.025318  0.000864         0  0.000029  0.000071
+   6.2248:  0.000062         0  0.000001  0.001148  0.032198         0  0.000615  0.000691
+   6.2594:  0.000021  0.000021  0.003864  0.005968  0.005104  0.027667  0.000001  0.001019
+   6.3644:  0.000001  0.000017  0.003466  0.002100  0.004494  0.013535  0.000750       0.0
+   6.4036:  0.001251         0  0.000031  0.000131  0.003646         0  0.006283       0.0
+   6.4573:  0.000879  0.002034  0.002057  0.001876  0.002488  0.006684  0.006157  0.000020
+   6.5542:  0.000368  0.001713  0.000116  0.000054  0.000558  0.002076  0.010666  0.001601
+   6.6082:  0.000722         0  0.000565  0.000339  0.002370         0  0.045933  0.010537
+   6.6529:  0.000364  0.000802  0.000502  0.000002  0.000198  0.001836  0.000633  0.042700
+   6.6861:  0.000942         0  0.000018  0.000130  0.000187         0  0.001157  0.016169
+
+
+
+ TRANSFORMED MATRIX for  TRIAD 12 (   -1+   -1-    0- )  (35*28)   DIM :1 :1 :1    ACTOR LEFT
+
+       ---- MATRIX ----   TRANSI PRINTTRANS
+
+ BRA/KET :  -8.02416  -7.97808  -7.93255  -6.50910  -6.11587  -5.88231  -5.77678  -5.22839  -5.09301  -3.99399  -1.25611  -1.23527
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:         0  0.014437  0.028889  0.000042  0.011009  0.008033  0.002483  0.000096         0  0.000010  0.000002  0.000001
+  -2.1932:  0.027006  0.000226  0.013127  0.001232  0.000017  0.034877  0.003620  0.001854  0.002536  0.007431  0.000001  0.000084
+  -2.1476:         0  0.001111  0.000340  0.000635  0.014657  0.001463  0.015159  0.016998         0  0.005960  0.000003       0.0
+  -1.2076:  0.021640  0.008866  0.000687  0.005058  0.008330  0.024922  0.012265  0.001768  0.012942  0.000201       0.0  0.000099
+  -1.1447:         0  0.007506  0.018112  0.001654  0.001808  0.011696  0.041160  0.018925         0  0.003350  0.000010  0.000039
+  -0.4498:         0  0.000048  0.000016  0.060524  0.007427  0.002988  0.003236  0.000511         0  0.020625  0.000001       0.0
+   0.0954:  0.000141  0.000079  0.000003  0.000010  0.031333  0.009879  0.000011  0.002860  0.000639  0.021397       0.0  0.000005
+   0.4573:         0  0.002061  0.004231  0.008012  0.000011  0.003593  0.017170  0.003220         0  0.013480  0.000001  0.000003
+   0.4649:  0.000935  0.001492  0.000558  0.000246  0.005421  0.000992  0.005538  0.038989  0.071048  0.000375  0.000008  0.000014
+   1.7292:         0  0.000027  0.000076  0.017924  0.000841  0.000038  0.000257  0.000110         0  0.018862       0.0  0.000002
+   4.3933:         0  0.002823  0.001533  0.000008  0.000001  0.000149  0.000259  0.000354         0  0.000067  0.000214  0.000701
+   4.3933:  0.003703  0.001056  0.000949  0.000003  0.000112  0.000242  0.000158  0.000077  0.000791  0.000011  0.000136  0.000206
+   4.3933:  0.000023  0.001116       0.0       0.0  0.001637  0.000449       0.0  0.000467  0.000005  0.000130       0.0  0.000540
+   4.5053:  0.000610  0.000013  0.000296  0.000018  0.000763  0.000003  0.000009       0.0  0.000460  0.000714  0.001525  0.024553
+   4.5071:         0  0.000017  0.000073  0.000002  0.000131  0.000148  0.000165  0.000618         0  0.000307  0.001786  0.000229
+   4.5305:         0  0.000538  0.001189  0.000011  0.000012  0.000062  0.000029  0.000067         0  0.000030  0.008999  0.014823
+   4.5324:  0.000805  0.000542       0.0  0.000033  0.000039  0.000013  0.000063  0.000022  0.000142  0.000017  0.006065  0.012910
+   4.5398:         0  0.000018  0.000111  0.000179  0.000415  0.000112       0.0  0.000081         0  0.000555  0.035134  0.002286
+   4.5497:  0.000047       0.0  0.000003       0.0  0.000911  0.000671  0.000001  0.000022       0.0  0.001812  0.000059  0.001757
+   5.3464:         0  0.000189  0.000365  0.000009  0.000043  0.000011       0.0  0.000006         0  0.000001  0.000018  0.000066
+   5.8170:       0.0  0.000010  0.000025  0.000205  0.000069  0.000257  0.000513  0.000005       0.0  0.001239  0.005297  0.007039
+   5.8712:  0.000025  0.000021  0.000004  0.000280  0.000046  0.000004  0.000025  0.000728  0.000885  0.000985  0.008014  0.000660
+   5.8735:         0  0.000016  0.000034  0.000001  0.000256  0.000761  0.001049  0.000039         0  0.000011  0.003041  0.022354
+   5.9482:         0  0.000019  0.000008  0.000553  0.000072  0.000013  0.000364  0.001280         0  0.000013  0.014371  0.000027
+   5.9482:       0.0  0.000008  0.000003  0.000190  0.000013       0.0  0.000116  0.000446  0.000001  0.000001  0.004757  0.000063
+   5.9482:  0.000050  0.000005       0.0  0.000001  0.000260  0.000503  0.000001  0.000028  0.001931  0.001751  0.000037  0.015513
+   6.2248:  0.000002  0.000008  0.000012  0.000037  0.000231  0.000149  0.000082  0.000127  0.000232       0.0  0.000001  0.006935
+   6.2594:         0  0.000009  0.000020  0.000390  0.000034  0.000019  0.000016       0.0         0       0.0  0.010515  0.000076
+   6.3644:         0  0.000001  0.000073  0.001729  0.000025  0.000080  0.000466  0.000109         0  0.000183  0.011407  0.000050
+   6.4036:       0.0  0.000042  0.000038  0.000044  0.000727  0.000379       0.0  0.000011  0.000429  0.000844  0.000007  0.000181
+   6.4573:         0  0.000014  0.000087  0.000023  0.000002  0.000267  0.001146  0.000598         0  0.000166  0.000591  0.000006
+   6.5542:         0  0.000101  0.000066  0.000663  0.000048  0.000325  0.000929  0.000997         0  0.000021  0.000215  0.000120
+   6.6082:  0.000156  0.000068  0.000007  0.000373  0.000001  0.000125  0.000074  0.000862  0.002313  0.000041  0.000180  0.000053
+   6.6529:         0  0.000010  0.000006  0.001637  0.000171  0.000044  0.000208  0.000145         0  0.000146  0.000113  0.000060
+   6.6861:  0.000007  0.000003       0.0  0.000011       0.0  0.000291  0.000007  0.000032  0.000032  0.001939  0.000008  0.000074
+
+ BRA/KET :  -1.23444  -1.20565  -1.20476  -1.06514  -0.80229  -0.78966  -0.77864  -0.58651   9.45479  10.53438  11.40687  12.71760
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.000004         0  0.000002  0.000005  0.000197  0.000119         0  0.000844  0.025624  0.023921  0.001597  0.000251
+  -2.1932:  0.000012  0.000042  0.000024  0.000514  0.000107  0.000021  0.000008  0.000500  0.002190  0.016461  0.003247  0.005515
+  -2.1476:  0.000067         0  0.000196  0.000339  0.000046  0.000054         0  0.000470  0.039690  0.012224  0.000001  0.009943
+  -1.2076:  0.000055  0.000028  0.000006  0.000005  0.000038  0.000090  0.000147       0.0  0.006097  0.000200  0.009438  0.000043
+  -1.1447:  0.000069         0  0.000068  0.000277  0.000179  0.000148         0  0.000002  0.011661  0.000023  0.000241  0.007252
+  -0.4498:  0.000003         0  0.000004  0.000608  0.000010  0.000021         0  0.000117  0.002560  0.007581  0.014526  0.009664
+   0.0954:       0.0  0.000001  0.000011  0.000284       0.0  0.000007  0.000003  0.000021  0.000032  0.037411  0.000053  0.012397
+   0.4573:  0.000001         0  0.000001  0.000668  0.000006  0.000003         0  0.000001       0.0  0.000032  0.051576  0.024582
+   0.4649:  0.000017  0.000169  0.000120  0.000003  0.000011  0.000034  0.000184  0.000012  0.002073  0.000307  0.003491  0.000049
+   1.7292:       0.0         0       0.0  0.000299  0.000006  0.000012         0  0.000027  0.000753  0.001357  0.009905  0.015827
+   4.3933:  0.000623         0  0.001734       0.0  0.016730  0.030130         0  0.000007  0.001140       0.0  0.000217       0.0
+   4.3933:  0.000384  0.004504  0.000771       0.0  0.010361  0.011390  0.038663  0.001070  0.000763  0.000379  0.000130  0.000006
+   4.3933:       0.0  0.000028  0.000324  0.000010       0.0  0.011478  0.000239  0.012162  0.000001  0.002677       0.0  0.000037
+   4.5053:  0.000528  0.005124  0.002140  0.009144  0.000048  0.000062  0.001837  0.000431  0.000088  0.000411  0.000002  0.000422
+   4.5071:  0.020581         0  0.020229  0.007052  0.000023  0.000622         0  0.000098  0.000743  0.000384  0.000195  0.000316
+   4.5305:  0.035789         0  0.011735  0.001306  0.000007  0.000257         0  0.000017  0.000621  0.000108  0.000161  0.000099
+   4.5324:  0.003247  0.036686  0.008730  0.000326  0.000312  0.000218  0.000969  0.000015  0.000635  0.000089  0.000001  0.000043
+   4.5398:  0.001827         0  0.001000  0.008607  0.000088  0.000175         0  0.000199  0.000095  0.000379  0.000114  0.000069
+   4.5497:  0.000005  0.000856  0.000031  0.028835  0.000003  0.000051  0.000017  0.000639  0.000010  0.001952       0.0  0.000437
+   5.3464:  0.000245         0  0.000170  0.000005  0.017593  0.009151         0  0.008871  0.000354  0.000057  0.000004  0.000019
+   5.8170:  0.010527       0.0  0.000003  0.007938  0.000098  0.000102       0.0  0.000004       0.0       0.0       0.0       0.0
+   5.8712:  0.000001  0.020856  0.021321  0.005718  0.000004  0.000347  0.000618  0.000010       0.0       0.0       0.0       0.0
+   5.8735:  0.018565         0  0.000009  0.000412  0.000335  0.000144         0  0.000001  0.000001  0.000001       0.0  0.000005
+   5.9482:  0.006838         0  0.020519  0.000019  0.000164  0.000404         0       0.0  0.000058       0.0  0.001235       0.0
+   5.9482:  0.002276  0.000018  0.006773  0.000053  0.000056  0.000148  0.000001       0.0  0.000019  0.000010  0.000445  0.003331
+   5.9482:  0.000017  0.026731  0.000096  0.011501       0.0  0.000029  0.001089  0.000001  0.000017  0.000005  0.000390  0.001018
+   6.2248:  0.008518  0.012439  0.011584  0.000285  0.000024  0.000499  0.001173  0.000639  0.000007  0.000001       0.0  0.000001
+   6.2594:  0.001131         0  0.000005  0.013695  0.000898  0.000217         0  0.000033       0.0  0.000005  0.000039  0.000043
+   6.3644:  0.001055         0  0.000049  0.011053  0.003529  0.001691         0  0.004455  0.000100  0.000001  0.000112  0.000113
+   6.4036:  0.000012  0.000699  0.000095  0.000837  0.014831  0.001093  0.024780  0.016680  0.000028  0.000302  0.000012  0.000247
+   6.4573:  0.000252         0  0.000760  0.000533  0.004911  0.000898         0  0.010019       0.0  0.000379  0.000878  0.000323
+   6.5542:  0.000060         0  0.000062  0.000094  0.029089  0.017115         0  0.000123  0.000015  0.000037  0.000043  0.000015
+   6.6082:  0.000050  0.000705  0.000429  0.000001  0.000617  0.022087  0.032877  0.000414  0.000028  0.000001  0.000499  0.000217
+   6.6529:  0.000034         0  0.000001  0.000016  0.011044  0.004412         0  0.009921  0.000175       0.0  0.002178  0.000266
+   6.6861:  0.000011  0.000045  0.000003  0.002421  0.000372  0.000818  0.005597  0.035962       0.0  0.000190  0.000019  0.002339
+
+ BRA/KET :  16.02832  16.12237  16.45243  16.57529
+--------------------------------------------------
+  -3.9824:  0.000003       0.0  0.000168  0.000361
+  -2.1932:  0.000013  0.000173  0.000034  0.000094
+  -2.1476:  0.000001  0.000177  0.000143  0.000311
+  -1.2076:  0.000020       0.0  0.000045       0.0
+  -1.1447:  0.000003  0.000181  0.000016  0.000022
+  -0.4498:  0.000001  0.000140  0.000006  0.000139
+   0.0954:       0.0  0.000143       0.0  0.000039
+   0.4573:  0.000044  0.000354  0.000031  0.000061
+   0.4649:       0.0       0.0       0.0  0.000002
+   1.7292:  0.000001  0.000181  0.000005  0.000028
+   4.3933:  0.000041       0.0  0.012639       0.0
+   4.3933:  0.000028  0.000133  0.008418  0.002419
+   4.3933:       0.0  0.000925  0.000013  0.016914
+   4.5053:  0.001426  0.006237  0.000064  0.000872
+   4.5071:  0.002079  0.007875  0.000770  0.000020
+   4.5305:  0.000456  0.001534  0.000553  0.000007
+   4.5324:  0.007632  0.000767  0.000484  0.000129
+   4.5398:  0.024344  0.004449  0.000060  0.000027
+   4.5497:  0.000101  0.012816  0.000008  0.002422
+   5.3464:  0.000025  0.000199  0.014279  0.014147
+   5.8170:       0.0       0.0       0.0       0.0
+   5.8712:       0.0       0.0  0.000003       0.0
+   5.8735:  0.000014  0.000011       0.0       0.0
+   5.9482:  0.026306       0.0  0.000031       0.0
+   5.9482:  0.009302  0.031944  0.000011  0.000401
+   5.9482:  0.008230  0.009244  0.000010  0.000117
+   6.2248:       0.0  0.000002  0.000205  0.000034
+   6.2594:  0.011591  0.011961  0.000002  0.000008
+   6.3644:  0.010398  0.011417  0.002250  0.000141
+   6.4036:  0.000010  0.000543  0.002094  0.008388
+   6.4573:  0.006171  0.004556  0.018472  0.011521
+   6.5542:  0.000347  0.000599  0.031997  0.008568
+   6.6082:  0.000188  0.000358  0.015311  0.004001
+   6.6529:  0.001505  0.000108  0.001898  0.008807
+   6.6861:  0.000006  0.002999  0.000386  0.028924
+
+
+
+ TRANSFORMED MATRIX for  TRIAD 16 (    2+   -1-   -1- )  (36*30)   DIM :1 :1 :1    ACTOR LEFT
+
+       ---- MATRIX ----   TRANSI PRINTTRANS
+
+ BRA/KET :  -8.00610  -7.97808  -7.84614  -6.31126  -6.11587  -5.88231  -5.40495  -5.22839  -4.52572  -3.99399  -1.25098  -1.23527
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.010468  0.014437  0.042620  0.001697  0.011009  0.008033  0.000504  0.000096  0.002195  0.000010  0.000001  0.000001
+  -2.3275:  0.018910  0.016936  0.000077  0.003678  0.025388  0.035173  0.001782  0.001788  0.002235  0.003305  0.000009  0.000024
+  -2.1476:  0.000296  0.001111  0.028490  0.001101  0.014657  0.001463  0.011238  0.016998  0.006162  0.005960  0.000009       0.0
+  -2.1423:  0.002812  0.040660  0.001845  0.011908  0.011950  0.001511  0.001153  0.000028  0.001160  0.000144  0.000023  0.000016
+  -2.1260:  0.015269         0  0.006972  0.000540         0         0  0.043972         0  0.011614         0  0.000002         0
+  -1.1447:  0.004595  0.007506  0.000712  0.004060  0.001808  0.011696  0.005411  0.018925  0.001404  0.003350  0.000006  0.000039
+  -1.1315:  0.000894  0.003529  0.007642  0.010604  0.000488  0.005563  0.002945  0.001720  0.002509  0.017930  0.000013  0.000007
+  -0.4498:  0.032019  0.000048  0.000661  0.000063  0.007427  0.002988  0.002283  0.000511  0.015123  0.020625       0.0       0.0
+   0.4457:  0.000095  0.000265  0.003085  0.000003  0.001059  0.003632  0.009946  0.075474  0.000389  0.006512  0.000004  0.000008
+   0.4573:  0.000077  0.002061  0.001149       0.0  0.000011  0.003593  0.071523  0.003220  0.000021  0.013480  0.000006  0.000003
+   1.6901:  0.002449  0.000032       0.0  0.000168  0.000832  0.000113  0.000058  0.000083  0.025216  0.025095       0.0  0.000004
+   1.7292:  0.000898  0.000027  0.000011  0.000075  0.000841  0.000038       0.0  0.000110  0.033199  0.018862  0.000003  0.000002
+   4.3933:  0.003532         0  0.000049       0.0         0         0  0.000104         0  0.001475         0  0.000017         0
+   4.3933:  0.000852  0.002823  0.000035       0.0  0.000001  0.000149  0.000025  0.000354  0.000402  0.000067  0.000009  0.000701
+   4.5047:  0.000048  0.001278  0.000105  0.000084  0.000136  0.000029  0.000061  0.000310  0.000014  0.000192  0.014618  0.003889
+   4.5071:       0.0  0.000017  0.000458  0.000104  0.000131  0.000148  0.000379  0.000618  0.000101  0.000307  0.005145  0.000229
+   4.5090:  0.000170         0  0.000322  0.000056         0         0  0.000626         0  0.000004         0  0.000685         0
+   4.5305:  0.000902  0.000538       0.0  0.000011  0.000012  0.000062  0.000001  0.000067  0.000045  0.000030  0.001328  0.014823
+   4.5317:  0.000022  0.000042  0.000604       0.0  0.000360  0.000009  0.000021       0.0  0.000115  0.000300  0.004269  0.005042
+   4.5398:  0.000791  0.000018  0.000020  0.000005  0.000415  0.000112  0.000013  0.000081  0.000015  0.000555  0.001034  0.002286
+   5.3464:  0.000110  0.000189  0.000442       0.0  0.000043  0.000011  0.000002  0.000006  0.000001  0.000001  0.000098  0.000066
+   5.6006:  0.000587       0.0  0.000013       0.0  0.000237  0.000115  0.000010  0.000034  0.000002  0.000029  0.000012  0.000005
+   5.8735:  0.000001  0.000016  0.000001  0.000469  0.000256  0.000761  0.000604  0.000039  0.000103  0.000011  0.008643  0.022354
+   5.8737:  0.000003  0.000054  0.000011  0.000322  0.000116  0.000723  0.000049  0.000947  0.000164  0.000036  0.007208  0.023784
+   5.9482:  0.000009  0.000019       0.0  0.000064  0.000072  0.000013  0.000074  0.001280  0.000420  0.000013  0.001245  0.000027
+   5.9482:  0.000034         0  0.000010  0.000033         0         0  0.001288         0  0.000568         0  0.001458         0
+   6.2528:  0.000023  0.000009  0.000024  0.000079       0.0  0.000006  0.000028  0.000435  0.000063  0.000013  0.002222  0.000003
+   6.2594:  0.000001  0.000009  0.000023  0.000005  0.000034  0.000019  0.000364       0.0  0.000004       0.0  0.002658  0.000076
+   6.3644:  0.000110  0.000001       0.0  0.000161  0.000025  0.000080  0.000029  0.000109  0.000351  0.000183  0.000140  0.000050
+   6.3911:  0.000121  0.000012  0.000001  0.000007  0.000032  0.000003  0.000003  0.000002  0.000287  0.000018  0.000101  0.000036
+   6.4062:  0.000012  0.000048  0.000026  0.000670  0.000173  0.000011  0.000028  0.000118  0.000002  0.000176  0.000084  0.000286
+   6.4573:  0.000003  0.000014  0.000002  0.000305  0.000002  0.000267  0.000286  0.000598  0.000010  0.000166  0.000245  0.000006
+   6.4817:  0.000028         0  0.000089  0.000197         0         0  0.001793         0  0.000002         0  0.000143         0
+   6.5542:  0.000053  0.000101       0.0  0.000017  0.000048  0.000325  0.001153  0.000997  0.000077  0.000021  0.000004  0.000120
+   6.5877:       0.0  0.000002  0.000011  0.000051  0.000782  0.000234  0.000573  0.001093  0.000222  0.000219  0.000003  0.000256
+   6.6529:  0.000017  0.000010  0.000004  0.000093  0.000171  0.000044  0.000246  0.000145  0.000179  0.000146  0.000001  0.000060
+
+ BRA/KET :  -1.20476  -1.20406  -1.17722  -1.06514  -0.81002  -0.78966  -0.74413  -0.58651   9.55499  10.53438  11.48245  12.08398
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.000002  0.000001  0.000037  0.000005  0.000265  0.000119  0.000175  0.000844  0.008281  0.023921  0.000894  0.000207
+  -2.3275:  0.000024  0.000024  0.000016  0.000175  0.000001  0.000048  0.000079  0.000856  0.001471  0.010081  0.002119  0.000596
+  -2.1476:  0.000196  0.000115  0.000095  0.000339  0.000016  0.000054  0.000190  0.000470  0.001799  0.012224  0.006129  0.005178
+  -2.1423:  0.000013  0.000012  0.000027  0.000010  0.000013  0.000143  0.000078  0.000010  0.010333  0.029500  0.000469  0.003338
+  -2.1260:         0  0.000393  0.000268         0  0.000140         0  0.000529         0  0.015022         0  0.029844  0.003089
+  -1.1447:  0.000068  0.000107  0.000051  0.000277  0.000017  0.000148  0.000038  0.000002  0.004505  0.000023  0.036643  0.001322
+  -1.1315:  0.000055  0.000002  0.000022  0.000991  0.000033  0.000004  0.000034  0.000246  0.010256  0.009250  0.004109  0.001186
+  -0.4498:  0.000004  0.000027  0.000066  0.000608  0.000001  0.000021  0.000099  0.000117  0.017286  0.007581  0.003012  0.005229
+   0.4457:  0.000220  0.000016  0.000001  0.000498  0.000003  0.000103  0.000012  0.000057  0.000349  0.004785  0.010500  0.005110
+   0.4573:  0.000001  0.000192  0.000003  0.000668  0.000048  0.000003  0.000007  0.000001  0.008944  0.000032  0.000507  0.001327
+   1.6901:       0.0       0.0  0.000030  0.000316  0.000008  0.000014  0.000077  0.000102  0.000115  0.001441  0.002087  0.016923
+   1.7292:       0.0  0.000001  0.000020  0.000299  0.000008  0.000012  0.000075  0.000027  0.000023  0.001357  0.002897  0.020819
+   4.3933:         0  0.000455  0.003770         0  0.000356         0  0.038213         0  0.001498         0  0.000324  0.000061
+   4.3933:  0.001734  0.000101  0.001013       0.0  0.000300  0.030130  0.009242  0.000007  0.001499       0.0  0.000328  0.000114
+   4.5047:  0.005382  0.003216  0.001445  0.001574  0.000035  0.001370  0.000025  0.000004  0.000052  0.000239  0.000093  0.000072
+   4.5071:  0.020229  0.013300  0.003884  0.007052  0.000860  0.000622  0.000202  0.000098  0.000007  0.000384  0.000078  0.000163
+   4.5090:         0  0.042766  0.002144         0  0.000016         0  0.000436         0  0.001028         0  0.000010  0.000002
+   4.5305:  0.011735  0.006751  0.003068  0.001306  0.000003  0.000257  0.000306  0.000017  0.000227  0.000108  0.000061  0.000052
+   4.5317:  0.012146  0.006965  0.003687  0.005162  0.000132  0.000027  0.000374  0.000024  0.000181  0.000728  0.000129  0.000124
+   4.5398:  0.001000  0.000300  0.010268  0.008607       0.0  0.000175  0.000064  0.000199  0.001740  0.000379  0.000116  0.000057
+   5.3464:  0.000170  0.000137  0.000328  0.000005  0.027303  0.009151  0.007116  0.008871  0.000075  0.000057  0.000002  0.000001
+   5.6006:  0.000004  0.000001  0.001572  0.000043  0.000418  0.000352  0.011640  0.040582  0.000294  0.001524  0.000030  0.000094
+   5.8735:  0.000009  0.017559  0.002935  0.000412  0.000006  0.000144  0.000181  0.000001  0.000001  0.000001  0.000037  0.000705
+   5.8737:  0.015074  0.000972  0.003561  0.000292  0.000049  0.000736  0.000303  0.000033       0.0  0.000002  0.000041  0.000706
+   5.9482:  0.020519  0.001196  0.004182  0.000019  0.000002  0.000404  0.000256       0.0  0.000100       0.0  0.001525  0.000206
+   5.9482:         0  0.020553  0.005457         0  0.000172         0  0.000240         0  0.000107         0  0.001520  0.000205
+   6.2528:  0.030129  0.001814  0.000663  0.013670  0.001425  0.002326  0.000225  0.000004  0.000009       0.0  0.000006  0.000008
+   6.2594:  0.000005  0.031699  0.000652  0.013695  0.000067  0.000217  0.000013  0.000033  0.000085  0.000005  0.000018  0.000021
+   6.3644:  0.000049  0.001914  0.014806  0.011053  0.003134  0.001691  0.001342  0.004455  0.000001  0.000001  0.000052  0.000001
+   6.3911:  0.002576  0.000163  0.012325  0.007773  0.000528  0.005002  0.002005  0.000169       0.0  0.000158  0.000222  0.000133
+   6.4062:  0.000053  0.000011  0.000987  0.005592  0.006008  0.052173  0.000495  0.000790  0.000001  0.000058  0.000212  0.000485
+   6.4573:  0.000760  0.000151  0.000929  0.000533  0.016466  0.000898  0.002723  0.010019  0.000076  0.000379  0.000286  0.000879
+   6.4817:         0  0.000816  0.000478         0  0.013057         0  0.017503         0  0.000512         0  0.000387       0.0
+   6.5542:  0.000062  0.002019  0.000065  0.000094  0.001088  0.017115  0.028765  0.000123  0.000073  0.000037  0.000582  0.000368
+   6.5877:  0.002119  0.000268  0.000165  0.000020  0.013442  0.000035  0.000877  0.007077  0.000068  0.000114  0.000090  0.000509
+   6.6529:  0.000001  0.000751  0.000011  0.000016  0.000229  0.004412  0.022048  0.009921       0.0       0.0  0.000202  0.000364
+
+ BRA/KET :  12.71760  16.03041  16.07134  16.12237  16.47280  16.57529
+----------------------------------------------------------------------
+  -3.9824:  0.000251  0.000003       0.0       0.0  0.000075  0.000361
+  -2.3275:  0.000421  0.000009  0.000009  0.000015       0.0  0.000044
+  -2.1476:  0.009943  0.000038  0.000046  0.000177  0.000018  0.000311
+  -2.1423:  0.005615  0.000002  0.000039  0.000075  0.000023  0.000463
+  -2.1260:         0  0.000132  0.000006         0  0.000320         0
+  -1.1447:  0.007252  0.000115  0.000040  0.000181  0.000086  0.000022
+  -1.1315:  0.029774  0.000025  0.000002  0.000561       0.0  0.000289
+  -0.4498:  0.009664  0.000013  0.000028  0.000140  0.000041  0.000139
+   0.4457:  0.009670  0.000029  0.000018  0.000217  0.000002  0.000013
+   0.4573:  0.024582  0.000015  0.000019  0.000354  0.000001  0.000061
+   1.6901:  0.019516  0.000001  0.000030  0.000174  0.000021  0.000077
+   1.7292:  0.015827  0.000001  0.000023  0.000181  0.000024  0.000028
+   4.3933:         0  0.000031  0.000015         0  0.016766         0
+   4.3933:       0.0  0.000030  0.000019       0.0  0.016730       0.0
+   4.5047:  0.000160  0.002698  0.004772  0.004499  0.000037  0.000010
+   4.5071:  0.000316  0.007836  0.004697  0.007875  0.000013  0.000020
+   4.5090:         0  0.017835  0.000682         0  0.000733         0
+   4.5305:  0.000099  0.010821  0.003230  0.001534  0.000170  0.000007
+   4.5317:  0.000408  0.001935  0.003887  0.009427  0.000260  0.000062
+   4.5398:  0.000069  0.003966  0.001508  0.004449  0.001165  0.000027
+   5.3464:  0.000019  0.000016  0.000012  0.000199  0.004899  0.014147
+   5.6006:  0.000040  0.000036  0.000056  0.000064  0.004506  0.014470
+   5.8735:  0.000005  0.000164  0.005834  0.000011  0.000024       0.0
+   5.8737:  0.000007  0.000155  0.005919  0.000009       0.0  0.000016
+   5.9482:       0.0  0.033779  0.001150       0.0  0.000093       0.0
+   5.9482:         0  0.033778  0.001150         0  0.000094         0
+   6.2528:  0.000044  0.005430  0.003857  0.010849       0.0  0.000170
+   6.2594:  0.000043  0.005968  0.005104  0.011961  0.001019  0.000008
+   6.3644:  0.000113  0.002100  0.004494  0.011417       0.0  0.000141
+   6.3911:  0.000254  0.004096  0.005189  0.017670  0.000071  0.000257
+   6.4062:  0.000001  0.000298  0.002736  0.000001  0.002075  0.005747
+   6.4573:  0.000323  0.001876  0.002488  0.004556  0.000020  0.011521
+   6.4817:         0  0.000194  0.000025         0  0.035817         0
+   6.5542:  0.000015  0.000054  0.000558  0.000599  0.001601  0.008568
+   6.5877:  0.000267  0.000093  0.000898       0.0  0.007393  0.023660
+   6.6529:  0.000266  0.000002  0.000198  0.000108  0.042700  0.008807
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  2 (    0+    0-    0- )  (39*28)   DIM :1 :1 :1    ACTOR PARA
+
+       ---- MATRIX ----   TRANSI PRINTTRANS
+
+ BRA/KET :  -8.02416  -7.97808  -7.93255  -6.50910  -6.11587  -5.88231  -5.77678  -5.22839  -5.09301  -3.99399  -1.25611  -1.23527
+----------------------------------------------------------------------------------------------------------------------------------
+ -2.32750:         0  0.022581         0         0  0.033851  0.046898         0  0.002385         0  0.004407         0  0.000032
+ -2.19319:  0.027006         0  0.052508  0.004926         0         0  0.014481         0  0.002536         0  0.000002         0
+ -2.14231:         0  0.054213         0         0  0.015934  0.002014         0  0.000038         0  0.000191         0  0.000022
+ -1.28764:         0  0.013531         0         0  0.001540  0.090598         0  0.014355         0       0.0         0  0.000195
+ -1.20756:  0.021640         0  0.002748  0.020232         0         0  0.049059         0  0.012942         0  0.000001         0
+ -1.13151:         0  0.004705         0         0  0.000650  0.007417         0  0.002293         0  0.023907         0  0.000010
+ -1.01967:         0  0.002381         0         0  0.048472  0.000197         0  0.000051         0  0.004319         0  0.000017
+  0.09539:  0.000141         0  0.000011  0.000041         0         0  0.000045         0  0.000639         0       0.0         0
+  0.44569:         0  0.000353         0         0  0.001412  0.004843         0  0.100632         0  0.008682         0  0.000010
+  0.46489:  0.000935         0  0.002233  0.000983         0         0  0.022153         0  0.071048         0  0.000030         0
+  0.46838:         0  0.000001         0         0  0.019182  0.015543         0  0.014717         0  0.033894         0  0.000107
+  1.69010:         0  0.000042         0         0  0.001110  0.000150         0  0.000111         0  0.033460         0  0.000005
+  3.91875:         0  0.000016         0         0  0.000610  0.001319         0  0.000080         0  0.052613         0  0.000032
+  4.39333:  0.003703         0  0.003796  0.000014         0         0  0.000630         0  0.000791         0  0.000544         0
+  4.39333:  0.000023         0       0.0       0.0         0         0       0.0         0  0.000005         0       0.0         0
+  4.50470:         0  0.001704         0         0  0.000181  0.000039         0  0.000413         0  0.000256         0  0.005185
+  4.50530:  0.000610         0  0.001182  0.000072         0         0  0.000036         0  0.000460         0  0.006101         0
+  4.53171:         0  0.000056         0         0  0.000480  0.000013         0       0.0         0  0.000399         0  0.006722
+  4.53244:  0.000805         0       0.0  0.000130         0         0  0.000253         0  0.000142         0  0.024260         0
+  4.53287:         0  0.000464         0         0  0.001103  0.000005         0  0.000010         0  0.000079         0  0.013493
+  4.54971:  0.000047         0  0.000010  0.000001         0         0  0.000005         0       0.0         0  0.000238         0
+  5.60058:         0  0.000001         0         0  0.000316  0.000153         0  0.000046         0  0.000039         0  0.000007
+  5.81700:       0.0         0  0.000100  0.000822         0         0  0.002051         0       0.0         0  0.021190         0
+  5.87117:  0.000025         0  0.000018  0.001118         0         0  0.000101         0  0.000885         0  0.032055         0
+  5.87374:         0  0.000072         0         0  0.000154  0.000964         0  0.001263         0  0.000048         0  0.031711
+  5.94817:       0.0         0  0.000011  0.000761         0         0  0.000464         0  0.000001         0  0.019028         0
+  5.94817:  0.000050         0       0.0  0.000005         0         0  0.000004         0  0.001931         0  0.000148         0
+  5.95604:         0       0.0         0         0  0.000852  0.000718         0  0.000023         0  0.001391         0  0.001358
+  6.20047:         0  0.000022         0         0  0.000694  0.000139         0  0.000010         0  0.000077         0  0.046609
+  6.22479:  0.000002         0  0.000046  0.000147         0         0  0.000329         0  0.000232         0  0.000004         0
+  6.25279:         0  0.000012         0         0       0.0  0.000007         0  0.000580         0  0.000018         0  0.000004
+  6.39110:         0  0.000016         0         0  0.000043  0.000004         0  0.000003         0  0.000024         0  0.000048
+  6.40361:       0.0         0  0.000151  0.000175         0         0       0.0         0  0.000429         0  0.000029         0
+  6.40625:         0  0.000064         0         0  0.000231  0.000015         0  0.000157         0  0.000234         0  0.000382
+  6.58768:         0  0.000003         0         0  0.001042  0.000312         0  0.001458         0  0.000292         0  0.000342
+  6.60821:  0.000156         0  0.000028  0.001493         0         0  0.000297         0  0.002313         0  0.000720         0
+  6.62119:         0  0.000028         0         0  0.000494  0.000252         0  0.000576         0  0.001625         0       0.0
+  6.68611:  0.000007         0  0.000001  0.000045         0         0  0.000027         0  0.000032         0  0.000033         0
+  7.24698:         0  0.000002         0         0  0.001612  0.001034         0  0.000020         0  0.010839         0  0.000244
+
+ BRA/KET :  -1.23444  -1.20565  -1.20476  -1.06514  -0.80229  -0.78966  -0.77864  -0.58651   9.45479  10.53438  11.40687  12.71760
+----------------------------------------------------------------------------------------------------------------------------------
+ -2.32750:         0         0  0.000033  0.000234         0  0.000064         0  0.001142         0  0.013442         0  0.000562
+ -2.19319:  0.000046  0.000042         0         0  0.000429         0  0.000008         0  0.008760         0  0.012990         0
+ -2.14231:         0         0  0.000017  0.000014         0  0.000191         0  0.000013         0  0.039333         0  0.007486
+ -1.28764:         0         0  0.000107  0.000017         0  0.000004         0  0.000679         0  0.001488         0  0.004116
+ -1.20756:  0.000222  0.000028         0         0  0.000151         0  0.000147         0  0.024389         0  0.037752         0
+ -1.13151:         0         0  0.000073  0.001322         0  0.000005         0  0.000328         0  0.012334         0  0.039699
+ -1.01967:         0         0  0.000001  0.000152         0  0.000005         0  0.000046         0  0.065350         0  0.000219
+  0.09539:       0.0  0.000001         0         0  0.000001         0  0.000003         0  0.000129         0  0.000213         0
+  0.44569:         0         0  0.000293  0.000664         0  0.000138         0  0.000076         0  0.006380         0  0.012893
+  0.46489:  0.000070  0.000169         0         0  0.000044         0  0.000184         0  0.008291         0  0.013964         0
+  0.46838:         0         0  0.000003  0.001134         0  0.000109         0  0.000103         0  0.004587         0  0.037203
+  1.69010:         0         0       0.0  0.000421         0  0.000018         0  0.000136         0  0.001921         0  0.026021
+  3.91875:         0         0  0.000007  0.000978         0  0.000010         0  0.004771         0  0.000086         0  0.040728
+  4.39333:  0.001537  0.004504         0         0  0.041443         0  0.038663         0  0.003052         0  0.000520         0
+  4.39333:       0.0  0.000028         0         0       0.0         0  0.000239         0  0.000005         0  0.000001         0
+  4.50470:         0         0  0.007176  0.002099         0  0.001827         0  0.000005         0  0.000319         0  0.000213
+  4.50530:  0.002113  0.005124         0         0  0.000191         0  0.001837         0  0.000352         0  0.000007         0
+  4.53171:         0         0  0.016194  0.006883         0  0.000036         0  0.000033         0  0.000971         0  0.000544
+  4.53244:  0.012989  0.036686         0         0  0.001248         0  0.000969         0  0.002542         0  0.000003         0
+  4.53287:         0         0  0.022232  0.009941         0  0.000004         0  0.000161         0  0.001400         0  0.000673
+  4.54971:  0.000019  0.000856         0         0  0.000012         0  0.000017         0  0.000040         0  0.000001         0
+  5.60058:         0         0  0.000006  0.000057         0  0.000469         0  0.054110         0  0.002032         0  0.000054
+  5.81700:  0.042109       0.0         0         0  0.000394         0       0.0         0       0.0         0  0.000001         0
+  5.87117:  0.000005  0.020856         0         0  0.000014         0  0.000618         0  0.000001         0       0.0         0
+  5.87374:         0         0  0.020099  0.000389         0  0.000981         0  0.000043         0  0.000003         0  0.000010
+  5.94817:  0.009102  0.000018         0         0  0.000224         0  0.000001         0  0.000075         0  0.001781         0
+  5.94817:  0.000069  0.026731         0         0  0.000001         0  0.001089         0  0.000070         0  0.001559         0
+  5.95604:         0         0  0.000007  0.015249         0  0.000015         0  0.038257         0  0.002960         0  0.000306
+  6.20047:         0         0  0.000003  0.005938         0  0.000015         0  0.000517         0  0.000041         0  0.000109
+  6.22479:  0.034072  0.012439         0         0  0.000096         0  0.001173         0  0.000028         0       0.0         0
+  6.25279:         0         0  0.040172  0.018227         0  0.003102         0  0.000006         0       0.0         0  0.000059
+  6.39110:         0         0  0.003434  0.010364         0  0.006670         0  0.000225         0  0.000211         0  0.000339
+  6.40361:  0.000046  0.000699         0         0  0.059322         0  0.024780         0  0.000111         0  0.000048         0
+  6.40625:         0         0  0.000070  0.007457         0  0.069564         0  0.001054         0  0.000077         0  0.000001
+  6.58768:         0         0  0.002825  0.000026         0  0.000047         0  0.009436         0  0.000152         0  0.000356
+  6.60821:  0.000201  0.000705         0         0  0.002469         0  0.032877         0  0.000113         0  0.001998         0
+  6.62119:         0         0  0.000125  0.004292         0  0.016839         0  0.015575         0  0.000261         0  0.000382
+  6.68611:  0.000043  0.000045         0         0  0.001487         0  0.005597         0       0.0         0  0.000074         0
+  7.24698:         0         0  0.000048  0.029448         0  0.000084         0  0.008104         0  0.001224         0  0.013658
+
+ BRA/KET :  16.02832  16.12237  16.45243  16.57529
+--------------------------------------------------
+ -2.32750:         0  0.000021         0  0.000058
+ -2.19319:  0.000050         0  0.000136         0
+ -2.14231:         0  0.000101         0  0.000617
+ -1.28764:         0  0.000040         0  0.000103
+ -1.20756:  0.000082         0  0.000181         0
+ -1.13151:         0  0.000747         0  0.000385
+ -1.01967:         0  0.000064         0  0.000124
+  0.09539:       0.0         0       0.0         0
+  0.44569:         0  0.000289         0  0.000018
+  0.46489:       0.0         0  0.000001         0
+  0.46838:         0  0.000353         0  0.000072
+  1.69010:         0  0.000232         0  0.000103
+  3.91875:         0  0.000163         0  0.002190
+  4.39333:  0.000112         0  0.033671         0
+  4.39333:       0.0         0  0.000053         0
+  4.50470:         0  0.005999         0  0.000014
+  4.50530:  0.005703         0  0.000257         0
+  4.53171:         0  0.012570         0  0.000083
+  4.53244:  0.030527         0  0.001934         0
+  4.53287:         0  0.018327         0  0.000068
+  4.54971:  0.000406         0  0.000031         0
+  5.60058:         0  0.000085         0  0.019293
+  5.81700:       0.0         0       0.0         0
+  5.87117:       0.0         0  0.000013         0
+  5.87374:         0  0.000012         0  0.000022
+  5.94817:  0.037209         0  0.000043         0
+  5.94817:  0.032919         0  0.000038         0
+  5.95604:         0  0.005812         0  0.010439
+  6.20047:         0  0.014725         0  0.001727
+  6.22479:  0.000001         0  0.000820         0
+  6.25279:         0  0.014466         0  0.000227
+  6.39110:         0  0.023559         0  0.000342
+  6.40361:  0.000042         0  0.008377         0
+  6.40625:         0  0.000002         0  0.007663
+  6.58768:         0       0.0         0  0.031547
+  6.60821:  0.000754         0  0.061244         0
+  6.62119:         0  0.000020         0  0.033379
+  6.68611:  0.000024         0  0.001543         0
+  7.24698:         0  0.019408         0  0.012337
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  6 (    1+    0-    1- )  (35*30)   DIM :1 :1 :1    ACTOR PARA
+
+       ---- MATRIX ----   TRANSI PRINTTRANS
+
+ BRA/KET :  -8.00610  -7.97808  -7.84614  -6.31126  -6.11587  -5.88231  -5.40495  -5.22839  -4.52572  -3.99399  -1.25098  -1.23527
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.010468  0.014437  0.042620  0.001697  0.011009  0.008033  0.000504  0.000096  0.002195  0.000010  0.000001  0.000001
+  -2.1932:  0.001965  0.000226  0.013202  0.028474  0.000017  0.034877  0.002897  0.001854  0.002301  0.007431  0.000067  0.000084
+  -2.1476:  0.000296  0.001111  0.028490  0.001101  0.014657  0.001463  0.011238  0.016998  0.006162  0.005960  0.000009       0.0
+  -1.2076:  0.001554  0.008866  0.000785  0.009212  0.008330  0.024922  0.015557  0.001768  0.015248  0.000201  0.000013  0.000099
+  -1.1447:  0.004595  0.007506  0.000712  0.004060  0.001808  0.011696  0.005411  0.018925  0.001404  0.003350  0.000006  0.000039
+  -0.4498:  0.032019  0.000048  0.000661  0.000063  0.007427  0.002988  0.002283  0.000511  0.015123  0.020625       0.0       0.0
+   0.0954:  0.002208  0.000079  0.000235  0.000150  0.031333  0.009879       0.0  0.002860  0.037478  0.021397  0.000001  0.000005
+   0.4573:  0.000077  0.002061  0.001149       0.0  0.000011  0.003593  0.071523  0.003220  0.000021  0.013480  0.000006  0.000003
+   0.4649:  0.006663  0.001492       0.0  0.003980  0.005421  0.000992  0.005337  0.038989  0.006315  0.000375  0.000007  0.000014
+   1.7292:  0.000898  0.000027  0.000011  0.000075  0.000841  0.000038       0.0  0.000110  0.033199  0.018862  0.000003  0.000002
+   4.3933:  0.000852  0.002823  0.000035       0.0  0.000001  0.000149  0.000025  0.000354  0.000402  0.000067  0.000009  0.000701
+   4.3933:  0.000327  0.001056  0.000387  0.000027  0.000112  0.000242  0.000002  0.000077  0.000220  0.000011  0.000046  0.000206
+   4.3933:  0.000140  0.001116  0.003474  0.000189  0.001637  0.000449  0.000176  0.000467  0.000006  0.000130  0.000490  0.000540
+   4.5053:  0.000027  0.000013  0.000377  0.000087  0.000763  0.000003  0.000007       0.0  0.000173  0.000714  0.022055  0.024553
+   4.5071:       0.0  0.000017  0.000458  0.000104  0.000131  0.000148  0.000379  0.000618  0.000101  0.000307  0.005145  0.000229
+   4.5305:  0.000902  0.000538       0.0  0.000011  0.000012  0.000062  0.000001  0.000067  0.000045  0.000030  0.001328  0.014823
+   4.5324:  0.000476  0.000542  0.000022  0.000030  0.000039  0.000013  0.000065  0.000022       0.0  0.000017  0.001474  0.012910
+   4.5398:  0.000791  0.000018  0.000020  0.000005  0.000415  0.000112  0.000013  0.000081  0.000015  0.000555  0.001034  0.002286
+   4.5497:  0.000383       0.0  0.000004  0.000011  0.000911  0.000671  0.000013  0.000022  0.000427  0.001812  0.000577  0.001757
+   5.3464:  0.000110  0.000189  0.000442       0.0  0.000043  0.000011  0.000002  0.000006  0.000001  0.000001  0.000098  0.000066
+   5.8170:  0.000031  0.000010  0.000045  0.001519  0.000069  0.000257  0.000016  0.000005  0.000866  0.001239  0.037914  0.007039
+   5.8712:       0.0  0.000021  0.000033  0.000538  0.000046  0.000004  0.000564  0.000728  0.000001  0.000985  0.009859  0.000660
+   5.8735:  0.000001  0.000016  0.000001  0.000469  0.000256  0.000761  0.000604  0.000039  0.000103  0.000011  0.008643  0.022354
+   5.9482:  0.000009  0.000019       0.0  0.000064  0.000072  0.000013  0.000074  0.001280  0.000420  0.000013  0.001245  0.000027
+   5.9482:  0.000021  0.000008       0.0  0.000175  0.000013       0.0  0.000347  0.000446  0.001079  0.000001  0.003348  0.000063
+   5.9482:       0.0  0.000005       0.0       0.0  0.000260  0.000503       0.0  0.000028       0.0  0.001751  0.000003  0.015513
+   6.2248:  0.000067  0.000008  0.000005  0.000096  0.000231  0.000149  0.000142  0.000127       0.0       0.0  0.008697  0.006935
+   6.2594:  0.000001  0.000009  0.000023  0.000005  0.000034  0.000019  0.000364       0.0  0.000004       0.0  0.002658  0.000076
+   6.3644:  0.000110  0.000001       0.0  0.000161  0.000025  0.000080  0.000029  0.000109  0.000351  0.000183  0.000140  0.000050
+   6.4036:  0.000008  0.000042  0.000144  0.000663  0.000727  0.000379  0.000035  0.000011  0.000138  0.000844  0.000008  0.000181
+   6.4573:  0.000003  0.000014  0.000002  0.000305  0.000002  0.000267  0.000286  0.000598  0.000010  0.000166  0.000245  0.000006
+   6.5542:  0.000053  0.000101       0.0  0.000017  0.000048  0.000325  0.001153  0.000997  0.000077  0.000021  0.000004  0.000120
+   6.6082:  0.000002  0.000068  0.000004  0.000019  0.000001  0.000125  0.000098  0.000862  0.000005  0.000041  0.000034  0.000053
+   6.6529:  0.000017  0.000010  0.000004  0.000093  0.000171  0.000044  0.000246  0.000145  0.000179  0.000146  0.000001  0.000060
+   6.6861:  0.000165  0.000003  0.000001  0.000103       0.0  0.000291  0.000026  0.000032  0.001549  0.001939  0.000031  0.000074
+
+ BRA/KET :  -1.20476  -1.20406  -1.17722  -1.06514  -0.81002  -0.78966  -0.74413  -0.58651   9.55499  10.53438  11.48245  12.08398
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.000002  0.000001  0.000037  0.000005  0.000265  0.000119  0.000175  0.000844  0.008281  0.023921  0.000894  0.000207
+  -2.1932:  0.000024  0.000013  0.000036  0.000514  0.000223  0.000021  0.000067  0.000500  0.000109  0.016461  0.002065  0.010912
+  -2.1476:  0.000196  0.000115  0.000095  0.000339  0.000016  0.000054  0.000190  0.000470  0.001799  0.012224  0.006129  0.005178
+  -1.2076:  0.000006  0.000125  0.000277  0.000005  0.000010  0.000090  0.000489       0.0  0.005116  0.000200  0.006251  0.007627
+  -1.1447:  0.000068  0.000107  0.000051  0.000277  0.000017  0.000148  0.000038  0.000002  0.004505  0.000023  0.036643  0.001322
+  -0.4498:  0.000004  0.000027  0.000066  0.000608  0.000001  0.000021  0.000099  0.000117  0.017286  0.007581  0.003012  0.005229
+   0.0954:  0.000011  0.000004  0.000087  0.000284  0.000006  0.000007  0.000180  0.000021  0.006005  0.037411  0.006111  0.016247
+   0.4573:  0.000001  0.000192  0.000003  0.000668  0.000048  0.000003  0.000007  0.000001  0.008944  0.000032  0.000507  0.001327
+   0.4649:  0.000120  0.000052  0.000037  0.000003  0.000008  0.000034  0.000329  0.000012  0.003278  0.000307  0.018134  0.038472
+   1.7292:       0.0  0.000001  0.000020  0.000299  0.000008  0.000012  0.000075  0.000027  0.000023  0.001357  0.002897  0.020819
+   4.3933:  0.001734  0.000101  0.001013       0.0  0.000300  0.030130  0.009242  0.000007  0.001499       0.0  0.000328  0.000114
+   4.3933:  0.000771  0.000168  0.000124       0.0  0.004228  0.011390  0.003644  0.001070  0.000523  0.000379  0.000113  0.000037
+   4.3933:  0.000324  0.000149  0.001137  0.000010  0.036257  0.011478  0.001368  0.012162  0.000593  0.002677  0.000133  0.000052
+   4.5053:  0.002140  0.000761  0.002238  0.009144  0.000037  0.000062  0.000296  0.000431  0.000002  0.000411  0.000020  0.000393
+   4.5071:  0.020229  0.013300  0.003884  0.007052  0.000860  0.000622  0.000202  0.000098  0.000007  0.000384  0.000078  0.000163
+   4.5305:  0.011735  0.006751  0.003068  0.001306  0.000003  0.000257  0.000306  0.000017  0.000227  0.000108  0.000061  0.000052
+   4.5324:  0.008730  0.004867  0.002745  0.000326  0.000009  0.000218  0.000113  0.000015  0.000564  0.000089  0.000001  0.000011
+   4.5398:  0.001000  0.000300  0.010268  0.008607       0.0  0.000175  0.000064  0.000199  0.001740  0.000379  0.000116  0.000057
+   4.5497:  0.000031  0.000243  0.032324  0.028835  0.000387  0.000051  0.001012  0.000639  0.000761  0.001952  0.000054  0.000009
+   5.3464:  0.000170  0.000137  0.000328  0.000005  0.027303  0.009151  0.007116  0.008871  0.000075  0.000057  0.000002  0.000001
+   5.8170:  0.000003  0.000001  0.009010  0.007938  0.000087  0.000102  0.000510  0.000004       0.0       0.0       0.0       0.0
+   5.8712:  0.021321  0.012703  0.000221  0.005718  0.000167  0.000347  0.000033  0.000010  0.000005       0.0  0.000176  0.001735
+   5.8735:  0.000009  0.017559  0.002935  0.000412  0.000006  0.000144  0.000181  0.000001  0.000001  0.000001  0.000037  0.000705
+   5.9482:  0.020519  0.001196  0.004182  0.000019  0.000002  0.000404  0.000256       0.0  0.000100       0.0  0.001525  0.000206
+   5.9482:  0.006773  0.005546  0.011193  0.000053  0.000002  0.000148  0.000713       0.0  0.000001  0.000010       0.0       0.0
+   5.9482:  0.000096  0.000002  0.000009  0.011501       0.0  0.000029  0.000001  0.000001  0.000081  0.000005  0.001127  0.000147
+   6.2248:  0.011584  0.006581  0.007090  0.000285  0.000190  0.000499  0.002786  0.000639  0.000032  0.000001  0.000002  0.000062
+   6.2594:  0.000005  0.031699  0.000652  0.013695  0.000067  0.000217  0.000013  0.000033  0.000085  0.000005  0.000018  0.000021
+   6.3644:  0.000049  0.001914  0.014806  0.011053  0.003134  0.001691  0.001342  0.004455  0.000001  0.000001  0.000052  0.000001
+   6.4036:  0.000095  0.000077  0.000924  0.000837  0.020037  0.001093  0.002321  0.016680  0.000003  0.000302  0.000188  0.001251
+   6.4573:  0.000760  0.000151  0.000929  0.000533  0.016466  0.000898  0.002723  0.010019  0.000076  0.000379  0.000286  0.000879
+   6.5542:  0.000062  0.002019  0.000065  0.000094  0.001088  0.017115  0.028765  0.000123  0.000073  0.000037  0.000582  0.000368
+   6.6082:  0.000429  0.000010  0.000996  0.000001  0.002194  0.022087  0.010979  0.000414  0.000028  0.000001  0.000657  0.000722
+   6.6529:  0.000001  0.000751  0.000011  0.000016  0.000229  0.004412  0.022048  0.009921       0.0       0.0  0.000202  0.000364
+   6.6861:  0.000003  0.000015  0.000331  0.002421  0.000785  0.000818  0.010852  0.035962  0.000004  0.000190  0.000421  0.000942
+
+ BRA/KET :  12.71760  16.03041  16.07134  16.12237  16.47280  16.57529
+----------------------------------------------------------------------
+  -3.9824:  0.000251  0.000003       0.0       0.0  0.000075  0.000361
+  -2.1932:  0.005515  0.000006  0.000128  0.000173       0.0  0.000094
+  -2.1476:  0.009943  0.000038  0.000046  0.000177  0.000018  0.000311
+  -1.2076:  0.000043  0.000011  0.000097       0.0  0.000078       0.0
+  -1.1447:  0.007252  0.000115  0.000040  0.000181  0.000086  0.000022
+  -0.4498:  0.009664  0.000013  0.000028  0.000140  0.000041  0.000139
+   0.0954:  0.012397  0.000008  0.000044  0.000143  0.000053  0.000039
+   0.4573:  0.024582  0.000015  0.000019  0.000354  0.000001  0.000061
+   0.4649:  0.000049  0.000003  0.000212       0.0  0.000005  0.000002
+   1.7292:  0.015827  0.000001  0.000023  0.000181  0.000024  0.000028
+   4.3933:       0.0  0.000030  0.000019       0.0  0.016730       0.0
+   4.3933:  0.000006  0.000010  0.000006  0.000133  0.005775  0.002419
+   4.3933:  0.000037  0.000012  0.000008  0.000925  0.006775  0.016914
+   4.5053:  0.000422  0.000879  0.016033  0.006237  0.000030  0.000872
+   4.5071:  0.000316  0.007836  0.004697  0.007875  0.000013  0.000020
+   4.5305:  0.000099  0.010821  0.003230  0.001534  0.000170  0.000007
+   4.5324:  0.000043  0.008842  0.002051  0.000767  0.000467  0.000129
+   4.5398:  0.000069  0.003966  0.001508  0.004449  0.001165  0.000027
+   4.5497:  0.000437  0.004500  0.008042  0.012816  0.000306  0.002422
+   5.3464:  0.000019  0.000016  0.000012  0.000199  0.004899  0.014147
+   5.8170:       0.0       0.0       0.0       0.0       0.0       0.0
+   5.8712:       0.0  0.000570  0.015891       0.0  0.000005       0.0
+   5.8735:  0.000005  0.000164  0.005834  0.000011  0.000024       0.0
+   5.9482:       0.0  0.033779  0.001150       0.0  0.000093       0.0
+   5.9482:  0.003331  0.000024  0.000001  0.031944       0.0  0.000401
+   5.9482:  0.001018  0.025318  0.000864  0.009244  0.000071  0.000117
+   6.2248:  0.000001  0.001148  0.032198  0.000002  0.000691  0.000034
+   6.2594:  0.000043  0.005968  0.005104  0.011961  0.001019  0.000008
+   6.3644:  0.000113  0.002100  0.004494  0.011417       0.0  0.000141
+   6.4036:  0.000247  0.000131  0.003646  0.000543       0.0  0.008388
+   6.4573:  0.000323  0.001876  0.002488  0.004556  0.000020  0.011521
+   6.5542:  0.000015  0.000054  0.000558  0.000599  0.001601  0.008568
+   6.6082:  0.000217  0.000339  0.002370  0.000358  0.010537  0.004001
+   6.6529:  0.000266  0.000002  0.000198  0.000108  0.042700  0.008807
+   6.6861:  0.002339  0.000130  0.000187  0.002999  0.016169  0.028924
+
+
+
+ TRANSFORMED MATRIX for  TRIAD 10 (   -1+    0-   -1- )  (35*30)   DIM :1 :1 :1    ACTOR PARA
+
+       ---- MATRIX ----   TRANSI PRINTTRANS
+
+ BRA/KET :  -8.00610  -7.97808  -7.84614  -6.31126  -6.11587  -5.88231  -5.40495  -5.22839  -4.52572  -3.99399  -1.25098  -1.23527
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.010468  0.014437  0.042620  0.001697  0.011009  0.008033  0.000504  0.000096  0.002195  0.000010  0.000001  0.000001
+  -2.1932:  0.001965  0.000226  0.013202  0.028474  0.000017  0.034877  0.002897  0.001854  0.002301  0.007431  0.000067  0.000084
+  -2.1476:  0.000296  0.001111  0.028490  0.001101  0.014657  0.001463  0.011238  0.016998  0.006162  0.005960  0.000009       0.0
+  -1.2076:  0.001554  0.008866  0.000785  0.009212  0.008330  0.024922  0.015557  0.001768  0.015248  0.000201  0.000013  0.000099
+  -1.1447:  0.004595  0.007506  0.000712  0.004060  0.001808  0.011696  0.005411  0.018925  0.001404  0.003350  0.000006  0.000039
+  -0.4498:  0.032019  0.000048  0.000661  0.000063  0.007427  0.002988  0.002283  0.000511  0.015123  0.020625       0.0       0.0
+   0.0954:  0.002208  0.000079  0.000235  0.000150  0.031333  0.009879       0.0  0.002860  0.037478  0.021397  0.000001  0.000005
+   0.4573:  0.000077  0.002061  0.001149       0.0  0.000011  0.003593  0.071523  0.003220  0.000021  0.013480  0.000006  0.000003
+   0.4649:  0.006663  0.001492       0.0  0.003980  0.005421  0.000992  0.005337  0.038989  0.006315  0.000375  0.000007  0.000014
+   1.7292:  0.000898  0.000027  0.000011  0.000075  0.000841  0.000038       0.0  0.000110  0.033199  0.018862  0.000003  0.000002
+   4.3933:  0.000852  0.002823  0.000035       0.0  0.000001  0.000149  0.000025  0.000354  0.000402  0.000067  0.000009  0.000701
+   4.3933:  0.000327  0.001056  0.000387  0.000027  0.000112  0.000242  0.000002  0.000077  0.000220  0.000011  0.000046  0.000206
+   4.3933:  0.000140  0.001116  0.003474  0.000189  0.001637  0.000449  0.000176  0.000467  0.000006  0.000130  0.000490  0.000540
+   4.5053:  0.000027  0.000013  0.000377  0.000087  0.000763  0.000003  0.000007       0.0  0.000173  0.000714  0.022055  0.024553
+   4.5071:       0.0  0.000017  0.000458  0.000104  0.000131  0.000148  0.000379  0.000618  0.000101  0.000307  0.005145  0.000229
+   4.5305:  0.000902  0.000538       0.0  0.000011  0.000012  0.000062  0.000001  0.000067  0.000045  0.000030  0.001328  0.014823
+   4.5324:  0.000476  0.000542  0.000022  0.000030  0.000039  0.000013  0.000065  0.000022       0.0  0.000017  0.001474  0.012910
+   4.5398:  0.000791  0.000018  0.000020  0.000005  0.000415  0.000112  0.000013  0.000081  0.000015  0.000555  0.001034  0.002286
+   4.5497:  0.000383       0.0  0.000004  0.000011  0.000911  0.000671  0.000013  0.000022  0.000427  0.001812  0.000577  0.001757
+   5.3464:  0.000110  0.000189  0.000442       0.0  0.000043  0.000011  0.000002  0.000006  0.000001  0.000001  0.000098  0.000066
+   5.8170:  0.000031  0.000010  0.000045  0.001519  0.000069  0.000257  0.000016  0.000005  0.000866  0.001239  0.037914  0.007039
+   5.8712:       0.0  0.000021  0.000033  0.000538  0.000046  0.000004  0.000564  0.000728  0.000001  0.000985  0.009859  0.000660
+   5.8735:  0.000001  0.000016  0.000001  0.000469  0.000256  0.000761  0.000604  0.000039  0.000103  0.000011  0.008643  0.022354
+   5.9482:  0.000009  0.000019       0.0  0.000064  0.000072  0.000013  0.000074  0.001280  0.000420  0.000013  0.001245  0.000027
+   5.9482:  0.000021  0.000008       0.0  0.000175  0.000013       0.0  0.000347  0.000446  0.001079  0.000001  0.003348  0.000063
+   5.9482:       0.0  0.000005       0.0       0.0  0.000260  0.000503       0.0  0.000028       0.0  0.001751  0.000003  0.015513
+   6.2248:  0.000067  0.000008  0.000005  0.000096  0.000231  0.000149  0.000142  0.000127       0.0       0.0  0.008697  0.006935
+   6.2594:  0.000001  0.000009  0.000023  0.000005  0.000034  0.000019  0.000364       0.0  0.000004       0.0  0.002658  0.000076
+   6.3644:  0.000110  0.000001       0.0  0.000161  0.000025  0.000080  0.000029  0.000109  0.000351  0.000183  0.000140  0.000050
+   6.4036:  0.000008  0.000042  0.000144  0.000663  0.000727  0.000379  0.000035  0.000011  0.000138  0.000844  0.000008  0.000181
+   6.4573:  0.000003  0.000014  0.000002  0.000305  0.000002  0.000267  0.000286  0.000598  0.000010  0.000166  0.000245  0.000006
+   6.5542:  0.000053  0.000101       0.0  0.000017  0.000048  0.000325  0.001153  0.000997  0.000077  0.000021  0.000004  0.000120
+   6.6082:  0.000002  0.000068  0.000004  0.000019  0.000001  0.000125  0.000098  0.000862  0.000005  0.000041  0.000034  0.000053
+   6.6529:  0.000017  0.000010  0.000004  0.000093  0.000171  0.000044  0.000246  0.000145  0.000179  0.000146  0.000001  0.000060
+   6.6861:  0.000165  0.000003  0.000001  0.000103       0.0  0.000291  0.000026  0.000032  0.001549  0.001939  0.000031  0.000074
+
+ BRA/KET :  -1.20476  -1.20406  -1.17722  -1.06514  -0.81002  -0.78966  -0.74413  -0.58651   9.55499  10.53438  11.48245  12.08398
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.000002  0.000001  0.000037  0.000005  0.000265  0.000119  0.000175  0.000844  0.008281  0.023921  0.000894  0.000207
+  -2.1932:  0.000024  0.000013  0.000036  0.000514  0.000223  0.000021  0.000067  0.000500  0.000109  0.016461  0.002065  0.010912
+  -2.1476:  0.000196  0.000115  0.000095  0.000339  0.000016  0.000054  0.000190  0.000470  0.001799  0.012224  0.006129  0.005178
+  -1.2076:  0.000006  0.000125  0.000277  0.000005  0.000010  0.000090  0.000489       0.0  0.005116  0.000200  0.006251  0.007627
+  -1.1447:  0.000068  0.000107  0.000051  0.000277  0.000017  0.000148  0.000038  0.000002  0.004505  0.000023  0.036643  0.001322
+  -0.4498:  0.000004  0.000027  0.000066  0.000608  0.000001  0.000021  0.000099  0.000117  0.017286  0.007581  0.003012  0.005229
+   0.0954:  0.000011  0.000004  0.000087  0.000284  0.000006  0.000007  0.000180  0.000021  0.006005  0.037411  0.006111  0.016247
+   0.4573:  0.000001  0.000192  0.000003  0.000668  0.000048  0.000003  0.000007  0.000001  0.008944  0.000032  0.000507  0.001327
+   0.4649:  0.000120  0.000052  0.000037  0.000003  0.000008  0.000034  0.000329  0.000012  0.003278  0.000307  0.018134  0.038472
+   1.7292:       0.0  0.000001  0.000020  0.000299  0.000008  0.000012  0.000075  0.000027  0.000023  0.001357  0.002897  0.020819
+   4.3933:  0.001734  0.000101  0.001013       0.0  0.000300  0.030130  0.009242  0.000007  0.001499       0.0  0.000328  0.000114
+   4.3933:  0.000771  0.000168  0.000124       0.0  0.004228  0.011390  0.003644  0.001070  0.000523  0.000379  0.000113  0.000037
+   4.3933:  0.000324  0.000149  0.001137  0.000010  0.036257  0.011478  0.001368  0.012162  0.000593  0.002677  0.000133  0.000052
+   4.5053:  0.002140  0.000761  0.002238  0.009144  0.000037  0.000062  0.000296  0.000431  0.000002  0.000411  0.000020  0.000393
+   4.5071:  0.020229  0.013300  0.003884  0.007052  0.000860  0.000622  0.000202  0.000098  0.000007  0.000384  0.000078  0.000163
+   4.5305:  0.011735  0.006751  0.003068  0.001306  0.000003  0.000257  0.000306  0.000017  0.000227  0.000108  0.000061  0.000052
+   4.5324:  0.008730  0.004867  0.002745  0.000326  0.000009  0.000218  0.000113  0.000015  0.000564  0.000089  0.000001  0.000011
+   4.5398:  0.001000  0.000300  0.010268  0.008607       0.0  0.000175  0.000064  0.000199  0.001740  0.000379  0.000116  0.000057
+   4.5497:  0.000031  0.000243  0.032324  0.028835  0.000387  0.000051  0.001012  0.000639  0.000761  0.001952  0.000054  0.000009
+   5.3464:  0.000170  0.000137  0.000328  0.000005  0.027303  0.009151  0.007116  0.008871  0.000075  0.000057  0.000002  0.000001
+   5.8170:  0.000003  0.000001  0.009010  0.007938  0.000087  0.000102  0.000510  0.000004       0.0       0.0       0.0       0.0
+   5.8712:  0.021321  0.012703  0.000221  0.005718  0.000167  0.000347  0.000033  0.000010  0.000005       0.0  0.000176  0.001735
+   5.8735:  0.000009  0.017559  0.002935  0.000412  0.000006  0.000144  0.000181  0.000001  0.000001  0.000001  0.000037  0.000705
+   5.9482:  0.020519  0.001196  0.004182  0.000019  0.000002  0.000404  0.000256       0.0  0.000100       0.0  0.001525  0.000206
+   5.9482:  0.006773  0.005546  0.011193  0.000053  0.000002  0.000148  0.000713       0.0  0.000001  0.000010       0.0       0.0
+   5.9482:  0.000096  0.000002  0.000009  0.011501       0.0  0.000029  0.000001  0.000001  0.000081  0.000005  0.001127  0.000147
+   6.2248:  0.011584  0.006581  0.007090  0.000285  0.000190  0.000499  0.002786  0.000639  0.000032  0.000001  0.000002  0.000062
+   6.2594:  0.000005  0.031699  0.000652  0.013695  0.000067  0.000217  0.000013  0.000033  0.000085  0.000005  0.000018  0.000021
+   6.3644:  0.000049  0.001914  0.014806  0.011053  0.003134  0.001691  0.001342  0.004455  0.000001  0.000001  0.000052  0.000001
+   6.4036:  0.000095  0.000077  0.000924  0.000837  0.020037  0.001093  0.002321  0.016680  0.000003  0.000302  0.000188  0.001251
+   6.4573:  0.000760  0.000151  0.000929  0.000533  0.016466  0.000898  0.002723  0.010019  0.000076  0.000379  0.000286  0.000879
+   6.5542:  0.000062  0.002019  0.000065  0.000094  0.001088  0.017115  0.028765  0.000123  0.000073  0.000037  0.000582  0.000368
+   6.6082:  0.000429  0.000010  0.000996  0.000001  0.002194  0.022087  0.010979  0.000414  0.000028  0.000001  0.000657  0.000722
+   6.6529:  0.000001  0.000751  0.000011  0.000016  0.000229  0.004412  0.022048  0.009921       0.0       0.0  0.000202  0.000364
+   6.6861:  0.000003  0.000015  0.000331  0.002421  0.000785  0.000818  0.010852  0.035962  0.000004  0.000190  0.000421  0.000942
+
+ BRA/KET :  12.71760  16.03041  16.07134  16.12237  16.47280  16.57529
+----------------------------------------------------------------------
+  -3.9824:  0.000251  0.000003       0.0       0.0  0.000075  0.000361
+  -2.1932:  0.005515  0.000006  0.000128  0.000173       0.0  0.000094
+  -2.1476:  0.009943  0.000038  0.000046  0.000177  0.000018  0.000311
+  -1.2076:  0.000043  0.000011  0.000097       0.0  0.000078       0.0
+  -1.1447:  0.007252  0.000115  0.000040  0.000181  0.000086  0.000022
+  -0.4498:  0.009664  0.000013  0.000028  0.000140  0.000041  0.000139
+   0.0954:  0.012397  0.000008  0.000044  0.000143  0.000053  0.000039
+   0.4573:  0.024582  0.000015  0.000019  0.000354  0.000001  0.000061
+   0.4649:  0.000049  0.000003  0.000212       0.0  0.000005  0.000002
+   1.7292:  0.015827  0.000001  0.000023  0.000181  0.000024  0.000028
+   4.3933:       0.0  0.000030  0.000019       0.0  0.016730       0.0
+   4.3933:  0.000006  0.000010  0.000006  0.000133  0.005775  0.002419
+   4.3933:  0.000037  0.000012  0.000008  0.000925  0.006775  0.016914
+   4.5053:  0.000422  0.000879  0.016033  0.006237  0.000030  0.000872
+   4.5071:  0.000316  0.007836  0.004697  0.007875  0.000013  0.000020
+   4.5305:  0.000099  0.010821  0.003230  0.001534  0.000170  0.000007
+   4.5324:  0.000043  0.008842  0.002051  0.000767  0.000467  0.000129
+   4.5398:  0.000069  0.003966  0.001508  0.004449  0.001165  0.000027
+   4.5497:  0.000437  0.004500  0.008042  0.012816  0.000306  0.002422
+   5.3464:  0.000019  0.000016  0.000012  0.000199  0.004899  0.014147
+   5.8170:       0.0       0.0       0.0       0.0       0.0       0.0
+   5.8712:       0.0  0.000570  0.015891       0.0  0.000005       0.0
+   5.8735:  0.000005  0.000164  0.005834  0.000011  0.000024       0.0
+   5.9482:       0.0  0.033779  0.001150       0.0  0.000093       0.0
+   5.9482:  0.003331  0.000024  0.000001  0.031944       0.0  0.000401
+   5.9482:  0.001018  0.025318  0.000864  0.009244  0.000071  0.000117
+   6.2248:  0.000001  0.001148  0.032198  0.000002  0.000691  0.000034
+   6.2594:  0.000043  0.005968  0.005104  0.011961  0.001019  0.000008
+   6.3644:  0.000113  0.002100  0.004494  0.011417       0.0  0.000141
+   6.4036:  0.000247  0.000131  0.003646  0.000543       0.0  0.008388
+   6.4573:  0.000323  0.001876  0.002488  0.004556  0.000020  0.011521
+   6.5542:  0.000015  0.000054  0.000558  0.000599  0.001601  0.008568
+   6.6082:  0.000217  0.000339  0.002370  0.000358  0.010537  0.004001
+   6.6529:  0.000266  0.000002  0.000198  0.000108  0.042700  0.008807
+   6.6861:  0.002339  0.000130  0.000187  0.002999  0.016169  0.028924
+
+
+
+ TRANSFORMED MATRIX for  TRIAD 14 (    2+    0-    2- )  (36*32)   DIM :1 :1 :1    ACTOR PARA
+
+       ---- MATRIX ----   TRANSI PRINTTRANS
+
+ BRA/KET :  -8.00610  -7.93255  -7.84614  -7.74985  -6.50910  -6.31126  -5.77678  -5.40495  -4.52572  -4.11690  -1.25611  -1.25098
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:         0  0.038519         0  0.047254  0.000056         0  0.003311         0         0  0.000284  0.000003         0
+  -2.3275:  0.075638         0  0.000308         0         0  0.014713         0  0.007127  0.008939         0         0  0.000036
+  -2.1476:         0  0.000454         0  0.043334  0.000846         0  0.020212         0         0  0.007860  0.000004         0
+  -2.1423:  0.011249         0  0.007379         0         0  0.047630         0  0.004612  0.004641         0         0  0.000093
+  -2.1260:  0.015269         0  0.006972         0         0  0.000540         0  0.043972  0.011614         0         0  0.000002
+  -1.1447:         0  0.024149         0  0.007510  0.002205         0  0.054880         0         0  0.024249  0.000013         0
+  -1.1315:  0.003574         0  0.030568         0         0  0.042417         0  0.011778  0.010037         0         0  0.000051
+  -0.4498:         0  0.000022         0  0.000126  0.080698         0  0.004315         0         0  0.010599  0.000001         0
+   0.4457:  0.000378         0  0.012339         0         0  0.000014         0  0.039784  0.001557         0         0  0.000016
+   0.4573:         0  0.005641         0  0.004351  0.010683         0  0.022894         0         0  0.000256  0.000001         0
+   1.6901:  0.009795         0       0.0         0         0  0.000673         0  0.000233  0.100865         0         0  0.000001
+   1.7292:         0  0.000101         0  0.000335  0.023898         0  0.000343         0         0  0.084261       0.0         0
+   4.3933:  0.003532         0  0.000049         0         0       0.0         0  0.000104  0.001475         0         0  0.000017
+   4.3933:         0  0.002044         0  0.001977  0.000011         0  0.000346         0         0  0.000121  0.000285         0
+   4.5047:  0.000191         0  0.000419         0         0  0.000336         0  0.000243  0.000056         0         0  0.058472
+   4.5071:         0  0.000097         0  0.001120  0.000002         0  0.000220         0         0  0.000092  0.002381         0
+   4.5090:  0.000170         0  0.000322         0         0  0.000056         0  0.000626  0.000004         0         0  0.000685
+   4.5305:         0  0.001585         0  0.000411  0.000015         0  0.000038         0         0  0.000026  0.011998         0
+   4.5317:  0.000090         0  0.002415         0         0       0.0         0  0.000085  0.000458         0         0  0.017076
+   4.5398:         0  0.000148         0  0.000201  0.000238         0       0.0         0         0  0.001344  0.046845         0
+   5.3464:         0  0.000487         0  0.000415  0.000012         0       0.0         0         0       0.0  0.000024         0
+   5.6006:  0.002347         0  0.000052         0         0       0.0         0  0.000042  0.000007         0         0  0.000049
+   5.8735:         0  0.000046         0  0.000006  0.000001         0  0.001399         0         0  0.001863  0.004055         0
+   5.8737:  0.000010         0  0.000044         0         0  0.001287         0  0.000195  0.000656         0         0  0.028831
+   5.9482:         0  0.000010         0       0.0  0.000738         0  0.000485         0         0  0.000012  0.019162         0
+   5.9482:  0.000034         0  0.000010         0         0  0.000033         0  0.001288  0.000568         0         0  0.001458
+   6.2528:  0.000093         0  0.000098         0         0  0.000315         0  0.000110  0.000251         0         0  0.008888
+   6.2594:         0  0.000026         0  0.000025  0.000519         0  0.000021         0         0  0.000010  0.014020         0
+   6.3644:         0  0.000098         0  0.000059  0.002305         0  0.000621         0         0  0.000181  0.015210         0
+   6.3911:  0.000484         0  0.000003         0         0  0.000027         0  0.000011  0.001147         0         0  0.000402
+   6.4062:  0.000048         0  0.000104         0         0  0.002679         0  0.000113  0.000009         0         0  0.000336
+   6.4573:         0  0.000116         0  0.000053  0.000031         0  0.001528         0         0  0.000004  0.000788         0
+   6.4817:  0.000028         0  0.000089         0         0  0.000197         0  0.001793  0.000002         0         0  0.000143
+   6.5542:         0  0.000088         0  0.000042  0.000884         0  0.001239         0         0  0.000050  0.000286         0
+   6.5877:       0.0         0  0.000044         0         0  0.000202         0  0.002291  0.000888         0         0  0.000011
+   6.6529:         0  0.000008         0  0.000022  0.002182         0  0.000278         0         0  0.003028  0.000151         0
+
+ BRA/KET :  -1.23444  -1.20406  -1.17722  -1.08431  -0.81538  -0.81002  -0.80229  -0.74413   9.45479   9.55499  11.40687  11.48245
+----------------------------------------------------------------------------------------------------------------------------------
+  -3.9824:  0.000006         0         0  0.000007  0.000267         0  0.000262         0  0.034165         0  0.002129         0
+  -2.3275:         0  0.000097  0.000065         0         0  0.000003         0  0.000316         0  0.005882         0  0.008476
+  -2.1476:  0.000089         0         0  0.000382  0.000253         0  0.000061         0  0.052920         0  0.000001         0
+  -2.1423:         0  0.000048  0.000110         0         0  0.000050         0  0.000311         0  0.041330         0  0.001875
+  -2.1260:         0  0.000393  0.000268         0         0  0.000140         0  0.000529         0  0.015022         0  0.029844
+  -1.1447:  0.000092         0         0  0.001185  0.000045         0  0.000239         0  0.015548         0  0.000321         0
+  -1.1315:         0  0.000010  0.000088         0         0  0.000130         0  0.000135         0  0.041024         0  0.016435
+  -0.4498:  0.000005         0         0  0.000130  0.000016         0  0.000014         0  0.003413         0  0.019369         0
+   0.4457:         0  0.000063  0.000002         0         0  0.000011         0  0.000050         0  0.001397         0  0.042001
+   0.4573:  0.000001         0         0  0.000086  0.000009         0  0.000008         0       0.0         0  0.068768         0
+   1.6901:         0  0.000001  0.000122         0         0  0.000033         0  0.000308         0  0.000459         0  0.008346
+   1.7292:       0.0         0         0  0.000525  0.000102         0  0.000008         0  0.001004         0  0.013206         0
+   4.3933:         0  0.000455  0.003770         0         0  0.000356         0  0.038213         0  0.001498         0  0.000324
+   4.3933:  0.000831         0         0  0.000050  0.019979         0  0.022307         0  0.001520         0  0.000289         0
+   4.5047:         0  0.012862  0.005778         0         0  0.000138         0  0.000101         0  0.000207         0  0.000371
+   4.5071:  0.027441         0         0  0.004438  0.000319         0  0.000031         0  0.000990         0  0.000260         0
+   4.5090:         0  0.042766  0.002144         0         0  0.000016         0  0.000436         0  0.001028         0  0.000010
+   4.5305:  0.047718         0         0  0.000644  0.000502         0  0.000009         0  0.000828         0  0.000215         0
+   4.5317:         0  0.027860  0.014747         0         0  0.000527         0  0.001496         0  0.000725         0  0.000515
+   4.5398:  0.002436         0         0  0.038461  0.000086         0  0.000118         0  0.000127         0  0.000152         0
+   5.3464:  0.000327         0         0  0.000058  0.029139         0  0.023457         0  0.000472         0  0.000005         0
+   5.6006:         0  0.000004  0.006289         0         0  0.001673         0  0.046559         0  0.001178         0  0.000119
+   5.8735:  0.024753         0         0  0.018167  0.000025         0  0.000447         0  0.000001         0  0.000001         0
+   5.8737:         0  0.003889  0.014244         0         0  0.000196         0  0.001212         0       0.0         0  0.000166
+   5.9482:  0.009118         0         0  0.000084       0.0         0  0.000218         0  0.000077         0  0.001647         0
+   5.9482:         0  0.020553  0.005457         0         0  0.000172         0  0.000240         0  0.000107         0  0.001520
+   6.2528:         0  0.007256  0.002651         0         0  0.005700         0  0.000901         0  0.000038         0  0.000024
+   6.2594:  0.001508         0         0  0.001587  0.001008         0  0.001198         0       0.0         0  0.000053         0
+   6.3644:  0.001407         0         0  0.032635  0.013251         0  0.004705         0  0.000133         0  0.000149         0
+   6.3911:         0  0.000652  0.049301         0         0  0.002111         0  0.008019         0  0.000001         0  0.000886
+   6.4062:         0  0.000045  0.003948         0         0  0.024031         0  0.001979         0  0.000005         0  0.000846
+   6.4573:  0.000336         0         0  0.009551  0.040962         0  0.006547         0       0.0         0  0.001171         0
+   6.4817:         0  0.000816  0.000478         0         0  0.013057         0  0.017503         0  0.000512         0  0.000387
+   6.5542:  0.000080         0         0  0.001622  0.000339         0  0.038785         0  0.000020         0  0.000057         0
+   6.5877:         0  0.001074  0.000661         0         0  0.053769         0  0.003509         0  0.000270         0  0.000358
+   6.6529:  0.000045         0         0  0.003793  0.005482         0  0.014725         0  0.000233         0  0.002904         0
+
+ BRA/KET :  12.08398  12.26390  16.02832  16.03041  16.07134  16.08678  16.45243  16.47280
+------------------------------------------------------------------------------------------
+  -3.9824:         0  0.000037  0.000003         0         0  0.000001  0.000225         0
+  -2.3275:  0.002383         0         0  0.000037  0.000034         0         0       0.0
+  -2.1476:         0  0.007977  0.000002         0         0  0.000118  0.000191         0
+  -2.1423:  0.013354         0         0  0.000008  0.000156         0         0  0.000091
+  -2.1260:  0.003089         0         0  0.000132  0.000006         0         0  0.000320
+  -1.1447:         0  0.031039  0.000004         0         0  0.000342  0.000021         0
+  -1.1315:  0.004744         0         0  0.000099  0.000008         0         0       0.0
+  -0.4498:         0  0.005470  0.000001         0         0  0.000019  0.000008         0
+   0.4457:  0.020440         0         0  0.000116  0.000074         0         0  0.000008
+   0.4573:         0  0.005424  0.000059         0         0  0.000107  0.000041         0
+   1.6901:  0.067693         0         0  0.000003  0.000120         0         0  0.000083
+   1.7292:         0  0.062789  0.000001         0         0  0.000190  0.000007         0
+   4.3933:  0.000061         0         0  0.000031  0.000015         0         0  0.016766
+   4.3933:         0       0.0  0.000055         0         0       0.0  0.016851         0
+   4.5047:  0.000289         0         0  0.010793  0.019088         0         0  0.000149
+   4.5071:         0  0.000382  0.002771         0         0  0.010375  0.001027         0
+   4.5090:  0.000002         0         0  0.017835  0.000682         0         0  0.000733
+   4.5305:         0  0.000543  0.000608         0         0  0.022584  0.000737         0
+   4.5317:  0.000496         0         0  0.007738  0.015548         0         0  0.001040
+   4.5398:         0  0.000012  0.032459         0         0  0.002486  0.000079         0
+   5.3464:         0  0.000001  0.000033         0         0       0.0  0.019038         0
+   5.6006:  0.000375         0         0  0.000144  0.000224         0         0  0.018023
+   5.8735:         0  0.003293  0.000018         0         0  0.023755       0.0         0
+   5.8737:  0.002825         0         0  0.000620  0.023678         0         0  0.000001
+   5.9482:         0       0.0  0.035074         0         0       0.0  0.000041         0
+   5.9482:  0.000205         0         0  0.033778  0.001150         0         0  0.000094
+   6.2528:  0.000032         0         0  0.021719  0.015429         0         0  0.000001
+   6.2594:         0  0.000021  0.015455         0         0  0.027667  0.000003         0
+   6.3644:         0  0.000017  0.013864         0         0  0.013535  0.003000         0
+   6.3911:  0.000534         0         0  0.016382  0.020755         0         0  0.000284
+   6.4062:  0.001941         0         0  0.001190  0.010944         0         0  0.008301
+   6.4573:         0  0.002034  0.008228         0         0  0.006684  0.024629         0
+   6.4817:       0.0         0         0  0.000194  0.000025         0         0  0.035817
+   6.5542:         0  0.001713  0.000462         0         0  0.002076  0.042662         0
+   6.5877:  0.002037         0         0  0.000370  0.003592         0         0  0.029572
+   6.6529:         0  0.000802  0.002006         0         0  0.001836  0.002531         0
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  1 (    0+    0+    0+ )  (39*39)   DIM :1 :1 :1    ACTOR SZ
+
+       ---- MATRIX ----   GROUND PRINTTRANS
+
+ BRA/KET : -2.327497 -2.193189 -2.142306 -1.287637 -1.207560
+------------------------------------------------------------
+ DIAGVAL :         0         0         0         0         0
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  5 (    1+    0+    1+ )  (35*35)   DIM :1 :1 :1    ACTOR SZ
+
+       ---- MATRIX ----   GROUND PRINTTRANS
+
+ BRA/KET : -3.982356 -2.193189 -2.147574 -1.207560 -1.144726
+------------------------------------------------------------
+ DIAGVAL : -0.946599 -0.475419 -0.478045  0.474989  0.474326
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  9 (   -1+    0+   -1+ )  (35*35)   DIM :1 :1 :1    ACTOR SZ
+
+       ---- MATRIX ----   GROUND PRINTTRANS
+
+ BRA/KET : -3.982356 -2.193189 -2.147574 -1.207560 -1.144726
+------------------------------------------------------------
+ DIAGVAL :  0.946599  0.475419  0.478045 -0.474989 -0.474326
+
+
+
+ TRANSFORMED MATRIX for  TRIAD 13 (    2+    0+    2+ )  (36*36)   DIM :1 :1 :1    ACTOR SZ
+
+       ---- MATRIX ----   GROUND PRINTTRANS
+
+ BRA/KET : -3.982356 -2.327497 -2.147574 -2.142306 -2.125971
+------------------------------------------------------------
+ DIAGVAL :         0         0         0         0         0
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  1 (    0+    0+    0+ )  (39*39)   DIM :1 :1 :1    ACTOR SHIFT2
+
+       ---- MATRIX ----   GROUND PRINTTRANS
+
+ BRA/KET : -2.327497 -2.193189 -2.142306 -1.287637 -1.207560
+------------------------------------------------------------
+ DIAGVAL :  0.126776  0.077846  0.101596  0.098420  0.082333
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  5 (    1+    0+    1+ )  (35*35)   DIM :1 :1 :1    ACTOR SHIFT2
+
+       ---- MATRIX ----   GROUND PRINTTRANS
+
+ BRA/KET : -3.982356 -2.193189 -2.147574 -1.207560 -1.144726
+------------------------------------------------------------
+ DIAGVAL :  0.102199  0.077846  0.078239  0.082333  0.086707
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  9 (   -1+    0+   -1+ )  (35*35)   DIM :1 :1 :1    ACTOR SHIFT2
+
+       ---- MATRIX ----   GROUND PRINTTRANS
+
+ BRA/KET : -3.982356 -2.193189 -2.147574 -1.207560 -1.144726
+------------------------------------------------------------
+ DIAGVAL :  0.102199  0.077846  0.078239  0.082333  0.086707
+
+
+
+ TRANSFORMED MATRIX for  TRIAD 13 (    2+    0+    2+ )  (36*36)   DIM :1 :1 :1    ACTOR SHIFT2
+
+       ---- MATRIX ----   GROUND PRINTTRANS
+
+ BRA/KET : -3.982356 -2.327497 -2.147574 -2.142306 -2.125971
+------------------------------------------------------------
+ DIAGVAL :  0.102199  0.126776  0.078239  0.101596  0.078334
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  1 (    0+    0+    0+ )  (39*39)   DIM :1 :1 :1    ACTOR SHIFT1
+
+       ---- MATRIX ----   GROUND PRINTTRANS
+
+ BRA/KET : -2.327497 -2.193189 -2.142306 -1.287637 -1.207560
+------------------------------------------------------------
+ DIAGVAL :  0.873224  0.922154  0.898404  0.901580  0.917667
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  5 (    1+    0+    1+ )  (35*35)   DIM :1 :1 :1    ACTOR SHIFT1
+
+       ---- MATRIX ----   GROUND PRINTTRANS
+
+ BRA/KET : -3.982356 -2.193189 -2.147574 -1.207560 -1.144726
+------------------------------------------------------------
+ DIAGVAL :  0.897801  0.922154  0.921761  0.917667  0.913293
+
+
+
+ TRANSFORMED MATRIX for  TRIAD  9 (   -1+    0+   -1+ )  (35*35)   DIM :1 :1 :1    ACTOR SHIFT1
+
+       ---- MATRIX ----   GROUND PRINTTRANS
+
+ BRA/KET : -3.982356 -2.193189 -2.147574 -1.207560 -1.144726
+------------------------------------------------------------
+ DIAGVAL :  0.897801  0.922154  0.921761  0.917667  0.913293
+
+
+
+ TRANSFORMED MATRIX for  TRIAD 13 (    2+    0+    2+ )  (36*36)   DIM :1 :1 :1    ACTOR SHIFT1
+
+       ---- MATRIX ----   GROUND PRINTTRANS
+
+ BRA/KET : -3.982356 -2.327497 -2.147574 -2.142306 -2.125971
+------------------------------------------------------------
+ DIAGVAL :  0.897801  0.873224  0.921761  0.898404  0.921666
+
+ TRANSFORMATION FINISHED
+
+ ECHO:
+ RUNNER FINISHED
