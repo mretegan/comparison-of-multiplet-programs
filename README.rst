@@ -10,7 +10,7 @@ Binaries are provided on the project's `download page <http://www.quanty.org/dow
 
 TTMult
 ------
-The source code of the programs that make up TTMult are distributed via `BitBucket <https://bitbucket.org/cjtitus/ttmult/overview>`_. The programs were compiled using the default Makefile. The last commit considered was 27dba3c.
+The source code of the programs that make up TTMult are distributed via `BitBucket <https://bitbucket.org/cjtitus/ttmult/overview>`_. The programs were compiled using the default Makefile. The last commit considered was `27dba3c <https://bitbucket.org/cjtitus/ttmult/commits/27dba3c105c0bd26f3a0e9947c02d75847fb4842>`_.
 
 Timings
 =======
