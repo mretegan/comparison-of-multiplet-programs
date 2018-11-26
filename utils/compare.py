@@ -23,7 +23,12 @@ def read_ttmult_spectrum(fn):
             tokens = line.split()
             sticks.append([float(token) for token in tokens])
 
-    return np.array(values), np.array(sticks)
+    values = np.array(values)
+    sticks = np.array(sticks)
+
+    if 'iso' in fn:
+        values[:, 1] = values[:, 1] / 3.
+    return values, sticks
 
 
 def read_quanty_spectrum(fn, column=2):
@@ -43,23 +48,26 @@ def main():
 
     data, _ = read_ttmult_spectrum('TTMult_without_Bander/input_iso.xy')
     x = data[:, 0]
-    y = data[:, 1] / 3
+    y = data[:, 1]
     xn = np.linspace(min(x), max(x), npoints)
     y1 = np.interp(xn, x, y)
+    print(np.trapz(y, x))
     ax.plot(xn, y1, label='TTMult_without_Bander')
 
     data, _ = read_ttmult_spectrum('TTMult/input_iso.xy')
     x = data[:, 0]
-    y = data[:, 1] / 3
+    y = data[:, 1]
     y2 = np.interp(xn, x, y)
+    print(np.trapz(y, x))
     ax.plot(xn, y2, label='TTMult')
 
-    print('Largest difference between Racah and Bander: {0:.2E}'.format(np.max(np.abs(y1 - y2))))
+    # print('Largest difference between Racah and Bander: {0:.2E}'.format(np.max(np.abs(y1 - y2))))
 
     data = read_quanty_spectrum('Quanty/input.spec')
     x = data[:, 0]
     y = data[:, 1]
     y3 = np.interp(xn, x, y)
+    print(np.trapz(y, x))
     ax.plot(xn, y3, label='Quanty')
 
     ax.legend()

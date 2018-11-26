@@ -1,0 +1,225 @@
+ ECHO:
+    10    1    0   14    2    4    1    1 SHELL03000000 SPIN03000000 INTER8     
+  
+ NLEVELS=  1 ELEVELS= -1.0000000     IBUTLER= 14 IUMIN=  2 IUMAX=  4 IRNQ=  1 IRXQ=  1 NISUBC=  8
+ IQUAD= 0 3 0 0 0 0 0 0
+ ISPIN= 0 3 0 0 0 0 0 0
+ IORBIT= 0 0 0 0 0 0 0 0
+
+ F
+  ci state  1
+  ci state  2
+ limitwasgiven  F
+  limit state  1    conf  1  0-**   conf  2  0-**   conf  3  0-**   conf  4  0-**
+                    conf  5  0-**   conf  6  0-**   conf  7  0-**   conf  8  0-**
+                    conf  9  0-**   conf 10  0-**
+  limit state  2    conf  1  0-**   conf  2  0-**   conf  3  0-**   conf  4  0-**
+                    conf  5  0-**   conf  6  0-**   conf  7  0-**   conf  8  0-**
+                    conf  9  0-**   conf 10  0-**
+ ECHO:
+     0                         80998080            8065.47800     0000000       
+  
+ ECHO:
+     1     2 1 12 1 10         00      9 00000000 0 8065.4790 .00       1       
+  
+1RCG MOD 9    LS COUPLING  NSCONF= 2 1 1    2 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=41978.07
+
+0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
+ 
+ ECHO:
+ P 6  D 8                                                                       
+  
+   1   1       P 6   D 8   S 0   S 0   S 0   S 0   S 0   S 0      14    1        ALL
+ 
+ ECHO:
+ P 5  D 9                                                                       
+  
+   2   1       P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0      14   -1        ALL
+ 
+
+ FINISHED LNCUV at  0.004 min
+ plev called            1
+  PARAMETERS NEEDED: KLSC=           5  KJP=           9  KJK=           5
+
+
+
+ MAXIMUM SUBSCRIPT VALUES
+
+ NALSP(M,I), PscrL(M,I),   M=NOTOTT=       5
+ NTRMK(K), LF(K),          K=NDIFFT=       5
+ NALSJP(M,I), PJ(M,I),     M=NOTOTJ(I)=    1    9    1    1    1    1    1    1
+ NJK(K,I),                 K=NDIFFJ(I)=    1    5    1    1    1    1    1    1
+
+0NTOTTJ=     0     5
+
+0 NTRMK=     1     1     1     1     1
+
+ FINISHED PLEV at  0.004 min
+ F2(22)       PC(      5)     CAVE=   0.8888890                  DELT=    0.01 MIN       P 6   D 8
+ F4(22)       PC(      5)     CAVE=   0.8888889                  DELT=    0.01 MIN       P 6   D 8
+ ZETA 2       PC(     14)     CAVE=   0.0000000                  DELT=    0.01 MIN       P 6   D 8
+ J= 0.0          CONFIGURATION         1    P 6   D 8   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.01 MIN
+ J= 1.0          CONFIGURATION         1    P 6   D 8   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.01 MIN
+ J= 2.0          CONFIGURATION         1    P 6   D 8   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.01 MIN
+ J= 3.0          CONFIGURATION         1    P 6   D 8   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.01 MIN
+ J= 4.0          CONFIGURATION         1    P 6   D 8   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.01 MIN
+  MUPOLE called (SHELL           1           1           0           0
+           2           2           2           4 )
+ ECHO:
+ NI2+ 2P06 3D08     4    0.0000   12.2341    7.5981    0.0832    0.0000HR9999999
+ 9
+
+ SUMS21=    26.47898 SUMS20=    10.52470
+         SSOPI2=    16.00000
+
+
+                                               16.000
+
+ SUMS21=    28.86961 SUMS20=    13.15533
+         SSOPI2=    16.00000
+
+
+                                               16.000
+  SPIN   called (           2 )
+ plev called            2
+  PARAMETERS NEEDED: KLSC=           6  KJP=           2  KJK=           2
+
+
+
+ MAXIMUM SUBSCRIPT VALUES
+
+ NALSP(M,I), PscrL(M,I),   M=NOTOTT=       6
+ NTRMK(K), LF(K),          K=NDIFFT=       6
+ NALSJP(M,I), PJ(M,I),     M=NOTOTJ(I)=    2    2    1    1    1    1    1    1
+ NJK(K,I),                 K=NDIFFJ(I)=    2    2    1    1    1    1    1    1
+
+0NTOTTJ=     0     6
+
+0 NTRMK=     1     1     1     1     1     1
+
+ FINISHED PLEV at  0.012 min
+ ZETA 1       PC(      2)     CAVE=   0.0000000                  DELT=    0.02 MIN       P 5   D 9
+ ZETA 2       PC(      2)     CAVE=   0.0000000                  DELT=    0.02 MIN       P 5   D 9
+ F2(12)       PC(      6)     CAVE=   0.0000000                  DELT=    0.02 MIN       P 5   D 9
+ G1(12)       PC(      6)     CAVE=   3.0000002                  DELT=    0.02 MIN       P 5   D 9
+ G3(12)       PC(      6)     CAVE=   1.9285717                  DELT=    0.02 MIN       P 5   D 9
+ J= 0.0          CONFIGURATION         1    P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.02 MIN
+ J= 1.0          CONFIGURATION         1    P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.02 MIN
+ J= 2.0          CONFIGURATION         1    P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.02 MIN
+ J= 3.0          CONFIGURATION         1    P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.02 MIN
+ J= 4.0          CONFIGURATION         1    P 5   D 9   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.02 MIN
+  MUPOLE called (SHELL           2           2           0           0
+           2           2           2           4 )
+ ECHO:
+ NI2+ 2P06 3D08     4    0.0000   12.2341    7.5981    0.0832    0.0000HR9999999
+ 9
+
+ SUMS21=    18.83391 SUMS20=     7.43175
+         SSOPI2=    12.00000
+
+
+                                               12.000
+
+ SUMS21=    20.84468 SUMS20=     9.83321
+         SSOPI2=    12.00000
+
+
+                                               12.000
+  SPIN   called (           2 )
+  MUPOLE called (MUPOLE           1           2           0           0
+           0           0           1           1 )
+ ECHO:
+ NI2+ 2P06 3D08     4    0.0000   12.2341    7.5981    0.0832    0.0000HR9999999
+ 9
+
+ SUMS21=    18.00000 SUMS20=    18.00000
+         SSOPI2=    18.00000
+
+
+                                               18.000
+ --- ENERGY CALLED ---
+ ECHO:
+ NI2+ 2P06 3D08     4    0.0000   12.2341    7.5981    0.0832    0.0000HR9999999
+ 9
+
+
+ NI2+ 2P06 3D08        PARAMETER VALUES IN  8065.5 CM-1 (HR TIMES 0.80 1.00 0.80 0.80)     1  P 6  D 8
+
+                                       EAV            F2(22)         F4(22)         ZETA 2  
+
+                                        0.000          9.787          6.078          0.083
+ ECHO:
+ NI2+ 2P05 3D09     6  860.1660   11.5072    0.1022    7.7213    5.7874HR9999999
+ 9
+ ECHO:
+     3.2914                                                                     
+  
+
+
+ NI2+ 2P05 3D09        PARAMETER VALUES IN  8065.5 CM-1 (HR TIMES 0.80 1.00 0.80 0.80)     1  P 5  D 9
+
+                                       EAV            ZETA 1         ZETA 2         F2(12)         G1(12)  
+         G3(12)  
+
+                                      860.166         11.507          0.102          6.177          4.630
+          2.633
+ SPECTR CALLED(           1          31          32           1           0 )
+ ECHO:
+ NI2+ 2P06 3D08      NI2+ 2P05 3D09        -0.18503( 2P//R1// 3D) 1.000HR  36-10
+ 0
+ ECHO:
+ NI2+ 2P06 3D08      NI2+ 2P05 3D09        -0.18503( 2P//R1// 3D) 1.000HR  36-10
+ 0
+ ECHO:
+                     -99999999.                                                 
+  
+ IGEN=           0  N=           0  II=           1  CERAS= 
+  THIS WAS NOT A SPECTR CARD: END OF SPECTR.
+ ECHO:
+                     -99999999.                                                 
+  
+
+   at  0.086 min
+ ECHO:
+    -1                                                                          
+  

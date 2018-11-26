@@ -1,4 +1,4 @@
- Mon Jul  2 09:04:15 2018
+ Wed Jul  4 12:16:54 2018
  
  TTTTT  TTTTT         RRRR    AAA    CCC    999   77777 
    T      T           R   R  A   A  C   C  9   9     7  
@@ -877,7 +877,7 @@ BOTH REFLECTED
  ECHO:    BRANCH 2+ > 0 2+ >  0+ >  0+  0.0;
  ECHO:ACTOR  0+ SPIN        GROUND;
  ECHO:  OPER SPIN1;
- ECHO:    BRANCH 1+ > 0 1+ > ^0+ >  0+  0.0;
+ ECHO:    BRANCH 1+ > 0 1+ > ^0+ >  0+  0.001;
  ECHO:ACTOR  0+ ORBIT       GROUND;
  ECHO:  OPER ORBIT1;
  ECHO:    BRANCH 1+ > 0 1+ > ^0+ > 0+  0.0;
@@ -895,7 +895,7 @@ BOTH REFLECTED
  ECHO:    BRANCH 2+ > 0 2+ >  0+ >  0+  0.0;
  ECHO:ACTOR  0+ SPIN        EXCITE;
  ECHO:  OPER SPIN1;
- ECHO:    BRANCH 1+ > 0 1+ > ^0+ >  0+  0.0;
+ ECHO:    BRANCH 1+ > 0 1+ > ^0+ >  0+  0.001;
  ECHO:ACTOR  0+ ORBIT       EXCITE;
  ECHO:  OPER ORBIT1;
  ECHO:    BRANCH 1+ > 0 1+ > ^0+ > 0+  0.0;
@@ -940,7 +940,7 @@ BOTH REFLECTED
        <OPER> SHELL1            STRENGTH  +0  BRANCH:    2+  >  0    2+  >   0+  >    0+
 
   <ACTOR> SPIN             IRREP    0+  GROUND 
-       <OPER> SPIN1             STRENGTH  +0  BRANCH:    1+  >  0    1+  >  ^0+  >    0+
+       <OPER> SPIN1             STRENGTH  0.00100000  BRANCH:    1+  >  0    1+  >  ^0+  >    0+
 
   <ACTOR> ORBIT            IRREP    0+  GROUND 
        <OPER> ORBIT1            STRENGTH  +0  BRANCH:    1+  >  0    1+  >  ^0+  >    0+
@@ -958,7 +958,7 @@ BOTH REFLECTED
        <OPER> SHELL1            STRENGTH  +0  BRANCH:    2+  >  0    2+  >   0+  >    0+
 
   <ACTOR> SPIN             IRREP    0+  EXCITE 
-       <OPER> SPIN1             STRENGTH  +0  BRANCH:    1+  >  0    1+  >  ^0+  >    0+
+       <OPER> SPIN1             STRENGTH  0.00100000  BRANCH:    1+  >  0    1+  >  ^0+  >    0+
 
   <ACTOR> ORBIT            IRREP    0+  EXCITE 
        <OPER> ORBIT1            STRENGTH  +0  BRANCH:    1+  >  0    1+  >  ^0+  >    0+
@@ -1318,7 +1318,7 @@ BOTH REFLECTED
  ECHO:    BRANCH 2+ > 0 2+ >  0+ >  0+   0.0;
  ECHO:ACTOR  0+ SPIN        GROUND     ;
  ECHO:  OPER SPIN1                     ;
- ECHO:    BRANCH 1+ > 0 1+ > ^0+ >  0+  0.0;
+ ECHO:    BRANCH 1+ > 0 1+ > ^0+ >  0+  0.001;
  ECHO:ACTOR  0+ ORBIT       GROUND;
  ECHO:  OPER ORBIT1;
  ECHO:    BRANCH 1+ > 0 1+ > ^0+ > 0+  0.0;
@@ -1336,7 +1336,7 @@ BOTH REFLECTED
  ECHO:    BRANCH 2+ > 0 2+ >  0+ >  0+   0.0;
  ECHO:ACTOR  0+ SPIN        EXCITE     ;
  ECHO:  OPER SPIN1                     ;
- ECHO:    BRANCH 1+ > 0 1+ > ^0+ >  0+  0.0;
+ ECHO:    BRANCH 1+ > 0 1+ > ^0+ >  0+  0.001;
  ECHO:ACTOR  0+ ORBIT       EXCITE;
  ECHO:  OPER ORBIT1;
  ECHO:    BRANCH 1+ > 0 1+ > ^0+ > 0+  0.0;
@@ -1381,7 +1381,7 @@ BOTH REFLECTED
        <OPER> SHELL1            STRENGTH  +0  BRANCH:    2+  >  0    2+  >   0+  >    0+
 
   <ACTOR> SPIN             IRREP    0+  GROUND 
-       <OPER> SPIN1             STRENGTH  +0  BRANCH:    1+  >  0    1+  >  ^0+  >    0+
+       <OPER> SPIN1             STRENGTH  0.00100000  BRANCH:    1+  >  0    1+  >  ^0+  >    0+
 
   <ACTOR> ORBIT            IRREP    0+  GROUND 
        <OPER> ORBIT1            STRENGTH  +0  BRANCH:    1+  >  0    1+  >  ^0+  >    0+
@@ -1399,7 +1399,7 @@ BOTH REFLECTED
        <OPER> SHELL1            STRENGTH  +0  BRANCH:    2+  >  0    2+  >   0+  >    0+
 
   <ACTOR> SPIN             IRREP    0+  EXCITE 
-       <OPER> SPIN1             STRENGTH  +0  BRANCH:    1+  >  0    1+  >  ^0+  >    0+
+       <OPER> SPIN1             STRENGTH  0.00100000  BRANCH:    1+  >  0    1+  >  ^0+  >    0+
 
   <ACTOR> ORBIT            IRREP    0+  EXCITE 
        <OPER> ORBIT1            STRENGTH  +0  BRANCH:    1+  >  0    1+  >  ^0+  >    0+

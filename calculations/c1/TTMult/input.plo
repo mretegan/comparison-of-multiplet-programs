@@ -1,0 +1,22 @@
+inform
+energy_range -10 25
+lorentzian 0.2 1e20
+gaussian 0.1
+band input.ban_out
+
+xy input_iso.xy 3999
+spectrum temp 0
+
+xy input_xmcd.xy 3999
+addlines operator  1-
+spectrum operator  -1- scale -1 temp 0
+
+xy input_left.xy 3999
+spectrum operator -1- temp 0
+
+xy input_right.xy 3999
+spectrum operator 1- temp 0
+
+xy input_parallel.xy 3999
+spectrum operator 0- temp 0
+end

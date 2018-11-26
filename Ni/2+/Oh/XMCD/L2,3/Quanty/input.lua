@@ -20,9 +20,9 @@ H_f = 0
 --------------------------------------------------------------------------------
 H_atomic              = 1
 H_cf                  = 1
-H_3d_Ld_hybridization = 0
+H_3d_Ld_hybridization = 1
 H_magnetic_field      = 0
-H_exchange_field      = 0
+H_exchange_field      = 1
 
 --------------------------------------------------------------------------------
 -- Define the number of electrons, shells, etc.
@@ -248,11 +248,11 @@ end
 if H_exchange_field == 1 then
     Hx_i = 0.0
     Hy_i = 0.0
-    Hz_i = 0.0
+    Hz_i = 0.002
 
     Hx_f = 0.0
     Hy_f = 0.0
-    Hz_f = 0.0
+    Hz_f = 0.002
 
     H_i = H_i + Chop(
           Hx_i * Sx
@@ -430,8 +430,8 @@ Tein2_2p_3d = Chop(ein2[1] * Tx_2p_3d + ein2[2] * Ty_2p_3d + ein2[3] * Tz_2p_3d)
 Tr_2p_3d = Chop(t * (Tein1_2p_3d - I * Tein2_2p_3d))
 Tl_2p_3d = Chop(-t * (Tein1_2p_3d + I * Tein2_2p_3d))
 
-Experiment = 'XAS'
-SingleCrystalSample = 0
+Experiment = 'XMCD'
+SingleCrystalSample = 1
 
 if SingleCrystalSample == 1 then
     if Experiment == 'XAS' then
@@ -535,6 +535,10 @@ Gmin1 = 0.4 - Gamma
 Gmax1 = 0.4 - Gamma
 Egamma1 = 862.7 - DeltaE
 G.Broaden(GaussianFWHM, {{Emin, Gmin1}, {Egamma1, Gmin1}, {Egamma1, Gmax1}, {Emax, Gmax1}})
+
+-- Tx_3d_2p = NewOperator('CF', NFermions, IndexUp_2p, IndexDn_2p, IndexUp_3d, IndexDn_3d, {{1, -1, t    }, {1, 1, -t    }})
+-- print(Psis_i[1] * Tx_3d_2p * Tx_2p_3d * Psis_i[1])
+-- print(Tx_3d_2p)
 
 G.Print({{'file', 'input.spec'}})
 

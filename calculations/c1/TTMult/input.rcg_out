@@ -22,7 +22,7 @@
  ECHO:
      1     2 1 12 1 10         00      9 00000000 0 8065.4790 .00       1       
   
-1RCG MOD 9    LS COUPLING  NSCONF= 2 1 1    2 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=32655.29
+1RCG MOD 9    LS COUPLING  NSCONF= 2 1 1    2 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=44214.17
 
 0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
  
@@ -37,7 +37,7 @@
    2   1       D 9   P 5   S 0   S 0   S 0   S 0   S 0   S 0      14   -1        ALL
  
 
- FINISHED LNCUV at  0.004 min
+ FINISHED LNCUV at  0.008 min
  plev called            1
   PARAMETERS NEEDED: KLSC=           5  KJP=           9  KJK=           5
 
@@ -54,32 +54,32 @@
 
 0 NTRMK=     1     1     1     1     1
 
- FINISHED PLEV at  0.004 min
+ FINISHED PLEV at  0.008 min
  J= 0.0          CONFIGURATION         1    D 8   P 6   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  J= 1.0          CONFIGURATION         1    D 8   P 6   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  J= 2.0          CONFIGURATION         1    D 8   P 6   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  J= 3.0          CONFIGURATION         1    D 8   P 6   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  J= 4.0          CONFIGURATION         1    D 8   P 6   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  plev called            2
   PARAMETERS NEEDED: KLSC=           6  KJP=           2  KJK=           2
 
@@ -96,32 +96,32 @@
 
 0 NTRMK=     1     1     1     1     1     1
 
- FINISHED PLEV at  0.004 min
+ FINISHED PLEV at  0.012 min
  J= 0.0          CONFIGURATION         1    D 9   P 5   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  J= 1.0          CONFIGURATION         1    D 9   P 5   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  J= 2.0          CONFIGURATION         1    D 9   P 5   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  J= 3.0          CONFIGURATION         1    D 9   P 5   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
  J= 4.0          CONFIGURATION         1    D 9   P 5   S 0   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.00 MIN
+           TIME=    0.01 MIN
   MUPOLE called (MUPOLE           1           2           0           0
            0           0           1           1 )
  ECHO:
@@ -164,7 +164,7 @@
                      -99999999.                                                 
   
 
-   at  0.027 min
+   at  0.012 min
  ECHO:
      0                         80998080            8065.47900     000000        
   
@@ -189,7 +189,7 @@
  ECHO:
      1     3 1 13 1 10         00      9 00000000 0 8065.4790 .00       1       
   
-1RCG MOD 9    LS COUPLING  NSCONF= 3 1 1    3 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=32655.32
+1RCG MOD 9    LS COUPLING  NSCONF= 3 1 1    3 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=44214.18
 
 0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
  
@@ -204,7 +204,7 @@
    2   1       D10   P 5   D 9   S 0   S 0   S 0   S 0   S 0      24   -1        ALL
  
 
- FINISHED LNCUV at  0.027 min
+ FINISHED LNCUV at  0.016 min
  plev called            1
   PARAMETERS NEEDED: KLSC=          10  KJP=           2  KJK=           2
 
@@ -221,7 +221,7 @@
 
 0 NTRMK=     1     1     1     1     1     1     1     1     1     1
 
- FINISHED PLEV at  0.027 min
+ FINISHED PLEV at  0.016 min
  J= 0.0          CONFIGURATION         1    D 9   P 6   D 9   S 0   S 0   S 0   S 0   S 0
 
  ------
@@ -268,7 +268,7 @@
 
 0 NTRMK=     1     1     1     1     1     1
 
- FINISHED PLEV at  0.029 min
+ FINISHED PLEV at  0.016 min
  J= 0.0          CONFIGURATION         1    D10   P 5   D 9   S 0   S 0   S 0   S 0   S 0
 
  ------
@@ -336,7 +336,7 @@
                      -99999999.                                                 
   
 
-   at  0.031 min
+   at  0.016 min
  ECHO:
      0                         80998080            8065.47900     000000        
   
@@ -361,7 +361,7 @@
  ECHO:
      1     3 1 13 1 10         00      9 00000000 0 8065.4790 .00       1       
   
-1RCG MOD 9    LS COUPLING  NSCONF= 3 1 1    3 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=32655.32
+1RCG MOD 9    LS COUPLING  NSCONF= 3 1 1    3 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=44214.19
 
 0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
  
@@ -376,7 +376,7 @@
    2   1       D 9   P 6   D 9   S 0   S 0   S 0   S 0   S 0      24    1        ALL
  
 
- FINISHED LNCUV at  0.031 min
+ FINISHED LNCUV at  0.016 min
  plev called            1
   PARAMETERS NEEDED: KLSC=           5  KJP=           9  KJK=           5
 
@@ -393,7 +393,7 @@
 
 0 NTRMK=     1     1     1     1     1
 
- FINISHED PLEV at  0.031 min
+ FINISHED PLEV at  0.016 min
  F2(11)       PC(      5)     CAVE=   0.8888890                  DELT=    0.00 MIN       D 8   P 6   D10
  F4(11)       PC(      5)     CAVE=   0.8888889                  DELT=    0.00 MIN       D 8   P 6   D10
  ZETA 1       PC(     14)     CAVE=   0.0000000                  DELT=    0.00 MIN       D 8   P 6   D10
@@ -462,7 +462,7 @@
 
 0 NTRMK=     1     1     1     1     1     1     1     1     1     1
 
- FINISHED PLEV at  0.035 min
+ FINISHED PLEV at  0.020 min
  ZETA 1       PC(      2)     CAVE=   0.0000000                  DELT=    0.00 MIN       D 9   P 6   D 9
  J= 0.0          CONFIGURATION         1    D 9   P 6   D 9   S 0   S 0   S 0   S 0   S 0
 
@@ -572,7 +572,7 @@
                      -99999999.                                                 
   
 
-   at  0.053 min
+   at  0.047 min
  ECHO:
      0                         80998080            8065.47900     000000        
   
@@ -597,7 +597,7 @@
  ECHO:
      1     3 1 13 1 10         00      9 00000000 0 8065.4790 .00       1       
   
-1RCG MOD 9    LS COUPLING  NSCONF= 3 1 1    3 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=32655.34
+1RCG MOD 9    LS COUPLING  NSCONF= 3 1 1    3 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=44214.22
 
 0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
  
@@ -612,7 +612,7 @@
    2   1       D10   P 5   D 9   S 0   S 0   S 0   S 0   S 0      24   -1        ALL
  
 
- FINISHED LNCUV at  0.053 min
+ FINISHED LNCUV at  0.047 min
  plev called            1
   PARAMETERS NEEDED: KLSC=           6  KJP=           2  KJK=           2
 
@@ -629,7 +629,7 @@
 
 0 NTRMK=     1     1     1     1     1     1
 
- FINISHED PLEV at  0.053 min
+ FINISHED PLEV at  0.047 min
  ZETA 1       PC(      2)     CAVE=   0.0000000                  DELT=    0.00 MIN       D 9   P 5   D10
  ZETA 2       PC(      2)     CAVE=   0.0000000                  DELT=    0.00 MIN       D 9   P 5   D10
  F2(12)       PC(      6)     CAVE=   0.0000000                  DELT=    0.00 MIN       D 9   P 5   D10
@@ -644,22 +644,22 @@
 
  ------
 
-           TIME=    0.04 MIN
+           TIME=    0.00 MIN
  J= 2.0          CONFIGURATION         1    D 9   P 5   D10   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.04 MIN
+           TIME=    0.00 MIN
  J= 3.0          CONFIGURATION         1    D 9   P 5   D10   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.04 MIN
+           TIME=    0.00 MIN
  J= 4.0          CONFIGURATION         1    D 9   P 5   D10   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.04 MIN
+           TIME=    0.00 MIN
   MUPOLE called (SHELL           1           1           0           0
            1           1           0           4 )
  ECHO:
@@ -700,33 +700,33 @@
 
 0 NTRMK=     1     1     1     1     1     1
 
- FINISHED PLEV at  0.092 min
- ZETA 2       PC(      2)     CAVE=   0.0000000                  DELT=    0.04 MIN       D10   P 5   D 9
+ FINISHED PLEV at  0.051 min
+ ZETA 2       PC(      2)     CAVE=   0.0000000                  DELT=    0.00 MIN       D10   P 5   D 9
  J= 0.0          CONFIGURATION         1    D10   P 5   D 9   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.04 MIN
+           TIME=    0.00 MIN
  J= 1.0          CONFIGURATION         1    D10   P 5   D 9   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.04 MIN
+           TIME=    0.00 MIN
  J= 2.0          CONFIGURATION         1    D10   P 5   D 9   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.04 MIN
+           TIME=    0.00 MIN
  J= 3.0          CONFIGURATION         1    D10   P 5   D 9   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.04 MIN
+           TIME=    0.00 MIN
  J= 4.0          CONFIGURATION         1    D10   P 5   D 9   S 0   S 0   S 0   S 0   S 0
 
  ------
 
-           TIME=    0.04 MIN
+           TIME=    0.01 MIN
   MUPOLE called (SHELL           2           2           0           0
            1           1           0           4 )
  ECHO:
@@ -810,7 +810,7 @@
                      -99999999.                                                 
   
 
-   at  0.098 min
+   at  0.062 min
  ECHO:
     -1                                                                          
   

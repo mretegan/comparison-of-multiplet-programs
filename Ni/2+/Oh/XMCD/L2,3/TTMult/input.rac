@@ -1,0 +1,54 @@
+Y
+BUTLER O3
+TO OH
+TO D4H
+TO C4H
+ENDCHAIN
+
+ACTOR  0+ HAMILTONIAN GROUND
+  OPER HAMILTONIAN
+    BRANCH 0+ > 0 0+ >  0+ >  0+  1.0
+ACTOR  0+ 10DQ        GROUND
+  OPER SHELL1
+    BRANCH 4+ > 0 0+ >  0+ >  0+  4.9295
+ACTOR  0+ DT          GROUND
+  OPER SHELL1
+    BRANCH 4+ > 0 2+ >  0+ >  0+  0.0
+ACTOR  0+ DS          GROUND
+  OPER SHELL1
+    BRANCH 2+ > 0 2+ >  0+ >  0+  0.0
+ACTOR  0+ SPIN        GROUND
+  OPER SPIN1
+    BRANCH 1+ > 0 1+ > ^0+ >  0+  0.001
+ACTOR  0+ ORBIT       GROUND
+  OPER ORBIT1
+    BRANCH 1+ > 0 1+ > ^0+ > 0+  0.0
+ACTOR  0+ HAMILTONIAN EXCITE
+  OPER HAMILTONIAN
+    BRANCH 0+ > 0 0+ >  0+ >  0+  1.0
+ACTOR  0+ 10DQ        EXCITE
+  OPER SHELL1
+    BRANCH 4+ > 0 0+ >  0+ >  0+  4.9295
+ACTOR  0+ DT          EXCITE
+  OPER SHELL1
+    BRANCH 4+ > 0 2+ >  0+ >  0+  0.0
+ACTOR  0+ DS          EXCITE
+  OPER SHELL1
+    BRANCH 2+ > 0 2+ >  0+ >  0+  0.0
+ACTOR  0+ SPIN        EXCITE
+  OPER SPIN1
+    BRANCH 1+ > 0 1+ > ^0+ >  0+  0.001
+ACTOR  0+ ORBIT       EXCITE
+  OPER ORBIT1
+    BRANCH 1+ > 0 1+ > ^0+ > 0+  0.0
+ACTOR  1- LEFT        TRANSI
+  OPER MULTIPOLE
+    BRANCH 1- > 0 1- >  1- >  1-  1.0
+ACTOR -1- RIGHT       TRANSI
+  OPER MULTIPOLE
+    BRANCH 1- > 0 1- >  1- > -1-  1.0
+ACTOR  0- PARALLEL    TRANSI
+  OPER MULTIPOLE
+    BRANCH 1- > 0 1- > ^0- >  0-  1.0
+RUN
+

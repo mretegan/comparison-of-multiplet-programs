@@ -20,9 +20,9 @@ H_f = 0
 --------------------------------------------------------------------------------
 H_atomic              = 1
 H_cf                  = 1
-H_3d_Ld_hybridization = 0
+H_3d_Ld_hybridization = 1
 H_magnetic_field      = 0
-H_exchange_field      = 0
+H_exchange_field      = 1
 
 --------------------------------------------------------------------------------
 -- Define the number of electrons, shells, etc.
@@ -248,11 +248,11 @@ end
 if H_exchange_field == 1 then
     Hx_i = 0.0
     Hy_i = 0.0
-    Hz_i = 0.0
+    Hz_i = 0.001
 
     Hx_f = 0.0
     Hy_f = 0.0
-    Hz_f = 0.0
+    Hz_f = 0.001
 
     H_i = H_i + Chop(
           Hx_i * Sx
@@ -310,8 +310,8 @@ T = 10.0 * EnergyUnits.Kelvin.value
  -- Approximate machine epsilon.
 epsilon = 2.22e-16
 
-NPsis = 45
-NPsisAuto = 1
+NPsis = 1
+NPsisAuto = 0
 
 dZ = {}
 
@@ -419,37 +419,25 @@ Tx_2p_3d = NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, IndexUp_2p, Inde
 Ty_2p_3d = NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, IndexUp_2p, IndexDn_2p, {{1, -1, t * I}, {1, 1,  t * I}})
 Tz_2p_3d = NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, IndexUp_2p, IndexDn_2p, {{1,  0, 1    }                })
 
-kin = {0, 0, -1}
-ein1 = {0, 1, 0}
-ein2 = {-1, 0, 0}
+k = {0, 0, 1}
+ev = {0, 1, 0}
+eh = {1, 0, 0}
 
-Tkin_2p_3d = Chop(kin[1] * Tx_2p_3d + kin[2] * Ty_2p_3d + kin[3] * Tz_2p_3d)
-Tein1_2p_3d = Chop(ein1[1] * Tx_2p_3d + ein1[2] * Ty_2p_3d + ein1[3] * Tz_2p_3d)
-Tein2_2p_3d = Chop(ein2[1] * Tx_2p_3d + ein2[2] * Ty_2p_3d + ein2[3] * Tz_2p_3d)
+Tk_2p_3d = Chop(k[1] * Tx_2p_3d + k[2] * Ty_2p_3d + k[3] * Tz_2p_3d)
+Tv_2p_3d = Chop(ev[1] * Tx_2p_3d + ev[2] * Ty_2p_3d + ev[3] * Tz_2p_3d)
+Th_2p_3d = Chop(eh[1] * Tx_2p_3d + eh[2] * Ty_2p_3d + eh[3] * Tz_2p_3d)
 
-Tr_2p_3d = Chop(t * (Tein1_2p_3d - I * Tein2_2p_3d))
-Tl_2p_3d = Chop(-t * (Tein1_2p_3d + I * Tein2_2p_3d))
+Tr_2p_3d = Chop(t * (Th_2p_3d - I * Tv_2p_3d))
+Tl_2p_3d = Chop(-t * (Th_2p_3d + I * Tv_2p_3d))
 
-Experiment = 'XAS'
-SingleCrystalSample = 0
+-- Other definitions of the R and L that work only if k||z. The above definitions are more general.
+-- Tr_2p_3d = Chop(t * (Tx_2p_3d - I * Ty_2p_3d))
+-- Tl_2p_3d = Chop(-t * (Tx_2p_3d + I * Ty_2p_3d))
+--
+-- Tr_2p_3d = NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, IndexUp_2p, IndexDn_2p, {{1, -1, 1}})
+-- Tl_2p_3d = NewOperator('CF', NFermions, IndexUp_3d, IndexDn_3d, IndexUp_2p, IndexDn_2p, {{1, 1, 1}})
 
-if SingleCrystalSample == 1 then
-    if Experiment == 'XAS' then
-        T_2p_3d = {Tkin_2p_3d}
-    elseif Experiment == 'XMCD' then
-        T_2p_3d = {Tr_2p_3d, Tl_2p_3d}
-    elseif Experiment == 'X(M)LD' then
-        T_2p_3d = {Tein1_2p_3d, Tein2_2p_3d}
-    else
-        return
-    end
-else
-    if Experiment ==  'XAS' then
-        T_2p_3d = {Tx_2p_3d, Ty_2p_3d, Tz_2p_3d}
-    else
-        return
-    end
-end
+T_2p_3d = {Tz_2p_3d, Tr_2p_3d, Tl_2p_3d, Tv_2p_3d, Th_2p_3d}
 
 --------------------------------------------------------------------------------
 -- Calculate and save the spectrum.
@@ -503,33 +491,18 @@ DeltaE = Eedge1 + E_gs_i - E_gs_f
 Emin = 842.7 - DeltaE
 Emax = 882.7 - DeltaE
 Gamma = 0.1
-NE = 3998
+NE = 2048
 
 if CalculationRestrictions == nil then
-    G = CreateSpectra(H_f, T_2p_3d, Psis_i, {{'Emin', Emin}, {'Emax', Emax}, {'NE', NE}, {'Gamma', Gamma}})
+    G = CreateSpectra(H_f, T_2p_3d, Psis_i, {{'Emin', Emin}, {'Emax', Emax}, {'NE', NE}, {'Gamma', Gamma}, {'DenseBorder', 100000}})
 else
-    G = CreateSpectra(H_f, T_2p_3d, Psis_i, {{'Emin', Emin}, {'Emax', Emax}, {'NE', NE}, {'Gamma', Gamma}, {'restrictions', CalculationRestrictions}})
+    G = CreateSpectra(H_f, T_2p_3d, Psis_i, {{'Emin', Emin}, {'Emax', Emax}, {'NE', NE}, {'Gamma', Gamma}, {'restrictions', CalculationRestrictions}, {'DenseBorder', 100000}})
 end
 
-IndicesToSum = {}
-for i in ipairs(T_2p_3d) do
-    for j in ipairs(Psis_i) do
-        if Experiment == 'XAS' then
-            table.insert(IndicesToSum, dZ[j] / #T_2p_3d)
-        elseif Experiment == 'XMCD' or Experiment == 'X(M)LD' then
-            if i == 1 then
-                table.insert(IndicesToSum, dZ[j])
-            else
-                table.insert(IndicesToSum, -dZ[j])
-            end
-        end
-    end
-end
-
-G = Spectra.Sum(G, IndicesToSum)
-G = G / (2 * math.pi)
+G = G / -math.pi
 
 GaussianFWHM = 2 * math.sqrt(2 * math.log(2)) * 0.1
+print(GaussianFWHM)
 
 Gmin1 = 0.4 - Gamma
 Gmax1 = 0.4 - Gamma

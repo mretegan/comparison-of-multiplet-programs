@@ -20,7 +20,7 @@ Timings
 -------
 
 =====================  ======
-Quanty                  4.4 s 
+Quanty                  1.7 s 
 TTMult_without_Bander   0.2 s 
 TTMult                  0.5 s
 =====================  ======
