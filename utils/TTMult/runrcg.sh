@@ -28,7 +28,7 @@ if [ -f "$NAME.rcg" ]; then
     mv fort.14 $NAME.rcg_rme
     rm fort.10 fort.72 fort.73 fort.74 
     rm FTN02
-    echo "RCG has finished successfully."
+    echo "TTRCG has finished successfully."
     exit 0
 else
     echo "Could not find $NAME.rcg in the current folder."
