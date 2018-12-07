@@ -1,0 +1,8 @@
+#!/bin/bash
+#PBS -l walltime=20:00:00
+#PBS -l procs=1
+#PBS -M marie-anne.arrio@impmc.upmc.fr
+#PBS -m ae
+
+cd ~/seuilsL23/fe3/Sadaf/C4C3C2/fe3-2conf/branchement_C3v/Bz
+time $HOME/thole/racah/ttrac_test < fev2.rac fev2.rcg_rme fev2.rac_out

@@ -1,0 +1,8 @@
+#$ -l or,time.ge.6000,mem.ge.128
+#$ -cwd
+ln -s fe.ban fort.50
+ln -s fe.rcg_rme fort.14
+ln -s fe.rac_rme fort.15
+time /people/u3/arrio/thole/agsparse/agsparse > outban
+mv fort.44 fe.ban_out
+rm fort*

@@ -1,0 +1,28 @@
+energy_range 700 750 
+lorentzian 0.25 1e20 range 700 720
+lorentzian 0.5 1e20 range 720 750
+gaussian 0.1
+old_racah       fe3-C3v-Bz.rac_out
+xy fe3-C3v-Bz-left2K.xy 1000
+spectrum operator -1 temp 2
+xy fe3-C3v-Bz-right2K.xy 1000
+spectrum operator 1 temp 2
+xy fe3-C3v-Bz-parallel2K.xy 1000
+spectrum operator 0 temp 2
+xy fe3-C3v-Bz-xmcd2K.xy 1000
+addlines operator 1 temp 2
+spectrum operator -1 temp 2 scale -1
+xy fe3-C3v-Bz-3iso300K.xy temp 300
+spectrum temp 300
+xy fe3-C3v-Bz-3iso2K.xy temp 2
+spectrum temp 2
+xy fe3-C3v-Bz-left.xy 1000
+spectrum operator -1 
+xy fe3-C3v-Bz-right.xy 1000
+spectrum operator 1 
+xy fe3-C3v-Bz-parallel.xy 1000
+spectrum operator 0 
+xy fe3-C3v-Bz-xmcd.xy 1000
+addlines operator 1 
+spectrum operator -1 scale -1
+end

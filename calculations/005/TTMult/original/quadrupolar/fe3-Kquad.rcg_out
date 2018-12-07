@@ -1,0 +1,873 @@
+ ECHO:
+     0                         60996060            8065.47800     0000000       
+  
+ ECHO:
+    10             14    0    0    2    2  INTER0                               
+  
+ NLEVELS=  0 ELEVELS= -1.0000000     IBUTLER= 14 IUMIN=  0 IUMAX=  0 IRNQ=  2 IRXQ=  2 NISUBC=  0
+ IQUAD= 0 0 0 0 0 0 0 0
+ ISPIN= 0 0 0 0 0 0 0 0
+ IORBIT= 0 0 0 0 0 0 0 0
+
+ F
+  ci state  1
+  ci state  2
+ limitwasgiven  F
+  limit state  1    conf  1  0-**   conf  2  0-**   conf  3  0-**   conf  4  0-**
+                    conf  5  0-**   conf  6  0-**   conf  7  0-**   conf  8  0-**
+                    conf  9  0-**   conf 10  0-**
+  limit state  2    conf  1  0-**   conf  2  0-**   conf  3  0-**   conf  4  0-**
+                    conf  5  0-**   conf  6  0-**   conf  7  0-**   conf  8  0-**
+                    conf  9  0-**   conf 10  0-**
+ ECHO:
+     1     2 1 12 1 10         00      9 00000000   8065.4780 .00     0 1       
+  
+1RCG MOD 9    LS COUPLING  NSCONF= 2 1 1    2 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=    0.00
+
+0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
+ 
+ ECHO:
+ S 2  D 6                                                                       
+  
+   1   1       S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0       8    1        ALL
+ 
+ ECHO:
+ S 1  D 7                                                                       
+  
+   2   1       S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0       8    1        ALL
+ 
+ plev called            1
+  PARAMETERS NEEDED: KLSC=          16  KJP=          34  KJK=           7
+
+
+
+ MAXIMUM SUBSCRIPT VALUES
+
+ NALSP(M,I), PscrL(M,I),   M=NOTOTT=      16
+ NTRMK(K), LF(K),          K=NDIFFT=      11
+ NALSJP(M,I), PJ(M,I),     M=NOTOTJ(I)=    1   34    1    1    1    1    1    1
+ NJK(K,I),                 K=NDIFFJ(I)=    1    7    1    1    1    1    1    1
+
+0NTOTTJ=     0    16
+
+0 NTRMK=     1     1     1     2     1     2     1     2     1     2     2
+ J= 0.0          CONFIGURATION         1    S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 1.0          CONFIGURATION         1    S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 2.0          CONFIGURATION         1    S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 3.0          CONFIGURATION         1    S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 4.0          CONFIGURATION         1    S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 5.0          CONFIGURATION         1    S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 6.0          CONFIGURATION         1    S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ plev called            2
+  PARAMETERS NEEDED: KLSC=          16  KJP=          19  KJK=           6
+
+
+
+ MAXIMUM SUBSCRIPT VALUES
+
+ NALSP(M,I), PscrL(M,I),   M=NOTOTT=      16
+ NTRMK(K), LF(K),          K=NDIFFT=      12
+ NALSJP(M,I), PJ(M,I),     M=NOTOTJ(I)=    1   19    1    1    1    1    1    1
+ NJK(K,I),                 K=NDIFFJ(I)=    1    6    1    1    1    1    1    1
+
+0NTOTTJ=     0    16
+
+0 NTRMK=     1     1     1     1     2     2     2     1     1     1     2     1
+ J= 0.0          CONFIGURATION         1    S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 1.0          CONFIGURATION         1    S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 2.0          CONFIGURATION         1    S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 3.0          CONFIGURATION         1    S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 4.0          CONFIGURATION         1    S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 5.0          CONFIGURATION         1    S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 6.0          CONFIGURATION         1    S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+  MUPOLE called (MUPOLE           1           2           0           0
+           0           0           2           2 )
+ ECHO:
+ FE2+    1 1                                                                    
+  
+
+ SUMS21=   168.00009 SUMS20=   168.00009
+         SSOPI2=   168.00000
+
+
+                                              168.000
+ --- ENERGY CALLED ---
+ ECHO:
+ FE2+    1 1                                                                    
+  
+
+
+ FE2+    1 1           PARAMETER VALUES IN  8065.5 CM-1 (   TIMES 0.60 1.00 0.60 0.60)     1  S 2  D 6
+
+                                       EAV     
+
+                                        0.000
+ ECHO:
+ FE2+    2 1                                                                    
+  
+
+
+ FE2+    2 1           PARAMETER VALUES IN  8065.5 CM-1 (   TIMES 0.60 1.00 0.60 0.60)     1  S 1  D 7
+
+                                       EAV     
+
+                                        0.000
+ SPECTR CALLED(           2          31          32           2           0 )
+ ECHO:
+                     -99999999.                                                 
+  
+ IGEN=           0  N=           0  II=           2  CERAS= 
+  THIS WAS NOT A SPECTR CARD: END OF SPECTR.
+ ECHO:
+                     -99999999.                                                 
+  
+ ECHO:
+     0                         60996060            8065.47800     0000000       
+  
+ ECHO:
+    10             14    0    0    2    2  INTER0                               
+  
+ NLEVELS=  0 ELEVELS= -1.0000000     IBUTLER= 14 IUMIN=  0 IUMAX=  0 IRNQ=  2 IRXQ=  2 NISUBC=  0
+ IQUAD= 0 0 0 0 0 0 0 0
+ ISPIN= 0 0 0 0 0 0 0 0
+ IORBIT= 0 0 0 0 0 0 0 0
+
+ F
+  ci state  1
+  ci state  2
+ limitwasgiven  F
+  limit state  1    conf  1  0-**   conf  2  0-**   conf  3  0-**   conf  4  0-**
+                    conf  5  0-**   conf  6  0-**   conf  7  0-**   conf  8  0-**
+                    conf  9  0-**   conf 10  0-**
+  limit state  2    conf  1  0-**   conf  2  0-**   conf  3  0-**   conf  4  0-**
+                    conf  5  0-**   conf  6  0-**   conf  7  0-**   conf  8  0-**
+                    conf  9  0-**   conf 10  0-**
+ ECHO:
+     1     3 1 13 1 10         00      9 00000000   8065.4780 .00     0 1       
+  
+1RCG MOD 9    LS COUPLING  NSCONF= 3 1 1    3 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=    0.00
+
+0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
+ 
+ ECHO:
+ S 2  D 5  P 1                                                                  
+  
+   1   1       S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0       8   -1        ALL
+ 
+ ECHO:
+ S 1  D 6  P 1                                                                  
+  
+   2   1       S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0       8   -1        ALL
+ 
+ plev called            1
+  PARAMETERS NEEDED: KLSC=          88  KJP=          37  KJK=           7
+
+
+
+ MAXIMUM SUBSCRIPT VALUES
+
+ NALSP(M,I), PscrL(M,I),   M=NOTOTT=      88
+ NTRMK(K), LF(K),          K=NDIFFT=      23
+ NALSJP(M,I), PJ(M,I),     M=NOTOTJ(I)=    1   37    2    1    1    1    1    1
+ NJK(K,I),                 K=NDIFFJ(I)=    1    7    2    1    1    1    1    1
+
+0NTOTTJ=     0    88
+
+0 NTRMK=     1     1     2     3     3     3     1     1     2     5     7    10     9     7     2     1     2     4     5     7
+             6     5     1
+ J= 0.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 1.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 2.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 3.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 4.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 5.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 6.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 7.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 8.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ plev called            2
+  PARAMETERS NEEDED: KLSC=         136  KJP=          34  KJK=           7
+
+
+
+ MAXIMUM SUBSCRIPT VALUES
+
+ NALSP(M,I), PscrL(M,I),   M=NOTOTT=     136
+ NTRMK(K), LF(K),          K=NDIFFT=      26
+ NALSJP(M,I), PJ(M,I),     M=NOTOTJ(I)=    1   34    2    1    1    1    1    1
+ NJK(K,I),                 K=NDIFFJ(I)=    1    7    2    1    1    1    1    1
+
+0NTOTTJ=     0   136
+
+0 NTRMK=     1     1     1     1     2     4     6     7     5     2     1     3     7    11    14    14    11     4     1     2
+             5     7     9     8     7     2
+ J= 0.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 1.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 2.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 3.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 4.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 5.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 6.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 7.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 8.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+  MUPOLE called (MUPOLE           1           2           0           0
+           0           0           2           2 )
+ ECHO:
+ FE3+    1 2                                                                    
+  
+
+ SUMS21=  1511.99744 SUMS20=  1511.99744
+         SSOPI2=  1512.00000
+
+
+                                             1512.000
+ --- ENERGY CALLED ---
+ ECHO:
+ FE3+    1 2                                                                    
+  
+
+
+ FE3+    1 2           PARAMETER VALUES IN  8065.5 CM-1 (   TIMES 0.60 1.00 0.60 0.60)     1  S 2  D 5  P 1
+
+                                       EAV     
+
+                                        0.000
+ ECHO:
+ FE3+    2 2                                                                    
+  
+
+
+ FE3+    2 2           PARAMETER VALUES IN  8065.5 CM-1 (   TIMES 0.60 1.00 0.60 0.60)     1  S 1  D 6  P 1
+
+                                       EAV     
+
+                                        0.000
+ SPECTR CALLED(           2          31          32           2           0 )
+ ECHO:
+                     -99999999.                                                 
+  
+ IGEN=           0  N=           0  II=           2  CERAS= 
+  THIS WAS NOT A SPECTR CARD: END OF SPECTR.
+ ECHO:
+                     -99999999.                                                 
+  
+ ECHO:
+     0                         60996060            8065.47800     0000000       
+  
+ ECHO:
+    10             14    0    4    3    3  INTER2 SHELL03000000                 
+  
+ NLEVELS=  0 ELEVELS= -1.0000000     IBUTLER= 14 IUMIN=  0 IUMAX=  4 IRNQ=  3 IRXQ=  3 NISUBC=  2
+ IQUAD= 0 3 0 0 0 0 0 0
+ ISPIN= 0 0 0 0 0 0 0 0
+ IORBIT= 0 0 0 0 0 0 0 0
+
+ F
+  ci state  1
+  ci state  2
+ limitwasgiven  F
+  limit state  1    conf  1  0-**   conf  2  0-**   conf  3  0-**   conf  4  0-**
+                    conf  5  0-**   conf  6  0-**   conf  7  0-**   conf  8  0-**
+                    conf  9  0-**   conf 10  0-**
+  limit state  2    conf  1  0-**   conf  2  0-**   conf  3  0-**   conf  4  0-**
+                    conf  5  0-**   conf  6  0-**   conf  7  0-**   conf  8  0-**
+                    conf  9  0-**   conf 10  0-**
+ ECHO:
+     1     3 1 13 1 10         00      9 00000000   8065.4780 .00     0 1       
+  
+1RCG MOD 9    LS COUPLING  NSCONF= 3 1 1    3 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=    0.00
+
+0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
+ 
+ ECHO:
+ S 2  D 6  P 0                                                                  
+  
+   1   1       S 2   D 6   P 0   S 0   S 0   S 0   S 0   S 0       8    1        ALL
+ 
+ ECHO:
+ S 2  D 5  P 1                                                                  
+  
+   2   1       S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0       8   -1        ALL
+ 
+ plev called            1
+  PARAMETERS NEEDED: KLSC=          16  KJP=          34  KJK=           7
+
+
+
+ MAXIMUM SUBSCRIPT VALUES
+
+ NALSP(M,I), PscrL(M,I),   M=NOTOTT=      16
+ NTRMK(K), LF(K),          K=NDIFFT=      11
+ NALSJP(M,I), PJ(M,I),     M=NOTOTJ(I)=    1   34    1    1    1    1    1    1
+ NJK(K,I),                 K=NDIFFJ(I)=    1    7    1    1    1    1    1    1
+
+0NTOTTJ=     0    16
+
+0 NTRMK=     1     1     1     2     1     2     1     2     1     2     2
+ F2(22)       PC(     21)     CAVE=   0.4761905                  DELT=    0.00 MIN       S 2   D 6   P 0
+ F4(22)       PC(     21)     CAVE=   0.4761905                  DELT=    0.00 MIN       S 2   D 6   P 0
+ ZETA 2       PC(    116)     CAVE=   0.0000000                  DELT=    0.00 MIN       S 2   D 6   P 0
+ J= 0.0          CONFIGURATION         1    S 2   D 6   P 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 1.0          CONFIGURATION         1    S 2   D 6   P 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 2.0          CONFIGURATION         1    S 2   D 6   P 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 3.0          CONFIGURATION         1    S 2   D 6   P 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 4.0          CONFIGURATION         1    S 2   D 6   P 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 5.0          CONFIGURATION         1    S 2   D 6   P 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 6.0          CONFIGURATION         1    S 2   D 6   P 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+  MUPOLE called (SHELL           1           1           0           0
+           2           2           0           4 )
+ ECHO:
+ FE2+ 1S02 3D06     4     .0000   10.9661    6.8151     .0522     .0000HR9999999
+ 9
+
+ SUMS21=  1512.00024 SUMS20=     0.00000
+         SSOPI2=   112.00001
+
+
+                                              112.000
+
+ SUMS21=   200.92076 SUMS20=    96.21742
+         SSOPI2=   112.00001
+
+
+                                              112.000
+
+ SUMS21=   199.30508 SUMS20=    94.11306
+         SSOPI2=   112.00001
+
+
+                                              112.000
+ plev called            2
+  PARAMETERS NEEDED: KLSC=          88  KJP=          37  KJK=           7
+
+
+
+ MAXIMUM SUBSCRIPT VALUES
+
+ NALSP(M,I), PscrL(M,I),   M=NOTOTT=      88
+ NTRMK(K), LF(K),          K=NDIFFT=      23
+ NALSJP(M,I), PJ(M,I),     M=NOTOTJ(I)=    1   37    2    1    1    1    1    1
+ NJK(K,I),                 K=NDIFFJ(I)=    1    7    2    1    1    1    1    1
+
+0NTOTTJ=     0    88
+
+0 NTRMK=     1     1     2     3     3     3     1     1     2     5     7    10     9     7     2     1     2     4     5     7
+             6     5     1
+ F2(22)       PC(    296)     CAVE=   0.3174604                  DELT=    0.00 MIN       S 2   D 5   P 1
+ F4(22)       PC(    296)     CAVE=   0.3174603                  DELT=    0.00 MIN       S 2   D 5   P 1
+ ZETA 2       PC(    143)     CAVE=   0.0000000                  DELT=    0.00 MIN       S 2   D 5   P 1
+ J= 0.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 1.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 2.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 3.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 4.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 5.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 6.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 7.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 8.0          CONFIGURATION         1    S 2   D 5   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+  MUPOLE called (SHELL           2           2           0           0
+           2           2           0           4 )
+ ECHO:
+ FE2+ 1S02 3D06     4     .0000   10.9661    6.8151     .0522     .0000HR9999999
+ 9
+
+ SUMS21=  7560.00000 SUMS20=     0.00000
+         SSOPI2=   840.00000
+
+
+                                              840.000
+
+ SUMS21=  1511.46326 SUMS20=   755.73364
+         SSOPI2=   840.00000
+
+
+                                              840.000
+
+ SUMS21=  1543.11206 SUMS20=   771.55438
+         SSOPI2=   840.00000
+
+
+                                              840.000
+  MUPOLE called (MUPOLE           1           2           0           0
+           0           0           3           3 )
+ ECHO:
+ FE2+ 1S02 3D06     4     .0000   10.9661    6.8151     .0522     .0000HR9999999
+ 9
+
+ SUMS21=   252.00002 SUMS20=   252.00002
+         SSOPI2=   252.00000
+
+
+                                              252.000
+ --- ENERGY CALLED ---
+ ECHO:
+ FE2+ 1S02 3D06     4     .0000   10.9661    6.8151     .0522     .0000HR9999999
+ 9
+
+
+ FE2+ 1S02 3D06        PARAMETER VALUES IN  8065.5 CM-1 (HR TIMES 0.60 1.00 0.60 0.60)     1  S 2  D 6  P 0
+
+                                       EAV            F2(22)         F4(22)         ZETA 2  
+
+                                        0.000          6.580          4.089          0.052
+ ECHO:
+ FE2+ 1S02 3D05     4     .0000   10.9661    6.8151     .0522     .0000HR9999999
+ 9
+
+
+ FE2+ 1S02 3D05        PARAMETER VALUES IN  8065.5 CM-1 (HR TIMES 0.60 1.00 0.60 0.60)     1  S 2  D 5  P 1
+
+                                       EAV            F2(22)         F4(22)         ZETA 2  
+
+                                        0.000          6.580          4.089          0.052
+ SPECTR CALLED(           3          31          32           3           0 )
+ ECHO:
+                     -99999999.                                                 
+  
+ IGEN=           0  N=           0  II=           3  CERAS= 
+  THIS WAS NOT A SPECTR CARD: END OF SPECTR.
+ ECHO:
+                     -99999999.                                                 
+  
+ ECHO:
+     0                         60996060            8065.47800     0000000       
+  
+ ECHO:
+    10             14    0    4    3    3  INTER2 SHELL03000000                 
+  
+ NLEVELS=  0 ELEVELS= -1.0000000     IBUTLER= 14 IUMIN=  0 IUMAX=  4 IRNQ=  3 IRXQ=  3 NISUBC=  2
+ IQUAD= 0 3 0 0 0 0 0 0
+ ISPIN= 0 0 0 0 0 0 0 0
+ IORBIT= 0 0 0 0 0 0 0 0
+
+ F
+  ci state  1
+  ci state  2
+ limitwasgiven  F
+  limit state  1    conf  1  0-**   conf  2  0-**   conf  3  0-**   conf  4  0-**
+                    conf  5  0-**   conf  6  0-**   conf  7  0-**   conf  8  0-**
+                    conf  9  0-**   conf 10  0-**
+  limit state  2    conf  1  0-**   conf  2  0-**   conf  3  0-**   conf  4  0-**
+                    conf  5  0-**   conf  6  0-**   conf  7  0-**   conf  8  0-**
+                    conf  9  0-**   conf 10  0-**
+ ECHO:
+     1     3 1 13 1 10         00      9 00000000   8065.4780 .00     0 1       
+  
+1RCG MOD 9    LS COUPLING  NSCONF= 3 1 1    3 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=    0.00
+
+0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
+ 
+ ECHO:
+ S 1  D 7  P 0                                                                  
+  
+   1   1       S 1   D 7   P 0   S 0   S 0   S 0   S 0   S 0       8    1        ALL
+ 
+ ECHO:
+ S 1  D 6  P 1                                                                  
+  
+   2   1       S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0       8   -1        ALL
+ 
+ plev called            1
+  PARAMETERS NEEDED: KLSC=          16  KJP=          19  KJK=           6
+
+
+
+ MAXIMUM SUBSCRIPT VALUES
+
+ NALSP(M,I), PscrL(M,I),   M=NOTOTT=      16
+ NTRMK(K), LF(K),          K=NDIFFT=      12
+ NALSJP(M,I), PJ(M,I),     M=NOTOTJ(I)=    1   19    1    1    1    1    1    1
+ NJK(K,I),                 K=NDIFFJ(I)=    1    6    1    1    1    1    1    1
+
+0NTOTTJ=     0    16
+
+0 NTRMK=     1     1     1     1     2     2     2     1     1     1     2     1
+ F2(22)       PC(     20)     CAVE=   0.6666667                  DELT=    0.00 MIN       S 1   D 7   P 0
+ F4(22)       PC(     20)     CAVE=   0.6666667                  DELT=    0.00 MIN       S 1   D 7   P 0
+ ZETA 2       PC(     46)     CAVE=   0.0000000                  DELT=    0.00 MIN       S 1   D 7   P 0
+ G2(12)       PC(     20)     CAVE=   0.7000000                  DELT=    0.00 MIN       S 1   D 7   P 0
+ J= 0.0          CONFIGURATION         1    S 1   D 7   P 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 1.0          CONFIGURATION         1    S 1   D 7   P 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 2.0          CONFIGURATION         1    S 1   D 7   P 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 3.0          CONFIGURATION         1    S 1   D 7   P 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 4.0          CONFIGURATION         1    S 1   D 7   P 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 5.0          CONFIGURATION         1    S 1   D 7   P 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 6.0          CONFIGURATION         1    S 1   D 7   P 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+  MUPOLE called (SHELL           1           1           0           0
+           2           2           0           4 )
+ ECHO:
+ FE2+ 1S01 3D07     5     .0000   11.6801    7.2581     .0672     .0584HR9999999
+ 9
+
+ SUMS21=  2351.99976 SUMS20=     0.00000
+         SSOPI2=   112.00000
+
+
+                                              112.000
+
+ SUMS21=   198.00522 SUMS20=    92.20168
+         SSOPI2=   112.00000
+
+
+                                              112.000
+
+ SUMS21=   206.97681 SUMS20=   100.24043
+         SSOPI2=   112.00000
+
+
+                                              112.000
+ plev called            2
+  PARAMETERS NEEDED: KLSC=         136  KJP=          34  KJK=           7
+
+
+
+ MAXIMUM SUBSCRIPT VALUES
+
+ NALSP(M,I), PscrL(M,I),   M=NOTOTT=     136
+ NTRMK(K), LF(K),          K=NDIFFT=      26
+ NALSJP(M,I), PJ(M,I),     M=NOTOTJ(I)=    1   34    2    1    1    1    1    1
+ NJK(K,I),                 K=NDIFFJ(I)=    1    7    2    1    1    1    1    1
+
+0NTOTTJ=     0   136
+
+0 NTRMK=     1     1     1     1     2     4     6     7     5     2     1     3     7    11    14    14    11     4     1     2
+             5     7     9     8     7     2
+ F2(22)       PC(    630)     CAVE=   0.4761905                  DELT=    0.00 MIN       S 1   D 6   P 1
+ F4(22)       PC(    630)     CAVE=   0.4761905                  DELT=    0.00 MIN       S 1   D 6   P 1
+ ZETA 2       PC(    116)     CAVE=   0.0000000                  DELT=    0.00 MIN       S 1   D 6   P 1
+ G2(12)       PC(    630)     CAVE=   0.6000000                  DELT=    0.00 MIN       S 1   D 6   P 1
+ J= 0.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 1.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 2.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 3.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 4.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 5.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 6.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 7.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+ J= 8.0          CONFIGURATION         1    S 1   D 6   P 1   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.00 MIN
+  MUPOLE called (SHELL           2           2           0           0
+           2           2           0           4 )
+ ECHO:
+ FE2+ 1S01 3D07     5     .0000   11.6801    7.2581     .0672     .0584HR9999999
+ 9
+
+ SUMS21= 18143.98242 SUMS20=     0.00000
+         SSOPI2=  1344.00012
+
+
+                                             1344.000
+
+ SUMS21=  2414.24731 SUMS20=  1174.90295
+         SSOPI2=  1344.00012
+
+
+                                             1344.000
+
+ SUMS21=  2451.18823 SUMS20=  1195.52612
+         SSOPI2=  1344.00012
+
+
+                                             1344.000
+  MUPOLE called (MUPOLE           1           2           0           0
+           0           0           3           3 )
+ ECHO:
+ FE2+ 1S01 3D07     5     .0000   11.6801    7.2581     .0672     .0584HR9999999
+ 9
+
+ SUMS21=   335.99963 SUMS20=   335.99963
+         SSOPI2=   336.00000
+
+
+                                              336.000
+ --- ENERGY CALLED ---
+ ECHO:
+ FE2+ 1S01 3D07     5     .0000   11.6801    7.2581     .0672     .0584HR9999999
+ 9
+
+
+ FE2+ 1S01 3D07        PARAMETER VALUES IN  8065.5 CM-1 (HR TIMES 0.60 1.00 0.60 0.60)     1  S 1  D 7  P 0
+
+                                       EAV            F2(22)         F4(22)         ZETA 2         G2(12)  
+
+
+                                        0.000          7.008          4.355          0.067          0.035
+
+ ECHO:
+ FE2+ 1S01 3D06     5     .0000   11.6801    7.2581     .0672     .0584HR9999999
+ 9
+
+
+ FE2+ 1S01 3D06        PARAMETER VALUES IN  8065.5 CM-1 (HR TIMES 0.60 1.00 0.60 0.60)     1  S 1  D 6  P 1
+
+                                       EAV            F2(22)         F4(22)         ZETA 2         G2(12)  
+
+
+                                        0.000          7.008          4.355          0.067          0.035
+
+ SPECTR CALLED(           3          31          32           3           0 )
+ ECHO:
+                     -99999999.                                                 
+  
+ IGEN=           0  N=           0  II=           3  CERAS= 
+  THIS WAS NOT A SPECTR CARD: END OF SPECTR.
+ ECHO:
+                     -99999999.                                                 
+  
+ ECHO:
+    -1                                                                          
+  

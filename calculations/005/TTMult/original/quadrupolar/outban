@@ -1,0 +1,2537 @@
+ ****** CPU TIME =     0.0000 SEC.*****
+ Band calculation number  1
+ Looking for  irrep   GROUND  0       MULT
+ multiplicity found   GROUND  0       mult=   14  dim= 1
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=   21  dim= 2
+ Looking for  irrep   GROUND  0       MULT
+ multiplicity found   GROUND  0       mult=   64  dim= 1
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  210  dim= 2
+ Looking for  irrep   GROUND  0       MULT
+ multiplicity found   GROUND  0       mult=   14  dim= 1
+ Looking for  irrep   EXCITE  0       MULT
+ multiplicity found   EXCITE  0       mult=   64  dim= 1
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   21  dim= 2
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  210  dim= 2
+
+=========== PAIR  ground 1 => excite 1       14 *     21
+ begin of cowan
+ In store:        40 matrixes.
+ Total matrix size         1355  with          350  elements
+  Cowan store written to file 99.
+ end of cowan
+ looking for   TRANSI  0     2     2        14   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=    13 col= 61 =>
+  REDUCEDMATRIX TRANSI     0    2    2  0  QUADRIPOLE1  14 21<<
+ looking for   GROUND  0     0     0        14   14 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   455 col= 61 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  HAMILTONIAN  14 14<<
+ looking for   GROUND  0     0     0        14   14 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   475 col= 54 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  10DQ  14 14<<
+ looking for   EXCITE  2     0     2        21   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   503 col= 61 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  21 21<<
+ looking for   EXCITE  2     0     2        21   21 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   523 col= 54 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  21 21<<
+
+=========== PAIR  ground 2 => excite 2       64 *    210
+ begin of cowan
+ In store:        54 matrixes.
+ Total matrix size        79842  with         9070  elements
+  Cowan store written to file 99.
+ end of cowan
+ looking for   TRANSI  0     2     2        64  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=    21 col= 63 =>
+  REDUCEDMATRIX TRANSI     0    2    2  0  QUADRIPOLE1   64 210<<
+ looking for   GROUND  0     0     0        64   64 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   920 col= 61 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  HAMILTONIAN  64 64<<
+ looking for   GROUND  0     0     0        64   64 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   940 col= 54 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  10DQ  64 64<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  210 210<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  210 210<<
+
+=========== PAIR  ground 1 => ground 2       14 *     64
+ begin of cowan
+ In store:       214 matrixes.
+ Total matrix size        89518  with        12862  elements
+  Cowan store written to file 99.
+ end of cowan
+ looking for   TRANSI  0     0     0        14   64 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    21 col= 54 =>
+  REDUCEDMATRIX TRANSI     0    0    0  0  HYBR  14 64<<
+ looking for   GROUND  0     0     0        14   14 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   167 col= 61 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  HAMILTONIAN  14 14<<
+ looking for   GROUND  0     0     0        14   14 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   212 col= 54 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  10DQ  14 14<<
+ looking for   EXCITE  0     0     0        64   64 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   327 col= 61 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  HAMILTONIAN  64 64<<
+ looking for   EXCITE  0     0     0        64   64 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   395 col= 54 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  10DQ  64 64<<
+
+=========== PAIR  excite 1 => excite 2       21 *    210
+ begin of cowan
+ In store:       214 matrixes.
+ Total matrix size       242177  with        38074  elements
+  Cowan store written to file 99.
+ end of cowan
+ looking for   TRANSI  2     0     2        21  210 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   317 col= 56 =>
+  REDUCEDMATRIX TRANSI     2    0    2  0  HYBR   21 210<<
+ looking for   GROUND  2     0     2        21   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   421 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  21 21<<
+ looking for   GROUND  2     0     2        21   21 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   494 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  21 21<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   589 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  210 210<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   735 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  210 210<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry 0                    state=  1   dimension        78
+  before diagonalization
+ Matrix size=  78*  78
+  after diagonalization
+ Data calculated and stored on file98 record nr.    1
+ Ground state energy Eg0= -5.070697784     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.86349 0.13652 0.00000
+ Lowest few energies            -5.07070  -4.94838  -3.47669  -3.41634  -3.18778
+  -3.10525  -2.98550  -2.62792  -2.34873  -2.05135  -0.86856
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      246488
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   23  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=   30  dim= 3
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=  190  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  314  dim= 3
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   23  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  190  dim= 3
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   30  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  314  dim= 3
+
+=========== PAIR  ground 1 => excite 1       23 *     30
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  1     2     1        23   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=    25 col= 61 =>
+  REDUCEDMATRIX TRANSI     1    2    1  0  QUADRIPOLE1  23 30<<
+ looking for   GROUND  1     0     1        23   23 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   459 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  23 23<<
+ looking for   GROUND  1     0     1        23   23 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   479 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  23 23<<
+ looking for   EXCITE  1     0     1        30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   499 col= 61 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  30 30<<
+ looking for   EXCITE  1     0     1        30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   519 col= 54 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  30 30<<
+
+=========== PAIR  ground 2 => excite 2      190 *    314
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  1     2     1       190  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=    43 col= 63 =>
+  REDUCEDMATRIX TRANSI     1    2    1  0  QUADRIPOLE1  190 314<<
+ looking for   GROUND  1     0     1       190  190 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   928 col= 63 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  190 190<<
+ looking for   GROUND  1     0     1       190  190 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   948 col= 56 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  190 190<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  314 314<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  314 314<<
+
+=========== PAIR  ground 1 => ground 2       23 *    190
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  1     0     1        23  190 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    36 col= 56 =>
+  REDUCEDMATRIX TRANSI     1    0    1  0  HYBR   23 190<<
+ looking for   GROUND  1     0     1        23   23 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   178 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  23 23<<
+ looking for   GROUND  1     0     1        23   23 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   226 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  23 23<<
+ looking for   EXCITE  1     0     1       190  190 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   338 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  190 190<<
+ looking for   EXCITE  1     0     1       190  190 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   412 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  190 190<<
+
+=========== PAIR  excite 1 => excite 2       30 *    314
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  1     0     1        30  314 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   175 col= 56 =>
+  REDUCEDMATRIX TRANSI     1    0    1  0  HYBR   30 314<<
+ looking for   GROUND  1     0     1        30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   317 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  30 30<<
+ looking for   GROUND  1     0     1        30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   365 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  30 30<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   477 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  314 314<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   551 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  314 314<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry 1                    state=  1   dimension       213
+  before diagonalization
+ Matrix size= 213* 213
+  after diagonalization
+ Data calculated and stored on file98 record nr.    2
+ Ground state energy Eg0= -5.075417519     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.85797 0.14204 0.00000
+ Lowest few energies            -5.07542  -5.03417  -4.95882  -3.47824  -3.44904
+  -3.44090  -3.42292  -3.23622  -3.19321  -3.13569  -3.05764
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      446456
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   23  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=   30  dim= 3
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=  190  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  316  dim= 3
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   23  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  190  dim= 3
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   30  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  316  dim= 3
+
+=========== PAIR  ground 1 => excite 1       23 *     30
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  1     2     ^1       23   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=    55 col= 61 =>
+  REDUCEDMATRIX TRANSI     1    2   ^1  0  QUADRIPOLE1  23 30<<
+ looking for   GROUND  1     0     1        23   23 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   459 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  23 23<<
+ looking for   GROUND  1     0     1        23   23 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   479 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  23 23<<
+ looking for   EXCITE  ^1    0     ^1       30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   507 col= 61 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  30 30<<
+ looking for   EXCITE  ^1    0     ^1       30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   527 col= 54 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  30 30<<
+
+=========== PAIR  ground 2 => excite 2      190 *    316
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  1     2     ^1      190  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   101 col= 63 =>
+  REDUCEDMATRIX TRANSI     1    2   ^1  0  QUADRIPOLE1  190 316<<
+ looking for   GROUND  1     0     1       190  190 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   920 col= 63 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  190 190<<
+ looking for   GROUND  1     0     1       190  190 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   940 col= 56 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  190 190<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  316 316<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  316 316<<
+
+=========== PAIR  ground 1 => ground 2       23 *    190
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  1     0     1        23  190 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    28 col= 56 =>
+  REDUCEDMATRIX TRANSI     1    0    1  0  HYBR   23 190<<
+ looking for   GROUND  1     0     1        23   23 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   170 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  23 23<<
+ looking for   GROUND  1     0     1        23   23 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   218 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  23 23<<
+ looking for   EXCITE  1     0     1       190  190 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   330 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  190 190<<
+ looking for   EXCITE  1     0     1       190  190 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   404 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  190 190<<
+
+=========== PAIR  excite 1 => excite 2       30 *    316
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^1    0     ^1       30  316 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   250 col= 56 =>
+  REDUCEDMATRIX TRANSI    ^1    0   ^1  0  HYBR   30 316<<
+ looking for   GROUND  ^1    0     ^1       30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   337 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  30 30<<
+ looking for   GROUND  ^1    0     ^1       30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   422 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  30 30<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   510 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  316 316<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   690 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  316 316<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry 1                    state=  1   dimension       213
+ Data read from file 98 record nr.   2
+ Ground state energy Eg0= -5.075417519     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.85797 0.14204 0.00000
+ Lowest few energies            -5.07542  -5.03417  -4.95882  -3.47824  -3.44904
+  -3.44090  -3.42292  -3.23622  -3.19321  -3.13569  -3.05764
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      446456
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   19  dim= 2
+ Looking for  irrep   EXCITE  0       MULT
+ multiplicity found   EXCITE  0       mult=    9  dim= 1
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=  126  dim= 2
+ Looking for  irrep   EXCITE  0       MULT
+ multiplicity found   EXCITE  0       mult=  104  dim= 1
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   19  dim= 2
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  126  dim= 2
+ Looking for  irrep   GROUND  0       MULT
+ multiplicity found   GROUND  0       mult=    9  dim= 1
+ Looking for  irrep   EXCITE  0       MULT
+ multiplicity found   EXCITE  0       mult=  104  dim= 1
+
+=========== PAIR  ground 1 => excite 1       19 *      9
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  2     2     0        19    9 Factor =   1.0000000
+ routine=ETR                  file= 15 line=    85 col= 61 =>
+  REDUCEDMATRIX TRANSI     2    2    0  0  QUADRIPOLE1  19  9<<
+ looking for   GROUND  2     0     2        19   19 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   463 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  19 19<<
+ looking for   GROUND  2     0     2        19   19 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   483 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  19 19<<
+ looking for   EXCITE  0     0     0         9    9 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   495 col= 59 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  HAMILTONIAN  9 9<<
+ looking for   EXCITE  0     0     0         9    9 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   515 col= 52 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  10DQ  9 9<<
+
+=========== PAIR  ground 2 => excite 2      126 *    104
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  2     2     0       126  104 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   177 col= 63 =>
+  REDUCEDMATRIX TRANSI     2    2    0  0  QUADRIPOLE1  126 104<<
+ looking for   GROUND  2     0     2       126  126 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   936 col= 63 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  126 126<<
+ looking for   GROUND  2     0     2       126  126 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   956 col= 56 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  126 126<<
+ looking for   EXCITE  0     0     0       104  104 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  HAMILTONIAN  104 104<<
+ looking for   EXCITE  0     0     0       104  104 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  10DQ  104 104<<
+
+=========== PAIR  ground 1 => ground 2       19 *    126
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  2     0     2        19  126 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    90 col= 56 =>
+  REDUCEDMATRIX TRANSI     2    0    2  0  HYBR   19 126<<
+ looking for   GROUND  2     0     2        19   19 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   194 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  19 19<<
+ looking for   GROUND  2     0     2        19   19 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   267 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  19 19<<
+ looking for   EXCITE  2     0     2       126  126 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   362 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  126 126<<
+ looking for   EXCITE  2     0     2       126  126 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   508 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  126 126<<
+
+=========== PAIR  excite 1 => excite 2        9 *    104
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  0     0     0         9  104 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   117 col= 56 =>
+  REDUCEDMATRIX TRANSI     0    0    0  0  HYBR    9 104<<
+ looking for   GROUND  0     0     0         9    9 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   263 col= 59 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  HAMILTONIAN  9 9<<
+ looking for   GROUND  0     0     0         9    9 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   308 col= 52 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  10DQ  9 9<<
+ looking for   EXCITE  0     0     0       104  104 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   423 col= 63 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  HAMILTONIAN  104 104<<
+ looking for   EXCITE  0     0     0       104  104 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   491 col= 56 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  10DQ  104 104<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry 2                    state=  1   dimension       145
+  before diagonalization
+ Matrix size= 145* 145
+  after diagonalization
+ Data calculated and stored on file98 record nr.    3
+ Ground state energy Eg0= -5.077821255     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.85605 0.14396 0.00000
+ Lowest few energies            -5.07782  -4.97498  -3.47399  -3.44122  -3.43312
+  -3.29517  -3.22985  -3.15751  -3.01627  -2.96590  -2.67445
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      446456
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   19  dim= 2
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=   21  dim= 2
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=  126  dim= 2
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  210  dim= 2
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   19  dim= 2
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  126  dim= 2
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   21  dim= 2
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  210  dim= 2
+
+=========== PAIR  ground 1 => excite 1       19 *     21
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  2     2     2        19   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=    97 col= 61 =>
+  REDUCEDMATRIX TRANSI     2    2    2  0  QUADRIPOLE1  19 21<<
+ looking for   GROUND  2     0     2        19   19 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   463 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  19 19<<
+ looking for   GROUND  2     0     2        19   19 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   483 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  19 19<<
+ looking for   EXCITE  2     0     2        21   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   503 col= 61 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  21 21<<
+ looking for   EXCITE  2     0     2        21   21 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   523 col= 54 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  21 21<<
+
+=========== PAIR  ground 2 => excite 2      126 *    210
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  2     2     2       126  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   187 col= 63 =>
+  REDUCEDMATRIX TRANSI     2    2    2  0  QUADRIPOLE1  126 210<<
+ looking for   GROUND  2     0     2       126  126 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   928 col= 63 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  126 126<<
+ looking for   GROUND  2     0     2       126  126 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   948 col= 56 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  126 126<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  210 210<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  210 210<<
+
+=========== PAIR  ground 1 => ground 2       19 *    126
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  2     0     2        19  126 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    82 col= 56 =>
+  REDUCEDMATRIX TRANSI     2    0    2  0  HYBR   19 126<<
+ looking for   GROUND  2     0     2        19   19 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   186 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  19 19<<
+ looking for   GROUND  2     0     2        19   19 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   259 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  19 19<<
+ looking for   EXCITE  2     0     2       126  126 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   354 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  126 126<<
+ looking for   EXCITE  2     0     2       126  126 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   500 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  126 126<<
+
+=========== PAIR  excite 1 => excite 2       21 *    210
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  2     0     2        21  210 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   178 col= 56 =>
+  REDUCEDMATRIX TRANSI     2    0    2  0  HYBR   21 210<<
+ looking for   GROUND  2     0     2        21   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   282 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  21 21<<
+ looking for   GROUND  2     0     2        21   21 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   355 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  21 21<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   450 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  210 210<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   596 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  210 210<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry 2                    state=  1   dimension       145
+ Data read from file 98 record nr.   3
+ Ground state energy Eg0= -5.077821255     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.85605 0.14396 0.00000
+ Lowest few energies            -5.07782  -4.97498  -3.47399  -3.44122  -3.43312
+  -3.29517  -3.22985  -3.15751  -3.01627  -2.96590  -2.67445
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      446456
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   19  dim= 2
+ Looking for  irrep   EXCITE  ^0      MULT
+ multiplicity found   EXCITE  ^0      mult=    9  dim= 1
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=  126  dim= 2
+ Looking for  irrep   EXCITE  ^0      MULT
+ multiplicity found   EXCITE  ^0      mult=  106  dim= 1
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   19  dim= 2
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  126  dim= 2
+ Looking for  irrep   GROUND  ^0      MULT
+ multiplicity found   GROUND  ^0      mult=    9  dim= 1
+ Looking for  irrep   EXCITE  ^0      MULT
+ multiplicity found   EXCITE  ^0      mult=  106  dim= 1
+
+=========== PAIR  ground 1 => excite 1       19 *      9
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  2     2     ^0       19    9 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   113 col= 61 =>
+  REDUCEDMATRIX TRANSI     2    2   ^0  0  QUADRIPOLE1  19  9<<
+ looking for   GROUND  2     0     2        19   19 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   463 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  19 19<<
+ looking for   GROUND  2     0     2        19   19 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   483 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  19 19<<
+ looking for   EXCITE  ^0    0     ^0        9    9 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   511 col= 59 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  HAMILTONIAN  9 9<<
+ looking for   EXCITE  ^0    0     ^0        9    9 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   531 col= 52 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  10DQ  9 9<<
+
+=========== PAIR  ground 2 => excite 2      126 *    106
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  2     2     ^0      126  106 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   212 col= 63 =>
+  REDUCEDMATRIX TRANSI     2    2   ^0  0  QUADRIPOLE1  126 106<<
+ looking for   GROUND  2     0     2       126  126 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   920 col= 63 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  126 126<<
+ looking for   GROUND  2     0     2       126  126 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   940 col= 56 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  126 126<<
+ looking for   EXCITE  ^0    0     ^0      106  106 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  HAMILTONIAN  106 106<<
+ looking for   EXCITE  ^0    0     ^0      106  106 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  10DQ  106 106<<
+
+=========== PAIR  ground 1 => ground 2       19 *    126
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  2     0     2        19  126 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    74 col= 56 =>
+  REDUCEDMATRIX TRANSI     2    0    2  0  HYBR   19 126<<
+ looking for   GROUND  2     0     2        19   19 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   178 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  19 19<<
+ looking for   GROUND  2     0     2        19   19 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   251 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  19 19<<
+ looking for   EXCITE  2     0     2       126  126 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   346 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  126 126<<
+ looking for   EXCITE  2     0     2       126  126 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   492 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  126 126<<
+
+=========== PAIR  excite 1 => excite 2        9 *    106
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^0    0     ^0        9  106 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   253 col= 56 =>
+  REDUCEDMATRIX TRANSI    ^0    0   ^0  0  HYBR    9 106<<
+ looking for   GROUND  ^0    0     ^0        9    9 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   302 col= 59 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  HAMILTONIAN  9 9<<
+ looking for   GROUND  ^0    0     ^0        9    9 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   415 col= 52 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  10DQ  9 9<<
+ looking for   EXCITE  ^0    0     ^0      106  106 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   483 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  HAMILTONIAN  106 106<<
+ looking for   EXCITE  ^0    0     ^0      106  106 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   732 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  10DQ  106 106<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry 2                    state=  1   dimension       145
+ Data read from file 98 record nr.   3
+ Ground state energy Eg0= -5.077821255     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.85605 0.14396 0.00000
+ Lowest few energies            -5.07782  -4.97498  -3.47399  -3.44122  -3.43312
+  -3.29517  -3.22985  -3.15751  -3.01627  -2.96590  -2.67445
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      446456
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   27  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=   30  dim= 3
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=  188  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  314  dim= 3
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   27  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  188  dim= 3
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   30  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  314  dim= 3
+
+=========== PAIR  ground 1 => excite 1       27 *     30
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  ^1    2     1        27   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   123 col= 61 =>
+  REDUCEDMATRIX TRANSI    ^1    2    1  0  QUADRIPOLE1  27 30<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   467 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  27 27<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   487 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  27 27<<
+ looking for   EXCITE  1     0     1        30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   499 col= 61 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  30 30<<
+ looking for   EXCITE  1     0     1        30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   519 col= 54 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  30 30<<
+
+=========== PAIR  ground 2 => excite 2      188 *    314
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  ^1    2     1       188  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   243 col= 63 =>
+  REDUCEDMATRIX TRANSI    ^1    2    1  0  QUADRIPOLE1  188 314<<
+ looking for   GROUND  ^1    0     ^1      188  188 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   936 col= 63 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  188 188<<
+ looking for   GROUND  ^1    0     ^1      188  188 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   956 col= 56 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  188 188<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  314 314<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  314 314<<
+
+=========== PAIR  ground 1 => ground 2       27 *    188
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^1    0     ^1       27  188 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   111 col= 56 =>
+  REDUCEDMATRIX TRANSI    ^1    0   ^1  0  HYBR   27 188<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   198 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  27 27<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   283 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  27 27<<
+ looking for   EXCITE  ^1    0     ^1      188  188 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   371 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  188 188<<
+ looking for   EXCITE  ^1    0     ^1      188  188 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   551 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  188 188<<
+
+=========== PAIR  excite 1 => excite 2       30 *    314
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  1     0     1        30  314 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    39 col= 56 =>
+  REDUCEDMATRIX TRANSI     1    0    1  0  HYBR   30 314<<
+ looking for   GROUND  1     0     1        30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   181 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  30 30<<
+ looking for   GROUND  1     0     1        30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   229 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  30 30<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   341 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  314 314<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   415 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  314 314<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry ^1                   state=  1   dimension       215
+  before diagonalization
+ Matrix size= 215* 215
+  after diagonalization
+ Data calculated and stored on file98 record nr.    4
+ Ground state energy Eg0= -5.084988594     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.84994 0.15007 0.00000
+ Lowest few energies            -5.08499  -5.02429  -4.98176  -3.47762  -3.47278
+  -3.44851  -3.43064  -3.29675  -3.27994  -3.22039  -3.16013
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   27  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=   30  dim= 3
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=  188  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  316  dim= 3
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   27  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  188  dim= 3
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   30  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  316  dim= 3
+
+=========== PAIR  ground 1 => excite 1       27 *     30
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  ^1    2     ^1       27   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   153 col= 61 =>
+  REDUCEDMATRIX TRANSI    ^1    2   ^1  0  QUADRIPOLE1  27 30<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   467 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  27 27<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   487 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  27 27<<
+ looking for   EXCITE  ^1    0     ^1       30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   507 col= 61 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  30 30<<
+ looking for   EXCITE  ^1    0     ^1       30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   527 col= 54 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  30 30<<
+
+=========== PAIR  ground 2 => excite 2      188 *    316
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  ^1    2     ^1      188  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   299 col= 63 =>
+  REDUCEDMATRIX TRANSI    ^1    2   ^1  0  QUADRIPOLE1  188 316<<
+ looking for   GROUND  ^1    0     ^1      188  188 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   928 col= 63 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  188 188<<
+ looking for   GROUND  ^1    0     ^1      188  188 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   948 col= 56 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  188 188<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  316 316<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  316 316<<
+
+=========== PAIR  ground 1 => ground 2       27 *    188
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^1    0     ^1       27  188 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   103 col= 56 =>
+  REDUCEDMATRIX TRANSI    ^1    0   ^1  0  HYBR   27 188<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   190 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  27 27<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   275 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  27 27<<
+ looking for   EXCITE  ^1    0     ^1      188  188 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   363 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  188 188<<
+ looking for   EXCITE  ^1    0     ^1      188  188 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   543 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  188 188<<
+
+=========== PAIR  excite 1 => excite 2       30 *    316
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^1    0     ^1       30  316 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   114 col= 56 =>
+  REDUCEDMATRIX TRANSI    ^1    0   ^1  0  HYBR   30 316<<
+ looking for   GROUND  ^1    0     ^1       30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   201 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  30 30<<
+ looking for   GROUND  ^1    0     ^1       30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   286 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  30 30<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   374 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  316 316<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   554 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  316 316<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry ^1                   state=  1   dimension       215
+ Data read from file 98 record nr.   4
+ Ground state energy Eg0= -5.084988594     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.84994 0.15007 0.00000
+ Lowest few energies            -5.08499  -5.02429  -4.98176  -3.47762  -3.47278
+  -3.44851  -3.43064  -3.29675  -3.27994  -3.22039  -3.16013
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  ^0      MULT
+ multiplicity found   GROUND  ^0      mult=    8  dim= 1
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=   21  dim= 2
+ Looking for  irrep   GROUND  ^0      MULT
+ multiplicity found   GROUND  ^0      mult=   62  dim= 1
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  210  dim= 2
+ Looking for  irrep   GROUND  ^0      MULT
+ multiplicity found   GROUND  ^0      mult=    8  dim= 1
+ Looking for  irrep   EXCITE  ^0      MULT
+ multiplicity found   EXCITE  ^0      mult=   62  dim= 1
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   21  dim= 2
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  210  dim= 2
+
+=========== PAIR  ground 1 => excite 1        8 *     21
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  ^0    2     2         8   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   183 col= 61 =>
+  REDUCEDMATRIX TRANSI    ^0    2    2  0  QUADRIPOLE1   8 21<<
+ looking for   GROUND  ^0    0     ^0        8    8 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   471 col= 59 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  HAMILTONIAN  8 8<<
+ looking for   GROUND  ^0    0     ^0        8    8 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   491 col= 52 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  10DQ  8 8<<
+ looking for   EXCITE  2     0     2        21   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   503 col= 61 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  21 21<<
+ looking for   EXCITE  2     0     2        21   21 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   523 col= 54 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  21 21<<
+
+=========== PAIR  ground 2 => excite 2       62 *    210
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  ^0    2     2        62  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   365 col= 63 =>
+  REDUCEDMATRIX TRANSI    ^0    2    2  0  QUADRIPOLE1   62 210<<
+ looking for   GROUND  ^0    0     ^0       62   62 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   936 col= 61 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  HAMILTONIAN  62 62<<
+ looking for   GROUND  ^0    0     ^0       62   62 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   956 col= 54 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  10DQ  62 62<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  210 210<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  210 210<<
+
+=========== PAIR  ground 1 => ground 2        8 *     62
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^0    0     ^0        8   62 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   157 col= 54 =>
+  REDUCEDMATRIX TRANSI    ^0    0   ^0  0  HYBR   8 62<<
+ looking for   GROUND  ^0    0     ^0        8    8 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   206 col= 59 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  HAMILTONIAN  8 8<<
+ looking for   GROUND  ^0    0     ^0        8    8 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   319 col= 52 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  10DQ  8 8<<
+ looking for   EXCITE  ^0    0     ^0       62   62 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   387 col= 61 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  HAMILTONIAN  62 62<<
+ looking for   EXCITE  ^0    0     ^0       62   62 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   636 col= 54 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  10DQ  62 62<<
+
+=========== PAIR  excite 1 => excite 2       21 *    210
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  2     0     2        21  210 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    74 col= 56 =>
+  REDUCEDMATRIX TRANSI     2    0    2  0  HYBR   21 210<<
+ looking for   GROUND  2     0     2        21   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   178 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  21 21<<
+ looking for   GROUND  2     0     2        21   21 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   251 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  21 21<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   346 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  210 210<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   492 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  210 210<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry ^0                   state=  1   dimension        70
+  before diagonalization
+ Matrix size=  70*  70
+  after diagonalization
+ Data calculated and stored on file98 record nr.    5
+ Ground state energy Eg0= -4.998061657     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.88567 0.11433 0.00000
+ Lowest few energies            -4.99806  -3.46402  -3.24282  -2.89937  -2.67074
+  -2.40867  -1.39781  -0.76403   8.34692  10.35271  10.54486
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  0       MULT
+ multiplicity found   GROUND  0       mult=   14  dim= 1
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=   30  dim= 3
+ Looking for  irrep   GROUND  0       MULT
+ multiplicity found   GROUND  0       mult=   64  dim= 1
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  316  dim= 3
+ Looking for  irrep   GROUND  0       MULT
+ multiplicity found   GROUND  0       mult=   14  dim= 1
+ Looking for  irrep   EXCITE  0       MULT
+ multiplicity found   EXCITE  0       mult=   64  dim= 1
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   30  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  316  dim= 3
+
+=========== PAIR  ground 1 => excite 1       14 *     30
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  0     ^1    ^1       14   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   193 col= 61 =>
+  REDUCEDMATRIX TRANSI     0   ^1   ^1  0  QUADRIPOLE2  14 30<<
+ looking for   GROUND  0     0     0        14   14 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   455 col= 61 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  HAMILTONIAN  14 14<<
+ looking for   GROUND  0     0     0        14   14 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   475 col= 54 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  10DQ  14 14<<
+ looking for   EXCITE  ^1    0     ^1       30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   507 col= 61 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  30 30<<
+ looking for   EXCITE  ^1    0     ^1       30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   527 col= 54 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  30 30<<
+
+=========== PAIR  ground 2 => excite 2       64 *    316
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  0     ^1    ^1       64  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   380 col= 63 =>
+  REDUCEDMATRIX TRANSI     0   ^1   ^1  0  QUADRIPOLE2   64 316<<
+ looking for   GROUND  0     0     0        64   64 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   916 col= 61 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  HAMILTONIAN  64 64<<
+ looking for   GROUND  0     0     0        64   64 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   936 col= 54 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  10DQ  64 64<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  316 316<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  316 316<<
+
+=========== PAIR  ground 1 => ground 2       14 *     64
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  0     0     0        14   64 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    17 col= 54 =>
+  REDUCEDMATRIX TRANSI     0    0    0  0  HYBR  14 64<<
+ looking for   GROUND  0     0     0        14   14 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   163 col= 61 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  HAMILTONIAN  14 14<<
+ looking for   GROUND  0     0     0        14   14 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   208 col= 54 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  10DQ  14 14<<
+ looking for   EXCITE  0     0     0        64   64 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   323 col= 61 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  HAMILTONIAN  64 64<<
+ looking for   EXCITE  0     0     0        64   64 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   391 col= 54 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  10DQ  64 64<<
+
+=========== PAIR  excite 1 => excite 2       30 *    316
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^1    0     ^1       30  316 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   342 col= 56 =>
+  REDUCEDMATRIX TRANSI    ^1    0   ^1  0  HYBR   30 316<<
+ looking for   GROUND  ^1    0     ^1       30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   429 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  30 30<<
+ looking for   GROUND  ^1    0     ^1       30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   514 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  30 30<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   602 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  316 316<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   782 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  316 316<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry 0                    state=  1   dimension        78
+ Data read from file 98 record nr.   1
+ Ground state energy Eg0= -5.070697784     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.86349 0.13652 0.00000
+ Lowest few energies            -5.07070  -4.94838  -3.47669  -3.41634  -3.18778
+  -3.10525  -2.98550  -2.62792  -2.34873  -2.05135  -0.86856
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   23  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=   30  dim= 3
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=  190  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  314  dim= 3
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   23  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  190  dim= 3
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   30  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  314  dim= 3
+
+=========== PAIR  ground 1 => excite 1       23 *     30
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  1     ^1    1        23   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   208 col= 61 =>
+  REDUCEDMATRIX TRANSI     1   ^1    1  0  QUADRIPOLE2  23 30<<
+ looking for   GROUND  1     0     1        23   23 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   459 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  23 23<<
+ looking for   GROUND  1     0     1        23   23 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   479 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  23 23<<
+ looking for   EXCITE  1     0     1        30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   499 col= 61 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  30 30<<
+ looking for   EXCITE  1     0     1        30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   519 col= 54 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  30 30<<
+
+=========== PAIR  ground 2 => excite 2      190 *    314
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  1     ^1    1       190  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   412 col= 63 =>
+  REDUCEDMATRIX TRANSI     1   ^1    1  0  QUADRIPOLE2  190 314<<
+ looking for   GROUND  1     0     1       190  190 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   928 col= 63 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  190 190<<
+ looking for   GROUND  1     0     1       190  190 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   948 col= 56 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  190 190<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  314 314<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  314 314<<
+
+=========== PAIR  ground 1 => ground 2       23 *    190
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  1     0     1        23  190 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    36 col= 56 =>
+  REDUCEDMATRIX TRANSI     1    0    1  0  HYBR   23 190<<
+ looking for   GROUND  1     0     1        23   23 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   178 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  23 23<<
+ looking for   GROUND  1     0     1        23   23 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   226 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  23 23<<
+ looking for   EXCITE  1     0     1       190  190 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   338 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  190 190<<
+ looking for   EXCITE  1     0     1       190  190 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   412 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  190 190<<
+
+=========== PAIR  excite 1 => excite 2       30 *    314
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  1     0     1        30  314 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   175 col= 56 =>
+  REDUCEDMATRIX TRANSI     1    0    1  0  HYBR   30 314<<
+ looking for   GROUND  1     0     1        30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   317 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  30 30<<
+ looking for   GROUND  1     0     1        30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   365 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  30 30<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   477 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  314 314<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   551 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  314 314<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry 1                    state=  1   dimension       213
+ Data read from file 98 record nr.   2
+ Ground state energy Eg0= -5.075417519     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.85797 0.14204 0.00000
+ Lowest few energies            -5.07542  -5.03417  -4.95882  -3.47824  -3.44904
+  -3.44090  -3.42292  -3.23622  -3.19321  -3.13569  -3.05764
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   23  dim= 3
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=   21  dim= 2
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=  190  dim= 3
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  210  dim= 2
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   23  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  190  dim= 3
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   21  dim= 2
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  210  dim= 2
+
+=========== PAIR  ground 1 => excite 1       23 *     21
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  1     ^1    2        23   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   238 col= 61 =>
+  REDUCEDMATRIX TRANSI     1   ^1    2  0  QUADRIPOLE2  23 21<<
+ looking for   GROUND  1     0     1        23   23 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   459 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  23 23<<
+ looking for   GROUND  1     0     1        23   23 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   479 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  23 23<<
+ looking for   EXCITE  2     0     2        21   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   503 col= 61 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  21 21<<
+ looking for   EXCITE  2     0     2        21   21 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   523 col= 54 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  21 21<<
+
+=========== PAIR  ground 2 => excite 2      190 *    210
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  1     ^1    2       190  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   474 col= 63 =>
+  REDUCEDMATRIX TRANSI     1   ^1    2  0  QUADRIPOLE2  190 210<<
+ looking for   GROUND  1     0     1       190  190 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   924 col= 63 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  190 190<<
+ looking for   GROUND  1     0     1       190  190 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   944 col= 56 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  190 190<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  210 210<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  210 210<<
+
+=========== PAIR  ground 1 => ground 2       23 *    190
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  1     0     1        23  190 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    32 col= 56 =>
+  REDUCEDMATRIX TRANSI     1    0    1  0  HYBR   23 190<<
+ looking for   GROUND  1     0     1        23   23 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   174 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  23 23<<
+ looking for   GROUND  1     0     1        23   23 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   222 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  23 23<<
+ looking for   EXCITE  1     0     1       190  190 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   334 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  190 190<<
+ looking for   EXCITE  1     0     1       190  190 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   408 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  190 190<<
+
+=========== PAIR  excite 1 => excite 2       21 *    210
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  2     0     2        21  210 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   225 col= 56 =>
+  REDUCEDMATRIX TRANSI     2    0    2  0  HYBR   21 210<<
+ looking for   GROUND  2     0     2        21   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   329 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  21 21<<
+ looking for   GROUND  2     0     2        21   21 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   402 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  21 21<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   497 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  210 210<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   643 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  210 210<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry 1                    state=  1   dimension       213
+ Data read from file 98 record nr.   2
+ Ground state energy Eg0= -5.075417519     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.85797 0.14204 0.00000
+ Lowest few energies            -5.07542  -5.03417  -4.95882  -3.47824  -3.44904
+  -3.44090  -3.42292  -3.23622  -3.19321  -3.13569  -3.05764
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   23  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=   30  dim= 3
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=  190  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  316  dim= 3
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   23  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  190  dim= 3
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   30  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  316  dim= 3
+
+=========== PAIR  ground 1 => excite 1       23 *     30
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  1     ^1    ^1       23   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   259 col= 61 =>
+  REDUCEDMATRIX TRANSI     1   ^1   ^1  0  QUADRIPOLE2  23 30<<
+ looking for   GROUND  1     0     1        23   23 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   459 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  23 23<<
+ looking for   GROUND  1     0     1        23   23 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   479 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  23 23<<
+ looking for   EXCITE  ^1    0     ^1       30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   507 col= 61 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  30 30<<
+ looking for   EXCITE  ^1    0     ^1       30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   527 col= 54 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  30 30<<
+
+=========== PAIR  ground 2 => excite 2      190 *    316
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  1     ^1    ^1      190  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   517 col= 63 =>
+  REDUCEDMATRIX TRANSI     1   ^1   ^1  0  QUADRIPOLE2  190 316<<
+ looking for   GROUND  1     0     1       190  190 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   920 col= 63 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  190 190<<
+ looking for   GROUND  1     0     1       190  190 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   940 col= 56 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  190 190<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  316 316<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  316 316<<
+
+=========== PAIR  ground 1 => ground 2       23 *    190
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  1     0     1        23  190 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    28 col= 56 =>
+  REDUCEDMATRIX TRANSI     1    0    1  0  HYBR   23 190<<
+ looking for   GROUND  1     0     1        23   23 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   170 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  23 23<<
+ looking for   GROUND  1     0     1        23   23 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   218 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  23 23<<
+ looking for   EXCITE  1     0     1       190  190 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   330 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  190 190<<
+ looking for   EXCITE  1     0     1       190  190 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   404 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  190 190<<
+
+=========== PAIR  excite 1 => excite 2       30 *    316
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^1    0     ^1       30  316 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   250 col= 56 =>
+  REDUCEDMATRIX TRANSI    ^1    0   ^1  0  HYBR   30 316<<
+ looking for   GROUND  ^1    0     ^1       30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   337 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  30 30<<
+ looking for   GROUND  ^1    0     ^1       30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   422 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  30 30<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   510 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  316 316<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   690 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  316 316<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry 1                    state=  1   dimension       213
+ Data read from file 98 record nr.   2
+ Ground state energy Eg0= -5.075417519     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.85797 0.14204 0.00000
+ Lowest few energies            -5.07542  -5.03417  -4.95882  -3.47824  -3.44904
+  -3.44090  -3.42292  -3.23622  -3.19321  -3.13569  -3.05764
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   23  dim= 3
+ Looking for  irrep   EXCITE  ^0      MULT
+ multiplicity found   EXCITE  ^0      mult=    9  dim= 1
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=  190  dim= 3
+ Looking for  irrep   EXCITE  ^0      MULT
+ multiplicity found   EXCITE  ^0      mult=  106  dim= 1
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   23  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  190  dim= 3
+ Looking for  irrep   GROUND  ^0      MULT
+ multiplicity found   GROUND  ^0      mult=    9  dim= 1
+ Looking for  irrep   EXCITE  ^0      MULT
+ multiplicity found   EXCITE  ^0      mult=  106  dim= 1
+
+=========== PAIR  ground 1 => excite 1       23 *      9
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  1     ^1    ^0       23    9 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   289 col= 61 =>
+  REDUCEDMATRIX TRANSI     1   ^1   ^0  0  QUADRIPOLE2  23  9<<
+ looking for   GROUND  1     0     1        23   23 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   459 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  23 23<<
+ looking for   GROUND  1     0     1        23   23 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   479 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  23 23<<
+ looking for   EXCITE  ^0    0     ^0        9    9 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   511 col= 59 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  HAMILTONIAN  9 9<<
+ looking for   EXCITE  ^0    0     ^0        9    9 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   531 col= 52 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  10DQ  9 9<<
+
+=========== PAIR  ground 2 => excite 2      190 *    106
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  1     ^1    ^0      190  106 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   577 col= 63 =>
+  REDUCEDMATRIX TRANSI     1   ^1   ^0  0  QUADRIPOLE2  190 106<<
+ looking for   GROUND  1     0     1       190  190 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   916 col= 63 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  190 190<<
+ looking for   GROUND  1     0     1       190  190 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   936 col= 56 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  190 190<<
+ looking for   EXCITE  ^0    0     ^0      106  106 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  HAMILTONIAN  106 106<<
+ looking for   EXCITE  ^0    0     ^0      106  106 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  10DQ  106 106<<
+
+=========== PAIR  ground 1 => ground 2       23 *    190
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  1     0     1        23  190 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    24 col= 56 =>
+  REDUCEDMATRIX TRANSI     1    0    1  0  HYBR   23 190<<
+ looking for   GROUND  1     0     1        23   23 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   166 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  23 23<<
+ looking for   GROUND  1     0     1        23   23 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   214 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  23 23<<
+ looking for   EXCITE  1     0     1       190  190 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   326 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  190 190<<
+ looking for   EXCITE  1     0     1       190  190 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   400 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  190 190<<
+
+=========== PAIR  excite 1 => excite 2        9 *    106
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^0    0     ^0        9  106 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   300 col= 56 =>
+  REDUCEDMATRIX TRANSI    ^0    0   ^0  0  HYBR    9 106<<
+ looking for   GROUND  ^0    0     ^0        9    9 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   349 col= 59 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  HAMILTONIAN  9 9<<
+ looking for   GROUND  ^0    0     ^0        9    9 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   462 col= 52 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  10DQ  9 9<<
+ looking for   EXCITE  ^0    0     ^0      106  106 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   530 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  HAMILTONIAN  106 106<<
+ looking for   EXCITE  ^0    0     ^0      106  106 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   779 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  10DQ  106 106<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry 1                    state=  1   dimension       213
+ Data read from file 98 record nr.   2
+ Ground state energy Eg0= -5.075417519     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.85797 0.14204 0.00000
+ Lowest few energies            -5.07542  -5.03417  -4.95882  -3.47824  -3.44904
+  -3.44090  -3.42292  -3.23622  -3.19321  -3.13569  -3.05764
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   19  dim= 2
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=   30  dim= 3
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=  126  dim= 2
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  314  dim= 3
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   19  dim= 2
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  126  dim= 2
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   30  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  314  dim= 3
+
+=========== PAIR  ground 1 => excite 1       19 *     30
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  2     ^1    1        19   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   302 col= 61 =>
+  REDUCEDMATRIX TRANSI     2   ^1    1  0  QUADRIPOLE2  19 30<<
+ looking for   GROUND  2     0     2        19   19 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   463 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  19 19<<
+ looking for   GROUND  2     0     2        19   19 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   483 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  19 19<<
+ looking for   EXCITE  1     0     1        30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   499 col= 61 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  30 30<<
+ looking for   EXCITE  1     0     1        30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   519 col= 54 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  30 30<<
+
+=========== PAIR  ground 2 => excite 2      126 *    314
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  2     ^1    1       126  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   614 col= 63 =>
+  REDUCEDMATRIX TRANSI     2   ^1    1  0  QUADRIPOLE2  126 314<<
+ looking for   GROUND  2     0     2       126  126 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   932 col= 63 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  126 126<<
+ looking for   GROUND  2     0     2       126  126 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   952 col= 56 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  126 126<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  314 314<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  314 314<<
+
+=========== PAIR  ground 1 => ground 2       19 *    126
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  2     0     2        19  126 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    86 col= 56 =>
+  REDUCEDMATRIX TRANSI     2    0    2  0  HYBR   19 126<<
+ looking for   GROUND  2     0     2        19   19 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   190 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  19 19<<
+ looking for   GROUND  2     0     2        19   19 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   263 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  19 19<<
+ looking for   EXCITE  2     0     2       126  126 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   358 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  126 126<<
+ looking for   EXCITE  2     0     2       126  126 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   504 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  126 126<<
+
+=========== PAIR  excite 1 => excite 2       30 *    314
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  1     0     1        30  314 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   128 col= 56 =>
+  REDUCEDMATRIX TRANSI     1    0    1  0  HYBR   30 314<<
+ looking for   GROUND  1     0     1        30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   270 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  30 30<<
+ looking for   GROUND  1     0     1        30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   318 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  30 30<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   430 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  314 314<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   504 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  314 314<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry 2                    state=  1   dimension       145
+ Data read from file 98 record nr.   3
+ Ground state energy Eg0= -5.077821255     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.85605 0.14396 0.00000
+ Lowest few energies            -5.07782  -4.97498  -3.47399  -3.44122  -3.43312
+  -3.29517  -3.22985  -3.15751  -3.01627  -2.96590  -2.67445
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   19  dim= 2
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=   30  dim= 3
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=  126  dim= 2
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  316  dim= 3
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   19  dim= 2
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  126  dim= 2
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   30  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  316  dim= 3
+
+=========== PAIR  ground 1 => excite 1       19 *     30
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  2     ^1    ^1       19   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   323 col= 61 =>
+  REDUCEDMATRIX TRANSI     2   ^1   ^1  0  QUADRIPOLE2  19 30<<
+ looking for   GROUND  2     0     2        19   19 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   463 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  19 19<<
+ looking for   GROUND  2     0     2        19   19 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   483 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  19 19<<
+ looking for   EXCITE  ^1    0     ^1       30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   507 col= 61 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  30 30<<
+ looking for   EXCITE  ^1    0     ^1       30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   527 col= 54 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  30 30<<
+
+=========== PAIR  ground 2 => excite 2      126 *    316
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  2     ^1    ^1      126  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   653 col= 63 =>
+  REDUCEDMATRIX TRANSI     2   ^1   ^1  0  QUADRIPOLE2  126 316<<
+ looking for   GROUND  2     0     2       126  126 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   924 col= 63 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  126 126<<
+ looking for   GROUND  2     0     2       126  126 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   944 col= 56 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  126 126<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  316 316<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  316 316<<
+
+=========== PAIR  ground 1 => ground 2       19 *    126
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  2     0     2        19  126 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    78 col= 56 =>
+  REDUCEDMATRIX TRANSI     2    0    2  0  HYBR   19 126<<
+ looking for   GROUND  2     0     2        19   19 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   182 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  19 19<<
+ looking for   GROUND  2     0     2        19   19 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   255 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  19 19<<
+ looking for   EXCITE  2     0     2       126  126 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   350 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  126 126<<
+ looking for   EXCITE  2     0     2       126  126 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   496 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  126 126<<
+
+=========== PAIR  excite 1 => excite 2       30 *    316
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^1    0     ^1       30  316 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   203 col= 56 =>
+  REDUCEDMATRIX TRANSI    ^1    0   ^1  0  HYBR   30 316<<
+ looking for   GROUND  ^1    0     ^1       30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   290 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  30 30<<
+ looking for   GROUND  ^1    0     ^1       30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   375 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  30 30<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   463 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  316 316<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   643 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  316 316<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry 2                    state=  1   dimension       145
+ Data read from file 98 record nr.   3
+ Ground state energy Eg0= -5.077821255     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.85605 0.14396 0.00000
+ Lowest few energies            -5.07782  -4.97498  -3.47399  -3.44122  -3.43312
+  -3.29517  -3.22985  -3.15751  -3.01627  -2.96590  -2.67445
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   27  dim= 3
+ Looking for  irrep   EXCITE  0       MULT
+ multiplicity found   EXCITE  0       mult=    9  dim= 1
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=  188  dim= 3
+ Looking for  irrep   EXCITE  0       MULT
+ multiplicity found   EXCITE  0       mult=  104  dim= 1
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   27  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  188  dim= 3
+ Looking for  irrep   GROUND  0       MULT
+ multiplicity found   GROUND  0       mult=    9  dim= 1
+ Looking for  irrep   EXCITE  0       MULT
+ multiplicity found   EXCITE  0       mult=  104  dim= 1
+
+=========== PAIR  ground 1 => excite 1       27 *      9
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  ^1    ^1    0        27    9 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   345 col= 61 =>
+  REDUCEDMATRIX TRANSI    ^1   ^1    0  0  QUADRIPOLE2  27  9<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   467 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  27 27<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   487 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  27 27<<
+ looking for   EXCITE  0     0     0         9    9 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   495 col= 59 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  HAMILTONIAN  9 9<<
+ looking for   EXCITE  0     0     0         9    9 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   515 col= 52 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  10DQ  9 9<<
+
+=========== PAIR  ground 2 => excite 2      188 *    104
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  ^1    ^1    0       188  104 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   709 col= 63 =>
+  REDUCEDMATRIX TRANSI    ^1   ^1    0  0  QUADRIPOLE2  188 104<<
+ looking for   GROUND  ^1    0     ^1      188  188 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   940 col= 63 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  188 188<<
+ looking for   GROUND  ^1    0     ^1      188  188 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   960 col= 56 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  188 188<<
+ looking for   EXCITE  0     0     0       104  104 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  HAMILTONIAN  104 104<<
+ looking for   EXCITE  0     0     0       104  104 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  10DQ  104 104<<
+
+=========== PAIR  ground 1 => ground 2       27 *    188
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^1    0     ^1       27  188 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   115 col= 56 =>
+  REDUCEDMATRIX TRANSI    ^1    0   ^1  0  HYBR   27 188<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   202 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  27 27<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   287 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  27 27<<
+ looking for   EXCITE  ^1    0     ^1      188  188 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   375 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  188 188<<
+ looking for   EXCITE  ^1    0     ^1      188  188 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   555 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  188 188<<
+
+=========== PAIR  excite 1 => excite 2        9 *    104
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  0     0     0         9  104 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    28 col= 56 =>
+  REDUCEDMATRIX TRANSI     0    0    0  0  HYBR    9 104<<
+ looking for   GROUND  0     0     0         9    9 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   174 col= 59 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  HAMILTONIAN  9 9<<
+ looking for   GROUND  0     0     0         9    9 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   219 col= 52 =>
+  REDUCEDMATRIX GROUND     0    0    0  0  10DQ  9 9<<
+ looking for   EXCITE  0     0     0       104  104 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   334 col= 63 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  HAMILTONIAN  104 104<<
+ looking for   EXCITE  0     0     0       104  104 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   402 col= 56 =>
+  REDUCEDMATRIX EXCITE     0    0    0  0  10DQ  104 104<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry ^1                   state=  1   dimension       215
+ Data read from file 98 record nr.   4
+ Ground state energy Eg0= -5.084988594     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.84994 0.15007 0.00000
+ Lowest few energies            -5.08499  -5.02429  -4.98176  -3.47762  -3.47278
+  -3.44851  -3.43064  -3.29675  -3.27994  -3.22039  -3.16013
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   27  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=   30  dim= 3
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=  188  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  314  dim= 3
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   27  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  188  dim= 3
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   30  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  314  dim= 3
+
+=========== PAIR  ground 1 => excite 1       27 *     30
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  ^1    ^1    1        27   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   360 col= 61 =>
+  REDUCEDMATRIX TRANSI    ^1   ^1    1  0  QUADRIPOLE2  27 30<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   467 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  27 27<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   487 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  27 27<<
+ looking for   EXCITE  1     0     1        30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   499 col= 61 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  30 30<<
+ looking for   EXCITE  1     0     1        30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   519 col= 54 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  30 30<<
+
+=========== PAIR  ground 2 => excite 2      188 *    314
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  ^1    ^1    1       188  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   729 col= 63 =>
+  REDUCEDMATRIX TRANSI    ^1   ^1    1  0  QUADRIPOLE2  188 314<<
+ looking for   GROUND  ^1    0     ^1      188  188 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   936 col= 63 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  188 188<<
+ looking for   GROUND  ^1    0     ^1      188  188 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   956 col= 56 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  188 188<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  314 314<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  314 314<<
+
+=========== PAIR  ground 1 => ground 2       27 *    188
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^1    0     ^1       27  188 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   111 col= 56 =>
+  REDUCEDMATRIX TRANSI    ^1    0   ^1  0  HYBR   27 188<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   198 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  27 27<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   283 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  27 27<<
+ looking for   EXCITE  ^1    0     ^1      188  188 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   371 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  188 188<<
+ looking for   EXCITE  ^1    0     ^1      188  188 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   551 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  188 188<<
+
+=========== PAIR  excite 1 => excite 2       30 *    314
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  1     0     1        30  314 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    39 col= 56 =>
+  REDUCEDMATRIX TRANSI     1    0    1  0  HYBR   30 314<<
+ looking for   GROUND  1     0     1        30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   181 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  30 30<<
+ looking for   GROUND  1     0     1        30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   229 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  30 30<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   341 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  314 314<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   415 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  314 314<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry ^1                   state=  1   dimension       215
+ Data read from file 98 record nr.   4
+ Ground state energy Eg0= -5.084988594     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.84994 0.15007 0.00000
+ Lowest few energies            -5.08499  -5.02429  -4.98176  -3.47762  -3.47278
+  -3.44851  -3.43064  -3.29675  -3.27994  -3.22039  -3.16013
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   27  dim= 3
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=   21  dim= 2
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=  188  dim= 3
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  210  dim= 2
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   27  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  188  dim= 3
+ Looking for  irrep   GROUND  2       MULT
+ multiplicity found   GROUND  2       mult=   21  dim= 2
+ Looking for  irrep   EXCITE  2       MULT
+ multiplicity found   EXCITE  2       mult=  210  dim= 2
+
+=========== PAIR  ground 1 => excite 1       27 *     21
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  ^1    ^1    2        27   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   390 col= 61 =>
+  REDUCEDMATRIX TRANSI    ^1   ^1    2  0  QUADRIPOLE2  27 21<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   467 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  27 27<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   487 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  27 27<<
+ looking for   EXCITE  2     0     2        21   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   503 col= 61 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  21 21<<
+ looking for   EXCITE  2     0     2        21   21 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   523 col= 54 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  21 21<<
+
+=========== PAIR  ground 2 => excite 2      188 *    210
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  ^1    ^1    2       188  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   789 col= 63 =>
+  REDUCEDMATRIX TRANSI    ^1   ^1    2  0  QUADRIPOLE2  188 210<<
+ looking for   GROUND  ^1    0     ^1      188  188 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   932 col= 63 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  188 188<<
+ looking for   GROUND  ^1    0     ^1      188  188 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   952 col= 56 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  188 188<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  210 210<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  210 210<<
+
+=========== PAIR  ground 1 => ground 2       27 *    188
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^1    0     ^1       27  188 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   107 col= 56 =>
+  REDUCEDMATRIX TRANSI    ^1    0   ^1  0  HYBR   27 188<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   194 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  27 27<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   279 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  27 27<<
+ looking for   EXCITE  ^1    0     ^1      188  188 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   367 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  188 188<<
+ looking for   EXCITE  ^1    0     ^1      188  188 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   547 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  188 188<<
+
+=========== PAIR  excite 1 => excite 2       21 *    210
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  2     0     2        21  210 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    89 col= 56 =>
+  REDUCEDMATRIX TRANSI     2    0    2  0  HYBR   21 210<<
+ looking for   GROUND  2     0     2        21   21 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   193 col= 61 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  HAMILTONIAN  21 21<<
+ looking for   GROUND  2     0     2        21   21 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   266 col= 54 =>
+  REDUCEDMATRIX GROUND     2    0    2  0  10DQ  21 21<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   361 col= 63 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  HAMILTONIAN  210 210<<
+ looking for   EXCITE  2     0     2       210  210 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   507 col= 56 =>
+  REDUCEDMATRIX EXCITE     2    0    2  0  10DQ  210 210<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry ^1                   state=  1   dimension       215
+ Data read from file 98 record nr.   4
+ Ground state energy Eg0= -5.084988594     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.84994 0.15007 0.00000
+ Lowest few energies            -5.08499  -5.02429  -4.98176  -3.47762  -3.47278
+  -3.44851  -3.43064  -3.29675  -3.27994  -3.22039  -3.16013
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   27  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=   30  dim= 3
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=  188  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  316  dim= 3
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   27  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  188  dim= 3
+ Looking for  irrep   GROUND  ^1      MULT
+ multiplicity found   GROUND  ^1      mult=   30  dim= 3
+ Looking for  irrep   EXCITE  ^1      MULT
+ multiplicity found   EXCITE  ^1      mult=  316  dim= 3
+
+=========== PAIR  ground 1 => excite 1       27 *     30
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  ^1    ^1    ^1       27   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   412 col= 61 =>
+  REDUCEDMATRIX TRANSI    ^1   ^1   ^1  0  QUADRIPOLE2  27 30<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   467 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  27 27<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   487 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  27 27<<
+ looking for   EXCITE  ^1    0     ^1       30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   507 col= 61 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  30 30<<
+ looking for   EXCITE  ^1    0     ^1       30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   527 col= 54 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  30 30<<
+
+=========== PAIR  ground 2 => excite 2      188 *    316
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  ^1    ^1    ^1      188  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   829 col= 63 =>
+  REDUCEDMATRIX TRANSI    ^1   ^1   ^1  0  QUADRIPOLE2  188 316<<
+ looking for   GROUND  ^1    0     ^1      188  188 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   928 col= 63 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  188 188<<
+ looking for   GROUND  ^1    0     ^1      188  188 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   948 col= 56 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  188 188<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  316 316<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  316 316<<
+
+=========== PAIR  ground 1 => ground 2       27 *    188
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^1    0     ^1       27  188 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   103 col= 56 =>
+  REDUCEDMATRIX TRANSI    ^1    0   ^1  0  HYBR   27 188<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   190 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  27 27<<
+ looking for   GROUND  ^1    0     ^1       27   27 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   275 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  27 27<<
+ looking for   EXCITE  ^1    0     ^1      188  188 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   363 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  188 188<<
+ looking for   EXCITE  ^1    0     ^1      188  188 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   543 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  188 188<<
+
+=========== PAIR  excite 1 => excite 2       30 *    316
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^1    0     ^1       30  316 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   114 col= 56 =>
+  REDUCEDMATRIX TRANSI    ^1    0   ^1  0  HYBR   30 316<<
+ looking for   GROUND  ^1    0     ^1       30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   201 col= 61 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  HAMILTONIAN  30 30<<
+ looking for   GROUND  ^1    0     ^1       30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   286 col= 54 =>
+  REDUCEDMATRIX GROUND    ^1    0   ^1  0  10DQ  30 30<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   374 col= 63 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  HAMILTONIAN  316 316<<
+ looking for   EXCITE  ^1    0     ^1      316  316 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   554 col= 56 =>
+  REDUCEDMATRIX EXCITE    ^1    0   ^1  0  10DQ  316 316<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry ^1                   state=  1   dimension       215
+ Data read from file 98 record nr.   4
+ Ground state energy Eg0= -5.084988594     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.84994 0.15007 0.00000
+ Lowest few energies            -5.08499  -5.02429  -4.98176  -3.47762  -3.47278
+  -3.44851  -3.43064  -3.29675  -3.27994  -3.22039  -3.16013
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+ Looking for  irrep   GROUND  ^0      MULT
+ multiplicity found   GROUND  ^0      mult=    8  dim= 1
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=   30  dim= 3
+ Looking for  irrep   GROUND  ^0      MULT
+ multiplicity found   GROUND  ^0      mult=   62  dim= 1
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  314  dim= 3
+ Looking for  irrep   GROUND  ^0      MULT
+ multiplicity found   GROUND  ^0      mult=    8  dim= 1
+ Looking for  irrep   EXCITE  ^0      MULT
+ multiplicity found   EXCITE  ^0      mult=   62  dim= 1
+ Looking for  irrep   GROUND  1       MULT
+ multiplicity found   GROUND  1       mult=   30  dim= 3
+ Looking for  irrep   EXCITE  1       MULT
+ multiplicity found   EXCITE  1       mult=  314  dim= 3
+
+=========== PAIR  ground 1 => excite 1        8 *     30
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =         350
+ Number of matrixes  =   40
+ end of cowan
+ looking for   TRANSI  ^0    ^1    1         8   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   442 col= 61 =>
+  REDUCEDMATRIX TRANSI    ^0   ^1    1  0  QUADRIPOLE2   8 30<<
+ looking for   GROUND  ^0    0     ^0        8    8 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   471 col= 59 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  HAMILTONIAN  8 8<<
+ looking for   GROUND  ^0    0     ^0        8    8 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   491 col= 52 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  10DQ  8 8<<
+ looking for   EXCITE  1     0     1        30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   499 col= 61 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  30 30<<
+ looking for   EXCITE  1     0     1        30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   519 col= 54 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  30 30<<
+
+=========== PAIR  ground 2 => excite 2       62 *    314
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =        9070
+ Number of matrixes  =   54
+ end of cowan
+ looking for   TRANSI  ^0    ^1    1        62  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   899 col= 63 =>
+  REDUCEDMATRIX TRANSI    ^0   ^1    1  0  QUADRIPOLE2   62 314<<
+ looking for   GROUND  ^0    0     ^0       62   62 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   940 col= 61 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  HAMILTONIAN  62 62<<
+ looking for   GROUND  ^0    0     ^0       62   62 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   960 col= 54 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  10DQ  62 62<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   968 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  314 314<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   988 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  314 314<<
+
+=========== PAIR  ground 1 => ground 2        8 *     62
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       12862
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  ^0    0     ^0        8   62 Factor =  15.0000000
+ routine=ETR                  file= 15 line=   161 col= 54 =>
+  REDUCEDMATRIX TRANSI    ^0    0   ^0  0  HYBR   8 62<<
+ looking for   GROUND  ^0    0     ^0        8    8 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   210 col= 59 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  HAMILTONIAN  8 8<<
+ looking for   GROUND  ^0    0     ^0        8    8 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   323 col= 52 =>
+  REDUCEDMATRIX GROUND    ^0    0   ^0  0  10DQ  8 8<<
+ looking for   EXCITE  ^0    0     ^0       62   62 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   391 col= 61 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  HAMILTONIAN  62 62<<
+ looking for   EXCITE  ^0    0     ^0       62   62 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   640 col= 54 =>
+  REDUCEDMATRIX EXCITE    ^0    0   ^0  0  10DQ  62 62<<
+
+=========== PAIR  excite 1 => excite 2       30 *    314
+ begin of cowan
+ Cowan store will be read from file 99.
+ Total length =       38074
+ Number of matrixes  =  214
+ end of cowan
+ looking for   TRANSI  1     0     1        30  314 Factor =  15.0000000
+ routine=ETR                  file= 15 line=    24 col= 56 =>
+  REDUCEDMATRIX TRANSI     1    0    1  0  HYBR   30 314<<
+ looking for   GROUND  1     0     1        30   30 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   166 col= 61 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  HAMILTONIAN  30 30<<
+ looking for   GROUND  1     0     1        30   30 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   214 col= 54 =>
+  REDUCEDMATRIX GROUND     1    0    1  0  10DQ  30 30<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   1.0000000
+ routine=ETR                  file= 15 line=   326 col= 63 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  HAMILTONIAN  314 314<<
+ looking for   EXCITE  1     0     1       314  314 Factor =   0.7000000
+ routine=ETR                  file= 15 line=   400 col= 56 =>
+  REDUCEDMATRIX EXCITE     1    0    1  0  10DQ  314 314<<
+ gausslegendre            1   0.0000000       1.0000000    
+ Data required for symmetry ^0                   state=  1   dimension        70
+ Data read from file 98 record nr.   5
+ Ground state energy Eg0= -4.998061657     (   1 times)
+ Weight of configurations 1,2,3 in the ground state: 0.88567 0.11433 0.00000
+ Lowest few energies            -4.99806  -3.46402  -3.24282  -2.89937  -2.67074
+  -2.40867  -1.39781  -0.76403   8.34692  10.35271  10.54486
+ gausslegendre            1   0.0000000       1.0000000    
+  before spectr_new 
+  time before tridiag 
+  time before tql3 
+ time before primat 
+  time end of calculation 
+ Maximum heap used:      447916
+ ****** CPU TIME =     0.0000 SEC.*****
+ <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>

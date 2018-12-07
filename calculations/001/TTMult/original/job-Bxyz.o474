@@ -1,0 +1,129 @@
+statist     0.00     0.00, HEAP =        2, NTHREE =      0 GET COMMAND
+statist     0.00     0.00, HEAP =        2, NTHREE =      0 GET COMMAND
+statist     0.00     0.00, HEAP =        2, NTHREE =      0 O3
+  For O3 MAXDIM is now 39  <<<<MESSAGE>>>>
+statist     0.05     0.05, HEAP =      647, NTHREE =    838 OH
+  For OH MAXDIM is now 210  <<<<MESSAGE>>>>
+  Increasing 3jm table size  <<<<MESSAGE>>>>
+  NTHREE =1000  <<<<MESSAGE>>>>
+  NTHREE =1200  <<<<MESSAGE>>>>
+  HEAPSIZE =1500  <<<<MESSAGE>>>>
+  NTHREE =1400  <<<<MESSAGE>>>>
+  NTHREE =1600  <<<<MESSAGE>>>>
+  NTHREE =1800  <<<<MESSAGE>>>>
+  HEAPSIZE =3000  <<<<MESSAGE>>>>
+  Increasing 3jm table size  <<<<MESSAGE>>>>
+  NTHREE =2000  <<<<MESSAGE>>>>
+  HEAPSIZE =4500  <<<<MESSAGE>>>>
+  NTHREE =2200  <<<<MESSAGE>>>>
+  HEAPSIZE =6000  <<<<MESSAGE>>>>
+  NTHREE =2400  <<<<MESSAGE>>>>
+  NTHREE =2600  <<<<MESSAGE>>>>
+  NTHREE =2800  <<<<MESSAGE>>>>
+  HEAPSIZE =7500  <<<<MESSAGE>>>>
+  Increasing 3jm table size  <<<<MESSAGE>>>>
+  NTHREE =3000  <<<<MESSAGE>>>>
+  HEAPSIZE =9000  <<<<MESSAGE>>>>
+  HEAPSIZE =10500  <<<<MESSAGE>>>>
+  NTHREE =3200  <<<<MESSAGE>>>>
+  HEAPSIZE =12000  <<<<MESSAGE>>>>
+statist     0.20     0.15, HEAP =    12134, NTHREE =     13 D3D
+  For D3D MAXDIM is now 420  <<<<MESSAGE>>>>
+  HEAPSIZE =13500  <<<<MESSAGE>>>>
+  HEAPSIZE =15000  <<<<MESSAGE>>>>
+  HEAPSIZE =16500  <<<<MESSAGE>>>>
+  HEAPSIZE =18000  <<<<MESSAGE>>>>
+  HEAPSIZE =19500  <<<<MESSAGE>>>>
+  HEAPSIZE =21000  <<<<MESSAGE>>>>
+  HEAPSIZE =22500  <<<<MESSAGE>>>>
+  HEAPSIZE =24000  <<<<MESSAGE>>>>
+  HEAPSIZE =25500  <<<<MESSAGE>>>>
+  HEAPSIZE =27000  <<<<MESSAGE>>>>
+  HEAPSIZE =28500  <<<<MESSAGE>>>>
+  HEAPSIZE =30000  <<<<MESSAGE>>>>
+  HEAPSIZE =31500  <<<<MESSAGE>>>>
+  HEAPSIZE =33000  <<<<MESSAGE>>>>
+  HEAPSIZE =34500  <<<<MESSAGE>>>>
+  HEAPSIZE =36000  <<<<MESSAGE>>>>
+  HEAPSIZE =37500  <<<<MESSAGE>>>>
+  HEAPSIZE =39000  <<<<MESSAGE>>>>
+statist     0.21     0.01, HEAP =    39947, NTHREE =      0 C3V
+  For C3V MAXDIM is now 420  <<<<MESSAGE>>>>
+  HEAPSIZE =40500  <<<<MESSAGE>>>>
+  HEAPSIZE =42000  <<<<MESSAGE>>>>
+  HEAPSIZE =43500  <<<<MESSAGE>>>>
+  HEAPSIZE =45000  <<<<MESSAGE>>>>
+  HEAPSIZE =46500  <<<<MESSAGE>>>>
+  HEAPSIZE =48000  <<<<MESSAGE>>>>
+  HEAPSIZE =49500  <<<<MESSAGE>>>>
+  HEAPSIZE =51000  <<<<MESSAGE>>>>
+  HEAPSIZE =52500  <<<<MESSAGE>>>>
+  HEAPSIZE =54000  <<<<MESSAGE>>>>
+  HEAPSIZE =55500  <<<<MESSAGE>>>>
+statist     0.22     0.01, HEAP =    56415, NTHREE =      4 C3
+  For C3 MAXDIM is now 420  <<<<MESSAGE>>>>
+  HEAPSIZE =57000  <<<<MESSAGE>>>>
+  HEAPSIZE =58500  <<<<MESSAGE>>>>
+  HEAPSIZE =60000  <<<<MESSAGE>>>>
+  HEAPSIZE =61500  <<<<MESSAGE>>>>
+  HEAPSIZE =63000  <<<<MESSAGE>>>>
+  HEAPSIZE =64500  <<<<MESSAGE>>>>
+  HEAPSIZE =66000  <<<<MESSAGE>>>>
+  HEAPSIZE =67500  <<<<MESSAGE>>>>
+  HEAPSIZE =69000  <<<<MESSAGE>>>>
+  HEAPSIZE =70500  <<<<MESSAGE>>>>
+  HEAPSIZE =72000  <<<<MESSAGE>>>>
+  HEAPSIZE =73500  <<<<MESSAGE>>>>
+  HEAPSIZE =75000  <<<<MESSAGE>>>>
+  HEAPSIZE =76500  <<<<MESSAGE>>>>
+  HEAPSIZE =78000  <<<<MESSAGE>>>>
+  HEAPSIZE =79500  <<<<MESSAGE>>>>
+  HEAPSIZE =81000  <<<<MESSAGE>>>>
+  HEAPSIZE =82500  <<<<MESSAGE>>>>
+  HEAPSIZE =84000  <<<<MESSAGE>>>>
+  HEAPSIZE =85500  <<<<MESSAGE>>>>
+  HEAPSIZE =87000  <<<<MESSAGE>>>>
+statist     0.24     0.02, HEAP =    87471, NTHREE =      0 C1
+  For C1 MAXDIM is now 1260  <<<<MESSAGE>>>>
+  HEAPSIZE =88500  <<<<MESSAGE>>>>
+  HEAPSIZE =90000  <<<<MESSAGE>>>>
+  HEAPSIZE =91500  <<<<MESSAGE>>>>
+  HEAPSIZE =93000  <<<<MESSAGE>>>>
+  HEAPSIZE =94500  <<<<MESSAGE>>>>
+  HEAPSIZE =96000  <<<<MESSAGE>>>>
+  HEAPSIZE =97500  <<<<MESSAGE>>>>
+  HEAPSIZE =99000  <<<<MESSAGE>>>>
+  HEAPSIZE =100500  <<<<MESSAGE>>>>
+  HEAPSIZE =102000  <<<<MESSAGE>>>>
+  HEAPSIZE =103500  <<<<MESSAGE>>>>
+  HEAPSIZE =105000  <<<<MESSAGE>>>>
+  HEAPSIZE =106500  <<<<MESSAGE>>>>
+  HEAPSIZE =108000  <<<<MESSAGE>>>>
+  HEAPSIZE =109500  <<<<MESSAGE>>>>
+  HEAPSIZE =111000  <<<<MESSAGE>>>>
+  HEAPSIZE =112500  <<<<MESSAGE>>>>
+  HEAPSIZE =114000  <<<<MESSAGE>>>>
+  HEAPSIZE =115500  <<<<MESSAGE>>>>
+  HEAPSIZE =117000  <<<<MESSAGE>>>>
+  HEAPSIZE =118500  <<<<MESSAGE>>>>
+statist     0.27     0.03, HEAP =   118512, NTHREE =      2 PUTBRANCHES
+statist     0.35     0.08, HEAP =   118512, NTHREE =      2 MATRIX READY
+statist     0.35     0.00, HEAP =   118512, NTHREE =      2 END TREATMATRIX
+statist     0.43     0.08, HEAP =   118512, NTHREE =      2 MATRIX READY
+statist     0.43     0.00, HEAP =   118512, NTHREE =      2 END TREATMATRIX
+statist     0.51     0.08, HEAP =   118512, NTHREE =      2 MATRIX READY
+statist     0.51     0.00, HEAP =   118512, NTHREE =      2 END TREATMATRIX
+statist     0.55     0.04, HEAP =   118512, NTHREE =      2 MATRIX READY
+statist     0.55     0.00, HEAP =   118512, NTHREE =      2 END TREATMATRIX
+statist     0.59     0.04, HEAP =   118512, NTHREE =      2 MATRIX READY
+statist     0.60     0.01, HEAP =   118512, NTHREE =      2 END TREATMATRIX
+statist     0.65     0.05, HEAP =   118512, NTHREE =      2 MATRIX READY
+statist     0.65     0.00, HEAP =   118512, NTHREE =      2 END TREATMATRIX
+statist     0.72     0.07, HEAP =   118512, NTHREE =      2 MATRIX READY
+statist     1.00     0.28, HEAP =   118512, NTHREE =      2 END DIAGON
+statist     3.51     2.51, HEAP =   118512, NTHREE =      2 END TREATMATRIX
+statist     3.65     0.14, HEAP =   118512, NTHREE =      2 MATRIX READY
+statist    41.25    37.60, HEAP =   118512, NTHREE =      2 END DIAGON
+statist    50.13     8.88, HEAP =   118512, NTHREE =      2 END TREATMATRIX
+statist    50.58     0.45, HEAP =   118512, NTHREE =      2 EXECUTETASK
+statist    50.58     0.00, HEAP =   118512, NTHREE =      2 GET COMMAND

@@ -1,0 +1,75 @@
+Y
+    % vertical 1 1
+ racer O3
+ to    Oh
+ to    Td
+ endchain
+ actor   2 quadripole1        transi
+   OPER MULTIPOLE
+     branch  2+ > 0 2+ > 2  1.000
+ actor   ^1 quadripole2        transi
+   OPER MULTIPOLE
+     branch  2+ > 0 ^1+ > ^1  1.000
+ actor   0 HAMILTONIAN ground
+ actor   0 10Dq        ground
+ actor   0 HAMILTONIAN excite
+ actor   0 10Dq        excite
+RUN
+      % vertical 2 2
+ racer O3
+ to    Oh
+ to    Td
+ endchain
+ actor   2 quadripole1        transi
+   OPER MULTIPOLE
+     branch  2+ > 0 2+ > 2  1.000
+ actor   ^1 quadripole2        transi
+   OPER MULTIPOLE
+     branch  2+ > 0 ^1+ > ^1  1.000
+ actor   0 HAMILTONIAN ground
+ actor   0 10Dq        ground
+ actor   0 HAMILTONIAN excite
+ actor   0 10Dq        excite
+RUN
+     % horizontal ground   1 2
+ racer O3
+ to    Oh
+ to    Td
+ endchain
+ actor   0 hybr      transi
+   oper MULTIPOLE
+     branch  3- > 0 ^0- > 0  1.0 
+ actor   0  HAMILTONIAN ground
+  OPER HAMILTONIAN
+    BRANCH 0+ > 0 0+ >  0  1.0
+ actor   0 10Dq        ground
+  OPER SHELL2
+    BRANCH 4+ > 0 0+ >  0 -3.286335345
+ actor   0  HAMILTONIAN excite 
+  OPER HAMILTONIAN
+    BRANCH 0+ > 0 0+ >  0  1.0
+ actor   0 10Dq        excite 
+  OPER SHELL2
+    BRANCH 4+ > 0 0+ >  0 -3.286335345
+   RUN
+    %  horizontal excite 1 2
+ racer O3
+ to    Oh
+ to    Td
+ endchain
+ actor   0 hybr      transi
+   oper MULTIPOLE
+     branch  3- > 0 ^0- > 0  1.0
+ actor   0  HAMILTONIAN ground
+  OPER HAMILTONIAN
+    BRANCH 0+ > 0 0+ >  0  1.0
+ actor   0 10Dq        ground
+  OPER SHELL2
+    BRANCH 4+ > 0 0+ >  0 -3.286335345
+ actor   0  HAMILTONIAN excite
+  OPER HAMILTONIAN
+    BRANCH 0+ > 0 0+ >  0  1.0
+ actor   0 10Dq        excite
+  OPER SHELL2
+    BRANCH 4+ > 0 0+ >  0 -3.286335345
+   RUN

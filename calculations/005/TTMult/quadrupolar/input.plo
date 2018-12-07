@@ -1,0 +1,10 @@
+inform
+energy_range -20 20
+lorentzian 0.2 1e20
+gaussian 0.2
+band       input.ban_out
+xy input-15iso1K.xy 2000
+spectrum temp 1
+xy input-15iso300K.xy 2000
+spectrum temp 300
+end

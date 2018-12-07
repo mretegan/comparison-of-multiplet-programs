@@ -1,0 +1,74 @@
+Y
+butler O3
+to    Oh
+to    D3d
+to    C3v
+to    C3
+to    C1
+endchain
+ actor 0 hamiltonian GROUND printeig
+  oper   HAMILTONIAN
+   branch 0+ > 0  0+ > 0+   > 0 > 0  > 0   1.0
+  oper SHELL2
+   branch 4+ > 0  0+ > 0+   > 0 > 0  > 0   10.7353618431091
+   branch 4+ > 0 ^1+ > 0+   > 0 > 0  > 0   2.59229621887207
+   branch 2+ > 0 ^1+ > 0+   > 0 > 0  > 0  -0.585662002563477
+  oper SPIN2
+   branch 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   (.0008000,0)
+   branch 1+ > 0 1+ >  1+   >  1 >  1  > 0   (0,0)
+   branch 1+ > 0 1+ >  1+   >  1 > -1  > 0   (0,0)
+  oper ORBIT2
+   branch 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   (.0004000,0)
+   branch 1+ > 0 1+ >  1+   >  1 >  1  > 0   (0,0)
+   branch 1+ > 0 1+ >  1+   >  1 > -1  > 0   (0,0)
+
+ actor 0 hamiltonian EXCITE printeig
+  oper   HAMILTONIAN
+   branch 0+ > 0  0+ > 0+   > 0 > 0  > 0   1.0
+  oper SHELL2
+   branch 4+ > 0  0+ > 0+   > 0 > 0  > 0   10.7353618431091
+   branch 4+ > 0 ^1+ > 0+   > 0 > 0  > 0   2.59229621887207
+   branch 2+ > 0 ^1+ > 0+   > 0 > 0  > 0  -0.585662002563477
+  oper SPIN2
+   branch 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   (.0008000,0)
+   branch 1+ > 0 1+ >  1+   >  1 >  1  > 0   (0,0)
+   branch 1+ > 0 1+ >  1+   >  1 > -1  > 0   (0,0)
+  oper ORBIT2
+   branch 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   (.0004000,0)
+   branch 1+ > 0 1+ >  1+   >  1 >  1  > 0   (0,0)
+   branch 1+ > 0 1+ >  1+   >  1 > -1  > 0   (0,0)
+
+ actor  0  right       transi PRINTTRANS
+  oper MULTIPOLE
+   branch  1-  > 0 1-  > ^0- > 0  >  0 > 0   (0,0)
+   branch  1-  > 0 1-  >  1- >  1 >  1 > 0   (-1.0000000,0)
+   branch  1-  > 0 1-  >  1- >  1 > -1 > 0   (0,0)
+ actor  0  left        transi PRINTTRANS
+  oper MULTIPOLE
+   branch  1-  > 0 1-  > ^0- > 0  >  0 > 0   (0,0)
+   branch  1-  > 0 1-  >  1- >  1 >  1 > 0   (0,0)
+   branch  1-  > 0 1-  >  1- >  1 > -1 > 0   (-1.0000000,0)
+ actor  0  linear       transi PRINTTRANS
+  oper MULTIPOLE
+   branch  1-  > 0 1-  > ^0- > 0  >  0 > 0   (1.0000000,0.0)
+   branch  1-  > 0 1-  >  1- >  1 >  1 > 0   (0,0)
+   branch  1-  > 0 1-  >  1- >  1 > -1 > 0   (0,0)
+
+ actor  0  Sz          ground PRINTTRANS 1019
+  oper SPIN2
+   branch 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   (1.0000000,0.0)
+   branch 1+ > 0 1+ >  1+   >  1 >  1  > 0   (0,0)
+   branch 1+ > 0 1+ >  1+   >  1 > -1  > 0   (0,0)
+ actor  0  Lz          ground PRINTTRANS 1019
+  oper ORBIT2
+   branch 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   (1.0000000,0.0)
+   branch 1+ > 0 1+ >  1+   >  1 >  1  > 0   (0,0)
+   branch 1+ > 0 1+ >  1+   >  1 > -1  > 0   (0,0)
+ actor 0  Wz        ground printtrans 1019
+  oper  TENSOR2112
+   branch 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   (1.0000000,0.0)
+   branch 1+ > 0 1+ >  1+   >  1 >  1  > 0   (0,0)
+   branch 1+ > 0 1+ >  1+   >  1 > -1  > 0   (0,0)
+
+RUN
+

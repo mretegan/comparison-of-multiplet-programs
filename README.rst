@@ -1,17 +1,31 @@
 About
 =====
-The repository contains input and output files of spectroscopy calculations done with different multiplet programs, organized by element, charge, and symmetry.
+The repository contains input and output files of spectroscopy calculations done with different multiplet programs.
 
-Multiplet Programs Tested
+Multiplet programs tested
 =========================
+
 Quanty
 ------
-Binaries are provided on the project's `download page <http://www.quanty.org/download>`_. The version tested was compiled on 27/06/2016.
+Binaries are provided on the project's `download page <http://www.quanty.org/download>`_. The version tested was compiled on 25/11/2018.
 
 TTMult
 ------
 The source code of the programs that make up TTMult are distributed via `BitBucket <https://bitbucket.org/cjtitus/ttmult/overview>`_. The programs were compiled using the default Makefile. The last commit considered was `27dba3c <https://bitbucket.org/cjtitus/ttmult/commits/27dba3c105c0bd26f3a0e9947c02d75847fb4842>`_.
 
-Timings
-=======
-The wall clock times are from single CPU runs on an Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz.
+Calculations
+============
+
++-----+---------+----------+------------+------+-----------------------------+
+|     | Element | Symmetry | Experiment | Edge | Additional Details          |
++=====+=========+==========+============+======+=============================+
+| 001 | Fe2+    | C3v      | XAS, XMCD  | L2,3 | Crystal field, B[111]       |
++-----+---------+----------+------------+------+-----------------------------+
+| 002 | Fe2+    | C3v      | XAS, XMCD  | L2,3 | Crystal field, B[001]       |
++-----+---------+----------+------------+------+-----------------------------+
+| 003 | Fe2+    | Oh       | XAS, XMCD  | L2,3 | Ligand field, B[001]        |
++-----+---------+----------+------------+------+-----------------------------+
+| 004 | Fe2+    | Td       | XAS        | K    | Crystal field               |
++-----+---------+----------+------------+------+-----------------------------+
+| 005 | Fe2+    | Td       | XAS        | K    | Crystal field, 3d-4p mixing |
++-----+---------+----------+------------+------+-----------------------------+

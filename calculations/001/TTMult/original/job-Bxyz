@@ -1,0 +1,10 @@
+#!/bin/bash
+cd $PBS_O_WORKDIR
+#PBS -l walltime=20:00:00
+#PBS -l nodes=2:ppn=2
+#PBS -M marie-anne.arrio@impmc.upmc.fr
+#PBS -m ae
+
+#time $HOME/thole/racah/ttrac_test < fe-OhC3v-Bxyz-ground.rac fe-OhC3v-Bxyz.rcg_rme fe-OhC3v-Bxyz-ground.rac_out
+time $HOME/thole/racah/ttrac_test < fe-OhC3v-Bxyz.rac fe-OhC3v-Bxyz.rcg_rme fe-OhC3v-Bxyz.rac_out
+cp  fe-OhC3v-Bxyz.rac_out fe-OhC3v-Bxyz-modif.rac_out

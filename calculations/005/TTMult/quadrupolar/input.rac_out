@@ -1,0 +1,875 @@
+ Fri Dec  7 14:15:38 2018
+ 
+ TTTTT  TTTTT         RRRR    AAA    CCC    999   77777 
+   T      T           R   R  A   A  C   C  9   9     7  
+   T      T    -----  RRRR   AAAAA  C       9999   777  
+   T      T           R R    A   A  C   C     9     7   
+   T      T           R   R  A   A   CCC    9     7     
+
+ ECHO:    % vertical 1 1;
+ ECHO: racer O3;
+ >>> GROUP:     SO3  SLOT 0, 75 irreps.   USING FORMULAS 
+ >>> GROUP:     CI  SLOT 1, 2 irreps.   USING FORMULAS 
+ >>> GROUP:     O3  (SO3.CI)  SLOT 2, 150 irreps.   of 0*1 
+
+  GROUP O3 SO3.CI   SLOT=2  NREPS=149  LASTTRMULT=0
+ ECHO: to    Oh;
+  For O3 MAXDIM is now 10  <<<<MESSAGE>>>>
+ >>> GROUP:     O  SLOT 3, 8 irreps.  from FILE F6/O FOR_BUTLER(1981)12_DEC_1978 12_DEC_1978  PRIMITIVE TABLE 115  6J SYMBOLS  ALL 
+VALUES 
+ >>> GROUP:     CI  REUSING  SLOT 1, 2 irreps.   USING FORMULAS 
+ >>> GROUP:     OH  (O.CI)  SLOT 4, 16 irreps.   of 3*1 
+ >>> BRANCHING: SO3_TO_O__J=<15  READ from FILE F3/SO3O AUGUST 1990  PRIMITIVE TABLE 838  3JM SYMBOLS  ALL VALUES  BOTH REFLECTED
+
+  GROUP OH O.CI   SLOT=4  NREPS=15  LASTTRMULT=1
+ ECHO: to    Td;
+  For OH MAXDIM is now 30  <<<<MESSAGE>>>>
+  Increasing 3jm table size  <<<<MESSAGE>>>>
+  NTHREE =1000  <<<<MESSAGE>>>>
+  HEAPSIZE =1500  <<<<MESSAGE>>>>
+ >>> GROUP:     TD  (O)  REUSING  SLOT 3, 8 irreps.  from FILE F6/O FOR_BUTLER(1981)12_DEC_1978 12_DEC_1978  PRIMITIVE TABLE 115  
+6J SYMBOLS  ALL VALUES 
+  TILDE = ^0
+ >>> BRANCHING:   REFLECTED 
+
+  GROUP TD O   SLOT=3  NREPS=7  LASTTRMULT=1
+ ECHO: endchain;
+  For TD MAXDIM is now 30  <<<<MESSAGE>>>>
+
+ <REPRESENTATIONS>      NREPS=7
+
+ IRREP    0    (DIM=1)    GROUND- BASIS (MULT=14)  GROUND- OPERA   EXCITE- BASIS (MULT=9)  EXCITE- OPERA  
+      BRANCH:    0+  >  0    0+  >    0      GROUND  1 to  5      EXCITE 1 to 2
+      BRANCH:    4+  >  0    0+  >    0      GROUND  6 to 12      EXCITE 3 to 8
+      BRANCH:    6+  >  0    0+  >    0      GROUND 13 to 14      EXCITE 9 to 9
+
+ IRREP    1    (DIM=3)    GROUND- BASIS (MULT=23)  EXCITE- BASIS (MULT=30) 
+      BRANCH:    1+  >  0    1+  >    1      GROUND  1 to  4      EXCITE  1 to  7
+      BRANCH:    3+  >  0    1+  >    1      GROUND  5 to 10      EXCITE  8 to 15
+      BRANCH:    4+  >  0    1+  >    1      GROUND 11 to 17      EXCITE 16 to 21
+      BRANCH:    5+  >  0    1+  >    1      GROUND 18 to 19      EXCITE 22 to 25
+      BRANCH:    5+  >  1    1+  >    1      GROUND 20 to 21      EXCITE 26 to 29
+      BRANCH:    6+  >  0    1+  >    1      GROUND 22 to 23      EXCITE 30 to 30
+
+ IRREP    2    (DIM=2)    GROUND- BASIS (MULT=19)  EXCITE- BASIS (MULT=21)  TRANSI- OPERA  
+      BRANCH:    2+  >  0    2+  >    2      GROUND  1 to  8      EXCITE  1 to 10
+      BRANCH:    4+  >  0    2+  >    2      GROUND  9 to 15      EXCITE 11 to 16
+      BRANCH:    5+  >  0    2+  >    2      GROUND 16 to 17      EXCITE 17 to 20
+      BRANCH:    6+  >  0    2+  >    2      GROUND 18 to 19      EXCITE 21 to 21
+
+ IRREP   ^1    (DIM=3)    GROUND- BASIS (MULT=27)  EXCITE- BASIS (MULT=30)  TRANSI- OPERA  
+      BRANCH:    2+  >  0   ^1+  >   ^1      GROUND  1 to  8      EXCITE  1 to 10
+      BRANCH:    3+  >  0   ^1+  >   ^1      GROUND  9 to 14      EXCITE 11 to 18
+      BRANCH:    4+  >  0   ^1+  >   ^1      GROUND 15 to 21      EXCITE 19 to 24
+      BRANCH:    5+  >  0   ^1+  >   ^1      GROUND 22 to 23      EXCITE 25 to 28
+      BRANCH:    6+  >  0   ^1+  >   ^1      GROUND 24 to 25      EXCITE 29 to 29
+      BRANCH:    6+  >  1   ^1+  >   ^1      GROUND 26 to 27      EXCITE 30 to 30
+
+ IRREP   ^0    (DIM=1)    GROUND- BASIS (MULT=8)  EXCITE- BASIS (MULT=9) 
+      BRANCH:    3+  >  0   ^0+  >   ^0      GROUND 1 to 6      EXCITE 1 to 8
+      BRANCH:    6+  >  0   ^0+  >   ^0      GROUND 7 to 8      EXCITE 9 to 9
+
+
+ ECHO: actor   2 quadripole1        transi;
+ ECHO:   OPER MULTIPOLE;
+ ECHO:     branch  2+ > 0 2+ > 2  1.000;
+ ECHO: actor   ^1 quadripole2        transi;
+ ECHO:   OPER MULTIPOLE;
+ ECHO:     branch  2+ > 0 ^1+ > ^1  1.000;
+ ECHO: actor   0 HAMILTONIAN ground;
+ ECHO: actor   0 10Dq        ground;
+ ECHO: actor   0 HAMILTONIAN excite;
+ ECHO: actor   0 10Dq        excite;
+ ECHO:RUN;
+
+ ----  ACTORS   ----
+
+  <ACTOR> QUADRIPOLE1      IRREP    2  TRANSI 
+       <OPER> MULTIPOLE         STRENGTH  1.00000000  BRANCH:    2+  >  0    2+  >    2
+
+  <ACTOR> QUADRIPOLE2      IRREP   ^1  TRANSI 
+       <OPER> MULTIPOLE         STRENGTH  1.00000000  BRANCH:    2+  >  0   ^1+  >   ^1
+
+  <ACTOR> HAMILTONIAN      IRREP    0  GROUND 
+
+  <ACTOR> 10DQ             IRREP    0  GROUND 
+
+  <ACTOR> HAMILTONIAN      IRREP    0  EXCITE 
+
+  <ACTOR> 10DQ             IRREP    0  EXCITE 
+
+
+ ---- EXECUTE TASK ----
+
+
+  QQQ   U   U   AAA   DDDD   RRRR   IIIII  PPPP    OOO   L      EEEEE    1   
+ Q   Q  U   U  A   A  D   D  R   R    I    P   P  O   O  L      E       11   
+ Q   Q  U   U  AAAAA  D   D  RRRR     I    PPPP   O   O  L      EEEE     1   
+ Q QQQ  U   U  A   A  D   D  R R      I    P      O   O  L      E        1   
+  QQQQ   UUUU  A   A  DDDD   R   R  IIIII  P       OOO   LLLLL  EEEEE   111  
+
+ CALCULATIONS for ACTOR: QUADRIPOLE1 TRANSI
+
+       CALCULATING MATRIX for  TRIAD  2 (    0    2    2  0 )   (14*21)
+       CALCULATING MATRIX for  TRIAD  5 (    1    2    1  0 )   (23*30)
+       CALCULATING MATRIX for  TRIAD  6 (    1    2   ^1  0 )   (23*30)
+       CALCULATING MATRIX for  TRIAD 12 (    2    2    0  0 )   (19*9)
+       CALCULATING MATRIX for  TRIAD 13 (    2    2    2  0 )   (19*21)
+       CALCULATING MATRIX for  TRIAD 14 (    2    2   ^0  0 )   (19*9)
+       CALCULATING MATRIX for  TRIAD 18 (   ^1    2    1  0 )   (27*30)
+       CALCULATING MATRIX for  TRIAD 19 (   ^1    2   ^1  0 )   (27*30)
+       CALCULATING MATRIX for  TRIAD 25 (   ^0    2    2  0 )   (8*21)
+
+  QQQ   U   U   AAA   DDDD   RRRR   IIIII  PPPP    OOO   L      EEEEE   222  
+ Q   Q  U   U  A   A  D   D  R   R    I    P   P  O   O  L      E      2   2 
+ Q   Q  U   U  AAAAA  D   D  RRRR     I    PPPP   O   O  L      EEEE      2  
+ Q QQQ  U   U  A   A  D   D  R R      I    P      O   O  L      E       2    
+  QQQQ   UUUU  A   A  DDDD   R   R  IIIII  P       OOO   LLLLL  EEEEE  22222 
+
+ CALCULATIONS for ACTOR: QUADRIPOLE2 TRANSI
+
+       CALCULATING MATRIX for  TRIAD  3 (    0   ^1   ^1  0 )   (14*30)
+       CALCULATING MATRIX for  TRIAD  7 (    1   ^1    1  0 )   (23*30)
+       CALCULATING MATRIX for  TRIAD  8 (    1   ^1    2  0 )   (23*21)
+       CALCULATING MATRIX for  TRIAD  9 (    1   ^1   ^1  0 )   (23*30)
+       CALCULATING MATRIX for  TRIAD 10 (    1   ^1   ^0  0 )   (23*9)
+       CALCULATING MATRIX for  TRIAD 15 (    2   ^1    1  0 )   (19*30)
+       CALCULATING MATRIX for  TRIAD 16 (    2   ^1   ^1  0 )   (19*30)
+       CALCULATING MATRIX for  TRIAD 20 (   ^1   ^1    0  0 )   (27*9)
+       CALCULATING MATRIX for  TRIAD 21 (   ^1   ^1    1  0 )   (27*30)
+       CALCULATING MATRIX for  TRIAD 22 (   ^1   ^1    2  0 )   (27*21)
+       CALCULATING MATRIX for  TRIAD 23 (   ^1   ^1   ^1  0 )   (27*30)
+       CALCULATING MATRIX for  TRIAD 26 (   ^0   ^1    1  0 )   (8*30)
+
+ H   H   AAA   M   M  IIIII  L      TTTTT   OOO   N   N  IIIII   AAA   N   N 
+ H   H  A   A  MM MM    I    L        T    O   O  NN  N    I    A   A  NN  N 
+ HHHHH  AAAAA  M M M    I    L        T    O   O  N N N    I    AAAAA  N N N 
+ H   H  A   A  M   M    I    L        T    O   O  N  NN    I    A   A  N  NN 
+ H   H  A   A  M   M  IIIII  LLLLL    T     OOO   N   N  IIIII  A   A  N   N 
+
+ CALCULATIONS for ACTOR: HAMILTONIAN GROUND
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (14*14)
+       CALCULATING MATRIX for  TRIAD  4 (    1    0    1  0 )   (23*23)
+       CALCULATING MATRIX for  TRIAD 11 (    2    0    2  0 )   (19*19)
+       CALCULATING MATRIX for  TRIAD 17 (   ^1    0   ^1  0 )   (27*27)
+       CALCULATING MATRIX for  TRIAD 24 (   ^0    0   ^0  0 )   (8*8)
+
+   1      0    DDDD    QQQ  
+  11     0 0   D   D  Q   Q 
+   1    0   0  D   D  Q   Q 
+   1     0 0   D   D  Q QQQ 
+  111     0    DDDD    QQQQ 
+
+ CALCULATIONS for ACTOR: 10DQ GROUND
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (14*14)
+       CALCULATING MATRIX for  TRIAD  4 (    1    0    1  0 )   (23*23)
+       CALCULATING MATRIX for  TRIAD 11 (    2    0    2  0 )   (19*19)
+       CALCULATING MATRIX for  TRIAD 17 (   ^1    0   ^1  0 )   (27*27)
+       CALCULATING MATRIX for  TRIAD 24 (   ^0    0   ^0  0 )   (8*8)
+
+ H   H   AAA   M   M  IIIII  L      TTTTT   OOO   N   N  IIIII   AAA   N   N 
+ H   H  A   A  MM MM    I    L        T    O   O  NN  N    I    A   A  NN  N 
+ HHHHH  AAAAA  M M M    I    L        T    O   O  N N N    I    AAAAA  N N N 
+ H   H  A   A  M   M    I    L        T    O   O  N  NN    I    A   A  N  NN 
+ H   H  A   A  M   M  IIIII  LLLLL    T     OOO   N   N  IIIII  A   A  N   N 
+
+ CALCULATIONS for ACTOR: HAMILTONIAN EXCITE
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (9*9)
+       CALCULATING MATRIX for  TRIAD  4 (    1    0    1  0 )   (30*30)
+       CALCULATING MATRIX for  TRIAD 11 (    2    0    2  0 )   (21*21)
+       CALCULATING MATRIX for  TRIAD 17 (   ^1    0   ^1  0 )   (30*30)
+       CALCULATING MATRIX for  TRIAD 24 (   ^0    0   ^0  0 )   (9*9)
+
+   1      0    DDDD    QQQ  
+  11     0 0   D   D  Q   Q 
+   1    0   0  D   D  Q   Q 
+   1     0 0   D   D  Q QQQ 
+  111     0    DDDD    QQQQ 
+
+ CALCULATIONS for ACTOR: 10DQ EXCITE
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (9*9)
+       CALCULATING MATRIX for  TRIAD  4 (    1    0    1  0 )   (30*30)
+       CALCULATING MATRIX for  TRIAD 11 (    2    0    2  0 )   (21*21)
+       CALCULATING MATRIX for  TRIAD 17 (   ^1    0   ^1  0 )   (30*30)
+       CALCULATING MATRIX for  TRIAD 24 (   ^0    0   ^0  0 )   (9*9)
+ ECHO:      % vertical 2 2;
+ ECHO: racer O3;
+ >>> GROUP:     SO3  SLOT 0, 75 irreps.   USING FORMULAS 
+ >>> GROUP:     CI  SLOT 1, 2 irreps.   USING FORMULAS 
+ >>> GROUP:     O3  (SO3.CI)  SLOT 2, 150 irreps.   of 0*1 
+
+  GROUP O3 SO3.CI   SLOT=2  NREPS=149  LASTTRMULT=0
+ ECHO: to    Oh;
+  For O3 MAXDIM is now 75  <<<<MESSAGE>>>>
+ >>> GROUP:     O  SLOT 3, 8 irreps.  from FILE F6/O FOR_BUTLER(1981)12_DEC_1978 12_DEC_1978  PRIMITIVE TABLE 115  6J SYMBOLS  ALL 
+VALUES 
+ >>> GROUP:     CI  REUSING  SLOT 1, 2 irreps.   USING FORMULAS 
+ >>> GROUP:     OH  (O.CI)  SLOT 4, 16 irreps.   of 3*1 
+ >>> BRANCHING: SO3_TO_O__J=<15  READ from FILE F3/SO3O AUGUST 1990  PRIMITIVE TABLE 838  3JM SYMBOLS  ALL VALUES  BOTH REFLECTED
+
+  GROUP OH O.CI   SLOT=4  NREPS=15  LASTTRMULT=1
+ ECHO: to    Td;
+  For OH MAXDIM is now 316  <<<<MESSAGE>>>>
+  HEAPSIZE =3000  <<<<MESSAGE>>>>
+  Increasing 3jm table size  <<<<MESSAGE>>>>
+  NTHREE =1000  <<<<MESSAGE>>>>
+  NTHREE =1200  <<<<MESSAGE>>>>
+  NTHREE =1400  <<<<MESSAGE>>>>
+  HEAPSIZE =4500  <<<<MESSAGE>>>>
+ >>> GROUP:     TD  (O)  REUSING  SLOT 3, 8 irreps.  from FILE F6/O FOR_BUTLER(1981)12_DEC_1978 12_DEC_1978  PRIMITIVE TABLE 115  
+6J SYMBOLS  ALL VALUES 
+  TILDE = ^0
+ >>> BRANCHING:   REFLECTED 
+
+  GROUP TD O   SLOT=3  NREPS=7  LASTTRMULT=1
+ ECHO: endchain;
+  For TD MAXDIM is now 316  <<<<MESSAGE>>>>
+  HEAPSIZE =6000  <<<<MESSAGE>>>>
+
+ <REPRESENTATIONS>      NREPS=7
+
+ IRREP    0    (DIM=1)    GROUND- BASIS (MULT=64)  GROUND- OPERA   EXCITE- BASIS (MULT=104)  EXCITE- OPERA  
+      BRANCH:    0+  >  0    0+  >    0                                            
+      BRANCH:    3-  >  0   ^0-  >    0      GROUND  1 to 46      EXCITE   1 to  75
+      BRANCH:    6-  >  0   ^0-  >    0      GROUND 47 to 59      EXCITE  76 to  96
+      BRANCH:    7-  >  0   ^0-  >    0      GROUND 60 to 64      EXCITE  97 to 104
+
+ IRREP    1    (DIM=3)    GROUND- BASIS (MULT=190)  EXCITE- BASIS (MULT=314) 
+      BRANCH:    2-  >  0   ^1-  >    1      GROUND   1 to  45      EXCITE   1 to  74
+      BRANCH:    3-  >  0   ^1-  >    1      GROUND  46 to  91      EXCITE  75 to 149
+      BRANCH:    4-  >  0   ^1-  >    1      GROUND  92 to 128      EXCITE 150 to 211
+      BRANCH:    5-  >  0   ^1-  >    1      GROUND 129 to 152      EXCITE 212 to 252
+      BRANCH:    6-  >  0   ^1-  >    1      GROUND 153 to 165      EXCITE 253 to 273
+      BRANCH:    6-  >  1   ^1-  >    1      GROUND 166 to 178      EXCITE 274 to 294
+      BRANCH:    7-  >  0   ^1-  >    1      GROUND 179 to 183      EXCITE 295 to 302
+      BRANCH:    7-  >  1   ^1-  >    1      GROUND 184 to 188      EXCITE 303 to 310
+      BRANCH:    8-  >  0   ^1-  >    1      GROUND 189 to 189      EXCITE 311 to 312
+      BRANCH:    8-  >  1   ^1-  >    1      GROUND 190 to 190      EXCITE 313 to 314
+
+ IRREP    2    (DIM=2)    GROUND- BASIS (MULT=126)  EXCITE- BASIS (MULT=210)  TRANSI- OPERA  
+      BRANCH:    2+  >  0    2+  >    2                                              
+      BRANCH:    2-  >  0    2-  >    2      GROUND   1 to  45      EXCITE   1 to  74
+      BRANCH:    4-  >  0    2-  >    2      GROUND  46 to  82      EXCITE  75 to 136
+      BRANCH:    5-  >  0    2-  >    2      GROUND  83 to 106      EXCITE 137 to 177
+      BRANCH:    6-  >  0    2-  >    2      GROUND 107 to 119      EXCITE 178 to 198
+      BRANCH:    7-  >  0    2-  >    2      GROUND 120 to 124      EXCITE 199 to 206
+      BRANCH:    8-  >  0    2-  >    2      GROUND 125 to 125      EXCITE 207 to 208
+      BRANCH:    8-  >  1    2-  >    2      GROUND 126 to 126      EXCITE 209 to 210
+
+ IRREP   ^1    (DIM=3)    GROUND- BASIS (MULT=188)  EXCITE- BASIS (MULT=316)  TRANSI- OPERA  
+      BRANCH:    2+  >  0   ^1+  >   ^1                                              
+      BRANCH:    1-  >  0    1-  >   ^1      GROUND   1 to  32      EXCITE   1 to  56
+      BRANCH:    3-  >  0    1-  >   ^1      GROUND  33 to  78      EXCITE  57 to 131
+      BRANCH:    4-  >  0    1-  >   ^1      GROUND  79 to 115      EXCITE 132 to 193
+      BRANCH:    5-  >  0    1-  >   ^1      GROUND 116 to 139      EXCITE 194 to 234
+      BRANCH:    5-  >  1    1-  >   ^1      GROUND 140 to 163      EXCITE 235 to 275
+      BRANCH:    6-  >  0    1-  >   ^1      GROUND 164 to 176      EXCITE 276 to 296
+      BRANCH:    7-  >  0    1-  >   ^1      GROUND 177 to 181      EXCITE 297 to 304
+      BRANCH:    7-  >  1    1-  >   ^1      GROUND 182 to 186      EXCITE 305 to 312
+      BRANCH:    8-  >  0    1-  >   ^1      GROUND 187 to 187      EXCITE 313 to 314
+      BRANCH:    8-  >  1    1-  >   ^1      GROUND 188 to 188      EXCITE 315 to 316
+
+ IRREP   ^0    (DIM=1)    GROUND- BASIS (MULT=62)  EXCITE- BASIS (MULT=106) 
+      BRANCH:    0-  >  0    0-  >   ^0      GROUND  1 to 11      EXCITE   1 to  21
+      BRANCH:    4-  >  0    0-  >   ^0      GROUND 12 to 48      EXCITE  22 to  83
+      BRANCH:    6-  >  0    0-  >   ^0      GROUND 49 to 61      EXCITE  84 to 104
+      BRANCH:    8-  >  0    0-  >   ^0      GROUND 62 to 62      EXCITE 105 to 106
+
+
+ ECHO: actor   2 quadripole1        transi;
+ ECHO:   OPER MULTIPOLE;
+ ECHO:     branch  2+ > 0 2+ > 2  1.000;
+ ECHO: actor   ^1 quadripole2        transi;
+ ECHO:   OPER MULTIPOLE;
+ ECHO:     branch  2+ > 0 ^1+ > ^1  1.000;
+ ECHO: actor   0 HAMILTONIAN ground;
+ ECHO: actor   0 10Dq        ground;
+ ECHO: actor   0 HAMILTONIAN excite;
+ ECHO: actor   0 10Dq        excite;
+ ECHO:RUN;
+
+ ----  ACTORS   ----
+
+  <ACTOR> QUADRIPOLE1      IRREP    2  TRANSI 
+       <OPER> MULTIPOLE         STRENGTH  1.00000000  BRANCH:    2+  >  0    2+  >    2
+
+  <ACTOR> QUADRIPOLE2      IRREP   ^1  TRANSI 
+       <OPER> MULTIPOLE         STRENGTH  1.00000000  BRANCH:    2+  >  0   ^1+  >   ^1
+
+  <ACTOR> HAMILTONIAN      IRREP    0  GROUND 
+
+  <ACTOR> 10DQ             IRREP    0  GROUND 
+
+  <ACTOR> HAMILTONIAN      IRREP    0  EXCITE 
+
+  <ACTOR> 10DQ             IRREP    0  EXCITE 
+
+
+ ---- EXECUTE TASK ----
+
+
+  QQQ   U   U   AAA   DDDD   RRRR   IIIII  PPPP    OOO   L      EEEEE    1   
+ Q   Q  U   U  A   A  D   D  R   R    I    P   P  O   O  L      E       11   
+ Q   Q  U   U  AAAAA  D   D  RRRR     I    PPPP   O   O  L      EEEE     1   
+ Q QQQ  U   U  A   A  D   D  R R      I    P      O   O  L      E        1   
+  QQQQ   UUUU  A   A  DDDD   R   R  IIIII  P       OOO   LLLLL  EEEEE   111  
+
+ CALCULATIONS for ACTOR: QUADRIPOLE1 TRANSI
+
+       CALCULATING MATRIX for  TRIAD  2 (    0    2    2  0 )   (64*210)
+       CALCULATING MATRIX for  TRIAD  5 (    1    2    1  0 )   (190*314)
+       CALCULATING MATRIX for  TRIAD  6 (    1    2   ^1  0 )   (190*316)
+       CALCULATING MATRIX for  TRIAD 12 (    2    2    0  0 )   (126*104)
+       CALCULATING MATRIX for  TRIAD 13 (    2    2    2  0 )   (126*210)
+       CALCULATING MATRIX for  TRIAD 14 (    2    2   ^0  0 )   (126*106)
+       CALCULATING MATRIX for  TRIAD 18 (   ^1    2    1  0 )   (188*314)
+       CALCULATING MATRIX for  TRIAD 19 (   ^1    2   ^1  0 )   (188*316)
+       CALCULATING MATRIX for  TRIAD 25 (   ^0    2    2  0 )   (62*210)
+
+  QQQ   U   U   AAA   DDDD   RRRR   IIIII  PPPP    OOO   L      EEEEE   222  
+ Q   Q  U   U  A   A  D   D  R   R    I    P   P  O   O  L      E      2   2 
+ Q   Q  U   U  AAAAA  D   D  RRRR     I    PPPP   O   O  L      EEEE      2  
+ Q QQQ  U   U  A   A  D   D  R R      I    P      O   O  L      E       2    
+  QQQQ   UUUU  A   A  DDDD   R   R  IIIII  P       OOO   LLLLL  EEEEE  22222 
+
+ CALCULATIONS for ACTOR: QUADRIPOLE2 TRANSI
+
+       CALCULATING MATRIX for  TRIAD  3 (    0   ^1   ^1  0 )   (64*316)
+       CALCULATING MATRIX for  TRIAD  7 (    1   ^1    1  0 )   (190*314)
+       CALCULATING MATRIX for  TRIAD  8 (    1   ^1    2  0 )   (190*210)
+       CALCULATING MATRIX for  TRIAD  9 (    1   ^1   ^1  0 )   (190*316)
+       CALCULATING MATRIX for  TRIAD 10 (    1   ^1   ^0  0 )   (190*106)
+       CALCULATING MATRIX for  TRIAD 15 (    2   ^1    1  0 )   (126*314)
+       CALCULATING MATRIX for  TRIAD 16 (    2   ^1   ^1  0 )   (126*316)
+       CALCULATING MATRIX for  TRIAD 20 (   ^1   ^1    0  0 )   (188*104)
+       CALCULATING MATRIX for  TRIAD 21 (   ^1   ^1    1  0 )   (188*314)
+       CALCULATING MATRIX for  TRIAD 22 (   ^1   ^1    2  0 )   (188*210)
+       CALCULATING MATRIX for  TRIAD 23 (   ^1   ^1   ^1  0 )   (188*316)
+       CALCULATING MATRIX for  TRIAD 26 (   ^0   ^1    1  0 )   (62*314)
+
+ H   H   AAA   M   M  IIIII  L      TTTTT   OOO   N   N  IIIII   AAA   N   N 
+ H   H  A   A  MM MM    I    L        T    O   O  NN  N    I    A   A  NN  N 
+ HHHHH  AAAAA  M M M    I    L        T    O   O  N N N    I    AAAAA  N N N 
+ H   H  A   A  M   M    I    L        T    O   O  N  NN    I    A   A  N  NN 
+ H   H  A   A  M   M  IIIII  LLLLL    T     OOO   N   N  IIIII  A   A  N   N 
+
+ CALCULATIONS for ACTOR: HAMILTONIAN GROUND
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (64*64)
+       CALCULATING MATRIX for  TRIAD  4 (    1    0    1  0 )   (190*190)
+       CALCULATING MATRIX for  TRIAD 11 (    2    0    2  0 )   (126*126)
+       CALCULATING MATRIX for  TRIAD 17 (   ^1    0   ^1  0 )   (188*188)
+       CALCULATING MATRIX for  TRIAD 24 (   ^0    0   ^0  0 )   (62*62)
+
+   1      0    DDDD    QQQ  
+  11     0 0   D   D  Q   Q 
+   1    0   0  D   D  Q   Q 
+   1     0 0   D   D  Q QQQ 
+  111     0    DDDD    QQQQ 
+
+ CALCULATIONS for ACTOR: 10DQ GROUND
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (64*64)
+       CALCULATING MATRIX for  TRIAD  4 (    1    0    1  0 )   (190*190)
+       CALCULATING MATRIX for  TRIAD 11 (    2    0    2  0 )   (126*126)
+       CALCULATING MATRIX for  TRIAD 17 (   ^1    0   ^1  0 )   (188*188)
+       CALCULATING MATRIX for  TRIAD 24 (   ^0    0   ^0  0 )   (62*62)
+
+ H   H   AAA   M   M  IIIII  L      TTTTT   OOO   N   N  IIIII   AAA   N   N 
+ H   H  A   A  MM MM    I    L        T    O   O  NN  N    I    A   A  NN  N 
+ HHHHH  AAAAA  M M M    I    L        T    O   O  N N N    I    AAAAA  N N N 
+ H   H  A   A  M   M    I    L        T    O   O  N  NN    I    A   A  N  NN 
+ H   H  A   A  M   M  IIIII  LLLLL    T     OOO   N   N  IIIII  A   A  N   N 
+
+ CALCULATIONS for ACTOR: HAMILTONIAN EXCITE
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (104*104)
+       CALCULATING MATRIX for  TRIAD  4 (    1    0    1  0 )   (314*314)
+       CALCULATING MATRIX for  TRIAD 11 (    2    0    2  0 )   (210*210)
+       CALCULATING MATRIX for  TRIAD 17 (   ^1    0   ^1  0 )   (316*316)
+       CALCULATING MATRIX for  TRIAD 24 (   ^0    0   ^0  0 )   (106*106)
+
+   1      0    DDDD    QQQ  
+  11     0 0   D   D  Q   Q 
+   1    0   0  D   D  Q   Q 
+   1     0 0   D   D  Q QQQ 
+  111     0    DDDD    QQQQ 
+
+ CALCULATIONS for ACTOR: 10DQ EXCITE
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (104*104)
+       CALCULATING MATRIX for  TRIAD  4 (    1    0    1  0 )   (314*314)
+       CALCULATING MATRIX for  TRIAD 11 (    2    0    2  0 )   (210*210)
+       CALCULATING MATRIX for  TRIAD 17 (   ^1    0   ^1  0 )   (316*316)
+       CALCULATING MATRIX for  TRIAD 24 (   ^0    0   ^0  0 )   (106*106)
+ ECHO:     % horizontal ground   1 2;
+ ECHO: racer O3;
+ >>> GROUP:     SO3  SLOT 0, 75 irreps.   USING FORMULAS 
+ >>> GROUP:     CI  SLOT 1, 2 irreps.   USING FORMULAS 
+ >>> GROUP:     O3  (SO3.CI)  SLOT 2, 150 irreps.   of 0*1 
+
+  GROUP O3 SO3.CI   SLOT=2  NREPS=149  LASTTRMULT=0
+ ECHO: to    Oh;
+  For O3 MAXDIM is now 46  <<<<MESSAGE>>>>
+ >>> GROUP:     O  SLOT 3, 8 irreps.  from FILE F6/O FOR_BUTLER(1981)12_DEC_1978 12_DEC_1978  PRIMITIVE TABLE 115  6J SYMBOLS  ALL 
+VALUES 
+ >>> GROUP:     CI  REUSING  SLOT 1, 2 irreps.   USING FORMULAS 
+ >>> GROUP:     OH  (O.CI)  SLOT 4, 16 irreps.   of 3*1 
+ >>> BRANCHING: SO3_TO_O__J=<15  READ from FILE F3/SO3O AUGUST 1990  PRIMITIVE TABLE 838  3JM SYMBOLS  ALL VALUES  BOTH REFLECTED
+
+  GROUP OH O.CI   SLOT=4  NREPS=15  LASTTRMULT=1
+ ECHO: to    Td;
+  For OH MAXDIM is now 190  <<<<MESSAGE>>>>
+  Increasing 3jm table size  <<<<MESSAGE>>>>
+  NTHREE =1000  <<<<MESSAGE>>>>
+  NTHREE =1200  <<<<MESSAGE>>>>
+  HEAPSIZE =7500  <<<<MESSAGE>>>>
+  NTHREE =1400  <<<<MESSAGE>>>>
+  NTHREE =1600  <<<<MESSAGE>>>>
+  NTHREE =1800  <<<<MESSAGE>>>>
+  HEAPSIZE =9000  <<<<MESSAGE>>>>
+  Increasing 3jm table size  <<<<MESSAGE>>>>
+  NTHREE =2000  <<<<MESSAGE>>>>
+  NTHREE =2200  <<<<MESSAGE>>>>
+  HEAPSIZE =10500  <<<<MESSAGE>>>>
+  NTHREE =2400  <<<<MESSAGE>>>>
+  HEAPSIZE =12000  <<<<MESSAGE>>>>
+  NTHREE =2600  <<<<MESSAGE>>>>
+  NTHREE =2800  <<<<MESSAGE>>>>
+  HEAPSIZE =13500  <<<<MESSAGE>>>>
+  Increasing 3jm table size  <<<<MESSAGE>>>>
+  NTHREE =3000  <<<<MESSAGE>>>>
+  NTHREE =3200  <<<<MESSAGE>>>>
+  HEAPSIZE =15000  <<<<MESSAGE>>>>
+  NTHREE =3400  <<<<MESSAGE>>>>
+  NTHREE =3600  <<<<MESSAGE>>>>
+  HEAPSIZE =16500  <<<<MESSAGE>>>>
+  NTHREE =3800  <<<<MESSAGE>>>>
+  HEAPSIZE =18000  <<<<MESSAGE>>>>
+  HEAPSIZE =19500  <<<<MESSAGE>>>>
+ >>> GROUP:     TD  (O)  REUSING  SLOT 3, 8 irreps.  from FILE F6/O FOR_BUTLER(1981)12_DEC_1978 12_DEC_1978  PRIMITIVE TABLE 115  
+6J SYMBOLS  ALL VALUES 
+  TILDE = ^0
+ >>> BRANCHING:   REFLECTED 
+
+  GROUP TD O   SLOT=3  NREPS=7  LASTTRMULT=1
+ ECHO: endchain;
+  For TD MAXDIM is now 190  <<<<MESSAGE>>>>
+  HEAPSIZE =21000  <<<<MESSAGE>>>>
+  HEAPSIZE =22500  <<<<MESSAGE>>>>
+  HEAPSIZE =24000  <<<<MESSAGE>>>>
+
+ <REPRESENTATIONS>      NREPS=7
+
+ IRREP    0    (DIM=1)    GROUND- BASIS (MULT=14)  GROUND- OPERA   EXCITE- BASIS (MULT=64)  EXCITE- OPERA   TRANSI- OPERA  
+      BRANCH:    0+  >  0    0+  >    0      GROUND  1 to  5                     
+      BRANCH:    4+  >  0    0+  >    0      GROUND  6 to 12                     
+      BRANCH:    6+  >  0    0+  >    0      GROUND 13 to 14                     
+      BRANCH:    3-  >  0   ^0-  >    0                           EXCITE  1 to 46
+      BRANCH:    6-  >  0   ^0-  >    0                           EXCITE 47 to 59
+      BRANCH:    7-  >  0   ^0-  >    0                           EXCITE 60 to 64
+
+ IRREP    1    (DIM=3)    GROUND- BASIS (MULT=23)  GROUND- OPERA   EXCITE- BASIS (MULT=190)  EXCITE- OPERA   TRANSI- OPERA  
+      BRANCH:    1+  >  0    1+  >    1      GROUND  1 to  4                       
+      BRANCH:    3+  >  0    1+  >    1      GROUND  5 to 10                       
+      BRANCH:    4+  >  0    1+  >    1      GROUND 11 to 17                       
+      BRANCH:    5+  >  0    1+  >    1      GROUND 18 to 19                       
+      BRANCH:    5+  >  1    1+  >    1      GROUND 20 to 21                       
+      BRANCH:    6+  >  0    1+  >    1      GROUND 22 to 23                       
+      BRANCH:    2-  >  0   ^1-  >    1                           EXCITE   1 to  45
+      BRANCH:    3-  >  0   ^1-  >    1                           EXCITE  46 to  91
+      BRANCH:    4-  >  0   ^1-  >    1                           EXCITE  92 to 128
+      BRANCH:    5-  >  0   ^1-  >    1                           EXCITE 129 to 152
+      BRANCH:    6-  >  0   ^1-  >    1                           EXCITE 153 to 165
+      BRANCH:    6-  >  1   ^1-  >    1                           EXCITE 166 to 178
+      BRANCH:    7-  >  0   ^1-  >    1                           EXCITE 179 to 183
+      BRANCH:    7-  >  1   ^1-  >    1                           EXCITE 184 to 188
+      BRANCH:    8-  >  0   ^1-  >    1                           EXCITE 189 to 189
+      BRANCH:    8-  >  1   ^1-  >    1                           EXCITE 190 to 190
+
+ IRREP    2    (DIM=2)    GROUND- BASIS (MULT=19)  GROUND- OPERA   EXCITE- BASIS (MULT=126)  EXCITE- OPERA  
+      BRANCH:    2+  >  0    2+  >    2      GROUND  1 to  8                       
+      BRANCH:    4+  >  0    2+  >    2      GROUND  9 to 15                       
+      BRANCH:    5+  >  0    2+  >    2      GROUND 16 to 17                       
+      BRANCH:    6+  >  0    2+  >    2      GROUND 18 to 19                       
+      BRANCH:    2-  >  0    2-  >    2                           EXCITE   1 to  45
+      BRANCH:    4-  >  0    2-  >    2                           EXCITE  46 to  82
+      BRANCH:    5-  >  0    2-  >    2                           EXCITE  83 to 106
+      BRANCH:    6-  >  0    2-  >    2                           EXCITE 107 to 119
+      BRANCH:    7-  >  0    2-  >    2                           EXCITE 120 to 124
+      BRANCH:    8-  >  0    2-  >    2                           EXCITE 125 to 125
+      BRANCH:    8-  >  1    2-  >    2                           EXCITE 126 to 126
+
+ IRREP   ^1    (DIM=3)    GROUND- BASIS (MULT=27)  GROUND- OPERA   EXCITE- BASIS (MULT=188)  EXCITE- OPERA   TRANSI- OPERA  
+      BRANCH:    2+  >  0   ^1+  >   ^1      GROUND  1 to  8                       
+      BRANCH:    3+  >  0   ^1+  >   ^1      GROUND  9 to 14                       
+      BRANCH:    4+  >  0   ^1+  >   ^1      GROUND 15 to 21                       
+      BRANCH:    5+  >  0   ^1+  >   ^1      GROUND 22 to 23                       
+      BRANCH:    6+  >  0   ^1+  >   ^1      GROUND 24 to 25                       
+      BRANCH:    6+  >  1   ^1+  >   ^1      GROUND 26 to 27                       
+      BRANCH:    1-  >  0    1-  >   ^1                           EXCITE   1 to  32
+      BRANCH:    3-  >  0    1-  >   ^1                           EXCITE  33 to  78
+      BRANCH:    4-  >  0    1-  >   ^1                           EXCITE  79 to 115
+      BRANCH:    5-  >  0    1-  >   ^1                           EXCITE 116 to 139
+      BRANCH:    5-  >  1    1-  >   ^1                           EXCITE 140 to 163
+      BRANCH:    6-  >  0    1-  >   ^1                           EXCITE 164 to 176
+      BRANCH:    7-  >  0    1-  >   ^1                           EXCITE 177 to 181
+      BRANCH:    7-  >  1    1-  >   ^1                           EXCITE 182 to 186
+      BRANCH:    8-  >  0    1-  >   ^1                           EXCITE 187 to 187
+      BRANCH:    8-  >  1    1-  >   ^1                           EXCITE 188 to 188
+
+ IRREP   ^0    (DIM=1)    GROUND- BASIS (MULT=8)  EXCITE- BASIS (MULT=62) 
+      BRANCH:    3+  >  0   ^0+  >   ^0      GROUND 1 to 6                     
+      BRANCH:    6+  >  0   ^0+  >   ^0      GROUND 7 to 8                     
+      BRANCH:    0-  >  0    0-  >   ^0                         EXCITE  1 to 11
+      BRANCH:    4-  >  0    0-  >   ^0                         EXCITE 12 to 48
+      BRANCH:    6-  >  0    0-  >   ^0                         EXCITE 49 to 61
+      BRANCH:    8-  >  0    0-  >   ^0                         EXCITE 62 to 62
+
+
+ ECHO: actor   0 hybr      transi;
+ ECHO:   oper MULTIPOLE;
+ ECHO:     branch  3- > 0 ^0- > 0  1.0 ;
+ ECHO: actor   0  HAMILTONIAN ground;
+ ECHO:  OPER HAMILTONIAN;
+ ECHO:    BRANCH 0+ > 0 0+ >  0  1.0;
+ ECHO: actor   0 10Dq        ground;
+ ECHO:  OPER SHELL2;
+ ECHO:    BRANCH 4+ > 0 0+ >  0 -3.286335345;
+ ECHO: actor   0  HAMILTONIAN excite ;
+ ECHO:  OPER HAMILTONIAN;
+ ECHO:    BRANCH 0+ > 0 0+ >  0  1.0;
+ ECHO: actor   0 10Dq        excite ;
+ ECHO:  OPER SHELL2;
+ ECHO:    BRANCH 4+ > 0 0+ >  0 -3.286335345;
+ ECHO:   RUN;
+
+ ----  ACTORS   ----
+
+  <ACTOR> HYBR             IRREP    0  TRANSI 
+       <OPER> MULTIPOLE         STRENGTH  1.00000000  BRANCH:    3-  >  0   ^0-  >    0
+
+  <ACTOR> HAMILTONIAN      IRREP    0  GROUND 
+       <OPER> HAMILTONIAN       STRENGTH  1.00000000  BRANCH:    0+  >  0    0+  >    0
+
+  <ACTOR> 10DQ             IRREP    0  GROUND 
+       <OPER> SHELL2            STRENGTH  -3.28633535  BRANCH:    4+  >  0    0+  >    0
+
+  <ACTOR> HAMILTONIAN      IRREP    0  EXCITE 
+       <OPER> HAMILTONIAN       STRENGTH  1.00000000  BRANCH:    0+  >  0    0+  >    0
+
+  <ACTOR> 10DQ             IRREP    0  EXCITE 
+       <OPER> SHELL2            STRENGTH  -3.28633535  BRANCH:    4+  >  0    0+  >    0
+
+
+ ---- EXECUTE TASK ----
+
+
+ H   H  Y   Y  BBBB   RRRR  
+ H   H   Y Y   B   B  R   R 
+ HHHHH    Y    BBBB   RRRR  
+ H   H    Y    B   B  R R   
+ H   H    Y    BBBB   R   R 
+
+ CALCULATIONS for ACTOR: HYBR TRANSI
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (14*64)
+       CALCULATING MATRIX for  TRIAD  5 (    1    0    1  0 )   (23*190)
+       CALCULATING MATRIX for  TRIAD 16 (    2    0    2  0 )   (19*126)
+       CALCULATING MATRIX for  TRIAD 24 (   ^1    0   ^1  0 )   (27*188)
+       CALCULATING MATRIX for  TRIAD 35 (   ^0    0   ^0  0 )   (8*62)
+
+ H   H   AAA   M   M  IIIII  L      TTTTT   OOO   N   N  IIIII   AAA   N   N 
+ H   H  A   A  MM MM    I    L        T    O   O  NN  N    I    A   A  NN  N 
+ HHHHH  AAAAA  M M M    I    L        T    O   O  N N N    I    AAAAA  N N N 
+ H   H  A   A  M   M    I    L        T    O   O  N  NN    I    A   A  N  NN 
+ H   H  A   A  M   M  IIIII  LLLLL    T     OOO   N   N  IIIII  A   A  N   N 
+
+ CALCULATIONS for ACTOR: HAMILTONIAN GROUND
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (14*14)
+       CALCULATING MATRIX for  TRIAD  5 (    1    0    1  0 )   (23*23)
+       CALCULATING MATRIX for  TRIAD 16 (    2    0    2  0 )   (19*19)
+       CALCULATING MATRIX for  TRIAD 24 (   ^1    0   ^1  0 )   (27*27)
+       CALCULATING MATRIX for  TRIAD 35 (   ^0    0   ^0  0 )   (8*8)
+
+   1      0    DDDD    QQQ  
+  11     0 0   D   D  Q   Q 
+   1    0   0  D   D  Q   Q 
+   1     0 0   D   D  Q QQQ 
+  111     0    DDDD    QQQQ 
+
+ CALCULATIONS for ACTOR: 10DQ GROUND
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (14*14)
+       CALCULATING MATRIX for  TRIAD  5 (    1    0    1  0 )   (23*23)
+       CALCULATING MATRIX for  TRIAD 16 (    2    0    2  0 )   (19*19)
+       CALCULATING MATRIX for  TRIAD 24 (   ^1    0   ^1  0 )   (27*27)
+       CALCULATING MATRIX for  TRIAD 35 (   ^0    0   ^0  0 )   (8*8)
+
+ H   H   AAA   M   M  IIIII  L      TTTTT   OOO   N   N  IIIII   AAA   N   N 
+ H   H  A   A  MM MM    I    L        T    O   O  NN  N    I    A   A  NN  N 
+ HHHHH  AAAAA  M M M    I    L        T    O   O  N N N    I    AAAAA  N N N 
+ H   H  A   A  M   M    I    L        T    O   O  N  NN    I    A   A  N  NN 
+ H   H  A   A  M   M  IIIII  LLLLL    T     OOO   N   N  IIIII  A   A  N   N 
+
+ CALCULATIONS for ACTOR: HAMILTONIAN EXCITE
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (64*64)
+       CALCULATING MATRIX for  TRIAD  5 (    1    0    1  0 )   (190*190)
+       CALCULATING MATRIX for  TRIAD 16 (    2    0    2  0 )   (126*126)
+       CALCULATING MATRIX for  TRIAD 24 (   ^1    0   ^1  0 )   (188*188)
+       CALCULATING MATRIX for  TRIAD 35 (   ^0    0   ^0  0 )   (62*62)
+
+   1      0    DDDD    QQQ  
+  11     0 0   D   D  Q   Q 
+   1    0   0  D   D  Q   Q 
+   1     0 0   D   D  Q QQQ 
+  111     0    DDDD    QQQQ 
+
+ CALCULATIONS for ACTOR: 10DQ EXCITE
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (64*64)
+       CALCULATING MATRIX for  TRIAD  5 (    1    0    1  0 )   (190*190)
+       CALCULATING MATRIX for  TRIAD 16 (    2    0    2  0 )   (126*126)
+       CALCULATING MATRIX for  TRIAD 24 (   ^1    0   ^1  0 )   (188*188)
+       CALCULATING MATRIX for  TRIAD 35 (   ^0    0   ^0  0 )   (62*62)
+ ECHO:    %  horizontal excite 1 2;
+ ECHO: racer O3;
+ >>> GROUP:     SO3  SLOT 0, 75 irreps.   USING FORMULAS 
+ >>> GROUP:     CI  SLOT 1, 2 irreps.   USING FORMULAS 
+ >>> GROUP:     O3  (SO3.CI)  SLOT 2, 150 irreps.   of 0*1 
+
+  GROUP O3 SO3.CI   SLOT=2  NREPS=149  LASTTRMULT=0
+ ECHO: to    Oh;
+  For O3 MAXDIM is now 75  <<<<MESSAGE>>>>
+ >>> GROUP:     O  SLOT 3, 8 irreps.  from FILE F6/O FOR_BUTLER(1981)12_DEC_1978 12_DEC_1978  PRIMITIVE TABLE 115  6J SYMBOLS  ALL 
+VALUES 
+ >>> GROUP:     CI  REUSING  SLOT 1, 2 irreps.   USING FORMULAS 
+ >>> GROUP:     OH  (O.CI)  SLOT 4, 16 irreps.   of 3*1 
+  HEAPSIZE =25500  <<<<MESSAGE>>>>
+ >>> BRANCHING: SO3_TO_O__J=<15  READ from FILE F3/SO3O AUGUST 1990  PRIMITIVE TABLE 838  3JM SYMBOLS  ALL VALUES  BOTH REFLECTED
+
+  GROUP OH O.CI   SLOT=4  NREPS=15  LASTTRMULT=1
+ ECHO: to    Td;
+  For OH MAXDIM is now 316  <<<<MESSAGE>>>>
+  Increasing 3jm table size  <<<<MESSAGE>>>>
+  NTHREE =1000  <<<<MESSAGE>>>>
+  NTHREE =1200  <<<<MESSAGE>>>>
+  NTHREE =1400  <<<<MESSAGE>>>>
+  NTHREE =1600  <<<<MESSAGE>>>>
+  HEAPSIZE =27000  <<<<MESSAGE>>>>
+  NTHREE =1800  <<<<MESSAGE>>>>
+  Increasing 3jm table size  <<<<MESSAGE>>>>
+  NTHREE =2000  <<<<MESSAGE>>>>
+  HEAPSIZE =28500  <<<<MESSAGE>>>>
+  NTHREE =2200  <<<<MESSAGE>>>>
+  HEAPSIZE =30000  <<<<MESSAGE>>>>
+  NTHREE =2400  <<<<MESSAGE>>>>
+  HEAPSIZE =31500  <<<<MESSAGE>>>>
+  NTHREE =2600  <<<<MESSAGE>>>>
+  NTHREE =2800  <<<<MESSAGE>>>>
+  Increasing 3jm table size  <<<<MESSAGE>>>>
+  NTHREE =3000  <<<<MESSAGE>>>>
+  HEAPSIZE =33000  <<<<MESSAGE>>>>
+  NTHREE =3200  <<<<MESSAGE>>>>
+  NTHREE =3400  <<<<MESSAGE>>>>
+  HEAPSIZE =34500  <<<<MESSAGE>>>>
+  NTHREE =3600  <<<<MESSAGE>>>>
+  HEAPSIZE =36000  <<<<MESSAGE>>>>
+  NTHREE =3800  <<<<MESSAGE>>>>
+  HEAPSIZE =37500  <<<<MESSAGE>>>>
+ >>> GROUP:     TD  (O)  REUSING  SLOT 3, 8 irreps.  from FILE F6/O FOR_BUTLER(1981)12_DEC_1978 12_DEC_1978  PRIMITIVE TABLE 115  
+6J SYMBOLS  ALL VALUES 
+  TILDE = ^0
+ >>> BRANCHING:   REFLECTED 
+
+  GROUP TD O   SLOT=3  NREPS=7  LASTTRMULT=1
+ ECHO: endchain;
+  For TD MAXDIM is now 316  <<<<MESSAGE>>>>
+  HEAPSIZE =39000  <<<<MESSAGE>>>>
+  HEAPSIZE =40500  <<<<MESSAGE>>>>
+  HEAPSIZE =42000  <<<<MESSAGE>>>>
+  HEAPSIZE =43500  <<<<MESSAGE>>>>
+
+ <REPRESENTATIONS>      NREPS=7
+
+ IRREP    0    (DIM=1)    GROUND- BASIS (MULT=9)  GROUND- OPERA   EXCITE- BASIS (MULT=104)  EXCITE- OPERA   TRANSI- OPERA  
+      BRANCH:    0+  >  0    0+  >    0      GROUND 1 to 2                       
+      BRANCH:    4+  >  0    0+  >    0      GROUND 3 to 8                       
+      BRANCH:    6+  >  0    0+  >    0      GROUND 9 to 9                       
+      BRANCH:    3-  >  0   ^0-  >    0                         EXCITE   1 to  75
+      BRANCH:    6-  >  0   ^0-  >    0                         EXCITE  76 to  96
+      BRANCH:    7-  >  0   ^0-  >    0                         EXCITE  97 to 104
+
+ IRREP    1    (DIM=3)    GROUND- BASIS (MULT=30)  GROUND- OPERA   EXCITE- BASIS (MULT=314)  EXCITE- OPERA   TRANSI- OPERA  
+      BRANCH:    1+  >  0    1+  >    1      GROUND  1 to  7                       
+      BRANCH:    3+  >  0    1+  >    1      GROUND  8 to 15                       
+      BRANCH:    4+  >  0    1+  >    1      GROUND 16 to 21                       
+      BRANCH:    5+  >  0    1+  >    1      GROUND 22 to 25                       
+      BRANCH:    5+  >  1    1+  >    1      GROUND 26 to 29                       
+      BRANCH:    6+  >  0    1+  >    1      GROUND 30 to 30                       
+      BRANCH:    2-  >  0   ^1-  >    1                           EXCITE   1 to  74
+      BRANCH:    3-  >  0   ^1-  >    1                           EXCITE  75 to 149
+      BRANCH:    4-  >  0   ^1-  >    1                           EXCITE 150 to 211
+      BRANCH:    5-  >  0   ^1-  >    1                           EXCITE 212 to 252
+      BRANCH:    6-  >  0   ^1-  >    1                           EXCITE 253 to 273
+      BRANCH:    6-  >  1   ^1-  >    1                           EXCITE 274 to 294
+      BRANCH:    7-  >  0   ^1-  >    1                           EXCITE 295 to 302
+      BRANCH:    7-  >  1   ^1-  >    1                           EXCITE 303 to 310
+      BRANCH:    8-  >  0   ^1-  >    1                           EXCITE 311 to 312
+      BRANCH:    8-  >  1   ^1-  >    1                           EXCITE 313 to 314
+
+ IRREP    2    (DIM=2)    GROUND- BASIS (MULT=21)  GROUND- OPERA   EXCITE- BASIS (MULT=210)  EXCITE- OPERA  
+      BRANCH:    2+  >  0    2+  >    2      GROUND  1 to 10                       
+      BRANCH:    4+  >  0    2+  >    2      GROUND 11 to 16                       
+      BRANCH:    5+  >  0    2+  >    2      GROUND 17 to 20                       
+      BRANCH:    6+  >  0    2+  >    2      GROUND 21 to 21                       
+      BRANCH:    2-  >  0    2-  >    2                           EXCITE   1 to  74
+      BRANCH:    4-  >  0    2-  >    2                           EXCITE  75 to 136
+      BRANCH:    5-  >  0    2-  >    2                           EXCITE 137 to 177
+      BRANCH:    6-  >  0    2-  >    2                           EXCITE 178 to 198
+      BRANCH:    7-  >  0    2-  >    2                           EXCITE 199 to 206
+      BRANCH:    8-  >  0    2-  >    2                           EXCITE 207 to 208
+      BRANCH:    8-  >  1    2-  >    2                           EXCITE 209 to 210
+
+ IRREP   ^1    (DIM=3)    GROUND- BASIS (MULT=30)  GROUND- OPERA   EXCITE- BASIS (MULT=316)  EXCITE- OPERA   TRANSI- OPERA  
+      BRANCH:    2+  >  0   ^1+  >   ^1      GROUND  1 to 10                       
+      BRANCH:    3+  >  0   ^1+  >   ^1      GROUND 11 to 18                       
+      BRANCH:    4+  >  0   ^1+  >   ^1      GROUND 19 to 24                       
+      BRANCH:    5+  >  0   ^1+  >   ^1      GROUND 25 to 28                       
+      BRANCH:    6+  >  0   ^1+  >   ^1      GROUND 29 to 29                       
+      BRANCH:    6+  >  1   ^1+  >   ^1      GROUND 30 to 30                       
+      BRANCH:    1-  >  0    1-  >   ^1                           EXCITE   1 to  56
+      BRANCH:    3-  >  0    1-  >   ^1                           EXCITE  57 to 131
+      BRANCH:    4-  >  0    1-  >   ^1                           EXCITE 132 to 193
+      BRANCH:    5-  >  0    1-  >   ^1                           EXCITE 194 to 234
+      BRANCH:    5-  >  1    1-  >   ^1                           EXCITE 235 to 275
+      BRANCH:    6-  >  0    1-  >   ^1                           EXCITE 276 to 296
+      BRANCH:    7-  >  0    1-  >   ^1                           EXCITE 297 to 304
+      BRANCH:    7-  >  1    1-  >   ^1                           EXCITE 305 to 312
+      BRANCH:    8-  >  0    1-  >   ^1                           EXCITE 313 to 314
+      BRANCH:    8-  >  1    1-  >   ^1                           EXCITE 315 to 316
+
+ IRREP   ^0    (DIM=1)    GROUND- BASIS (MULT=9)  EXCITE- BASIS (MULT=106) 
+      BRANCH:    3+  >  0   ^0+  >   ^0      GROUND 1 to 8                       
+      BRANCH:    6+  >  0   ^0+  >   ^0      GROUND 9 to 9                       
+      BRANCH:    0-  >  0    0-  >   ^0                         EXCITE   1 to  21
+      BRANCH:    4-  >  0    0-  >   ^0                         EXCITE  22 to  83
+      BRANCH:    6-  >  0    0-  >   ^0                         EXCITE  84 to 104
+      BRANCH:    8-  >  0    0-  >   ^0                         EXCITE 105 to 106
+
+
+ ECHO: actor   0 hybr      transi;
+ ECHO:   oper MULTIPOLE;
+ ECHO:     branch  3- > 0 ^0- > 0  1.0;
+ ECHO: actor   0  HAMILTONIAN ground;
+ ECHO:  OPER HAMILTONIAN;
+ ECHO:    BRANCH 0+ > 0 0+ >  0  1.0;
+ ECHO: actor   0 10Dq        ground;
+ ECHO:  OPER SHELL2;
+ ECHO:    BRANCH 4+ > 0 0+ >  0 -3.286335345;
+ ECHO: actor   0  HAMILTONIAN excite;
+ ECHO:  OPER HAMILTONIAN;
+ ECHO:    BRANCH 0+ > 0 0+ >  0  1.0;
+ ECHO: actor   0 10Dq        excite;
+ ECHO:  OPER SHELL2;
+ ECHO:    BRANCH 4+ > 0 0+ >  0 -3.286335345;
+ ECHO:   RUN;
+
+ ----  ACTORS   ----
+
+  <ACTOR> HYBR             IRREP    0  TRANSI 
+       <OPER> MULTIPOLE         STRENGTH  1.00000000  BRANCH:    3-  >  0   ^0-  >    0
+
+  <ACTOR> HAMILTONIAN      IRREP    0  GROUND 
+       <OPER> HAMILTONIAN       STRENGTH  1.00000000  BRANCH:    0+  >  0    0+  >    0
+
+  <ACTOR> 10DQ             IRREP    0  GROUND 
+       <OPER> SHELL2            STRENGTH  -3.28633535  BRANCH:    4+  >  0    0+  >    0
+
+  <ACTOR> HAMILTONIAN      IRREP    0  EXCITE 
+       <OPER> HAMILTONIAN       STRENGTH  1.00000000  BRANCH:    0+  >  0    0+  >    0
+
+  <ACTOR> 10DQ             IRREP    0  EXCITE 
+       <OPER> SHELL2            STRENGTH  -3.28633535  BRANCH:    4+  >  0    0+  >    0
+
+
+ ---- EXECUTE TASK ----
+
+
+ H   H  Y   Y  BBBB   RRRR  
+ H   H   Y Y   B   B  R   R 
+ HHHHH    Y    BBBB   RRRR  
+ H   H    Y    B   B  R R   
+ H   H    Y    BBBB   R   R 
+
+ CALCULATIONS for ACTOR: HYBR TRANSI
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (9*104)
+       CALCULATING MATRIX for  TRIAD  5 (    1    0    1  0 )   (30*314)
+       CALCULATING MATRIX for  TRIAD 16 (    2    0    2  0 )   (21*210)
+       CALCULATING MATRIX for  TRIAD 24 (   ^1    0   ^1  0 )   (30*316)
+       CALCULATING MATRIX for  TRIAD 35 (   ^0    0   ^0  0 )   (9*106)
+
+ H   H   AAA   M   M  IIIII  L      TTTTT   OOO   N   N  IIIII   AAA   N   N 
+ H   H  A   A  MM MM    I    L        T    O   O  NN  N    I    A   A  NN  N 
+ HHHHH  AAAAA  M M M    I    L        T    O   O  N N N    I    AAAAA  N N N 
+ H   H  A   A  M   M    I    L        T    O   O  N  NN    I    A   A  N  NN 
+ H   H  A   A  M   M  IIIII  LLLLL    T     OOO   N   N  IIIII  A   A  N   N 
+
+ CALCULATIONS for ACTOR: HAMILTONIAN GROUND
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (9*9)
+       CALCULATING MATRIX for  TRIAD  5 (    1    0    1  0 )   (30*30)
+       CALCULATING MATRIX for  TRIAD 16 (    2    0    2  0 )   (21*21)
+       CALCULATING MATRIX for  TRIAD 24 (   ^1    0   ^1  0 )   (30*30)
+       CALCULATING MATRIX for  TRIAD 35 (   ^0    0   ^0  0 )   (9*9)
+
+   1      0    DDDD    QQQ  
+  11     0 0   D   D  Q   Q 
+   1    0   0  D   D  Q   Q 
+   1     0 0   D   D  Q QQQ 
+  111     0    DDDD    QQQQ 
+
+ CALCULATIONS for ACTOR: 10DQ GROUND
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (9*9)
+       CALCULATING MATRIX for  TRIAD  5 (    1    0    1  0 )   (30*30)
+       CALCULATING MATRIX for  TRIAD 16 (    2    0    2  0 )   (21*21)
+       CALCULATING MATRIX for  TRIAD 24 (   ^1    0   ^1  0 )   (30*30)
+       CALCULATING MATRIX for  TRIAD 35 (   ^0    0   ^0  0 )   (9*9)
+
+ H   H   AAA   M   M  IIIII  L      TTTTT   OOO   N   N  IIIII   AAA   N   N 
+ H   H  A   A  MM MM    I    L        T    O   O  NN  N    I    A   A  NN  N 
+ HHHHH  AAAAA  M M M    I    L        T    O   O  N N N    I    AAAAA  N N N 
+ H   H  A   A  M   M    I    L        T    O   O  N  NN    I    A   A  N  NN 
+ H   H  A   A  M   M  IIIII  LLLLL    T     OOO   N   N  IIIII  A   A  N   N 
+
+ CALCULATIONS for ACTOR: HAMILTONIAN EXCITE
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (104*104)
+       CALCULATING MATRIX for  TRIAD  5 (    1    0    1  0 )   (314*314)
+       CALCULATING MATRIX for  TRIAD 16 (    2    0    2  0 )   (210*210)
+       CALCULATING MATRIX for  TRIAD 24 (   ^1    0   ^1  0 )   (316*316)
+       CALCULATING MATRIX for  TRIAD 35 (   ^0    0   ^0  0 )   (106*106)
+
+   1      0    DDDD    QQQ  
+  11     0 0   D   D  Q   Q 
+   1    0   0  D   D  Q   Q 
+   1     0 0   D   D  Q QQQ 
+  111     0    DDDD    QQQQ 
+
+ CALCULATIONS for ACTOR: 10DQ EXCITE
+
+       CALCULATING MATRIX for  TRIAD  1 (    0    0    0  0 )   (104*104)
+       CALCULATING MATRIX for  TRIAD  5 (    1    0    1  0 )   (314*314)
+       CALCULATING MATRIX for  TRIAD 16 (    2    0    2  0 )   (210*210)
+       CALCULATING MATRIX for  TRIAD 24 (   ^1    0   ^1  0 )   (316*316)
+       CALCULATING MATRIX for  TRIAD 35 (   ^0    0   ^0  0 )   (106*106)
+ ECHO:
+ RUNNER FINISHED

@@ -1,0 +1,39 @@
+energy_range 705 740 
+lorentzian 0.25 1e20 range 700 720
+lorentzian 0.5 1e20 range 720 750
+gaussian 0.1
+old_racah input.rac_out
+
+xy input-left2K.xy 1000
+spectrum operator -1 temp 2
+
+xy input-right2K.xy 1000
+spectrum operator 1 temp 2
+
+xy input-parallel2K.xy 1000
+spectrum operator 0 temp 2
+
+xy input-xmcd2K.xy 1000
+addlines operator 1 temp 2
+spectrum operator -1 temp 2 scale -1
+
+xy input-3iso2K.xy 1000
+spectrum temp 2
+
+xy input-left.xy 1000
+spectrum operator -1 
+
+xy input-right.xy 1000
+spectrum operator 1 
+
+xy input-parallel.xy 1000
+spectrum operator 0 
+
+xy input-xmcd.xy 1000
+addlines operator 1 
+spectrum operator -1 scale -1
+
+xy input-3iso.xy 1000
+spectrum temp 300
+
+end

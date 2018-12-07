@@ -1,0 +1,65 @@
+Y
+    % vertical 1 1
+ butler O3
+ to    Oh
+ to    D3d
+ to    C3v
+ to    C3
+ to    C1
+ endchain
+ actor   0 HAMILTONIAN ground  PRINTEIG
+  OPER HAMILTONIAN
+    BRANCH 0+ > 0 0+ > 0+ > 0 > 0 > 0    1.0
+  OPER SHELL2
+    BRANCH 4+ > 0  0+ > 0+   > 0 > 0  > 0  10.731
+    BRANCH 4+ > 0 ^1+ > 0+   > 0 > 0  > 0  2.592
+    BRANCH 2+ > 0 ^1+ > 0+   > 0 > 0  > 0  -0.586  
+  OPER SPIN2
+    BRANCH 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   0.0008
+    BRANCH 1+ > 0 1+ >  1+   >  1 >  1  > 0   0.0
+    BRANCH 1+ > 0 1+ >  1+   >  1 > -1  > 0  -0.0
+  OPER ORBIT2
+    BRANCH 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   0.0004
+    BRANCH 1+ > 0 1+ >  1+   >  1 >  1  > 0   0.0
+    BRANCH 1+ > 0 1+ >  1+   >  1 > -1  > 0  -0.0
+  actor   0 HAMILTONIAN excite  PRINTEIG
+   OPER HAMILTONIAN
+     BRANCH 0+ > 0 0+ > 0+ > 0 > 0  > 0   1.0
+   OPER SHELL2
+     BRANCH 4+ > 0  0+ > 0+   > 0 > 0  > 0  10.731
+     BRANCH 4+ > 0 ^1+ > 0+   > 0 > 0  > 0  2.592 
+     BRANCH 2+ > 0 ^1+ > 0+   > 0 > 0  > 0  -0.586
+  OPER SPIN2
+    BRANCH 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   0.0008
+    BRANCH 1+ > 0 1+ >  1+   >  1 >  1  > 0   0.0
+    BRANCH 1+ > 0 1+ >  1+   >  1 > -1  > 0  -0.0
+  OPER ORBIT2
+    BRANCH 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   0.0004
+    BRANCH 1+ > 0 1+ >  1+   >  1 >  1  > 0   0.0
+    BRANCH 1+ > 0 1+ >  1+   >  1 > -1  > 0  -0.0
+  actor   0 parallel        transi PRINTTRANS
+    OPER MULTIPOLE
+    branch  1- > 0 1- > ^0-  >  0 > 0  > 0   1.0
+  actor   0 right        transi PRINTTRANS
+    OPER MULTIPOLE
+    branch  1- > 0 1- >  1-  >  1 > 1  > 0   1.0
+  actor   0 left        transi PRINTTRANS
+    OPER MULTIPOLE
+    branch  1- > 0 1- >  1-  >  1 > -1  > 0   1.0
+
+  actor  0  sz          ground PRINTTRANS 1019
+   OPER SPIN2
+    BRANCH 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   1.0
+    BRANCH 1+ > 0 1+ >  1+   >  1 >  1  > 0   0.0
+    BRANCH 1+ > 0 1+ >  1+   >  1 > -1  > 0  -0.0
+  actor  0  lz          ground PRINTTRANS 1019
+   OPER ORBIT2
+    BRANCH 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   1.0
+    BRANCH 1+ > 0 1+ >  1+   >  1 >  1  > 0   0.0
+    BRANCH 1+ > 0 1+ >  1+   >  1 > -1  > 0  -0.0
+  actor 0  Wz211        ground printtrans 1019
+    OPER  TENSOR2112
+    BRANCH 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   1.0
+    BRANCH 1+ > 0 1+ >  1+   >  1 >  1  > 0   0.0
+    BRANCH 1+ > 0 1+ >  1+   >  1 > -1  > 0  -0.0
+RUN

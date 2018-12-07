@@ -1,0 +1,8 @@
+inform
+energy_range 7110 7130 
+lorentzian 0.2 1e20
+gaussian 0.2
+old_racah input.rac_out
+xy input-15iso300K.xy 1000
+spectrum temp 300
+end

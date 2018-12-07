@@ -1,0 +1,14 @@
+inform
+energy_range -20 20
+lorentzian 0.2 1e20
+gaussian 0.2
+band       fe3-Kdip.ban_out
+xy fe3-Kdip-3iso0K.xy 2000
+spectrum
+xy fe3-Kdip-3iso1K.xy 2000
+spectrum temp 1
+xy fe3-Kdip-3iso0K-IStild1.xy 2000
+spectrum istate ^1
+xy fe3-Kdip-3iso300K.xy 2000
+spectrum temp 300
+end

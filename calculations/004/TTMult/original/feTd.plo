@@ -1,0 +1,10 @@
+inform
+energy_range 7110 7130 
+lorentzian 0.2 1e20
+gaussian 0.2
+old_racah       feTd.rac_out
+xy feTd-3iso.xy 1000
+spectrum
+xy feTd-3iso300K.xy 1000
+spectrum temp 300
+end

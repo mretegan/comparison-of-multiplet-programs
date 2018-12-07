@@ -1,0 +1,12 @@
+inform
+energy_range -20 20
+lorentzian 0.2 1e20
+gaussian 0.2
+band       fe3-Kquad.ban_out
+xy fe3-Kquad-15iso0K.xy 2000
+spectrum 
+xy fe3-Kquad-15iso1K.xy 2000
+spectrum temp 1
+xy fe3-Kquad-15iso300K.xy 2000
+spectrum temp 300
+end

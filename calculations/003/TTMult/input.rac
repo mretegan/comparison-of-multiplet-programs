@@ -1,0 +1,42 @@
+ Y
+  butler O3
+  to    Oh
+  to    D3d
+  to    C3v
+  to    C3 GROUND opera 0 EXCITE opera 0
+  endchain
+  actor 0 hamiltonian GROUND printeig
+    OPER   HAMILTONIAN
+      branch  0+ > 0 0+  > 0+   > 0    > 0   1.0
+    OPER   shell2
+      branch 4+ > 0 0+  > 0+  > 0  > 0     9.20174
+      branch 4+ > 0 ^1+ > 0+  > 0  > 0     0.0
+      branch 2+ > 0 ^1+ > 0+  > 0  > 0     0.0
+    OPER   spin2
+      BRANCH 1+ > 0 1+  > ^0+ > ^0 > 0    0.0008
+    OPER   orbit2
+      BRANCH 1+ > 0 1+  > ^0+ > ^0 > 0    0.0004
+    OPER   oper111223
+      branch 0+ > 0 0+  > 0+ > 0  > 0   -0.715541744232178     
+      branch 4+ > 0 0+  > 0+ > 0  > 0    -2.62906818389893     
+    OPER   oper111223
+      branch 0+ > 0 0+  > 0+ > 0  > 0     2.41495349407196     
+      branch 4+ > 0 0+  > 0+ > 0  > 0    -5.91540341377258     
+    OPER shift2
+      branch 0+ > 0 0+  > 0+ > 0  > 0   3.0
+  actor 0  pourcent2 ground printtrans 1015
+    OPER shift2
+      branch 0+ > 0 0+  > 0+ > 0  > 0  1.0
+  actor 0  pourcent1 ground printtrans 1015
+    OPER shift1
+      branch 0+ > 0 0+  > 0+ > 0  > 0  1.0
+  actor 0  Sz ground printtrans 1015
+    OPER  spin2
+      BRANCH 1+ > 0 1+  > ^0+ > ^0 > 0   1.0
+  actor 0  Lz ground printtrans 1015
+    OPER  orbit2
+      BRANCH 1+ > 0 1+  > ^0+ > ^0 > 0   1.0
+  actor 0  Wz ground printtrans 1015
+    OPER  TENSOR2112
+      BRANCH 1+ > 0 1+  > ^0+ > ^0 > 0   1.0
+ RUN

@@ -1,0 +1,241 @@
+ ECHO:
+    10    1    0   14    4    4    0   -1 SHELL03000000 SPIN00000000 INTER8 %   
+  
+ ECHO:
+    OPER12001212                                                                
+  
+ NLEVELS=  1 ELEVELS= -1.0000000     IBUTLER= 14 IUMIN=  4 IUMAX=  4 IRNQ=  0 IRXQ= -1 NISUBC=  8
+ IQUAD= 0 3 0 0 0 0 0 0
+ ISPIN= 0 0 0 0 0 0 0 0
+ IORBIT= 0 0 0 0 0 0 0 0
+
+ IOPER  = 12 00 12 128
+ F
+  ci state  1
+  ci state  2
+ limitwasgiven  F
+  limit state  1    conf  1  0-99   conf  2  0-99   conf  3  0-99   conf  4  0-99
+                    conf  5  0-99   conf  6  0-99   conf  7  0-99   conf  8  0-99
+                    conf  9  0-99   conf 10  0-99
+  limit state  2    conf  1  0-99   conf  2  0-99   conf  3  0-99   conf  4  0-99
+                    conf  5  0-99   conf  6  0-99   conf  7  0-99   conf  8  0-99
+                    conf  9  0-99   conf 10  0-99
+ ECHO:
+     0                         80998080            8065.47800     0000000       
+  
+ ECHO:
+     1     2 1 12 1 10         00      9 00000000 0 8065.4790 .00       1       
+  
+1RCG MOD 9    LS COUPLING  NSCONF= 2 1 1    2 1 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=37231.59
+
+0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
+ 
+ ECHO:
+ S 2  D 6                                                                       
+  
+   1   1       S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0       8    1        ALL
+ 
+ ECHO:
+ S 1  D 7                                                                       
+  
+   2   1       S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0       8    1        ALL
+ 
+
+ FINISHED LNCUV at  0.008 min
+ plev called            1
+  PARAMETERS NEEDED: KLSC=          16  KJP=          34  KJK=           7
+
+
+
+ MAXIMUM SUBSCRIPT VALUES
+
+ NALSP(M,I), PscrL(M,I),   M=NOTOTT=      16
+ NTRMK(K), LF(K),          K=NDIFFT=      11
+ NALSJP(M,I), PJ(M,I),     M=NOTOTJ(I)=    1   34    1    1    1    1    1    1
+ NJK(K,I),                 K=NDIFFJ(I)=    1    7    1    1    1    1    1    1
+
+0NTOTTJ=     0    16
+
+0 NTRMK=     1     1     1     2     1     2     1     2     1     2     2
+
+ FINISHED PLEV at  0.008 min
+ F2(22)       PC(     21)     CAVE=   0.4761906                  DELT=    0.01 MIN       S 2   D 6
+ F4(22)       PC(     21)     CAVE=   0.4761905                  DELT=    0.01 MIN       S 2   D 6
+ ZETA 2       PC(    116)     CAVE=   0.0000000                  DELT=    0.01 MIN       S 2   D 6
+ J= 0.0          CONFIGURATION         1    S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.02 MIN
+ J= 1.0          CONFIGURATION         1    S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.02 MIN
+ J= 2.0          CONFIGURATION         1    S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.02 MIN
+ J= 3.0          CONFIGURATION         1    S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.02 MIN
+ J= 4.0          CONFIGURATION         1    S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.02 MIN
+ J= 5.0          CONFIGURATION         1    S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.02 MIN
+ J= 6.0          CONFIGURATION         1    S 2   D 6   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.02 MIN
+  MUPOLE called (SHELL           1           1           0           0
+           2           2           4           4 )
+ ECHO:
+ FE2+ 1S02 3D06     4     .0000   10.9661    6.8151     .0522     .0000HR9999999
+ 9
+
+ SUMS21=   199.30513 SUMS20=    94.11305
+         SSOPI2=   112.00001
+
+
+                                              112.000
+ plev called            2
+  PARAMETERS NEEDED: KLSC=          16  KJP=          19  KJK=           6
+
+
+
+ MAXIMUM SUBSCRIPT VALUES
+
+ NALSP(M,I), PscrL(M,I),   M=NOTOTT=      16
+ NTRMK(K), LF(K),          K=NDIFFT=      12
+ NALSJP(M,I), PJ(M,I),     M=NOTOTJ(I)=    1   19    1    1    1    1    1    1
+ NJK(K,I),                 K=NDIFFJ(I)=    1    6    1    1    1    1    1    1
+
+0NTOTTJ=     0    16
+
+0 NTRMK=     1     1     1     1     2     2     2     1     1     1     2     1
+
+ FINISHED PLEV at  0.027 min
+ F2(22)       PC(     20)     CAVE=   0.6666667                  DELT=    0.03 MIN       S 1   D 7
+ F4(22)       PC(     20)     CAVE=   0.6666667                  DELT=    0.03 MIN       S 1   D 7
+ ZETA 2       PC(     46)     CAVE=   0.0000000                  DELT=    0.03 MIN       S 1   D 7
+ G2(12)       PC(     20)     CAVE=   0.7000000                  DELT=    0.03 MIN       S 1   D 7
+ J= 0.0          CONFIGURATION         1    S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.04 MIN
+ J= 1.0          CONFIGURATION         1    S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.04 MIN
+ J= 2.0          CONFIGURATION         1    S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.04 MIN
+ J= 3.0          CONFIGURATION         1    S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.04 MIN
+ J= 4.0          CONFIGURATION         1    S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.04 MIN
+ J= 5.0          CONFIGURATION         1    S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.04 MIN
+ J= 6.0          CONFIGURATION         1    S 1   D 7   S 0   S 0   S 0   S 0   S 0   S 0
+
+ ------
+
+           TIME=    0.04 MIN
+  MUPOLE called (SHELL           2           2           0           0
+           2           2           4           4 )
+ ECHO:
+ FE2+ 1S02 3D06     4     .0000   10.9661    6.8151     .0522     .0000HR9999999
+ 9
+
+ SUMS21=   206.97667 SUMS20=   100.24043
+         SSOPI2=   112.00000
+
+
+                                              112.000
+  MUPOLE called (OPER           1           2           0           0
+           1           2           1           1 )
+ ECHO:
+ FE2+ 1S02 3D06     4     .0000   10.9661    6.8151     .0522     .0000HR9999999
+ 9
+
+ SUMS21=     0.00000 SUMS20=     0.00000
+         SSOPI2=     0.00000
+
+
+                                                0.000
+  MUPOLE called (OPER           1           2           0           0
+           1           2           2           2 )
+ ECHO:
+ FE2+ 1S02 3D06     4     .0000   10.9661    6.8151     .0522     .0000HR9999999
+ 9
+
+ SUMS21=   168.00005 SUMS20=   168.00005
+         SSOPI2=   168.00000
+
+
+                                              168.000
+  MUPOLE called (MUPOLE           1           2           0           0
+           0           0           0          -1 )
+ ECHO:
+ FE2+ 1S02 3D06     4     .0000   10.9661    6.8151     .0522     .0000HR9999999
+ 9
+ --- ENERGY CALLED ---
+ ECHO:
+ FE2+ 1S02 3D06     4     .0000   10.9661    6.8151     .0522     .0000HR9999999
+ 9
+
+
+ FE2+ 1S02 3D06        PARAMETER VALUES IN  8065.5 CM-1 (HR TIMES 0.80 1.00 0.80 0.80)     1  S 2  D 6
+
+                                       EAV            F2(22)         F4(22)         ZETA 2  
+
+                                        0.000          8.773          5.452          0.052
+ ECHO:
+ FE2+ 1S01 3D07     5     .0000   11.6801    7.2581     .0672     .0584HR9999999
+ 9
+
+
+ FE2+ 1S01 3D07        PARAMETER VALUES IN  8065.5 CM-1 (HR TIMES 0.80 1.00 0.80 0.80)     1  S 1  D 7
+
+                                       EAV            F2(22)         F4(22)         ZETA 2         G2(12)  
+
+
+                                        0.000          9.344          5.806          0.067          0.046
+
+ SPECTR CALLED(           0          31          32           0           0 )
+ ECHO:
+                     -99999999.                                                 
+  
+ IGEN=           0  N=           0  II=           0  CERAS= 
+  THIS WAS NOT A SPECTR CARD: END OF SPECTR.
+ ECHO:
+                     -99999999.                                                 
+  
+
+   at  0.055 min
+ ECHO:
+    -1                                                                          
+  

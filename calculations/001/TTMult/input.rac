@@ -1,0 +1,72 @@
+ Y
+  BUTLER O3
+  TO    OH  
+  TO    D3D
+  TO    C3V
+  TO    C3
+  TO    C1 
+  ENDCHAIN
+ ACTOR 0 HAMILTONIAN GROUND PRINTEIG
+  OPER   HAMILTONIAN
+    BRANCH 0+ > 0  0+ > 0+   > 0 > 0  > 0   1.0
+  OPER SHELL2
+    BRANCH 4+ > 0  0+ > 0+   > 0 > 0  > 0   10.7353618431091
+    BRANCH 4+ > 0 ^1+ > 0+   > 0 > 0  > 0   2.59229621887207
+    BRANCH 2+ > 0 ^1+ > 0+   > 0 > 0  > 0  -0.585662002563477
+  OPER SPIN2
+    BRANCH 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   0.00046188
+    BRANCH 1+ > 0 1+ >  1+   >  1 >  1  > 0   (0.000326599, -0.000326599)
+    BRANCH 1+ > 0 1+ >  1+   >  1 > -1  > 0   (-0.000326599, -0.000326599)
+  OPER ORBIT2
+    BRANCH 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   0.00023094
+    BRANCH 1+ > 0 1+ >  1+   >  1 >  1  > 0   (0.000163299, -0.000163299)
+    BRANCH 1+ > 0 1+ >  1+   >  1 > -1  > 0   (-0.000163299, -0.000163299)
+ ACTOR 0 HAMILTONIAN EXCITE PRINTEIG
+  OPER   HAMILTONIAN
+    BRANCH 0+ > 0  0+ > 0+   > 0 > 0  > 0   1.0
+  OPER SHELL2
+    BRANCH 4+ > 0  0+ > 0+   > 0 > 0  > 0   10.7353618431091
+    BRANCH 4+ > 0 ^1+ > 0+   > 0 > 0  > 0   2.59229621887207
+    BRANCH 2+ > 0 ^1+ > 0+   > 0 > 0  > 0  -0.585662002563477
+  OPER SPIN2
+    BRANCH 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   0.00046188
+    BRANCH 1+ > 0 1+ >  1+   >  1 >  1  > 0   (0.000326599, -0.000326599)
+    BRANCH 1+ > 0 1+ >  1+   >  1 > -1  > 0   (-0.000326599, -0.000326599)
+  OPER ORBIT2
+    BRANCH 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   0.00023094
+    BRANCH 1+ > 0 1+ >  1+   >  1 >  1  > 0   (0.000163299, -0.000163299)
+    BRANCH 1+ > 0 1+ >  1+   >  1 > -1  > 0   (-0.000163299, -0.000163299)
+
+ ACTOR   0 RIGHT   TRANSI PRINTTRANS
+   OPER MULTIPOLE
+     BRANCH  1- > 0 1- >  ^0- >  0 >  0 > 0   (0.57735,0.)
+     BRANCH  1- > 0 1- >   1- >  1 >  1 > 0   (-0.557678,0.557678)
+     BRANCH  1- > 0 1- >   1- >  1 > -1 > 0   (-0.149429,-0.149429)
+ ACTOR   0 LEFT    TRANSI PRINTTRANS
+   OPER MULTIPOLE
+     BRANCH  1- > 0 1- >  ^0- >  0 >  0 > 0   (-0.57735,0.)
+     BRANCH  1- > 0 1- >   1- >  1 >  1 > 0   (-0.149429,0.149429)
+     BRANCH  1- > 0 1- >   1- >  1 > -1 > 0   (-0.557678,-0.557678)
+ ACTOR   0 PARALLEL    TRANSI PRINTTRANS
+   OPER MULTIPOLE
+     BRANCH  1- > 0 1- >  ^0- >  0 >  0 > 0   (0.57735,0.)
+     BRANCH  1- > 0 1- >   1- >  1 >  1 > 0   (0.408248,-0.408248)
+     BRANCH  1- > 0 1- >   1- >  1 > -1 > 0   (-0.408248,-0.408248)
+
+  ACTOR  0  SXYZ          GROUND PRINTTRANS 1019
+   OPER SPIN2
+    BRANCH 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   0.57735
+    BRANCH 1+ > 0 1+ >  1+   >  1 >  1  > 0   (0.408248, -0.408248)
+    BRANCH 1+ > 0 1+ >  1+   >  1 > -1  > 0   (-0.408248, -0.408248)
+  ACTOR  0  LXYZ          GROUND PRINTTRANS 1019
+   OPER ORBIT2
+    BRANCH 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   0.57735
+    BRANCH 1+ > 0 1+ >  1+   >  1 >  1  > 0   (0.408248, -0.408248)
+    BRANCH 1+ > 0 1+ >  1+   >  1 > -1  > 0   (-0.408248, -0.408248)
+  ACTOR 0  WXYZ211        GROUND PRINTTRANS 1019
+    OPER  TENSOR2112
+    BRANCH 1+ > 0 1+ > ^0+   > ^0 >  0  > 0   0.57735
+    BRANCH 1+ > 0 1+ >  1+   >  1 >  1  > 0   (0.408248, -0.408248)
+    BRANCH 1+ > 0 1+ >  1+   >  1 > -1  > 0   (-0.408248, -0.408248)
+ RUN
+

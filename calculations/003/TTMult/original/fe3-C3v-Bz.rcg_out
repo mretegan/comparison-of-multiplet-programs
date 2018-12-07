@@ -1,0 +1,451 @@
+ ECHO:
+     0                         70997070            8065.47800     0000000       
+  
+ ECHO:
+    10    0    0   14    0    4    0   -1  INTER2 SHELL03000000 %               
+  
+ ECHO:
+    SPIN03000000 OPER111223024 OPER221223024 OPER1200121 SHIFT %                
+  
+ ECHO:
+    ORBIT03000000 TENSOR21101000000 TENSOR01101000000                           
+  
+ NLEVELS=  0 ELEVELS= -1.0000000     IBUTLER= 14 IUMIN=  0 IUMAX=  4 IRNQ=  0 IRXQ= -1 NISUBC=  2
+ IQUAD= 0 3 0 0 0 0 0 0
+ ISPIN= 0 3 0 0 0 0 0 0
+ IORBIT= 0 3 0 0 0 0 0 0
+ ITENSOR=211  0 1 0 0 0 0 0 0
+ ITENSOR=011  0 1 0 0 0 0 0 0
+ IOPER  = 11 12 23 0249
+ IOPER  = 22 12 23 0249
+ IOPER  = 12 00 12 17
+ F
+  ci state  1
+  ci state  2
+ limitwasgiven  F
+  limit state  1    conf  1  0-**   conf  2  0-**   conf  3  0-**   conf  4  0-**
+                    conf  5  0-**   conf  6  0-**   conf  7  0-**   conf  8  0-**
+                    conf  9  0-**   conf 10  0-**
+  limit state  2    conf  1  0-**   conf  2  0-**   conf  3  0-**   conf  4  0-**
+                    conf  5  0-**   conf  6  0-**   conf  7  0-**   conf  8  0-**
+                    conf  9  0-**   conf 10  0-**
+ ECHO:
+     1     3 2 13 2 10         00      9 00000000 0 8065.4780 .00       1       
+  
+1RCG MOD 9    LS COUPLING  NSCONF= 3 2 1    3 2 1     IABG=0   IV=0   119 000000009 49.0 49.0  PRINT=00000 500 1 0    TIME=    0.00
+
+0  K   J           CONFIGURATION                                   N   PAR   I   TERMS OF LI(NI) -----
+ 
+ ECHO:
+ P06  D05  D00                                                                  
+  
+   1   1       P 6   D 5   D 0   S 0   S 0   S 0   S 0   S 0      11    1        ALL
+ ECHO:
+ P06  D04  D01                                                                  
+  
+   1   2       P 6   D 4   D 1   S 0   S 0   S 0   S 0   S 0      11    1        ALL
+ 
+ ECHO:
+ P05  D06  D00                                                                  
+  
+   2   1       P 5   D 6   D 0   S 0   S 0   S 0   S 0   S 0      11   -1        ALL
+ ECHO:
+ P05  D05  D01                                                                  
+  
+   2   2       P 5   D 5   D 1   S 0   S 0   S 0   S 0   S 0      11   -1        ALL
+ 
+ plev called            1
+  PARAMETERS NEEDED: KLSC=         120  KJP=          71  KJK=          14
+
+
+
+ MAXIMUM SUBSCRIPT VALUES
+
+ NALSP(M,I), PscrL(M,I),   M=NOTOTT=     120
+ NTRMK(K), LF(K),          K=NDIFFT=      34
+ NALSJP(M,I), PJ(M,I),     M=NOTOTJ(I)=    2   71    3    2    2    2    2    2
+ NJK(K,I),                 K=NDIFFJ(I)=    2   14    3    2    2    2    2    2
+
+0NTOTTJ=     0    16   120
+
+0 NTRMK=     1     1     1     1     1     1     1     2     2     3     1     1     1     1     1     1     1     1     2     4
+             6     8     7     6     2     1     2     5     8    11    12    13     8     3
+ F2(22)       PC(     21)     CAVE=   0.3174604                  DELT=    0.00 MIN       P 6   D 5   D 0
+ F4(22)       PC(     21)     CAVE=   0.3174603                  DELT=    0.00 MIN       P 6   D 5   D 0
+ ZETA 2       PC(    143)     CAVE=   0.0000000                  DELT=    0.00 MIN       P 6   D 5   D 0
+ F2(22)       PC(    460)     CAVE=   0.1904762                  DELT=    0.00 MIN       P 6   D 4   D 1
+ F4(22)       PC(    460)     CAVE=   0.1904762                  DELT=    0.00 MIN       P 6   D 4   D 1
+ ZETA 2       PC(    116)     CAVE=   0.0000000                  DELT=    0.00 MIN       P 6   D 4   D 1
+
+
+0NOCCX=    0
+
+         NPAR=   8
+
+         NPARJ-----------
+
+ J1= 1    4  0
+ J1= 2    4
+ J= 0.5          CONFIGURATION         1    P 6   D 5   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 6   D 4   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 1.5          CONFIGURATION         1    P 6   D 5   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 6   D 4   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 2.5          CONFIGURATION         1    P 6   D 5   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 6   D 4   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 3.5          CONFIGURATION         1    P 6   D 5   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 6   D 4   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 4.5          CONFIGURATION         1    P 6   D 5   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 6   D 4   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 5.5          CONFIGURATION         1    P 6   D 5   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 6   D 4   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 6.5          CONFIGURATION         1    P 6   D 5   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 6   D 4   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 7.5          CONFIGURATION         1    P 6   D 5   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 6   D 4   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 8.5          CONFIGURATION         1    P 6   D 5   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 6   D 4   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+  MUPOLE called (SHELL           1           1           0           0
+           2           2           0           4 )
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+ SUMS21=  7979.99854 SUMS20=     0.00000
+         SSOPI2=  1260.00012
+
+
+                                              140.000   0.000
+                                                0.0001120.000
+
+ SUMS21=  2267.67407 SUMS20=  1114.20984
+         SSOPI2=  1260.00012
+
+
+                                              140.000   0.000
+                                                0.0001120.000
+
+ SUMS21=  2333.43066 SUMS20=  1152.82727
+         SSOPI2=  1260.00012
+
+
+                                              140.000   0.000
+                                                0.0001120.000
+  SPIN   called (           2 )
+  orbit   called (           2 )
+ tensor called for TENSOR2112
+ tensor called for TENSOR0112
+ plev called            2
+  PARAMETERS NEEDED: KLSC=         711  KJP=          71  KJK=          14
+
+
+
+ MAXIMUM SUBSCRIPT VALUES
+
+ NALSP(M,I), PscrL(M,I),   M=NOTOTT=     711
+ NTRMK(K), LF(K),          K=NDIFFT=      49
+ NALSJP(M,I), PJ(M,I),     M=NOTOTJ(I)=    4   71    3    2    2    2    2    2
+ NJK(K,I),                 K=NDIFFJ(I)=    4   14    3    2    2    2    2    2
+
+0NTOTTJ=     0    68   711
+
+0 NTRMK=     1     1     1     1     2     4     5     6     4     2     1     2     5     7     9     8     7     2     1     1
+             1     1     3     6     9    13    13    10     3     1     3     9    18    31    42    50    47    35    12     2
+             6    15    27    44    57    65    59    44    15
+ F2(22)       PC(    225)     CAVE=   0.4761905                  DELT=    0.00 MIN       P 5   D 6   D 0
+ F4(22)       PC(    225)     CAVE=   0.4761905                  DELT=    0.00 MIN       P 5   D 6   D 0
+ ZETA 1       PC(      2)     CAVE=   0.0000000                  DELT=    0.00 MIN       P 5   D 6   D 0
+ ZETA 2       PC(    116)     CAVE=   0.0000000                  DELT=    0.00 MIN       P 5   D 6   D 0
+ F2(12)       PC(    225)     CAVE=   0.0000000                  DELT=    0.00 MIN       P 5   D 6   D 0
+ G1(12)       PC(    225)     CAVE=   2.0000002                  DELT=    0.00 MIN       P 5   D 6   D 0
+ G3(12)       PC(    225)     CAVE=   1.2857144                  DELT=    0.00 MIN       P 5   D 6   D 0
+ F2(22)       PC(  13242)     CAVE=   0.3174604                  DELT=    0.00 MIN       P 5   D 5   D 1
+ F4(22)       PC(  13242)     CAVE=   0.3174603                  DELT=    0.00 MIN       P 5   D 5   D 1
+ ZETA 1       PC(      2)     CAVE=   0.0000000                  DELT=    0.00 MIN       P 5   D 5   D 1
+ ZETA 2       PC(    143)     CAVE=   0.0000000                  DELT=    0.00 MIN       P 5   D 5   D 1
+ F2(12)       PC(  13242)     CAVE=   0.0000000                  DELT=    0.00 MIN       P 5   D 5   D 1
+ G1(12)       PC(  13242)     CAVE=   1.6666670                  DELT=    0.00 MIN       P 5   D 5   D 1
+ G3(12)       PC(  13242)     CAVE=   1.0714287                  DELT=    0.00 MIN       P 5   D 5   D 1
+
+
+0NOCCX=    0
+
+         NPAR=  16
+
+         NPARJ-----------
+
+ J1= 1    8  0
+ J1= 2    8
+ J= 0.5          CONFIGURATION         1    P 5   D 6   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 5   D 5   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 1.5          CONFIGURATION         1    P 5   D 6   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 5   D 5   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 2.5          CONFIGURATION         1    P 5   D 6   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 5   D 5   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 3.5          CONFIGURATION         1    P 5   D 6   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 5   D 5   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 4.5          CONFIGURATION         1    P 5   D 6   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 5   D 5   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 5.5          CONFIGURATION         1    P 5   D 6   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 5   D 5   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 6.5          CONFIGURATION         1    P 5   D 6   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 5   D 5   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 7.5          CONFIGURATION         1    P 5   D 6   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 5   D 5   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 8.5          CONFIGURATION         1    P 5   D 6   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 5   D 5   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J= 9.5          CONFIGURATION         1    P 5   D 6   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 5   D 5   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+ J=10.5          CONFIGURATION         1    P 5   D 6   D 0   S 0   S 0   S 0   S 0   S 0
+                                       2    P 5   D 5   D 1   S 0   S 0   S 0   S 0   S 0
+ ------
+
+           TIME=    0.00 MIN
+  MUPOLE called (SHELL           2           2           0           0
+           2           2           0           4 )
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+ SUMS21= 84671.96094 SUMS20=     0.00000
+         SSOPI2=  9072.00000
+
+
+                                              672.000   0.000
+                                                0.0008400.000
+
+ SUMS21= 16376.69629 SUMS20=  8171.62939
+         SSOPI2=  9072.00000
+
+
+                                              672.000   0.000
+                                                0.0008400.000
+
+ SUMS21= 16792.43945 SUMS20=  8380.31641
+         SSOPI2=  9072.00000
+
+
+                                              672.000   0.000
+                                                0.0008400.000
+  SPIN   called (           2 )
+  orbit   called (           2 )
+  MUPOLE called (OPER           1           1           1           2
+           2           3           0           0 )
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+ SUMS21=   503.99991 SUMS20=   252.00003
+         SSOPI2=   504.00000
+
+
+                                                0.000 252.000
+                                              252.000   0.000
+  MUPOLE called (OPER           1           1           1           2
+           2           3           2           2 )
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+ SUMS21=   898.09790 SUMS20=   449.04892
+         SSOPI2=   504.00000
+
+
+                                                0.000 252.000
+                                              252.000   0.000
+  MUPOLE called (OPER           1           1           1           2
+           2           3           4           4 )
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+ SUMS21=   936.79681 SUMS20=   468.39795
+         SSOPI2=   504.00000
+
+
+                                                0.000 252.000
+                                              252.000   0.000
+  MUPOLE called (OPER           2           2           1           2
+           2           3           0           0 )
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+ SUMS21=  3023.99854 SUMS20=  1511.99792
+         SSOPI2=  3024.00000
+
+
+                                                0.0001512.000
+                                             1512.000   0.000
+  MUPOLE called (OPER           2           2           1           2
+           2           3           2           2 )
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+ SUMS21=  5420.82520 SUMS20=  2710.52954
+         SSOPI2=  3024.00000
+
+
+                                                0.0001512.000
+                                             1512.000   0.000
+  MUPOLE called (OPER           2           2           1           2
+           2           3           4           4 )
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+ SUMS21=  5655.41992 SUMS20=  2827.78711
+         SSOPI2=  3024.00000
+
+
+                                                0.0001512.000
+                                             1512.000   0.000
+  MUPOLE called (OPER           1           2           0           0
+           1           2           1           1 )
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+ SUMS21=  2771.98755 SUMS20=  2771.98755
+         SSOPI2=  2772.00000
+
+
+                                              252.000   0.000
+                                                0.0002520.000
+  MUPOLE called (SHIFT           1           1           1           1
+           0           0           0           0 )
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+ SUMS21=   252.00000 SUMS20=     0.00000
+         SSOPI2=     0.00000
+
+
+                                                0.000   0.000
+                                                0.000   0.000
+  MUPOLE called (SHIFT           1           1           2           2
+           0           0           0           0 )
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+ SUMS21=  2100.00000 SUMS20=     0.00000
+         SSOPI2=     0.00000
+
+
+                                                0.000   0.000
+                                                0.000   0.000
+  MUPOLE called (SHIFT           2           2           1           1
+           0           0           0           0 )
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+ SUMS21=  1260.00000 SUMS20=     0.00000
+         SSOPI2=     0.00000
+
+
+                                                0.000   0.000
+                                                0.000   0.000
+  MUPOLE called (SHIFT           2           2           2           2
+           0           0           0           0 )
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+ SUMS21= 15120.00000 SUMS20=     0.00000
+         SSOPI2=     0.00000
+
+
+                                                0.000   0.000
+                                                0.000   0.000
+  MUPOLE called (MUPOLE           1           2           0           0
+           0           0           0          -1 )
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+ --- ENERGY CALLED ---
+ ECHO:
+ FE3+ 2P06 3D05     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+
+ FE3+ 2P06 3D05        PARAMETER VALUES IN  8065.5 CM-1 (HR TIMES 0.70 1.00 0.70 0.70)     1  P 6  D 5  D 0
+
+                                       EAV            F2(22)         F4(22)         ZETA 2  
+
+                                        0.000          8.430          5.274          0.059
+ ECHO:
+ FE4+ 2P06 3D04     4     .0000   12.0431    7.5351     .0592     .0000HR9999999
+ 9
+
+
+ FE4+ 2P06 3D04        PARAMETER VALUES IN  8065.5 CM-1 (HR TIMES 0.70 1.00 0.70 0.70)     2  P 6  D 4  D 1
+
+                                       EAV            F2(22)         F4(22)         ZETA 2  
+
+                                        0.000          8.430          5.274          0.059
+ ECHO:
+                     -99999999.                                                 
+  
+ ECHO:
+    -1                                                                          
+  
