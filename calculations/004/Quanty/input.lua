@@ -652,7 +652,7 @@ end
 E_gs_f = Psis_f[1] * H_f * Psis_f[1]
 
 Operators = {H_f, Ssqr, Lsqr, Jsqr, Sk, Lk, Jk, Tk, ldots_3d, N_1s, N_3d, 'dZ'}
-header = '\nAnalysis of the final Hamiltonian:\n'
+header = 'Analysis of the final Hamiltonian:\n'
 header = header .. '=================================================================================================================================\n'
 header = header .. 'State         <E>     <S^2>     <L^2>     <J^2>      <Sk>      <Lk>      <Jk>      <Tk>     <l.s>    <N_1s>    <N_3d>          dZ\n'
 header = header .. '=================================================================================================================================\n'
