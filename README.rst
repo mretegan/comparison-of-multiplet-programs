@@ -1,10 +1,9 @@
 About
 =====
-The repository contains input and output files of spectroscopy calculations done with different multiplet programs.
+The repository contains input and output files of spectroscopy calculations done with different multiplet programs. In each folder there is an IPython notebook that summarizes the results of the calculations.
 
-Multiplet programs tested
-=========================
-
+Multiplet programs
+==================
 Quanty
 ------
 Binaries are provided on the project's `download page <http://www.quanty.org/download>`_. The version tested was compiled on 25/11/2018.
@@ -15,7 +14,6 @@ The source code of the programs that make up TTMult are distributed via `BitBuck
 
 Calculations
 ============
-
 +-----+------+----------+------------+------+-----------------------------+
 |     | Ion  | Symmetry | Experiment | Edge | Additional Details          |
 +=====+======+==========+============+======+=============================+
