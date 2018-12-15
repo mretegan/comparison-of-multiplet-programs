@@ -27,3 +27,8 @@ Calculations
 +-----+------+----------+------------+------+-----------------------------+
 | 005 | Fe2+ | Td       | XAS        | K    | Crystal field, 3d-4p mixing |
 +-----+------+----------+------------+------+-----------------------------+
+
+Timings
+=======
+When available the timings where obtained on a Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz running Debian 8.
+
