@@ -30,5 +30,5 @@ Calculations
 
 Timings
 =======
-The timings where obtained on machine with an Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz processor, running Debian 8.
+The timings where obtained on machine with an Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz processor running Debian 8.
 
